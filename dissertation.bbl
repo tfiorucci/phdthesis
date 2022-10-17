@@ -1,0 +1,1537 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Baumann_2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e665cdd531da7b9782946c49f8e5ac5f}{%
+           family={Baumann},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \strng{fullhash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \strng{bibnamehash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \strng{authorbibnamehash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \strng{authornamehash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \strng{authorfullhash}{e665cdd531da7b9782946c49f8e5ac5f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Device and Materials Reliability, IEEE Transactions on}
+      \field{month}{10}
+      \field{title}{Radiation-induced soft errors in advanced semiconductor technologies}
+      \field{volume}{5}
+      \field{year}{2005}
+      \field{pages}{305\bibrangedash 316}
+      \range{pages}{12}
+    \endentry
+    \entry{1181509}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=6eeaaea685ebe6c7c8f81959458f0907}{%
+           family={Blackburn},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffa148ac74e96d5468e82da8bec1aa09}{%
+           family={Busser},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=19e4019a0648692ef55704f9008ec065}{%
+           family={Nauman},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d29f0eb887a43dba2ed629d2552b2c16}{%
+           family={Knickerbocker},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c8e39a2a8d0647da619812cc7b8cd5c8}{%
+           family={Kasuda},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{da9d2c9ae7e412b93c943a8054934bf0}
+      \strng{fullhash}{4fe8a6a86460a056589c589cfd569004}
+      \strng{bibnamehash}{da9d2c9ae7e412b93c943a8054934bf0}
+      \strng{authorbibnamehash}{da9d2c9ae7e412b93c943a8054934bf0}
+      \strng{authornamehash}{da9d2c9ae7e412b93c943a8054934bf0}
+      \strng{authorfullhash}{4fe8a6a86460a056589c589cfd569004}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Eighth IEEE International Conference on Engineering of Complex Computer Systems, 2002. Proceedings.}
+      \field{title}{Mars Polar Lander fault identification using model-based testing}
+      \field{year}{2002}
+      \field{pages}{163\bibrangedash 169}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICECCS.2002.1181509
+      \endverb
+    \endentry
+    \entry{6861096}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=860937aecfcdcd0d99d7236c964bfb5a}{%
+           family={Bottoni},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=044cb5a1eaae4473d462e1e86cd8b3fe}{%
+           family={Glorieux},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d846f437cc78f5fd373fe96491a0d36b}{%
+           family={Daveau},
+           familyi={D\bibinitperiod},
+           given={Jean-Marc.},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=2853b9173907fde79182ff0b3f3f4c31}{%
+           family={Gasiot},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=baeced0dfa7461d9ba863e916cf0f216}{%
+           family={Abouzeid},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2ab5d42baaa688a70359521342b99b94}{%
+           family={Clerc},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21ac1191d325767de761b253e9fa0649}{%
+           family={Naviner},
+           familyi={N\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d9f4219728bd0102e8df2cf235a03575}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c846a1bde09c5291d9f8472546500b9}
+      \strng{fullhash}{f80083809773987c8ebfa3dcb1850aec}
+      \strng{bibnamehash}{4c846a1bde09c5291d9f8472546500b9}
+      \strng{authorbibnamehash}{4c846a1bde09c5291d9f8472546500b9}
+      \strng{authornamehash}{4c846a1bde09c5291d9f8472546500b9}
+      \strng{authorfullhash}{f80083809773987c8ebfa3dcb1850aec}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE International Reliability Physics Symposium}
+      \field{title}{Heavy ions test result on a 65nm Sparc-V8 radiation-hard microprocessor}
+      \field{year}{2014}
+    \endentry
+    \entry{bib2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb9423345154744bcdbd5c491957ed30}{%
+           family={Bourdarie},
+           familyi={B\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8ef8d70fa720feeb312921625831d309}{%
+           family={Xapsos},
+           familyi={X\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f17d8b42e039ee59f70f62df9d45e707}
+      \strng{fullhash}{f17d8b42e039ee59f70f62df9d45e707}
+      \strng{bibnamehash}{f17d8b42e039ee59f70f62df9d45e707}
+      \strng{authorbibnamehash}{f17d8b42e039ee59f70f62df9d45e707}
+      \strng{authornamehash}{f17d8b42e039ee59f70f62df9d45e707}
+      \strng{authorfullhash}{f17d8b42e039ee59f70f62df9d45e707}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Nuclear Science}
+      \field{number}{4}
+      \field{title}{The Near-Earth Space Radiation Environment}
+      \field{volume}{55}
+      \field{year}{2008}
+      \field{pages}{1810\bibrangedash 1832}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1109/TNS.2008.2001409
+      \endverb
+    \endentry
+    \entry{ICM}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.cadence.com/en_US/home.html}}
+      \field{title}{Cadence}
+    \endentry
+    \entry{lec3_dtmc_p1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1e485b3ca2fab4ba65fdae29f1e80f79}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yen-Chi},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Washington}%
+      }
+      \strng{namehash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \strng{fullhash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \strng{bibnamehash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \strng{authorbibnamehash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \strng{authornamehash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \strng{authorfullhash}{1e485b3ca2fab4ba65fdae29f1e80f79}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discrete-Time Markov Chain}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://faculty.washington.edu/yenchic/18A_stat516/Lec3_DTMC_p1.pdf
+      \endverb
+      \verb{url}
+      \verb http://faculty.washington.edu/yenchic/18A_stat516/Lec3_DTMC_p1.pdf
+      \endverb
+    \endentry
+    \entry{7544311}{inproceedings}{}
+      \name{author}{11}{}{%
+        {{hash=b29167d17e0ae270ae0b5ad65eda9c02}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=83cf49b8e160075b80d46db8491ecf25}{%
+           family={Mirkhani},
+           familyi={M\bibinitperiod},
+           given={Shahrzad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8bc7d6edd01245ddd8f76b08fd1793a7}{%
+           family={Szafaryn},
+           familyi={S\bibinitperiod},
+           given={Lukasz\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=833cd82bbbd9efb789d62c63c1498650}{%
+           family={Cher},
+           familyi={C\bibinitperiod},
+           given={Chen-Yong},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=6bb4e9f7938ade70d7e66323d43bea90}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Hyungmin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=892a3e33d25b9ce399f8972f67cf93a6}{%
+           family={Skadron},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c5fdf69b861460eaa3901b95c08ce9e3}{%
+           family={Stan},
+           familyi={S\bibinitperiod},
+           given={Mircea\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=12c791371ecc71963892f422096c91b0}{%
+           family={Lilja},
+           familyi={L\bibinitperiod},
+           given={Klas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e52ffc13ebcac4cf032a6e601fe1df60}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={Jacob\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6e9c0360bc9498c6a5facb6dabbaef6e}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Pradip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c360022b740ed7473a4e6f303f2dce61}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Subhasish},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9869ed0f16bddc0b8708c71d3dd89091}
+      \strng{fullhash}{77408470fa52bea8cc22e162aadfe89d}
+      \strng{bibnamehash}{9869ed0f16bddc0b8708c71d3dd89091}
+      \strng{authorbibnamehash}{9869ed0f16bddc0b8708c71d3dd89091}
+      \strng{authornamehash}{9869ed0f16bddc0b8708c71d3dd89091}
+      \strng{authorfullhash}{77408470fa52bea8cc22e162aadfe89d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 53nd ACM/EDAC/IEEE Design Automation Conference (DAC)}
+      \field{title}{CLEAR: Cross-layer exploration for architecting resilience: Combining hardware and software techniques to tolerate soft errors in processor cores}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2897937.2897996
+      \endverb
+    \endentry
+    \entry{EBRAHIMI20141000}{article}{}
+      \name{author}{4}{}{%
+        {{hash=29a19f7c94a2a9ddbeb12500876ae59f}{%
+           family={Ebrahimi},
+           familyi={E\bibinitperiod},
+           given={Mojtaba},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2ff675866c58c7f055b35fcdb280c3aa}{%
+           family={Mohammadi},
+           familyi={M\bibinitperiod},
+           given={Abbas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3bbda1d9689a2c2376e97010990ee32e}{%
+           family={Ejlali},
+           familyi={E\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b94d5619bd3452fb4f70cd6117aa4dfa}{%
+           family={Miremadi},
+           familyi={M\bibinitperiod},
+           given={Seyed\bibnamedelima Ghassem},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{fullhash}{10821c5cdecacd7cb300870c6ef00477}
+      \strng{bibnamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authorbibnamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authornamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authorfullhash}{10821c5cdecacd7cb300870c6ef00477}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By technology down scaling in nowadays digital circuits, their sensitivity to radiation effects increases, making the occurrence of soft errors more probable. As a consequence, soft error rate estimation of complex circuits such as processors is becoming an important issue in safety- and mission-critical applications. Fault injection is a well-known and widely used approach for soft error rate estimation. Development of previous FPGA-based fault injection techniques is very time consuming mainly because they do not adequately exploit supplementary FPGA tools. This paper proposes an easy-to-develop and flexible FPGA-based fault injection technique. This technique utilizes debugging facilities of Altera FPGAs in order to inject single event upset (SEU) and multiple bit upset (MBU) fault models in both flip-flops and memory units. As this technique uses FPGA built-in facilities, it imposes negligible performance and area overheads on the system. The experimental results show that the proposed technique is on average four orders of magnitude faster than a pure simulation-based fault injection. These features make the proposed technique applicable to industrial-scale circuits.}
+      \field{issn}{0026-2714}
+      \field{journaltitle}{Microelectronics Reliability}
+      \field{number}{5}
+      \field{title}{A fast, flexible, and easy-to-develop FPGA-based fault injection technique}
+      \field{volume}{54}
+      \field{year}{2014}
+      \field{pages}{1000\bibrangedash 1008}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.microrel.2014.01.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0026271414000067
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0026271414000067
+      \endverb
+    \endentry
+    \entry{7604674}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=29a19f7c94a2a9ddbeb12500876ae59f}{%
+           family={Ebrahimi},
+           familyi={E\bibinitperiod},
+           given={Mojtaba},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b85bb6f2efd59eeea8f0948e2b10b7c}{%
+           family={Rashvand},
+           familyi={R\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6beed259709cbc8793865e8d67f798c4}{%
+           family={Kaddachi},
+           familyi={K\bibinitperiod},
+           given={Firas},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6fbee34c73db05a3289762b8b6cadeac}{%
+           family={Tahoori},
+           familyi={T\bibinitperiod},
+           given={Mehdi\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{fullhash}{478b1c8b4a01b5195ce521d2953c8f75}
+      \strng{bibnamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authorbibnamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authornamehash}{e3131d6a1aa520d88e51eaeab32acb45}
+      \strng{authorfullhash}{478b1c8b4a01b5195ce521d2953c8f75}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 22nd International Symposium on On-Line Testing and Robust System Design (IOLTS)}
+      \field{title}{Revisiting software-based soft error mitigation techniques via accurate error generation and propagation models}
+      \field{year}{2016}
+      \field{pages}{66\bibrangedash 71}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IOLTS.2016.7604674
+      \endverb
+    \endentry
+    \entry{9486705}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b4aeddf82c733229980b9ca8381d37d7}{%
+           family={Fiorucci},
+           familyi={F\bibinitperiod},
+           given={Tiziano},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d846f437cc78f5fd373fe96491a0d36b}{%
+           family={Daveau},
+           familyi={D\bibinitperiod},
+           given={Jean-Marc},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=0cb6edcc370b31ecc825182cfbcfac08}{%
+           family={Natale},
+           familyi={N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           prefix={di},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=7b784fa969eb4f65ab293b76fba6b66b}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{fullhash}{ee1288aea150eeaf0088039813dbfeff}
+      \strng{bibnamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authorbibnamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authornamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authorfullhash}{ee1288aea150eeaf0088039813dbfeff}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE 27th International Symposium on On-Line Testing and Robust System Design (IOLTS)}
+      \field{title}{Automated Dysfunctional Model Extraction for Model Based Safety Assessment of Digital Systems}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IOLTS52814.2021.9486705
+      \endverb
+    \endentry
+    \entry{9063856}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d48b67ce35c57790c38045eb8d2b2c2a}{%
+           family={{Giridhar}},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e96d349c5b727a6ab9eae2cccb2819d2}{%
+           family={{Choudhury}},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \strng{fullhash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \strng{bibnamehash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \strng{authorbibnamehash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \strng{authornamehash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \strng{authorfullhash}{0bd95930807a1a37e82901e2f1c42fcf}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 1st International Conference on Advanced Technologies in Intelligent Control, Environment, Computing Communication Engineering (ICATIECE)}
+      \field{title}{Design and Verification of AMBA AHB}
+      \field{year}{2019}
+      \field{pages}{310\bibrangedash 315}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICATIECE45860.2019.9063856
+      \endverb
+    \endentry
+    \entry{GRLIB}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gaisler.com/products/grlib/grlib-gpl-2020.4-b4261.tar.gz}}
+      \field{title}{GRLIB}
+    \endentry
+    \entry{GSL}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gnu.org/software/gsl/}}
+      \field{title}{GSL, GNU Scientific Library}
+    \endentry
+    \entry{6560692}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=1ce6c3efeed1733c34f6e28a1efb6c90}{%
+           family={Henkel},
+           familyi={H\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3633c5360e3f190ca79f3aef2f1ca2f5}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=77f83fa80a22ffdaa4f925736fcca2f9}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Nikil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b9a654ae660527a6bc19855a653b731b}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Puneet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a71880ec7038ffbfdce64872753e2ca4}{%
+           family={Nassif},
+           familyi={N\bibinitperiod},
+           given={Sani},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b81680cf7771fc7bb8b482a21d013649}{%
+           family={Shafique},
+           familyi={S\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f4959fb4e364c25aa84e47e9de15d078}{%
+           family={Tahoori},
+           familyi={T\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=741ab3f183e3ab0819411f5006429a37}{%
+           family={Wehn},
+           familyi={W\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4039f64ed301e8fe3bedbb7f70fcfd4}
+      \strng{fullhash}{8e3d31d10d16dbf6cfeda66231870607}
+      \strng{bibnamehash}{c4039f64ed301e8fe3bedbb7f70fcfd4}
+      \strng{authorbibnamehash}{c4039f64ed301e8fe3bedbb7f70fcfd4}
+      \strng{authornamehash}{c4039f64ed301e8fe3bedbb7f70fcfd4}
+      \strng{authorfullhash}{8e3d31d10d16dbf6cfeda66231870607}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 50th ACM/EDAC/IEEE Design Automation Conference (DAC)}
+      \field{title}{Reliable on-chip systems in the nano-era: Lessons learnt and future trends}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2463209.2488857
+      \endverb
+    \endentry
+    \entry{I2Cminion}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/oetr/FPGA-I2C-Minion}}
+      \field{title}{I2c Minion Repository}
+    \endentry
+    \entry{Karnik2004CharacterizationOS}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2868b07ceb22130481271cf8e2c74979}{%
+           family={Karnik},
+           familyi={K\bibinitperiod},
+           given={Tanay},
+           giveni={T\bibinitperiod}}}%
+        {{hash=73acb841ae2e0b4356b2217ad58a4794}{%
+           family={Hazucha},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=57eac81bf115eb12eb31f43a6186519e}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Jagdish},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \strng{fullhash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \strng{bibnamehash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \strng{authorbibnamehash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \strng{authornamehash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \strng{authorfullhash}{0813254a9ec100c8dd5122f6d1e2e45f}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Dependable and Secure Computing}
+      \field{title}{Characterization of soft errors caused by single event upsets in CMOS processes}
+      \field{volume}{1}
+      \field{year}{2004}
+    \endentry
+    \entry{6850649}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f565cea0e4d2b04094cbc92f82e9dea3}{%
+           family={Kooli},
+           familyi={K\bibinitperiod},
+           given={Maha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{64b1a42b8830564f59e69cf9d98e3552}
+      \strng{fullhash}{64b1a42b8830564f59e69cf9d98e3552}
+      \strng{bibnamehash}{64b1a42b8830564f59e69cf9d98e3552}
+      \strng{authorbibnamehash}{64b1a42b8830564f59e69cf9d98e3552}
+      \strng{authornamehash}{64b1a42b8830564f59e69cf9d98e3552}
+      \strng{authorfullhash}{64b1a42b8830564f59e69cf9d98e3552}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 9th IEEE International Conference on Design Technology of Integrated Systems in Nanoscale Era (DTIS)}
+      \field{title}{A survey on simulation-based fault injection tools for complex systems}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/DTIS.2014.6850649
+      \endverb
+    \endentry
+    \entry{kooli:lirmm-01693156}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f565cea0e4d2b04094cbc92f82e9dea3}{%
+           family={Kooli},
+           familyi={K\bibinitperiod},
+           given={Maha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6beed259709cbc8793865e8d67f798c4}{%
+           family={Kaddachi},
+           familyi={K\bibinitperiod},
+           given={Firas},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ee6a7689ad4f19d8cbcd507a86d2474a}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1efe7fd1ca3e1c956c8ad9c015b2464a}{%
+           family={Benoit},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8354874e1af1bc2e7a447c56aade7b75}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bdf1dbd4f4aefd367bb377964f0f3153}
+      \strng{fullhash}{2aeabc1809ba3eceef297cebe02a815a}
+      \strng{bibnamehash}{bdf1dbd4f4aefd367bb377964f0f3153}
+      \strng{authorbibnamehash}{bdf1dbd4f4aefd367bb377964f0f3153}
+      \strng{authornamehash}{bdf1dbd4f4aefd367bb377964f0f3153}
+      \strng{authorfullhash}{2aeabc1809ba3eceef297cebe02a815a}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Microprocessors and Microsystems: Embedded Hardware Design (MICPRO)}}
+      \field{month}{5}
+      \field{title}{{Computing reliability: On the differences between software testing and software fault injection techniques}}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{102\bibrangedash 112}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.micpro.2017.02.007
+      \endverb
+      \verb{urlraw}
+      \verb https://hal-lirmm.ccsd.cnrs.fr/lirmm-01693156
+      \endverb
+      \verb{url}
+      \verb https://hal-lirmm.ccsd.cnrs.fr/lirmm-01693156
+      \endverb
+      \keyw{System reliability ; Hardware ; Software ; Mutation testing ; Fault injection ; Soft errors}
+    \endentry
+    \entry{bib1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9553c7d2fc33f68ed22a0ea9aeb9cf16}{%
+           family={{L. Ratti}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \strng{fullhash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \strng{bibnamehash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \strng{authorbibnamehash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \strng{authornamehash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \strng{authorfullhash}{9553c7d2fc33f68ed22a0ea9aeb9cf16}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2018-12-06}
+      \field{title}{Ionizing Radiation Effects in Electronic Devices and Circuits}
+      \field{year}{2017}
+    \endentry
+    \entry{5090716}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c3f6ec67ce4770f4d3bee467e26bb915}{%
+           family={{Leveugle}},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=28552d8f71803747041c8a991d7894cc}{%
+           family={{Calvez}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9eacd59ac98d1d01e3f246926e36a972}{%
+           family={{Maistri}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=23fcffe74e405bf524d5e22e552c3c12}{%
+           family={{Vanhauwaert}},
+           familyi={V\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c42518c0013adc36ebe8818cb07a9ef}
+      \strng{fullhash}{f470e2d0c84f6443406fff852cdfef0e}
+      \strng{bibnamehash}{5c42518c0013adc36ebe8818cb07a9ef}
+      \strng{authorbibnamehash}{5c42518c0013adc36ebe8818cb07a9ef}
+      \strng{authornamehash}{5c42518c0013adc36ebe8818cb07a9ef}
+      \strng{authorfullhash}{f470e2d0c84f6443406fff852cdfef0e}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 Design, Automation Test in Europe Conference Exhibition}
+      \field{title}{Statistical fault injection: Quantified error and confidence}
+      \field{year}{2009}
+      \field{pages}{502\bibrangedash 506}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/DATE.2009.5090716
+      \endverb
+    \endentry
+    \entry{mankar2014review}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b252e468679bd15683a54cca0a6e0df1}{%
+           family={Mankar},
+           familyi={M\bibinitperiod},
+           given={Jayant},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3520a4e88178d350d9107ed751b13225}{%
+           family={Darode},
+           familyi={D\bibinitperiod},
+           given={Chaitali},
+           giveni={C\bibinitperiod}}}%
+        {{hash=adfdb4656fa20d06cb8ecf2d53745629}{%
+           family={Trivedi},
+           familyi={T\bibinitperiod},
+           given={Komal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a07058b08b5e81d7142faba3159382a}{%
+           family={Kanoje},
+           familyi={K\bibinitperiod},
+           given={Madhura},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3da4d8d30be9475d584a6b3f26dad81e}{%
+           family={Shahare},
+           familyi={S\bibinitperiod},
+           given={Prachi},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{dab703251f4f41bd882883583982dd91}
+      \strng{fullhash}{f5189f5da061ef5336b073414b9311f3}
+      \strng{bibnamehash}{dab703251f4f41bd882883583982dd91}
+      \strng{authorbibnamehash}{dab703251f4f41bd882883583982dd91}
+      \strng{authornamehash}{dab703251f4f41bd882883583982dd91}
+      \strng{authorfullhash}{f5189f5da061ef5336b073414b9311f3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Research in Advent Technology}
+      \field{number}{1}
+      \field{title}{Review of I2C protocol}
+      \field{volume}{2}
+      \field{year}{2014}
+    \endentry
+    \entry{4211846}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=df99fcaf78633ea227fc698adbb6585c}{%
+           family={{Mariani}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=695cab319c7a9daa311d8eb5a80bdc17}{%
+           family={{Boschi}},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=40d8c80b0452c31baf273ab3f0169bea}{%
+           family={{Colucci}},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0eda0bc11081fd39f8233e6299016d10}
+      \strng{fullhash}{0eda0bc11081fd39f8233e6299016d10}
+      \strng{bibnamehash}{0eda0bc11081fd39f8233e6299016d10}
+      \strng{authorbibnamehash}{0eda0bc11081fd39f8233e6299016d10}
+      \strng{authornamehash}{0eda0bc11081fd39f8233e6299016d10}
+      \strng{authorfullhash}{0eda0bc11081fd39f8233e6299016d10}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 Design, Automation Test in Europe Conference Exhibition}
+      \field{title}{Using an innovative SoC-level FMEA methodology to design in compliance with IEC61508}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/DATE.2007.364641
+      \endverb
+    \endentry
+    \entry{5635119}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=c4c5c35e154deb465d5671bbb4a57ebc}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Wang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \strng{fullhash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \strng{bibnamehash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \strng{authorbibnamehash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \strng{authornamehash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \strng{authorfullhash}{c4c5c35e154deb465d5671bbb4a57ebc}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 International Forum on Information Technology and Applications}
+      \field{title}{Analysis on Bubble Sort Algorithm Optimization}
+      \field{volume}{1}
+      \field{year}{2010}
+      \field{pages}{208\bibrangedash 211}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/IFITA.2010.9
+      \endverb
+    \endentry
+    \entry{1181740}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=17ea6c90fcf2a24cc8c834f7cda55e00}{%
+           family={Mirkhani},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ce57a86ff90fcf4248602ac263139f42}{%
+           family={Lavasani},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=186dd9f64b00e9c2a65a5937d63b5b27}{%
+           family={Navabi},
+           familyi={N\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \strng{fullhash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \strng{bibnamehash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \strng{authorbibnamehash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \strng{authornamehash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \strng{authorfullhash}{92e8e2da0db1ee44af00cee2a95fea9b}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 11th Asian Test Symposium, 2002. (ATS '02).}
+      \field{title}{Hierarchical fault simulation using behavioral and gate level hardware models}
+      \field{year}{2002}
+      \field{pages}{374\bibrangedash 379}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ATS.2002.1181740
+      \endverb
+    \endentry
+    \entry{Mukherjee_2005}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=71c85d7c3c3284344a2244984d662fbd}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={S.S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4172f9d712839b9414bd23e63b5a9110}{%
+           family={Emer},
+           familyi={E\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5ec27516fd70a0b99704f8720b79b2e1}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fd49ea6e95ad758852d5df9027b602f}
+      \strng{fullhash}{9fd49ea6e95ad758852d5df9027b602f}
+      \strng{bibnamehash}{9fd49ea6e95ad758852d5df9027b602f}
+      \strng{authorbibnamehash}{9fd49ea6e95ad758852d5df9027b602f}
+      \strng{authornamehash}{9fd49ea6e95ad758852d5df9027b602f}
+      \strng{authorfullhash}{9fd49ea6e95ad758852d5df9027b602f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{The Soft Error Problem: An Architectural Perspective}
+      \field{year}{2005}
+    \endentry
+    \entry{Mukherjee03asystematic}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=0fc329e9113d62e1006880ccfe002a20}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Shubhendu\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=35d8a52b3fe8570a64bf2eb312faa227}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4172f9d712839b9414bd23e63b5a9110}{%
+           family={Emer},
+           familyi={E\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bc10693d87244d977132baf6d87f7ec8}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=2d30a9d31e6a33e601816a25570403ab}{%
+           family={Austin},
+           familyi={A\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{04b5e2fb8be51e9ad1db5b36bb3507f8}
+      \strng{fullhash}{3d999f736ad3bbd1b2d50a95af936cca}
+      \strng{bibnamehash}{04b5e2fb8be51e9ad1db5b36bb3507f8}
+      \strng{authorbibnamehash}{04b5e2fb8be51e9ad1db5b36bb3507f8}
+      \strng{authornamehash}{04b5e2fb8be51e9ad1db5b36bb3507f8}
+      \strng{authorfullhash}{3d999f736ad3bbd1b2d50a95af936cca}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A systematic methodology to compute the architectural vulnerability factors for a high-performance microprocessor}
+      \field{year}{2003}
+    \endentry
+    \entry{10.5555/1628854}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3b188640cbcfe1f71008dfeaaebe3a07}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Shubu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \strng{fullhash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \strng{bibnamehash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \strng{authorbibnamehash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \strng{authornamehash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \strng{authorfullhash}{3b188640cbcfe1f71008dfeaaebe3a07}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This book provides a comprehensive description of the architetural techniques to tackle the soft error problem. It covers the new methodologies for quantitative analysis of soft errors as well as novel, cost-effective architectural techniques to mitigate them. To provide readers with a better grasp of the broader problem deffinition and solution space, this book also delves into the physics of soft errors and reviews current circuit and software mitigation techniques. TABLE OF CONTENTS Chapter 1: Introduction Chapter 2: Device- and Circuit-Level Modeling, Measurement, and Mitigation Chapter 3: Architectural Vulnerability Analysis Chapter 4: Advanced Architectural Vulnerability Analysis Chapter 5: Error Coding Techniques Chapter 6: Fault Detection via Redundant Execution Chapter 7: Hardware Error Recovery Chapter 8: Software Detection and Recovery * Provides the methodologies necessary to quantify the effect of radiation-induced soft errors as well as state-of-the-art techniques to protect against them}
+      \field{isbn}{9780080558325}
+      \field{title}{Architecture Design for Soft Errors}
+      \field{year}{2008}
+    \endentry
+    \entry{8368564}{inproceedings}{}
+      \name{author}{17}{}{%
+        {{hash=c79d844c90aeb4c78415a439e947ec15}{%
+           family={Ottavi},
+           familyi={O\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f278790196e3cb1280f86b6c406db716}{%
+           family={Asciolla},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b4aeddf82c733229980b9ca8381d37d7}{%
+           family={Fiorucci},
+           familyi={F\bibinitperiod},
+           given={Tiziano},
+           giveni={T\bibinitperiod}}}%
+        {{hash=59a261ed60507a5799c580fbe728a800}{%
+           family={Grosso},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ce4643df500f292c4d1999fe2b787b7e}{%
+           family={Marzullo},
+           familyi={M\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52a2e835bef1970031a522d0a7ca0f4d}{%
+           family={Scaramella},
+           familyi={S\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a36b741bca85585f6f3e99447776d349}{%
+           family={Stramaccioni},
+           familyi={S\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d16af339b74285168eae49eef0f14d2c}{%
+           family={Zibecchi},
+           familyi={Z\bibinitperiod},
+           given={Alessia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c4bc84e35df0299f0deea6187d4f2a2a}{%
+           family={Andreani},
+           familyi={A\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38d35bd3858486c4ed1e58f9ab8d07c6}{%
+           family={Cardarilli},
+           familyi={C\bibinitperiod},
+           given={Gian\bibnamedelima Carlo},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=09e223f26240f595e56f20c70d74a7ee}{%
+           family={Cazzaniga},
+           familyi={C\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8a94f6be09a7243131fb661f3b9ca83f}{%
+           family={Di\bibnamedelima Nunzio},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95606a870779f6783427c94bf660365a}{%
+           family={Fazzolari},
+           familyi={F\bibinitperiod},
+           given={Rocco},
+           giveni={R\bibinitperiod}}}%
+        {{hash=51a48be033404de5c2027a90f13ada68}{%
+           family={Re},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8d86d2c967ad099a94c09aa6398eb4a4}{%
+           family={Reviriego},
+           familyi={R\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a294443a4a50136d5fdbbe8a337c3293}{%
+           family={Furano},
+           familyi={F\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d543ca8eaf08597d453b34d0dec7ded}{%
+           family={Senesi},
+           familyi={S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f293f8813ffa748aeb716a8f5b096761}
+      \strng{fullhash}{0ee6e99cf73a5b64354f2055070081eb}
+      \strng{bibnamehash}{f293f8813ffa748aeb716a8f5b096761}
+      \strng{authorbibnamehash}{f293f8813ffa748aeb716a8f5b096761}
+      \strng{authornamehash}{f293f8813ffa748aeb716a8f5b096761}
+      \strng{authorfullhash}{0ee6e99cf73a5b64354f2055070081eb}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 13th International Conference on Design Technology of Integrated Systems In Nanoscale Era (DTIS)}
+      \field{title}{Setup and experimental results analysis of COTS Camera and SRAMs at the ISIS neutron facility}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/DTIS.2018.8368564
+      \endverb
+    \endentry
+    \entry{6258310}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f911290bc85ed96085ad01d4b3f52710}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jinhee},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1caf91885e8978f9d156bc185bac6855}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyeon-Jeong},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=8c2593fcbc90f92d429b9dec5e341fcd}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Ju-Hwan},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=8678f18edb36918a1857f43dc2cb7a30}{%
+           family={Baik},
+           familyi={B\bibinitperiod},
+           given={Jongmoon},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7318519a9b478c7cfe71346590cf5c81}
+      \strng{fullhash}{36cf247b56765258bbc88c89a7919605}
+      \strng{bibnamehash}{7318519a9b478c7cfe71346590cf5c81}
+      \strng{authorbibnamehash}{7318519a9b478c7cfe71346590cf5c81}
+      \strng{authornamehash}{7318519a9b478c7cfe71346590cf5c81}
+      \strng{authorfullhash}{36cf247b56765258bbc88c89a7919605}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE Sixth International Conference on Software Security and Reliability}
+      \field{title}{An Embedded Software Reliability Model with Consideration of Hardware Related Software Failures}
+      \field{year}{2012}
+      \field{pages}{207\bibrangedash 214}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/SERE.2012.10
+      \endverb
+    \endentry
+    \entry{bib8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3329027b6e77d6dc16196302641f5ec8}{%
+           family={{Robert N. Cherry}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3329027b6e77d6dc16196302641f5ec8}
+      \strng{fullhash}{3329027b6e77d6dc16196302641f5ec8}
+      \strng{bibnamehash}{3329027b6e77d6dc16196302641f5ec8}
+      \strng{authorbibnamehash}{3329027b6e77d6dc16196302641f5ec8}
+      \strng{authornamehash}{3329027b6e77d6dc16196302641f5ec8}
+      \strng{authorfullhash}{3329027b6e77d6dc16196302641f5ec8}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Encyclopaedia of Occupational Health and Safety 4th Edition-Chapter 48.}
+    \endentry
+    \entry{bib9}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=adf61e7949b30bafc84449bbd522873b}{%
+           family={{S. di Mascio}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{adf61e7949b30bafc84449bbd522873b}
+      \strng{fullhash}{adf61e7949b30bafc84449bbd522873b}
+      \strng{bibnamehash}{adf61e7949b30bafc84449bbd522873b}
+      \strng{authorbibnamehash}{adf61e7949b30bafc84449bbd522873b}
+      \strng{authornamehash}{adf61e7949b30bafc84449bbd522873b}
+      \strng{authorfullhash}{adf61e7949b30bafc84449bbd522873b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Low-Energy Proton Test of Safety-Critical Microcontrollers for Space Applications.}
+    \endentry
+    \entry{Certitude}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.synopsys.com/verification/simulation/certitude.html}}
+      \field{title}{Synopsys Certitude}
+    \endentry
+    \entry{zoix}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.synopsys.com/verification/simulation/z01x-functional-safety.html}}
+      \field{title}{Synopsys Zo1x}
+    \endentry
+    \entry{4358223}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f43e09cdf77591a455cbca44d3a604c6}{%
+           family={Touloupis},
+           familyi={T\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c6cf2c578c44537fe495e53d5d1714b5}{%
+           family={Flint},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6fb27d9baf2e8f51a9fef3c13b18a9cf}{%
+           family={Chouliaras},
+           familyi={C\bibinitperiod},
+           given={Vassilios\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9c90c186792114d2714e6bfadda6bd70}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{277f5515b9a149e542e5ef3a2096e2a9}
+      \strng{fullhash}{e873095dfc0716e3622582e6e4112b5a}
+      \strng{bibnamehash}{277f5515b9a149e542e5ef3a2096e2a9}
+      \strng{authorbibnamehash}{277f5515b9a149e542e5ef3a2096e2a9}
+      \strng{authornamehash}{277f5515b9a149e542e5ef3a2096e2a9}
+      \strng{authorfullhash}{e873095dfc0716e3622582e6e4112b5a}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{12}
+      \field{title}{Study of the Effects of SEU-Induced Faults on a Pipeline Protected Microprocessor}
+      \field{volume}{56}
+      \field{year}{2007}
+    \endentry
+    \entry{Vallero20151204}{article}{}
+      \name{author}{11}{}{%
+        {{hash=70ee41d5b24868dc4b86f3f165e64854}{%
+           family={Vallero},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e177a4a3a5c1cb5eff3167744a2396d}{%
+           family={Tselonis},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=83f4167f9050efc08f84f3b2b4f8bbd1}{%
+           family={Foutris},
+           familyi={F\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8f925bfd06732918da2546ca55cdceab}{%
+           family={Kaliorakis},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=652ed9239bc408a86476ac755d9b4935}{%
+           family={Kooli},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=461514278b1303d9eaceb215ca57f4a7}{%
+           family={Savino},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a436b8b02ae55f413060baa170c8f6b}{%
+           family={Politano},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e4e4462e35b3992424bc652f1badc030}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94b1542084f0cd69d7239d56dfbb9e5e}{%
+           family={Natale},
+           familyi={N\bibinitperiod},
+           given={G.\bibnamedelimi Di},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=fa3dca405bc92829473b15c8b58f3692}{%
+           family={Gizopoulos},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e126bb2e020f28238c8f8ad54dfda7a1}{%
+           family={Carlo},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi Di},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{fullhash}{8afe3cb5d8aaacc36631ca9d41aafdf1}
+      \strng{bibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorbibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authornamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorfullhash}{8afe3cb5d8aaacc36631ca9d41aafdf1}
+      \field{extraname}{1}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0141-9331}
+      \field{journaltitle}{Microprocessors and Microsystems}
+      \field{number}{8}
+      \field{title}{Cross-layer reliability evaluation, moving from the hardware architecture to the system level: A EU project overview}
+      \field{volume}{39}
+      \field{year}{2015}
+      \field{pages}{1204\bibrangedash 1214}
+      \range{pages}{11}
+      \keyw{Statistical models}
+    \endentry
+    \entry{8580414}{article}{}
+      \name{author}{14}{}{%
+        {{hash=70ee41d5b24868dc4b86f3f165e64854}{%
+           family={Vallero},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=461514278b1303d9eaceb215ca57f4a7}{%
+           family={Savino},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7762cc8ce61c473c10728fb293f81c20}{%
+           family={Chatzidimitriou},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f925bfd06732918da2546ca55cdceab}{%
+           family={Kaliorakis},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=652ed9239bc408a86476ac755d9b4935}{%
+           family={Kooli},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8330550938f9a17468ebe70cc5212999}{%
+           family={Riera},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ffe6df45cff1934475f30cb9c6a70f7}{%
+           family={Anglada},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de3b2fbcd13a3c86a28487fd7fd60808}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e4e4462e35b3992424bc652f1badc030}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d428ecc3ae7e00199739a493afb32937}{%
+           family={Canal},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1deb2942007bb9fe35e987c2a507055c}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa3dca405bc92829473b15c8b58f3692}{%
+           family={Gizopoulos},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=df99fcaf78633ea227fc698adbb6585c}{%
+           family={Mariani},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=21a9a7facf8efb5798033e5e92d6d6de}{%
+           family={Di\bibnamedelima Carlo},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{fullhash}{9c1df48802f1f818876b92b6642db5d5}
+      \strng{bibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorbibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authornamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorfullhash}{9c1df48802f1f818876b92b6642db5d5}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{5}
+      \field{title}{SyRA: Early System Reliability Analysis for Cross-Layer Soft Errors Resilience in Memory Arrays of Microprocessor Systems}
+      \field{volume}{68}
+      \field{year}{2019}
+      \field{pages}{765\bibrangedash 783}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1109/TC.2018.2887225
+      \endverb
+    \endentry
+    \entry{1673379}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f0f63114e3be9a89252309b9d8608ca9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={N.J.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=33435ce5ba72a5628538bf22bef24bc6}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={S.J.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \strng{fullhash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \strng{bibnamehash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \strng{authorbibnamehash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \strng{authornamehash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \strng{authorfullhash}{19a6476b52b3710fc16a7ee0cc1c775b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Dependable and Secure Computing}
+      \field{number}{3}
+      \field{title}{ReStore: Symptom-Based Soft Error Detection in Microprocessors}
+      \field{volume}{3}
+      \field{year}{2006}
+      \field{pages}{188\bibrangedash 201}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TDSC.2006.40
+      \endverb
+    \endentry
+    \entry{Wang_2005}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=896316635015d2cdfe51ade8cacbb983}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e41387e3a4a26696a629a50e25020fd5}{%
+           family={Mahesri},
+           familyi={M\bibinitperiod},
+           given={Aqeel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b72ad91d09c78e9d2bc39544ea417c3e}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d865367f024069c748877dca1a50ec02}
+      \strng{fullhash}{d865367f024069c748877dca1a50ec02}
+      \strng{bibnamehash}{d865367f024069c748877dca1a50ec02}
+      \strng{authorbibnamehash}{d865367f024069c748877dca1a50ec02}
+      \strng{authornamehash}{d865367f024069c748877dca1a50ec02}
+      \strng{authorfullhash}{d865367f024069c748877dca1a50ec02}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM SIGARCH Computer Architecture News}
+      \field{month}{06}
+      \field{title}{Examining ACE analysis reliability estimates using fault-injection}
+      \field{volume}{35}
+      \field{year}{2007}
+    \endentry
+    \entry{DBLP:journals/ibmrd/ZieglerS96}{article}{}
+      \name{author}{2}{}{%
+        {{hash=02fcb1875bee6a43de13e427c6f33116}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={James\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a9850a900cbe7a48e0ba7ce9cb8d84c4}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \strng{fullhash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \strng{bibnamehash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \strng{authorbibnamehash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \strng{authornamehash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \strng{authorfullhash}{e104bb7fb91d1363d3ed2ed772c0787b}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IBM} J. Res. Dev.}
+      \field{number}{1}
+      \field{title}{IBM Journal of Research and Development}
+      \field{volume}{40}
+      \field{year}{1996}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+  \missing{5724504}
+  \missing{7333399}
+  \missing{Brayton1996VISAS}
+  \missing{Brayton2010ABCAA}
+  \missing{CDN}
+  \missing{EMERSON1980}
+  \missing{FIDES_fault_tree}
+  \missing{PR14a}
+  \missing{Prosvirnova}
+  \missing{SVA}
+  \missing{Torras}
+  \missing{arnold}
+  \missing{bib12}
+  \missing{bozzano-avocs-2010}
+  \missing{fides}
+  \missing{iolts2022}
+  \missing{iso26262}
+  \missing{iso26262-acronyms}
+  \missing{jaspergold}
+  \missing{mortada-imbsa-2014}
+  \missing{yeung-2018}
+\endrefsection
+\endinput
+

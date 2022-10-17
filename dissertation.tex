@@ -1,0 +1,139 @@
+% arara: pdflatex
+% arara: biber
+% arara: pdflatex
+% arara: pdflatex
+
+\documentclass[12pt, notitlepage, twoside]{report}
+
+% Document Metafiles (Do Not Reorder!) ===================================== %
+\input{metafiles/preamble.tex}
+\input{metafiles/booleans.tex}
+\input{metafiles/structure.tex}
+
+
+% Document Structure Options =============================================== %
+\sidenotetrue
+%\sidenotefalse
+\figurestrue
+% \figuresfalse
+\tablestrue
+% \tablesfalse
+
+% If you want sidenotes, we'll load some additional packages. Nothing for you to worry about.
+\input{metafiles/sidenotes.tex}
+
+\begin{document}
+
+
+
+% Title and Author Settings ================================================ %
+\newcommand{\doctitle}{Qualification methodology for ISO26262
+certification of automotive SoC systems}
+\newcommand{\docauthor}{Tiziano Fiorucci}
+
+
+%--------------------------ABSTRACT---------------------------%
+\input{metafiles/abstractpage.tex}
+\makeabstract{his thesis proposes to set up a flow and a methodology of ISO26262 certification for system-type integrated circuits on a digital chip dedicated to driving. These circuits are generally composed of several Intellectual Properties, IPs, dedicated to different functions such as communication or processing of information from sensors (camera, lidar ...), real-time system, vision and imaging, system management (operating system), security.
+The ISO26262 methodology requires the extraction of a number of metrics related to the resilience of the system to single and multiple faults as well as the effectiveness of countermeasures (detection, reporting and correction of errors) and failure modes. The extraction of failure metrics from fault trees is a method known and documented in the literature. Nevertheless, its application has often been limited to macroscopic electromechanical systems such as a car, actuator or sensor chains. On the other hand, these methods are rarely applied in the field of automotive SoCs where the extraction of metrics is still largely manual (usually using a spreadsheet) and dependent on an expert, and where the verification of the effectiveness of countermeasures is best done by targeted fault injection on a few sub-parts of the complete system or irradiation under a particle beam.
+This thesis proposes to develop a reliability metrics extraction methodology based on fault injection per block as well as composition methods to obtain the metrics at the level of the complete system. The first part of the thesis will be devoted to the study of the bibliography on the construction of fault trees, the ISO26262 standard and the declination of the different reliability metrics in the case of a digital SoCs type system. The extraction of metrics at the block level will be based on 2 different methods, one analytical based on probabilities, the other experimental based on fault injection. The aim is not to develop new probability codes or fault injection tools but to develop a methodology to use them in the context of a SoC to obtain the desired data. The second part of the thesis will concern the composition of the data obtained at the functional block level in order to obtain the ISO26262 metrics at the system level (SoC). It will be a matter of developing a composition method adapted in particular to the characteristics of SoCs (communicating system, performing calculations that must react in real time, ...) and to the fault models that characterize them or imposed by the ISO26262 standard. The third part of the thesis concerns the application of the developments described in the previous paragraph to an SoC-type system and the verification of the results obtained.
+}%
+
+
+%--------------------------TITLE PAGE---------------------------%
+\input{metafiles/titlepage.tex}
+\newcommand{\degreesearned}{%
+B.S., University of Rome "Tor Vergata", 2018\\
+B.Sc., University of Rome "Tor Vergata", 2016
+}%
+
+\newcommand{\degreetype}{Dissertation}
+\newcommand{\degreetitle}{Doctor of Philosophy}
+\newcommand{\degreename}{Nano Electronics and Nano Technologies}
+\newcommand{\degreeyear}{2023}
+\maketitlepage
+
+
+%--------------------------COPYRIGHT---------------------------%
+\input{metafiles/copyright.tex}
+\makecopyright{2023}
+
+
+%--------------------------APPROVAL---------------------------%
+\newpage
+\thispagestyle{empty}
+\vspace*{18pt}
+\begin{center}
+  \textsc{\doctitle}\\[18pt]
+  by\\[18pt]
+  \textsc{\docauthor}
+\end{center}
+\vfill
+
+\begin{flushright}
+  \begin{tabular}{ll}
+    Major Professor: & Giorgio di Natale \\ [8pt]
+    Industrial Advisor: & Jean Marc Daveau \\ [8pt]
+    Committee: & Prof 1 \\
+    & Prof 2 \\
+    & Prof 3 \\
+  \end{tabular}
+\end{flushright}
+
+\vspace*{3cm}
+
+\begin{flushleft}
+  Electronic Version Approved:\\[12pt]
+  Ron Walcott\\
+  Dean of the Graduate School\\
+  The University of Georgia\\
+  Month Year
+\end{flushleft}
+\vspace*{1.5cm}
+
+% Dedication ============================================================== %
+\subfile{subfiles/dedication}
+
+% Acknowledgements ======================================================== %
+\subfile{subfiles/acknowledgements}
+
+% Table of Contents ======================================================= %
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\iffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\fi
+
+\iftables
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\fi
+
+\clearpage
+\pagenumbering{arabic}
+
+% Document Body =========================================================== %
+% ------------------------------------------------------------------------- %
+\subfile{subfiles/soa}
+\subfile{subfiles/chapter1}
+\subfile{subfiles/chapter2}
+\subfile{subfiles/chapter3}
+\subfile{subfiles/chapter4}
+\subfile{subfiles/conclusion}
+% ------------------------------------------------------------------------- %
+% ========================================================================= %
+
+
+%-----------------------APPENDICES----------------------------%
+\begin{appendices}
+  \subfile{subfiles/appendices}
+\end{appendices}
+
+%-----------------------BIBLIOGRAPHY---------------------------%
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography} %add bib to the TOC
+\printbibliography[title={Bibliography}]
+
+\end{document}
