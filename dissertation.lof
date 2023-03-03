@@ -23,19 +23,19 @@
 \contentsline {figure}{\numberline {1.20}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{25}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{34}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{39}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Completeness of the Extraction\relax }}{39}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{40}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces I2C/AHB System Model\relax }}{41}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Extracted FSM for the I2C Block\relax }}{42}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces I2C to AHB System Model\relax }}{43}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Block Model\relax }}{43}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces AHB Block Model\relax }}{44}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{36}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{41}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Completeness of the Extraction\relax }}{41}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces I2C/AHB System Model\relax }}{43}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Extracted FSM for the I2C Block\relax }}{44}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces I2C to AHB System Model\relax }}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Block Model\relax }}{45}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces AHB Block Model\relax }}{46}{figure.caption.55}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{51}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{51}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{53}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{53}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{58}{figure.caption.60}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

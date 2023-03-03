@@ -1,0 +1,107 @@
+
+
+Tue Feb 28 22:18:02 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.8.0-44-generic (#50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'LC_CTYPE=en_US.UTF-8;LC_NUMERIC=en_GB.UTF-8;LC_TIME=en_GB.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=en_GB.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=en_GB.UTF-8;LC_NAME=en_GB.UTF-8;LC_ADDRESS=en_GB.UTF-8;LC_TELEPHONE=en_GB.UTF-8;LC_MEASUREMENT=en_GB.UTF-8;LC_IDENTIFICATION=en_GB.UTF-8'.
+
+
+Tue Feb 28 22:18:02 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.8.0-44-generic (#50~20.04.1-Ubuntu SMP Wed Feb 10 21:07:30 UTC 2021) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48, DCO support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+/dev/sda: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop9 - 0 B - 0 sectors (RO), sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - ST31000528AS, S/N:9VP98LKZ, FW:HP35
+Disk /dev/sdf - 500 GB / 465 GiB - CHS 60797 255 63, sector size=512 - WD My Passport 0830, FW:1056
+Disk /dev/loop0 - 58 MB / 55 MiB - 113592 sectors (RO), sector size=512
+Disk /dev/loop1 - 58 MB / 55 MiB - 113888 sectors (RO), sector size=512
+Disk /dev/loop10 - 188 MB / 179 MiB - 367752 sectors (RO), sector size=512
+Disk /dev/loop11 - 52 MB / 49 MiB - 102072 sectors (RO), sector size=512
+Disk /dev/loop12 - 66 MB / 63 MiB - 129600 sectors (RO), sector size=512
+Disk /dev/loop13 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop14 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop15 - 177 MB / 169 MiB - 346968 sectors (RO), sector size=512
+Disk /dev/loop2 - 172 MB / 164 MiB - 337424 sectors (RO), sector size=512
+Disk /dev/loop3 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop4 - 363 MB / 346 MiB - 709280 sectors (RO), sector size=512
+Disk /dev/loop5 - 68 MB / 65 MiB - 133320 sectors (RO), sector size=512
+Disk /dev/loop6 - 53 MB / 51 MiB - 104536 sectors (RO), sector size=512
+Disk /dev/loop7 - 53 MB / 50 MiB - 104360 sectors (RO), sector size=512
+Disk /dev/loop8 - 4096 B - 8 sectors (RO), sector size=512
+
+Partition table type defaults to Intel
+Disk /dev/sdf - 500 GB / 465 GiB - WD My Passport 0830
+Partition table type: Intel
+
+Analyse Disk /dev/sdf - 500 GB / 465 GiB - CHS 60797 255 63
+Current partition structure:
+
+Partition: Read error
+
+search_part()
+Disk /dev/sdf - 500 GB / 465 GiB - CHS 60797 255 63
+file_pread(5,16,buffer,32(0/0/33)) read err: Input/output error
+file_pread(5,3,buffer,48(0/0/49)) read err: Input/output error
+file_pread(5,3,buffer,95(0/1/33)) read err: Input/output error
+file_pread(5,8,buffer,111(0/1/49)) read err: Input/output error
+file_pread(5,11,buffer,158(0/2/33)) read err: Input/output error
+file_pread(5,2,buffer,2080(0/33/2)) read err: Input/output error
+file_pread(5,2,buffer,51(0/0/52)) read err: Input/output error
+file_pread(5,2,buffer,98(0/1/36)) read err: Input/output error
+file_pread(5,2,buffer,119(0/1/57)) read err: Input/output error
+file_pread(5,2,buffer,169(0/2/44)) read err: Input/output error
+file_pread(5,2,buffer,2082(0/33/4)) read err: Input/output error
+file_pread(5,16,buffer,63(0/1/1)) read err: Input/output error
+file_pread(5,3,buffer,79(0/1/17)) read err: Input/output error
+file_pread(5,3,buffer,126(0/2/1)) read err: Input/output error
+file_pread(5,8,buffer,142(0/2/17)) read err: Input/output error
+file_pread(5,11,buffer,189(0/3/1)) read err: Input/output error
+file_pread(5,2,buffer,2111(0/33/33)) read err: Input/output error
+file_pread(5,16,buffer,1008(0/16/1)) read err: Input/output error
+file_pread(5,3,buffer,1024(0/16/17)) read err: Input/output error
+file_pread(5,3,buffer,1071(0/17/1)) read err: Input/output error
+file_pread(5,8,buffer,1087(0/17/17)) read err: Input/output error
+file_pread(5,11,buffer,1134(0/18/1)) read err: Input/output error
+file_pread(5,2,buffer,3056(0/48/33)) read err: Input/output error
+file_pread(5,13,buffer,1074(0/17/4)) read err: Input/output error
+file_pread(5,8,buffer,1150(0/18/17)) read err: Input/output error
+file_pread(5,11,buffer,1197(0/19/1)) read err: Input/output error
+file_pread(5,2,buffer,3119(0/49/33)) read err: Input/output error
+file_pread(5,16,buffer,2048(0/32/33)) read err: Input/output error
+file_pread(5,3,buffer,2064(0/32/49)) read err: Input/output error
+file_pread(5,1,buffer,2113(0/33/35)) read err: Input/output error
+file_pread(5,8,buffer,2127(0/33/49)) read err: Input/output error
+file_pread(5,11,buffer,2174(0/34/33)) read err: Input/output error
+file_pread(5,2,buffer,4096(0/65/2)) read err: Input/output error
+file_pread(5,14,buffer,4098(0/65/4)) read err: Input/output error
+file_pread(5,3,buffer,4112(0/65/18)) read err: Input/output error
+file_pread(5,3,buffer,4159(0/66/2)) read err: Input/output error
+file_pread(5,8,buffer,4175(0/66/18)) read err: Input/output error
+file_pread(5,11,buffer,4222(0/67/2)) read err: Input/output error
+file_pread(5,2,buffer,6144(0/97/34)) read err: Input/output error
+Search for partition aborted
+
+Results
+SIGINT detected! TestDisk has been killed.
