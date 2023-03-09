@@ -100,4 +100,77 @@ The following principles should be applied:
 Other information required for the particular system and project needs to be defined by the analyst according to the purposes of the
 
 
+
+\section{Analysis}
+It is worth to underline that, even though the scope of this thesis is to establish a new methodologyfor automated FMEA in both hardware and software systems, there is the absolute need to comply with what is today the state of the art for FMEA and the guidelines to be followed to bring the metrics extracted during the analysis to certification. It is for this reason that the following section will present the traditional method applied today to all the electromechanical systems under evaluation. Bare in mind that the totality of the procedure described below is man driven.
+
+The usual requirement and purpose of an FMEA isto identify the effect of oJl failure modes of allconstituent items at the lowest level in the system.Tb achieve this the worksheet should be used inthe following manner:
+
+\begin{enumerate}
+
+	\item Identify all items in the system or subsystem,each of which is to have its failure modes andeffects analysed. The system of identification byname and number should be such that no itemswill be omitted.
+	\item Select the first item for analysis and enter theitem name and identification number in theappropriate columns of the worksheet.Determine the function of that item in thesystem and enter that on the worksheet.
+	\item Deduce all the possible failure modes of theitem due to any possible cause and individuallyenter these modes on the worksheet
+	\item  Postulate the most likely failure causes foreach failure mode of the item and enter these onthe worksheet. It will usually not be possible to consider allpossible causes because the range is so vast, butthe most significant with regard to the item, thefailure mode and the application should beidentified.
+	\item Deduce the effects of the failure on thesubsystem and system, as determined by thescope of the FMEA
+	\item  Complete the remaining columns of theworksheet for the first failure mode of the firstitem.
+	\item Repeat 3 to 5 for all failure moides of the first item
+	\item Repeat 2 to 6 for all other items
+\end{enumerate}
+
+
+\subsection{Multiple Stages}
+If the FMEA is to be done in stages that eachrelate to separate Ievels in the system's hierarchicalstructure, the failure effects from the lower level become the failure modes at the next level up. The analysis should then proceed as follows.
+
+\begin{enumerate}
+	\item Identify the lower level FMEAs that areappropriate for the next stage in the systemFMEA according to the system's hierarchicalstructure defined by the block or functionaldiagrams (see 2.2,2(b)). Where appropriate alsoinclude items defined as being at the lowest levelin that part of the system structure
+	\item Perform the FMEA for each failure of eachitem at this higtrer level in the system stmctureas given in the previous section.
+	\item repeat the two above steps for any further higher levels in the system structure.
+\end{enumerate}
+\subsection{Worksheet reccomendations}
+
+The last worksheet entry should give any pertinent remarks to clarify other entries. Possible future actions such as recommendations for design improvements may be recorded and then amplified in the report. This column may also include the following:
+
+\begin{enumerate}
+\item[(a)] any unusual conditions;
+\item[(b)] effects of redundant element failures;
+\item[(c)] recognition of specially critical design features;
+\item[(d)] any remarks to amplify the entry;
+\item[(e)] references to other entries for sequential failure analysis;
+\item[(f)] significant maintenance requirements;
+\item[(g)] dominant failure causes;
+\item[(h)] dominant failure effects;
+\item[(i)] decisions taken, e.g. at design review.
+\end{enumerate}
+
+
+The report on the FMEA (or FMECA) may be included in a wider study or may stand alone. In neither case, the report should include a summary and a detailed record of the analysis and the block or functional diagrams which define the system structure. The report should also contain a list of the drawings (including issue status) on which the FMEA is based.
+
+The summary should contain a brief description of the method of analysis and the level to which it was conducted, the assumptions and the ground rules. In addition, it should include listings of the following:
+
+\begin{enumerate}
+\item recommendations for the attention of designers, maintenance staff, planners, and users;
+\item failures which, when initially occurring alone, result in serious effects;
+\item failures which have no effect;
+\item design changes which have already been incorporated as a result of the FMEA (or FMECA).
+\end{enumerate}
+
+
+
+
+
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_grid.png}
+  \caption{Criticality Grid}
+	\label{fig:criticality_grid}
+\end{figure}
+
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_matrix_with_bands.png}
+  \caption{FMEA Criticality Matrix}
+  \label{fig:criticality_matrix}
+\end{figure}
+
 \end{document}
