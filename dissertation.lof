@@ -28,11 +28,11 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{40}{figure.caption.49}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{45}{figure.caption.50}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Completeness of the Extraction\relax }}{45}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{47}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{46}{figure.caption.52}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces I2C/AHB System Model\relax }}{47}{figure.caption.53}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Extracted FSM for the I2C Block\relax }}{48}{figure.caption.54}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces I2C to AHB System Model\relax }}{49}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Block Model\relax }}{50}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Block Model\relax }}{49}{figure.caption.56}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces AHB Block Model\relax }}{50}{figure.caption.57}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{57}{figure.caption.58}%
@@ -50,7 +50,7 @@
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Shows the post-synthesis power and area comparison of an Ibex, Rocket, and PicoRV32 core.\relax }}{80}{figure.caption.71}%
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{81}{figure.caption.72}%
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{83}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{84}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{83}{figure.caption.74}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

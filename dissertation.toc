@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \contentsline {chapter}{Acknowledgments}{v}{chapter*.2}%
-\contentsline {chapter}{List of Figures}{vi}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{vii}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{vii}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{ix}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Problem and its Background}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The Space Environment}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Solar Activity}{3}{subsection.1.1.1}%
@@ -56,11 +56,11 @@
 \contentsline {section}{\numberline {3.2}State-of-the-Art}{39}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Probabilistic Methods in Digital Systems Safety}{39}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Formal Methods in Digital Systems Safety}{39}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Altarica}{40}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Altarica}{39}{subsection.3.2.3}%
 \contentsline {section}{\numberline {3.3}Modeling Digital Systems for MBSA}{41}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Methodology}{42}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Faulty Behavior Model Construction}{44}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Completeness of Extraction}{45}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Completeness of Extraction}{44}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Altarica Modeling}{45}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Application: {\it I2C} to {\it AHB} bridge}{46}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}I2C Block Modeling}{47}{subsection.3.5.1}%
@@ -73,16 +73,16 @@
 \contentsline {section}{\numberline {4.2}State of the Art}{54}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Methodology}{55}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Setup}{56}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Fault Injection on Randomly Initialized Resources}{58}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Fault Injection on Randomly Initialized Resources}{57}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Re-Composition of the basic blocks}{58}{subsection.4.3.3}%
-\contentsline {subsubsection}{Not modified Program Flow}{59}{subsubsection*.60}%
+\contentsline {subsubsection}{Not modified Program Flow}{58}{subsubsection*.60}%
 \contentsline {subsubsection}{Modified Program Flow}{59}{subsubsection*.61}%
 \contentsline {section}{\numberline {4.4}Test Case and Application}{60}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}The Software}{60}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}The Division in Basic Block}{61}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}The Platform}{62}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.3}The Platform}{61}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}The Fault Injection Campaign}{62}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Results and Future Work}{63}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Results and Future Work}{62}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Technical Analysis}{64}{chapter.5}%
 \contentsline {section}{\numberline {5.1}LHC Detectors at CERN}{64}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Radiation Effects on CMOS Electronics}{69}{section.5.2}%
@@ -100,3 +100,4 @@
 \contentsline {chapter}{\numberline {7}Conclusion}{86}{chapter.7}%
 \contentsline {chapter}{Appendices}{87}{section*.75}%
 \contentsline {chapter}{\numberline {A}}{87}{appendix.a.A}%
+\contentsline {chapter}{Bibliography}{88}{appendix.a.A}%
