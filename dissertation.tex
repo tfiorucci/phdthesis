@@ -40,7 +40,8 @@ This thesis proposes to develop a reliability metrics extraction methodology bas
 
 
 
-thèse propose de mettre en place un flux et une méthodologie de certification ISO26262 pour les circuits intégrés de type système sur une puce numérique dédiée à la conduite. Ces circuits sont généralement composés de plusieurs propriétés intellectuelles, IP, dédiées à différentes fonctions telles que la communication ou le traitement d'informations provenant de capteurs (caméra, lidar...), le système en temps réel, la vision et l'imagerie, la gestion du système (système d'exploitation), la sécurité. La méthodologie ISO26262 nécessite l'extraction d'un certain nombre de métriques liées à la résilience du système face aux pannes simples et multiples, ainsi qu'à l'efficacité des contre-mesures (détection, signalement et correction des erreurs) et modes de défaillance. L'extraction des métriques d'échec à partir des arbres de défaillance est une méthode connue et documentée dans la littérature. Néanmoins, son application a souvent été limitée aux systèmes électromécaniques macroscopiques tels qu'une voiture, un actionneur ou des chaînes de capteurs. D'autre part, ces méthodes sont rarement appliquées dans le domaine des SoC automobiles où l'extraction des métriques est encore largement manuelle (généralement à l'aide d'un tableur) et dépendante d'un expert, et où la vérification de l'efficacité des contre-mesures est mieux effectuée par injection de fautes ciblée sur quelques sous-parties du système complet ou par irradiation sous un faisceau de particules. Cette thèse propose de développer une méthodologie d'extraction de métriques de fiabilité basée sur l'injection de fautes par bloc ainsi que des méthodes de composition pour obtenir les métriques au niveau du système complet. La première partie de la thèse sera consacrée à l'étude de la bibliographie sur la construction d'arbres de défaillance, la norme ISO26262 et la déclinaison des différentes métriques de fiabilité dans le cas d'un système SoCs numérique. L'extraction des métriques au niveau du bloc sera basée sur deux méthodes différentes, l'une analytique basée sur les probabilités, l'autre expérimentale basée sur l'injection de fautes. L'objectif n'est pas de développer de nouveaux codes de probabilité ou des outils d'injection de fautes, mais de développer une méthodologie pour les utiliser dans le contexte d'un SoC afin d'obtenir les données souhaitées. La deuxième partie de la thèse concernera la composition des données obtenues au niveau du bloc fonctionnel afin d'obtenir les métriques ISO26262 au niveau du système (SoC). Il s'agira de développer une méthode de composition adaptée en particulier aux caractéristiques des SoCs (système de communication, effectuant des calculs devant réagir en temps réel, ...) et aux modèles de défaillance qui les caractérisent ou imposés par la norme ISO26262.
+\paragraph{French Translation} 
+Cette thèse propose de mettre en place un flux et une méthodologie de certification ISO26262 pour les circuits intégrés de type système sur une puce numérique dédiée à la conduite. Ces circuits sont généralement composés de plusieurs propriétés intellectuelles, IP, dédiées à différentes fonctions telles que la communication ou le traitement d'informations provenant de capteurs (caméra, lidar...), le système en temps réel, la vision et l'imagerie, la gestion du système (système d'exploitation), la sécurité. La méthodologie ISO26262 nécessite l'extraction d'un certain nombre de métriques liées à la résilience du système face aux pannes simples et multiples, ainsi qu'à l'efficacité des contre-mesures (détection, signalement et correction des erreurs) et modes de défaillance. L'extraction des métriques d'échec à partir des arbres de défaillance est une méthode connue et documentée dans la littérature. Néanmoins, son application a souvent été limitée aux systèmes électromécaniques macroscopiques tels qu'une voiture, un actionneur ou des chaînes de capteurs. D'autre part, ces méthodes sont rarement appliquées dans le domaine des SoC automobiles où l'extraction des métriques est encore largement manuelle (généralement à l'aide d'un tableur) et dépendante d'un expert, et où la vérification de l'efficacité des contre-mesures est mieux effectuée par injection de fautes ciblée sur quelques sous-parties du système complet ou par irradiation sous un faisceau de particules. Cette thèse propose de développer une méthodologie d'extraction de métriques de fiabilité basée sur l'injection de fautes par bloc ainsi que des méthodes de composition pour obtenir les métriques au niveau du système complet. La première partie de la thèse sera consacrée à l'étude de la bibliographie sur la construction d'arbres de défaillance, la norme ISO26262 et la déclinaison des différentes métriques de fiabilité dans le cas d'un système SoCs numérique. L'extraction des métriques au niveau du bloc sera basée sur deux méthodes différentes, l'une analytique basée sur les probabilités, l'autre expérimentale basée sur l'injection de fautes. L'objectif n'est pas de développer de nouveaux codes de probabilité ou des outils d'injection de fautes, mais de développer une méthodologie pour les utiliser dans le contexte d'un SoC afin d'obtenir les données souhaitées. La deuxième partie de la thèse concernera la composition des données obtenues au niveau du bloc fonctionnel afin d'obtenir les métriques ISO26262 au niveau du système (SoC). Il s'agira de développer une méthode de composition adaptée en particulier aux caractéristiques des SoCs (système de communication, effectuant des calculs devant réagir en temps réel, ...) et aux modèles de défaillance qui les caractérisent ou imposés par la norme ISO26262.
 }%
 
 
@@ -78,22 +79,24 @@ B.Sc., University of Rome "Tor Vergata", 2016
   \begin{tabular}{ll}
     Major Professor: & Giorgio di Natale \\ [8pt]
     Industrial Advisor: & Jean Marc Daveau \\ [8pt]
-    Committee: & Prof 1 \\
-    & Prof 2 \\
-    & Prof 3 \\
+    Committee: & Alberto Bosio \\
+    & Stefano di Carlo \\
+    & Pascal Benoit \\
+    & Vincent Berouille \\
   \end{tabular}
 \end{flushright}
 
 \vspace*{3cm}
 
 \begin{flushleft}
-  Electronic Version Approved:\\[12pt]
-  Ron Walcott\\
-  Dean of the Graduate School\\
-  The University of Georgia\\
-  Month Year
+  Electronic Version Approved\\[12pt]
 \end{flushleft}
 \vspace*{1.5cm}
+
+%QUOTE =====================================
+
+\subfile{subfiles/quote}
+
 
 % Dedication ============================================================== %
 \subfile{subfiles/dedication}
