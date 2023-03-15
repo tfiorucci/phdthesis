@@ -119,7 +119,7 @@ However additional rules may be added like to remove faulty nodes and transition
 %\input{subfiles/ticks/thomas.tex}
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.35\textwidth]{subfiles/imgs/altarica-dysfunctional-model.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/altarica-dysfunctional-model.png}
     \caption{\centering Altarica Dysfunctional Model}
     \label{altarica-model}
 \end{figure}
@@ -129,7 +129,7 @@ The main risk in state identification is to under or overestimate the state whic
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.5\textwidth]{subfiles/imgs/wrongly_identified_for_paper.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/wrongly_identified_for_paper.png}
     \caption{\centering Completeness of the Extraction}
     \label{fig:completness-extraction}
 \end{figure}
@@ -161,7 +161,7 @@ The I2C slave, taken from \cite{I2Cminion}, receives {\it read} or {\it write} c
 \input{subfiles/ticks/complete_system}
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.2]{subfiles/imgs/chrono_write.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/chrono_write.png}
     \caption{I2C/AHB System Model}
     \label{fig:chronogluewrite}
 \end{figure}
@@ -181,6 +181,33 @@ The I2C slave, taken from \cite{I2Cminion}, receives {\it read} or {\it write} c
 \subsection{I2C Block Modeling} \label{i2ctestcase}
 
 The testbench is composed of a series of read and write random transactions. The coverage evaluation of the design has been carried out, results are presented in Table \ref{tab:cov_I2C}. Having considered the results of the coverage evaluations sufficient for the demonstration, application of the method presented in section \ref{sec:methodology} have been performed. The list of all injection sites, reported by Cadence {\it Xcelium Fault Simulator} (FSV) \cite{CDN} fault injection tool are considered for state including ones containing data as the serial nature of the I2C protocol, which mixes control and data frames on the same signals thought time-multiplexing, doesn't allow differentiation. However, the small size of data considered (8-bit) only induce a low (256) superset of the real control states. All outputs are probed so that any mismatch with the reference run will stop the simulation and report the fault as {\it Detected}. State (flip-flop value, i.e. '0' or '1') is simply extracted at each clock cycle and printed in the simulation logs to be post-processed.
+
+\begin{figure}
+\includegraphics[width=\linewidth]{subfiles/imgs/I2C_gold_automaton_10.png}
+\caption{I2C Gold Automaton}
+\label{fig:I2C_gold}
+
+
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\linewidth]{subfiles/imgs/I2C_complete_automaton_10.png}
+\caption{I2C Complete Automaton}
+\label{fig:I2C_goldcomplete}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\linewidth]{subfiles/imgs/i2c_balloon_injec.png}
+\caption{I2C Complete Automaton Clusterized}
+\label{fig:I2C_balloon}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\linewidth]{subfiles/imgs/balloon_ahb.png}
+\caption{AHB Complete Automaton Clusterized}
+\label{fig:AHB_balloon}
+\end{figure}
+
 
 \begin{table}[]
 \centering
@@ -251,19 +278,19 @@ The AltaRica structural model architecture follows the natural hierarchy of the 
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.2]{subfiles/imgs/I2C_AHB.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/I2C_AHB.png}
     \caption{I2C to AHB System Model}
     \label{fig:i2cahb}
 \end{figure}
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.2]{subfiles/imgs/I2C_module.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/I2C_module.png}
     \caption{I2C Block Model}
     \label{fig:i2caps}
 \end{figure}
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.2]{subfiles/imgs/AHB_module.png}
+    \includegraphics[width=\linewidth]{subfiles/imgs/AHB_module.png}
     \caption{AHB Block Model}
     \label{fig:ahbaps}
 \end{figure}
