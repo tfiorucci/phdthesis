@@ -22,39 +22,43 @@
 \contentsline {figure}{\numberline {1.19}{\ignorespaces TMR Schema\relax }}{24}{figure.caption.45}%
 \contentsline {figure}{\numberline {1.20}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{25}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Criticality Grid\relax }}{35}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces FMEA Criticality Matrix\relax }}{36}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of FMEA Table\relax }}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Criticality Grid\relax }}{35}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Criticality Grid\relax }}{41}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Criticality Grid\relax }}{42}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Criticality Grid\relax }}{43}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces FMEA Criticality Matrix\relax }}{44}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{40}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{45}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Completeness of the Extraction\relax }}{45}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{47}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces I2C/AHB System Model\relax }}{47}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces I2C Gold Automaton\relax }}{48}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces I2C Complete Automaton\relax }}{48}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Complete Automaton Clusterized\relax }}{49}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces AHB Complete Automaton Clusterized\relax }}{50}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Extracted FSM for the I2C Block\relax }}{51}{figure.caption.59}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces I2C to AHB System Model\relax }}{52}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces I2C Block Model\relax }}{53}{figure.caption.61}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces AHB Block Model\relax }}{53}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{48}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{53}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering Completeness of the Extraction\relax }}{53}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces I2C to AHB System Block Diagram\relax }}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces I2C/AHB System Model\relax }}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces I2C Gold Automaton\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces I2C Complete Automaton\relax }}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces I2C Complete Automaton Clusterized\relax }}{57}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces AHB Complete Automaton Clusterized\relax }}{58}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Extracted FSM for the I2C Block\relax }}{59}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces I2C to AHB System Model\relax }}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces I2C Block Model\relax }}{61}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces AHB Block Model\relax }}{61}{figure.caption.66}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{61}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{61}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{66}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{69}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{69}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{74}{figure.caption.71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Shows the complete network of used accelerators at CERN (Courtesy of \cite {Haffner:1621894}).\relax }}{69}{figure.caption.68}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows the layout of the CMS detector \cite {CMSdetector}.\relax }}{71}{figure.caption.69}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Shows the movement of different particles in the CMS detector \cite {Barney:2120661}.\relax }}{72}{figure.caption.70}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Shows expected total ionizing dose in \si {Gy} during a 10-year operation period of the CMS. This is simulated using FLUKA. \cite {cms_tdr}\relax }}{72}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Shows a spatial radiation hardening technique using triple module redundancy.\relax }}{75}{figure.caption.72}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Shows a temporal radiation hardening technique where clock signals are delayed.\relax }}{76}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Shows the complete hierarchy of the UVM structure laid out by Accellera.\relax }}{77}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Shows the UVM components in a UVM agent and its connection to other components.\relax }}{78}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Shows the post-synthesis power and area comparison of an Ibex, Rocket, and PicoRV32 core.\relax }}{84}{figure.caption.76}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{85}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{87}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{87}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Shows the complete network of used accelerators at CERN (Courtesy of \cite {Haffner:1621894}).\relax }}{77}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows the layout of the CMS detector \cite {CMSdetector}.\relax }}{79}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Shows the movement of different particles in the CMS detector \cite {Barney:2120661}.\relax }}{80}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Shows expected total ionizing dose in \si {Gy} during a 10-year operation period of the CMS. This is simulated using FLUKA. \cite {cms_tdr}\relax }}{80}{figure.caption.75}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Shows a spatial radiation hardening technique using triple module redundancy.\relax }}{83}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Shows a temporal radiation hardening technique where clock signals are delayed.\relax }}{84}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Shows the complete hierarchy of the UVM structure laid out by Accellera.\relax }}{85}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Shows the UVM components in a UVM agent and its connection to other components.\relax }}{86}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Shows the post-synthesis power and area comparison of an Ibex, Rocket, and PicoRV32 core.\relax }}{92}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{93}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{95}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{95}{figure.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

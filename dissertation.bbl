@@ -103,6 +103,45 @@
       \verb https://developer.arm.com/documentation/ihi0024/c/Introduction/About-the-APB-protocol
       \endverb
     \endentry
+    \entry{arnold}{article}{}
+      \name{author}{4}{}{%
+        {{hash=db4840c099ed6dfa1d2fbbfa37b80a82}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4435e66b84bcaf20e620af152ba71442}{%
+           family={Point},
+           familyi={P\bibinitperiod},
+           given={Gérald},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d2e54fdfeaab251e46e83334f56ae99c}{%
+           family={Griffault},
+           familyi={G\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=542dc6691b6c8de9cd4f6c9475ce23e7}{%
+           family={Rauzy},
+           familyi={R\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{481e7114061b8f44e88c7fbcfaa47dfd}
+      \strng{fullhash}{bf78a932d9c4c2e5c79b4e33680b642b}
+      \strng{bibnamehash}{481e7114061b8f44e88c7fbcfaa47dfd}
+      \strng{authorbibnamehash}{481e7114061b8f44e88c7fbcfaa47dfd}
+      \strng{authornamehash}{481e7114061b8f44e88c7fbcfaa47dfd}
+      \strng{authorfullhash}{bf78a932d9c4c2e5c79b4e33680b642b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fundam. Inf.}
+      \field{number}{2–3}
+      \field{title}{The AltaRica Formalism for Describing Concurrent Systems}
+      \field{volume}{40}
+      \field{year}{1999}
+    \endentry
     \entry{Barney:2120661}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=f0a69598be56df97f8de1d33404c4720}{%
@@ -314,6 +353,184 @@
       \range{pages}{23}
       \verb{doi}
       \verb 10.1109/TNS.2008.2001409
+      \endverb
+    \endentry
+    \entry{bozzano-avocs-2010}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=83bab7e29d992f17d8fa2c795f24e8de}{%
+           family={Bozzano},
+           familyi={B\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5b10079891f6f21fb73ad9931f3ea4b}{%
+           family={Cimatti},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fc5559d22df5b529270acdd8026f2132}{%
+           family={Lisagor},
+           familyi={L\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b4a650c5f81f97c6dfc8f9c7291435d0}{%
+           family={Mattarei},
+           familyi={M\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b824393b29af99f78605589a6b6229c5}{%
+           family={Mover},
+           familyi={M\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0bc8310afff5e35c803207b66a61ae0d}{%
+           family={Roveri},
+           familyi={R\bibinitperiod},
+           given={Marcov},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1035a571249f3d1e010125101ce5ac1c}{%
+           family={Tonetta},
+           familyi={T\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bee9849dc5e515faf71bb8f48513073e}
+      \strng{fullhash}{3305a1a193e74a3d141a58015cd4f67a}
+      \strng{bibnamehash}{bee9849dc5e515faf71bb8f48513073e}
+      \strng{authorbibnamehash}{bee9849dc5e515faf71bb8f48513073e}
+      \strng{authornamehash}{bee9849dc5e515faf71bb8f48513073e}
+      \strng{authorfullhash}{3305a1a193e74a3d141a58015cd4f67a}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 10th International Workshop on Automated Verification of Critical Systems}
+      \field{title}{Statistical fault injection: Quantified error and confidence}
+      \field{year}{2010}
+    \endentry
+    \entry{Brayton1996VISAS}{article}{}
+      \name{author}{14}{}{%
+        {{hash=4fb487f81f57d4c6d7412fa6fec1b9d0}{%
+           family={Brayton},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39cc3ceb2f025f58184d9fb9c69a76a8}{%
+           family={Hachtel},
+           familyi={H\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b405dddc14f0193e800658e2bfd4179f}{%
+           family={Sangiovanni-Vincentelli},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ad8ab6fb6e98869ac8d0b96ea11ee519}{%
+           family={Somenzi},
+           familyi={S\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=804441a4782f6022f75bb7a72f3b77a7}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28487dafec566614f14a5b3f76ee7114}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Szu-tsung},
+           giveni={S\bibinithyphendelim t\bibinitperiod}}}%
+        {{hash=252e05bd7a6dc9fd14f636218d4d379c}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b91747d409eb6f0e7548364042aea363}{%
+           family={Khatri},
+           familyi={K\bibinitperiod},
+           given={Sunil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4784c05a101d4729f2413bccd0a89657}{%
+           family={Kukimoto},
+           familyi={K\bibinitperiod},
+           given={Yuji},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=514ee1defaeefe2a8370930494a9fb22}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Abelardo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1b03c9582278ba3b2d670d48bad083d}{%
+           family={Qadeer},
+           familyi={Q\bibinitperiod},
+           given={Shaz},
+           giveni={S\bibinitperiod}}}%
+        {{hash=140e25d17ce48313394210a238edfc73}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={Rajeev},
+           giveni={R\bibinitperiod}}}%
+        {{hash=455cf2447f9bed750cbfe49217e908f5}{%
+           family={Shiple},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=606977a3fc31027d94185cfbad525bb3}{%
+           family={Swamy},
+           familyi={S\bibinitperiod},
+           given={Gitanjali},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7effa0cc96449ea7a6a5dd6cb88a91e2}
+      \strng{fullhash}{ecfe386cd29b065d5eabdde23061c000}
+      \strng{bibnamehash}{7effa0cc96449ea7a6a5dd6cb88a91e2}
+      \strng{authorbibnamehash}{7effa0cc96449ea7a6a5dd6cb88a91e2}
+      \strng{authornamehash}{7effa0cc96449ea7a6a5dd6cb88a91e2}
+      \strng{authorfullhash}{ecfe386cd29b065d5eabdde23061c000}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{VIS : A System for Verification and Synthesis}
+      \field{year}{2000}
+    \endentry
+    \entry{Brayton2010ABCAA}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f5dce34fdfb70de7aa1a0f36f2c4bf7c}{%
+           family={Brayton},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=627b3c463aae56575e34c339f60f510a}{%
+           family={Mishchenko},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \strng{fullhash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \strng{bibnamehash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \strng{authorbibnamehash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \strng{authornamehash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \strng{authorfullhash}{2eb56a7e8b992d8ad5fc5dc394c6a03b}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CAV}
+      \field{title}{ABC: An Academic Industrial-Strength Verification Tool}
+      \field{year}{2010}
+    \endentry
+    \entry{CDN}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{title}{Cadence}
+      \verb{urlraw}
+      \verb https://www.cadence.com/en_US/home.html
+      \endverb
+      \verb{url}
+      \verb https://www.cadence.com/en_US/home.html
       \endverb
     \endentry
     \entry{ICM}{misc}{}
@@ -543,6 +760,43 @@
       \endverb
       \keyw{mine}
     \endentry
+    \entry{jaspergold}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f3c34008f6184566348e011f4fe1278a}{%
+           family={Devarajegowda},
+           familyi={D\bibinitperiod},
+           given={Keerthikumara},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f13eac135b2bd375e41f14f95a1b2131}{%
+           family={Vliegen},
+           familyi={V\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=33f7acfce7a52f15191e5744f81763d9}{%
+           family={Petrovity},
+           familyi={P\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fa2eedd6e8ba549b4aa68c3c925b5a06}{%
+           family={Fotouhi},
+           familyi={F\bibinitperiod},
+           given={Kawe},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bade195828363fcce6fe39d176c244d}
+      \strng{fullhash}{24d8455aa4ff41c9cdcda71b52d29016}
+      \strng{bibnamehash}{0bade195828363fcce6fe39d176c244d}
+      \strng{authorbibnamehash}{0bade195828363fcce6fe39d176c244d}
+      \strng{authornamehash}{0bade195828363fcce6fe39d176c244d}
+      \strng{authorfullhash}{24d8455aa4ff41c9cdcda71b52d29016}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{A Mutually-Exclusive Deployment of Formal and Simulation Techniques Using Proof-Core Analysis}
+      \field{year}{2017}
+    \endentry
     \entry{EBRAHIMI20141000}{article}{}
       \name{author}{4}{}{%
         {{hash=29a19f7c94a2a9ddbeb12500876ae59f}{%
@@ -644,6 +898,29 @@
       \verb 10.1109/IOLTS.2016.7604674
       \endverb
     \endentry
+    \entry{EMERSON1980}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b7b243f4e5d206feb3fa65de14f3a97e}{%
+           family={Emerson},
+           familyi={E\bibinitperiod},
+           given={E.\bibnamedelimi Allen},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \strng{fullhash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \strng{bibnamehash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \strng{authorbibnamehash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \strng{authornamehash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \strng{authorfullhash}{b7b243f4e5d206feb3fa65de14f3a97e}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Theoretical Computer Science}
+      \field{title}{Temporal and Modal Logic}
+      \field{volume}{B: Formal Models and Sematics}
+      \field{year}{1990}
+    \endentry
     \entry{LHCmachine}{article}{}
       \name{author}{2}{}{%
         {{hash=f6bf7c2218c056ff4f1b2afde0a7bd9a}{%
@@ -708,6 +985,7 @@
       \strng{authorbibnamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
       \strng{authornamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
       \strng{authorfullhash}{ee1288aea150eeaf0088039813dbfeff}
+      \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{labelnamesource}{author}
@@ -720,6 +998,44 @@
       \verb{doi}
       \verb 10.1109/IOLTS52814.2021.9486705
       \endverb
+    \endentry
+    \entry{iolts2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b4aeddf82c733229980b9ca8381d37d7}{%
+           family={Fiorucci},
+           familyi={F\bibinitperiod},
+           given={Tiziano},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d846f437cc78f5fd373fe96491a0d36b}{%
+           family={Daveau},
+           familyi={D\bibinitperiod},
+           given={Jean-Marc},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=7b784fa969eb4f65ab293b76fba6b66b}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{fullhash}{6f3f6b400943195c131b43c278410332}
+      \strng{bibnamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authorbibnamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authornamehash}{aa6ed8b09b43691d2a10c4356bb75d3c}
+      \strng{authorfullhash}{6f3f6b400943195c131b43c278410332}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE International Symposium on On-Line Testing}
+      \field{title}{Software Product Reliability Based on Basic-Block Metrics Recomposition}
+      \field{year}{2023, To appear in}
     \endentry
     \entry{9063856}{inproceedings}{}
       \name{author}{2}{}{%
@@ -863,6 +1179,57 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://github.com/oetr/FPGA-I2C-Minion}}
       \field{title}{I2c Minion Repository}
+    \endentry
+    \entry{iso26262}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=286127cb84979e6c3dd17a992ca8f652}{%
+           family={ISO26262},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{fullhash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{bibnamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authorbibnamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authornamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authorfullhash}{286127cb84979e6c3dd17a992ca8f652}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Road vehicles -- Functional safety}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.iso.org
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org
+      \endverb
+    \endentry
+    \entry{iso26262-acronyms}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=286127cb84979e6c3dd17a992ca8f652}{%
+           family={ISO26262},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{fullhash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{bibnamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authorbibnamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authornamehash}{286127cb84979e6c3dd17a992ca8f652}
+      \strng{authorfullhash}{286127cb84979e6c3dd17a992ca8f652}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acronyms and abbreviations}
+      \verb{urlraw}
+      \verb https://www.arteris.com/blog/top-35-iso-26262-acronyms-and-abbreviations/
+      \endverb
+      \verb{url}
+      \verb https://www.arteris.com/blog/top-35-iso-26262-acronyms-and-abbreviations/
+      \endverb
     \endentry
     \entry{Karnik2004CharacterizationOS}{article}{}
       \name{author}{3}{}{%
@@ -1139,6 +1506,33 @@
       \verb 10.1109/DATE.2007.364641
       \endverb
     \endentry
+    \entry{fides}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=17c38badd93cdcf5b263c18a9df6d456}{%
+           family={Marin},
+           familyi={M\bibinitperiod},
+           given={J.J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c144838bf1d00dc44810e7ef32f658d3}{%
+           family={Pollard},
+           familyi={P\bibinitperiod},
+           given={R.W.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ade913fb624d04d951cacbfbaf587019}
+      \strng{fullhash}{ade913fb624d04d951cacbfbaf587019}
+      \strng{bibnamehash}{ade913fb624d04d951cacbfbaf587019}
+      \strng{authorbibnamehash}{ade913fb624d04d951cacbfbaf587019}
+      \strng{authornamehash}{ade913fb624d04d951cacbfbaf587019}
+      \strng{authorfullhash}{ade913fb624d04d951cacbfbaf587019}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual Reliability and Maintainability Symposium, 2005. Proceedings.}
+      \field{title}{Experience report on the FIDES reliability prediction method}
+      \field{year}{2005}
+    \endentry
     \entry{5635119}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=c4c5c35e154deb465d5671bbb4a57ebc}{%
@@ -1203,6 +1597,42 @@
       \verb{doi}
       \verb 10.1109/ATS.2002.1181740
       \endverb
+    \endentry
+    \entry{mortada-imbsa-2014}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e4e01d7092a93b152ad37e9bb6f2d653}{%
+           family={Mortada},
+           familyi={M\bibinitperiod},
+           given={Hala},
+           giveni={H\bibinitperiod}}}%
+        {{hash=039e63969da3888496d38f15bdaad02b}{%
+           family={Prosvirnova},
+           familyi={P\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=542dc6691b6c8de9cd4f6c9475ce23e7}{%
+           family={Rauzy},
+           familyi={R\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Munich, Germany}%
+      }
+      \strng{namehash}{c4351f414a065aeec98c3f08e317157e}
+      \strng{fullhash}{c4351f414a065aeec98c3f08e317157e}
+      \strng{bibnamehash}{c4351f414a065aeec98c3f08e317157e}
+      \strng{authorbibnamehash}{c4351f414a065aeec98c3f08e317157e}
+      \strng{authornamehash}{c4351f414a065aeec98c3f08e317157e}
+      \strng{authorfullhash}{c4351f414a065aeec98c3f08e317157e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{4th International Symposium on Model-Based Safety Assessment}}
+      \field{month}{10}
+      \field{title}{{Safety Assessment of an Electrical System with AltaRica 3.0}}
+      \field{year}{2014}
     \endentry
     \entry{Mukherjee_2005}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1455,6 +1885,54 @@
       \verb 10.1109/SERE.2012.10
       \endverb
     \endentry
+    \entry{Prosvirnova}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b7c6bb300a83368308d1ffa6539cfa8}{%
+           family={Prosvirnova},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{fullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{bibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authorbibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authornamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authorfullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thèse de doctorat de l'ecole Polytechnique, 2014}
+      \field{title}{AltaRica 3.0: a Model-Based approach for Safety Analyses}
+    \endentry
+    \entry{7333399}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=bd94185a6b885174894abeffd6657360}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bc2f75ee23e701be10bec5c7a4afb3cf}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Camilo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{71543c3e53c8bdd439669390c9c6644a}
+      \strng{fullhash}{71543c3e53c8bdd439669390c9c6644a}
+      \strng{bibnamehash}{71543c3e53c8bdd439669390c9c6644a}
+      \strng{authorbibnamehash}{71543c3e53c8bdd439669390c9c6644a}
+      \strng{authornamehash}{71543c3e53c8bdd439669390c9c6644a}
+      \strng{authorfullhash}{71543c3e53c8bdd439669390c9c6644a}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 10th Computing Colombian Conference (10CCC)}
+      \field{title}{Formal verification of safety properties for a cache coherence protocol}
+      \field{year}{2015}
+    \endentry
     \entry{bib8}{misc}{}
       \name{author}{1}{}{%
         {{hash=3329027b6e77d6dc16196302641f5ec8}{%
@@ -1504,6 +1982,91 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.synopsys.com/verification/simulation/z01x-functional-safety.html}}
       \field{title}{Synopsys Zo1x}
+    \endentry
+    \entry{PR14a}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=fba24b36ffef2de1b676f97b597a827d}{%
+           family={T.\bibnamedelimi Prosvirnova},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8bc2fbe9839c1271477d6ecfd1a5f99e}{%
+           family={A.\bibnamedelimi Rauzy},
+           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IMdR}%
+      }
+      \strng{namehash}{82b321a825bad30c4a0433200fc2168a}
+      \strng{fullhash}{82b321a825bad30c4a0433200fc2168a}
+      \strng{bibnamehash}{82b321a825bad30c4a0433200fc2168a}
+      \strng{authorbibnamehash}{82b321a825bad30c4a0433200fc2168a}
+      \strng{authornamehash}{82b321a825bad30c4a0433200fc2168a}
+      \strng{authorfullhash}{82b321a825bad30c4a0433200fc2168a}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Actes du congrès LambdaMu'19}
+      \field{month}{10}
+      \field{title}{The structural constructions of {A}lta{R}ica 3.0}
+      \field{year}{2014}
+    \endentry
+    \entry{5724504}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=dda43cedff5fc7cbb7238eb40224dfac}{%
+           family={Torras\bibnamedelima Flaquer},
+           familyi={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d846f437cc78f5fd373fe96491a0d36b}{%
+           family={Daveau},
+           familyi={D\bibinitperiod},
+           given={Jean-Marc},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=04a207a6fe68c13d353674c223188520}{%
+           family={Naviner},
+           familyi={N\bibinitperiod},
+           given={Lirida},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7b784fa969eb4f65ab293b76fba6b66b}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d24aeb448c4e438229f72155c32c71cd}
+      \strng{fullhash}{34616b0448c3236b45279138d1b59b16}
+      \strng{bibnamehash}{d24aeb448c4e438229f72155c32c71cd}
+      \strng{authorbibnamehash}{d24aeb448c4e438229f72155c32c71cd}
+      \strng{authornamehash}{d24aeb448c4e438229f72155c32c71cd}
+      \strng{authorfullhash}{34616b0448c3236b45279138d1b59b16}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 17th IEEE International Conference on Electronics, Circuits and Systems}
+      \field{title}{Handling reconvergent paths using conditional probabilities in combinatorial logic netlist reliability estimation}
+      \field{year}{2010}
+    \endentry
+    \entry{Torras}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4864dc27e3062d4207035fcf8aaf71ee}{%
+           family={Torras-Flaquer},
+           familyi={T\bibinithyphendelim F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \strng{fullhash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \strng{bibnamehash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \strng{authorbibnamehash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \strng{authornamehash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \strng{authorfullhash}{4864dc27e3062d4207035fcf8aaf71ee}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thèse de Doctorat de l'école doctorale TELECOM Paristech, 2011}
+      \field{title}{Méthodes probabilistes pour l'estimation de la fiabilité dans la logique combinatoire}
     \endentry
     \entry{4358223}{article}{}
       \name{author}{4}{}{%
@@ -1718,6 +2281,40 @@
       \verb 10.1109/TC.2018.2887225
       \endverb
     \endentry
+    \entry{SVA}{book}{}
+      \name{author}{3}{}{%
+        {{hash=19e3d1ef996a48ee1930230fd1083f34}{%
+           family={Venkataramanan},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=873d0dc49d1bbec339626be56864c1e4}{%
+           family={Kumari},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3c11a54115300e1d272770095c02b687}{%
+           family={Piper},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CreateSpace Independent Publishing Platform}%
+      }
+      \strng{namehash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \strng{fullhash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \strng{bibnamehash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \strng{authorbibnamehash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \strng{authornamehash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \strng{authorfullhash}{46e2dbbc8ce9af2d4fcb5a5774a9d781}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SystemVerilog Assertions Handbook}
+      \field{year}{2015}
+    \endentry
     \entry{1673379}{article}{}
       \name{author}{2}{}{%
         {{hash=f0f63114e3be9a89252309b9d8608ca9}{%
@@ -1786,6 +2383,65 @@
       \field{volume}{35}
       \field{year}{2007}
     \endentry
+    \entry{FIDES_fault_tree}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=50732becc82c2e8c9fba29d752a245af}{%
+           family={Yakymets},
+           familyi={Y\bibinitperiod},
+           given={Nataliya},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f977f79eeab12223766921919f506a15}{%
+           family={Adedjouma},
+           familyi={A\bibinitperiod},
+           given={Morayo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \strng{fullhash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \strng{bibnamehash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \strng{authorbibnamehash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \strng{authornamehash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \strng{authorfullhash}{0437e8cc01c345bf3ac7fa6ef34c9cba}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Symposium on Software Reliability Engineering Workshops}
+      \field{title}{Model-based Quantitative Fault Tree Analysis based on FIDES Reliability Prediction}
+      \field{year}{2020}
+    \endentry
+    \entry{yeung-2018}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d0602b208b2a2d9075834d1037fd8f49}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b89aaaccb4990e72dbdd1da360f33eb7}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e9d5ed91b229465c573f18d06875d63a}{%
+           family={Ayari},
+           familyi={A\bibinitperiod},
+           given={Abdelouahab},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \strng{fullhash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \strng{bibnamehash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \strng{authorbibnamehash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \strng{authornamehash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \strng{authorfullhash}{6c00ad6beb3379cc12be2d4e155338a7}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Whose Fault Is It Formally? Formal Techniques for Optimizing ISO 26262 Fault Analysis}
+      \field{year}{2018}
+    \endentry
     \entry{picorv_nmi_if}{online}{}
       \name{author}{1}{}{%
         {{hash=02054ad776baa38c39bfa195c6a16af3}{%
@@ -1846,27 +2502,7 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{5724504}
-  \missing{7333399}
-  \missing{Brayton1996VISAS}
-  \missing{Brayton2010ABCAA}
-  \missing{CDN}
-  \missing{EMERSON1980}
-  \missing{FIDES_fault_tree}
-  \missing{PR14a}
-  \missing{Prosvirnova}
-  \missing{SVA}
-  \missing{Torras}
-  \missing{arnold}
   \missing{bib12}
-  \missing{bozzano-avocs-2010}
-  \missing{fides}
-  \missing{iolts2022}
-  \missing{iso26262}
-  \missing{iso26262-acronyms}
-  \missing{jaspergold}
-  \missing{mortada-imbsa-2014}
-  \missing{yeung-2018}
 \endrefsection
 \endinput
 

@@ -12,7 +12,7 @@ thesis:
 	pdflatex $(DOCNAME).tex
 
 view: thesis
-	firefox $(DOCNAME).pdf
+	evince $(DOCNAME).pdf
 
 clean:
 	rm *.blg *.bbl *.aux *.log

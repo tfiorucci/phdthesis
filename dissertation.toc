@@ -52,53 +52,60 @@
 \contentsline {section}{\numberline {2.3}Analysis}{32}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Multiple Stages}{33}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Worksheet reccomendations}{33}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Hardware Contribution}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{37}{section.3.1}%
-\contentsline {section}{\numberline {3.2}State-of-the-Art}{39}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Probabilistic Methods in Digital Systems Safety}{39}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Formal Methods in Digital Systems Safety}{39}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Altarica}{39}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Modeling Digital Systems for MBSA}{41}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Methodology}{42}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Faulty Behavior Model Construction}{44}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Completeness of Extraction}{44}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Altarica Modeling}{46}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Application: {\it I2C} to {\it AHB} bridge}{46}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}I2C Block Modeling}{47}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}AHB Block Modeling}{51}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Complete System Test Case}{52}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Results}{54}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Discussion and Future Work}{55}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Footnotes and Sidenotes}{56}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{56}{section.4.1}%
-\contentsline {section}{\numberline {4.2}State of the Art}{58}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Methodology}{59}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Setup}{60}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Fault Injection on Randomly Initialized Resources}{61}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Re-Composition of the basic blocks}{62}{subsection.4.3.3}%
-\contentsline {subsubsection}{Not modified Program Flow}{62}{subsubsection*.65}%
-\contentsline {subsubsection}{Modified Program Flow}{63}{subsubsection*.66}%
-\contentsline {section}{\numberline {4.4}Test Case and Application}{64}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}The Software}{64}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}The Division in Basic Block}{65}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}The Platform}{65}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}The Fault Injection Campaign}{66}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Results and Future Work}{66}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Technical Analysis}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}LHC Detectors at CERN}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Radiation Effects on CMOS Electronics}{73}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Cumulative Damages}{73}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Single-Event Effects}{74}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Radiation-Tolerant Design}{75}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Universal Verification Methodology}{77}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Physical Implementation of Digital ICs}{79}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Synthesis}{80}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Implementation}{81}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}The PicoRV32: System on Chip}{83}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Native Memory Interface}{85}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}AMBA APB Interface}{86}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}Enter Title Here}{89}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusion}{90}{chapter.7}%
-\contentsline {chapter}{Appendices}{91}{section*.80}%
-\contentsline {chapter}{\numberline {A}}{91}{appendix.a.A}%
-\contentsline {chapter}{Bibliography}{92}{appendix.a.A}%
+\contentsline {subsection}{\numberline {2.3.3}Report on Analisys}{34}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Application}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Field of application}{36}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Application within a project}{36}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Uses of FMEA}{37}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Limitations and Drawbacks}{39}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Relationships with Other Methods}{40}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {3}Hardware Contribution}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{45}{section.3.1}%
+\contentsline {section}{\numberline {3.2}State-of-the-Art}{47}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Probabilistic Methods in Digital Systems Safety}{47}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Formal Methods in Digital Systems Safety}{47}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Altarica}{47}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Modeling Digital Systems for MBSA}{49}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Methodology}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Faulty Behavior Model Construction}{52}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Completeness of Extraction}{52}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Altarica Modeling}{54}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Application: {\it I2C} to {\it AHB} bridge}{54}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}I2C Block Modeling}{55}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}AHB Block Modeling}{59}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Complete System Test Case}{60}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Results}{62}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Discussion and Future Work}{63}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Footnotes and Sidenotes}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}%
+\contentsline {section}{\numberline {4.2}State of the Art}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Methodology}{67}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Setup}{68}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Fault Injection on Randomly Initialized Resources}{69}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Re-Composition of the basic blocks}{70}{subsection.4.3.3}%
+\contentsline {subsubsection}{Not modified Program Flow}{70}{subsubsection*.69}%
+\contentsline {subsubsection}{Modified Program Flow}{71}{subsubsection*.70}%
+\contentsline {section}{\numberline {4.4}Test Case and Application}{72}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}The Software}{72}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}The Division in Basic Block}{73}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}The Platform}{73}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}The Fault Injection Campaign}{74}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Results and Future Work}{74}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Technical Analysis}{76}{chapter.5}%
+\contentsline {section}{\numberline {5.1}LHC Detectors at CERN}{76}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Radiation Effects on CMOS Electronics}{81}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Cumulative Damages}{81}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Single-Event Effects}{82}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Radiation-Tolerant Design}{83}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Universal Verification Methodology}{85}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Physical Implementation of Digital ICs}{87}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Synthesis}{88}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Implementation}{89}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}The PicoRV32: System on Chip}{91}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Native Memory Interface}{93}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}AMBA APB Interface}{94}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}Enter Title Here}{97}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{98}{chapter.7}%
+\contentsline {chapter}{Appendices}{99}{section*.84}%
+\contentsline {chapter}{\numberline {A}}{99}{appendix.a.A}%
+\contentsline {chapter}{Bibliography}{100}{appendix.a.A}%
