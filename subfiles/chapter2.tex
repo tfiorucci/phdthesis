@@ -65,6 +65,56 @@ Assertions are used to propagate failures from a faulty component to other block
 %When everything is nominal, assertions contain the functional behavior of the system. 
 \end{itemize}
 
+\section{First Manual Application of FMEA on a SoC}
+In order to fully undestand the challenges that performing the full FMEA process implies (as depicted in chapter MISSIN REF), the decision of fully implement the process on a selected SoC has been taken.
+The SoC on choice has been the RISC-V based SoC developed in STMicroelectronics, in order to have full observability and have all the testing suite and reports of irradiation available. 
+Figure \ref{scr1_rtl} shows the complexity of the entire system of choice $SCR1$, composed of two cores and several peripherals, each of those dedicated to a specific communication or testing function.  
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{subfiles/imgs/scr1.png}
+    \caption{\centering RTL Description of SCR1}
+    \label{scr1_rtl}
+\end{figure}
+
+It has been clear since the beginning that the gratest obstacle to overcome was the definition of the internal blocks of the cores, together with their interconnections. There is where the FMEA process has started. There was the need to identify one of the two twin cores and decompose it manually in order to obtain a complete definition to then analyse the possible failure modes. Figure\ref{scr1_inputs} shows the beginning of the process, dictated by the identification of all the connections to peripherals that are established with the core of choice.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{subfiles/imgs/pppp.png}
+    \caption{\centering Inputs to the SoC}
+    \label{scr1_inputs}
+\end{figure}
+
+That being the starting point, the work has proceeded with the definition of all the internal signals to all the sub-blocks of which the core is composed. This is a rather time consuming operation to be carried out manually, and it will be shown, one of the most prone to introduce human errors. Nevertheless it has been completed and the results are shown in Fig. \ref{scr1_blocks}, showing how complex the interconnections could be even in case of a high level description of the internal of the core.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{subfiles/imgs/pipetop.png}
+    \caption{\centering Detailed reconstruction of block model}
+    \label{scr1_blocks}
+\end{figure}
+
+Despite the completion of the internal signal definition, the complexity of the FMEA analysis procedure necessitated the use of the layout shown in Fig. \ref{classic_FMEA} as a worksheet. This layout served as a guide for the FMEA analysis team, who were tasked with identifying potential failures within the system and assessing the severity of their impact. However, the complexity of the system, as evidenced by the intricate interconnections between sub-blocks, proved to be a significant obstacle for the team, and the procedure was ultimately halted due to its difficulty. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{subfiles/imgs/old_fmea1.jpg.png}
+    \caption{\centering Classic FMEA Worksheet layout}
+    \label{classic_FMEA}
+\end{figure}
+Even with the aid of the layout, the team found that the manual identification of potential failures was too error-prone and time-consuming, necessitating a re-evaluation of the FMEA analysis process. A first detailed analysis of the possible failure modes and their gravity has been completed, and one extract can be seen in the Fig.\ref{classic_FMEA_SCR1} Despite this setback, the layout shown in Fig. \ref{scr1_blocks} remains a valuable tool for visualizing the internal workings of the core and can aid in future system design and analysis efforts.
+\begin{figure}[H]
+    \centering
+    \includegraphics[angle=90, scale=0.6]{subfiles/imgs/old_fmea.jpg}
+    \caption{\centering Classic FMEA Worksheet of SCR1}
+    \label{classic_FMEA_SCR1}
+\end{figure}
+
+The difficulty encountered during the FMEA analysis procedure highlights the need to re-think the overall approach to system design and analysis. While the layout shown in Fig. \ref{scr1_blocks} provides a useful tool for visualizing system interconnections, it also underscores the need for more automated and efficient methods of identifying potential failures. By relying on manual analysis, the FMEA procedure is susceptible to human error and can be prohibitively time-consuming for complex systems like the one depicted in the figure. Moving forward, it may be necessary to explore more sophisticated analysis methods, such as automated approaches, to ensure that potential failures are identified and addressed in a timely and accurate manner.
+
 \section{Modeling Digital Systems for MBSA}
 \label{sec:modelling}
 Digital systems, by essence, lend themselves well to finite state machines representation making the use of languages and formalism such as Altarica very suitable for their modelling. However, dysfunctional modeling requires extracting the faulty behaviour of the blocks composing the system. Such task is usually carried out by a Failure Mode and Effect Analysis (FMEA) to identify possible malfunction of the individual blocks. In digital system, such task can be performed automatically by simulation with fault injection\cite{6850649} and possibly formal methods \cite{7333399}.
@@ -306,7 +356,7 @@ SimfiaNeo allows to perform Monte-Carlo simulation. In this type of simulation, 
 The first possible assessment randomly injected one failure by failure scenario inside the system while the outputs are monitored. If at least one output triggers a faulty state, the error is accounted to have been propagated outside of the system. With this methodology, it’s possible to estimate the probability to have a failure propagation from the I2C+AHB system to the I2C or AHB external signals. 
 The second possible assessment randomly injected one failure by failure scenario in a link module and monitored the other link module. If the opposite link module triggers a faulty state, the error is accounted to have been propagated from one end to another. With this methodology, it is possible to estimate the probability to have a failure propagation from AHB or I2C back to the other link.
 
-\section{Results}
+\section{Results on the $I2C$ to $AHB$ System}
 Result of composition obtained by SimfiaNeo are compared to fault injection performed on the full system with probes set only on external outputs of the system on table \ref{results_ahb_i2c} for the I2C and AHB side signal. Because the system is simple and faults propagate only forward, it came to simple probability multiplication explaining exact matching of model and system fault injection. No back-propagating faults were observed.
 
 %\begin{table}[]
@@ -339,7 +389,7 @@ Result of composition obtained by SimfiaNeo are compared to fault injection perf
 %\label{results_i2c}
 %\end{table}
 
-\begin{table}[]
+\begin{table}[H]
 \caption{RTL Fault Injection Vs Altarica Model Failures}
 {\footnotesize
 \begin{tabular}{|l|l|l|l|l|l|}
@@ -355,6 +405,9 @@ hwrite & 0.00022 & 0.00022 &  &  &  \\ \hline
 }
 \label{results_ahb_i2c}
 \end{table}
+
+
+\section{Second Proof of Concept 4BlocksSystem}
 
 \section{Discussion and Future Work}
 \label{sec:discussion}

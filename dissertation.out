@@ -15,26 +15,28 @@
 \BOOKMARK [0][-]{chapter.3}{Hardware Contribution}{}% 15
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.2}{State-of-the-Art}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Modeling Digital Systems for MBSA}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{Methodology}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.5}{Application: I2C to AHB bridge}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.6}{Results}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.7}{Discussion and Future Work}{chapter.3}% 22
-\BOOKMARK [0][-]{chapter.4}{Footnotes and Sidenotes}{}% 23
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.2}{State of the Art}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{Methodology}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.4}{Test Case and Application}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.5}{Results and Future Work}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Technical Analysis}{}% 29
-\BOOKMARK [1][-]{section.5.1}{LHC Detectors at CERN}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{Radiation Effects on CMOS Electronics}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{Radiation-Tolerant Design}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{Universal Verification Methodology}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.5}{Physical Implementation of Digital ICs}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.6}{The PicoRV32: System on Chip}{chapter.5}% 35
-\BOOKMARK [0][-]{chapter.6}{Enter Title Here}{}% 36
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 37
-\BOOKMARK [0][-]{section*.84}{Appendices}{}% 38
-\BOOKMARK [0][-]{appendix.a.A}{}{}% 39
-\BOOKMARK [0][-]{appendix.a.A}{Bibliography}{}% 40
+\BOOKMARK [1][-]{section.3.3}{First Manual Application of FMEA on a SoC}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{Modeling Digital Systems for MBSA}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{Methodology}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.6}{Application: I2C to AHB bridge}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.7}{Results on the I2C to AHB System}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.8}{Second Proof of Concept 4BlocksSystem}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.9}{Discussion and Future Work}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Footnotes and Sidenotes}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{State of the Art}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{Methodology}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.4}{Test Case and Application}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.5}{Results and Future Work}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{Technical Analysis}{}% 31
+\BOOKMARK [1][-]{section.5.1}{LHC Detectors at CERN}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{Radiation Effects on CMOS Electronics}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.3}{Radiation-Tolerant Design}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.4}{Universal Verification Methodology}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.5}{Physical Implementation of Digital ICs}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.6}{The PicoRV32: System on Chip}{chapter.5}% 37
+\BOOKMARK [0][-]{chapter.6}{Enter Title Here}{}% 38
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 39
+\BOOKMARK [0][-]{section*.89}{Appendices}{}% 40
+\BOOKMARK [0][-]{appendix.a.A}{}{}% 41
+\BOOKMARK [0][-]{appendix.a.A}{Bibliography}{}% 42
