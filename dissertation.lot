@@ -3,14 +3,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{56}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{62}{table.3.2}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{63}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{67}{table.3.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{73}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{73}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Control Flow Driven Errors\relax }}{73}{table.4.3}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{78}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{78}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Control Flow Driven Errors\relax }}{78}{table.4.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces NMI signal descriptions\relax }}{94}{table.5.1}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces NMI signal descriptions\relax }}{99}{table.5.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
