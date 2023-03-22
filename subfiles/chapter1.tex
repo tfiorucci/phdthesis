@@ -252,7 +252,28 @@ FMEA is extremely efficient when it is applied to the analysis of elements that 
 \subsection{Relationships with Other Methods}
 FMEA (or FMECA) can be used alone. As a systematic inductive method of analysis, FMEA is most often used to complement other approaches, especially deductive ones. At the design stage, it is often difficult to decide whether the inductive or deductive approach is dominant, as both are combined in processes of thought and analysis. Where levels of risk are identified in industrial facilities and systems, the inductive approach is preferred and therefore FMEA is an essential design tool. However, it should be supplemented by other methods. This is particularly the case when problems need to be identified and solutions need to be found in situations where multiple failures and sequential effects need to be studied. The method used first will depend on the project programme.
 
-During the early design stages, where only functions, general system structure and subsystems have been defined, successful performance of the system can be depicted by a reliability block diagram or a failure path by a fault tree. However, to assist in drawing these diagrams
+During the initial phases of system design, which involve defining system functions, general structure, and subsystems, the successful performance of the system can be represented using a reliability block diagram or a fault tree that depicts a failure path. However, to assist in the creation of these diagrams for the system, it is recommended to apply the Failure Modes and Effects Analysis (FMEA) inductive process to the subsystems prior to their design. Under these circumstances, the FMEA approach cannot be a set procedure, but instead requires a thought process that is not easily expressed in a rigid tabular format. In general, for analyzing a complex system that involves multiple functions, numerous items, and interrelations between these items, FMEA proves to be essential but not sufficient. Fault Tree Analysis (FTA) is a complementary deductive method that traces the low-level causes of a postulated high-level failure. Although the logical analysis can be, and sometimes is, used for purely qualitative analysis of fault sequences, it is typically a precursor to estimating the frequency of the postulated high-level failure. FTA focuses on the logic of coincident (or sequential) and alternative events causing undesirable consequences. The FMEA format is more descriptive. Both methods are useful in conducting a full analysis for safety and reliability in a complex system. However, if the system primarily relies on series logic, with few redundancies and few functions, then FIA may be an unnecessarily complicated way of presenting the logic and identifying the failure modes. In such cases, FMEA may suffice.
+
+In other cases where FTA is preferred, it still needs to be enhanced with descriptions of the failure modes and effects. The main consideration in selecting the method of analysis should depend on the particular requirements of the project, not only with regard to technical requirements but also timescale, cost, efficiency, and usage of the results. General guidelines are as follows:
+
+\begin{enumerate}
+\item FMEA is appropriate when comprehensive knowledge of the failure characteristics of an item is required.
+\item FMEA is more appropriate for smaller systems, modules, or assemblies.
+\item FMEA is an essential tool at the research and development or design stage when unacceptable effects of failures need to be identified, and solutions found.
+\item FMEA can be necessary for items that are of innovative design so that their failure characteristics cannot be known from previous operational experience.
+\item FMEA is usually more applicable to items having large numbers of components to be considered that are related by predominantly series failure logic.
+\item FTA is generally more suitable for the analysis of single failure modes involving complex failure logic and redundancy. This would usually be so for the higher levels in the hierarchical structure of large systems or entire plants.
+\item FTA can be used at the higher levels in the system structure early in the design stage and can help in identifying the need for detailed FMEA at lower levels during detailed design.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
 
 \begin{figure}
         \includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_grid.png}
