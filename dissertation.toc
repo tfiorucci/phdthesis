@@ -42,77 +42,78 @@
 \contentsline {subsection}{\numberline {1.5.3}1:N Redundancy}{25}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Redundancy Improves Reliability}{26}{subsection.1.5.4}%
 \contentsline {chapter}{\numberline {2}ISO26262}{29}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Failure Mode and Effect Analysis FMEA}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{30}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}General}{30}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Purpose of the Analysis}{31}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Basic Principles of FMEA}{31}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Procedure}{32}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}General}{32}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Preparation}{33}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}FMEA principles}{33}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Analysis}{34}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Multiple Stages}{35}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Worksheet reccomendations}{35}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Report on Analisys}{36}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Application}{38}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Field of application}{38}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Application within a project}{38}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Uses of FMEA}{39}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Limitations and Drawbacks}{41}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Relationships with Other Methods}{42}{subsection.3.4.5}%
-\contentsline {part}{II\hspace {1em}Scientific Contributions}{48}{part.2}%
-\contentsline {chapter}{\numberline {4}Basic Hardware Components}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}State-of-the-Art}{51}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Probabilistic Methods in Digital Systems Safety}{51}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Formal Methods in Digital Systems Safety}{51}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Altarica}{52}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}First Manual Application of FMEA on a SoC}{53}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modeling Digital Systems for MBSA}{59}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Methodology}{60}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Faulty Behavior Model Construction}{61}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Completeness of Extraction}{62}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Altarica Modeling}{63}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Application: {\it I2C} to {\it AHB} bridge}{64}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}I2C Block Modeling}{64}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}AHB Block Modeling}{68}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Complete System Test Case}{69}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Results on the $I2C$ to $AHB$ System}{71}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Second Proof of Concept 4BlocksSystem}{72}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Discussion and Future Work}{72}{section.4.9}%
-\contentsline {chapter}{\numberline {5}Complex and $\mu $-Processor Bsed Systems}{73}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{73}{section.5.1}%
-\contentsline {section}{\numberline {5.2}State of the Art}{75}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Methodology}{76}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Setup}{77}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Fault Injection on Randomly Initialized Resources}{78}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Re-Composition of the basic blocks}{79}{subsection.5.3.3}%
-\contentsline {subsubsection}{Not modified Program Flow}{79}{subsubsection*.74}%
-\contentsline {subsubsection}{Modified Program Flow}{80}{subsubsection*.75}%
-\contentsline {section}{\numberline {5.4}Test Case and Application}{81}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}The Software}{81}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}The Division in Basic Block}{82}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}The Platform}{82}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}The Fault Injection Campaign}{83}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Results and Future Work}{83}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Technical Analysis}{85}{chapter.6}%
-\contentsline {section}{\numberline {6.1}LHC Detectors at CERN}{85}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Radiation Effects on CMOS Electronics}{90}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Cumulative Damages}{90}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Single-Event Effects}{91}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Radiation-Tolerant Design}{92}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Universal Verification Methodology}{94}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Physical Implementation of Digital ICs}{96}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Synthesis}{97}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Implementation}{98}{subsection.6.5.2}%
-\contentsline {section}{\numberline {6.6}The PicoRV32: System on Chip}{100}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Native Memory Interface}{102}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}AMBA APB Interface}{103}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}Enter Title Here}{106}{chapter.7}%
-\contentsline {part}{III\hspace {1em}Conclusions and Prospectives}{107}{part.3}%
-\contentsline {chapter}{\numberline {8}Footnotes and Sidenotes}{108}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Conclusion}{109}{chapter.9}%
-\contentsline {chapter}{Appendices}{110}{section*.89}%
-\contentsline {chapter}{\numberline {A}}{110}{appendix.a.A}%
-\contentsline {chapter}{Bibliography}{111}{appendix.a.A}%
+\contentsline {section}{\numberline {2.1}introduction}{29}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Failure Mode and Effect Analysis FMEA}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}General}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Purpose of the Analysis}{32}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Basic Principles of FMEA}{32}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Procedure}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}General}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Preparation}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}FMEA principles}{34}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Analysis}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Multiple Stages}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Worksheet reccomendations}{36}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Report on Analisys}{37}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Application}{39}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Field of application}{39}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Application within a project}{39}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Uses of FMEA}{40}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Limitations and Drawbacks}{42}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Relationships with Other Methods}{43}{subsection.3.4.5}%
+\contentsline {part}{II\hspace {1em}Scientific Contributions}{49}{part.2}%
+\contentsline {chapter}{\numberline {4}Basic Hardware Components}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}State-of-the-Art}{52}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Probabilistic Methods in Digital Systems Safety}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Formal Methods in Digital Systems Safety}{52}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Altarica}{53}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}First Manual Application of FMEA on a SoC}{54}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modeling Digital Systems for MBSA}{60}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Methodology}{61}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Faulty Behavior Model Construction}{62}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Completeness of Extraction}{63}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Altarica Modeling}{64}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Application: {\it I2C} to {\it AHB} bridge}{65}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}I2C Block Modeling}{65}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}AHB Block Modeling}{69}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Complete System Test Case}{70}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Results on the $I2C$ to $AHB$ System}{72}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Second Proof of Concept 4BlocksSystem}{73}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Discussion and Future Work}{73}{section.4.9}%
+\contentsline {chapter}{\numberline {5}Complex and $\mu $-Processor Bsed Systems}{74}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{74}{section.5.1}%
+\contentsline {section}{\numberline {5.2}State of the Art}{76}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Methodology}{77}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Setup}{78}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Fault Injection on Randomly Initialized Resources}{79}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Re-Composition of the basic blocks}{80}{subsection.5.3.3}%
+\contentsline {subsubsection}{Not modified Program Flow}{80}{subsubsection*.74}%
+\contentsline {subsubsection}{Modified Program Flow}{81}{subsubsection*.75}%
+\contentsline {section}{\numberline {5.4}Test Case and Application}{82}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}The Software}{82}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}The Division in Basic Block}{83}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}The Platform}{83}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}The Fault Injection Campaign}{84}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Results and Future Work}{84}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Technical Analysis}{86}{chapter.6}%
+\contentsline {section}{\numberline {6.1}LHC Detectors at CERN}{86}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Radiation Effects on CMOS Electronics}{91}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Cumulative Damages}{91}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Single-Event Effects}{92}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Radiation-Tolerant Design}{93}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Universal Verification Methodology}{95}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Physical Implementation of Digital ICs}{97}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Synthesis}{98}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Implementation}{99}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}The PicoRV32: System on Chip}{101}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Native Memory Interface}{103}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}AMBA APB Interface}{104}{subsection.6.6.2}%
+\contentsline {chapter}{\numberline {7}Enter Title Here}{107}{chapter.7}%
+\contentsline {part}{III\hspace {1em}Conclusions and Prospectives}{108}{part.3}%
+\contentsline {chapter}{\numberline {8}Footnotes and Sidenotes}{109}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Conclusion}{110}{chapter.9}%
+\contentsline {chapter}{Appendices}{111}{section*.89}%
+\contentsline {chapter}{\numberline {A}}{111}{appendix.a.A}%
+\contentsline {chapter}{Bibliography}{112}{appendix.a.A}%
