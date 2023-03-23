@@ -142,63 +142,6 @@
       \field{volume}{40}
       \field{year}{1999}
     \endentry
-    \entry{9153630}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{hash=f00baf63aae7779903670b68127a50b7}{%
-           family={{Austin}},
-           familyi={A\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=efbd9ce36e941ee7c7b0886612e98537}{%
-           family={{Mahadevan}},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=77cece20c2e4f238b76385b83283eda9}{%
-           family={{Witulski}},
-           familyi={W\bibinitperiod},
-           given={A.\bibnamedelimi F.},
-           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=f439aad4f6d7856eff111f4017408c9d}{%
-           family={{Karsai}},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=322d5f006aba0cd71c62ae88363c79ca}{%
-           family={{Sierawski}},
-           familyi={S\bibinitperiod},
-           given={B.\bibnamedelimi D.},
-           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=92c8bc02e487dde48fc6a7c129099804}{%
-           family={{Schrimpf}},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=cc8ef1923596dfbba84ff6e49aef6bd2}{%
-           family={{Reed}},
-           familyi={R\bibinitperiod},
-           given={R.\bibnamedelimi A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{f16585d81a64a49db92283682e909f29}
-      \strng{fullhash}{74e394be20defe7897e67bc99d7258fc}
-      \strng{bibnamehash}{f16585d81a64a49db92283682e909f29}
-      \strng{authorbibnamehash}{f16585d81a64a49db92283682e909f29}
-      \strng{authornamehash}{f16585d81a64a49db92283682e909f29}
-      \strng{authorfullhash}{74e394be20defe7897e67bc99d7258fc}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 Annual Reliability and Maintainability Symposium (RAMS)}
-      \field{title}{Automatic Fault Tree Generation from Radiation-Induced Fault Models}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 7}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/RAMS48030.2020.9153630
-      \endverb
-    \endentry
     \entry{Barney:2120661}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=f0a69598be56df97f8de1d33404c4720}{%
@@ -1168,63 +1111,6 @@
       \verb https://cds.cern.ch/record/1621894
       \endverb
     \endentry
-    \entry{SciPyProceedings_11}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=94707ad079516150870c2f9a2932df46}{%
-           family={Hagberg},
-           familyi={H\bibinitperiod},
-           given={Aric\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=12f80aa3aca50b90f024775e52dde170}{%
-           family={Schult},
-           familyi={S\bibinitperiod},
-           given={Daniel\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=58fb3a96810da0d56606677a3ce7e677}{%
-           family={Swart},
-           familyi={S\bibinitperiod},
-           given={Pieter\bibnamedelima J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=cfa3239dded54488f9a82a5718d5b927}{%
-           family={Varoquaux},
-           familyi={V\bibinitperiod},
-           given={Gaël},
-           giveni={G\bibinitperiod}}}%
-        {{hash=5d98f8482048dcc3052b092b91de894c}{%
-           family={Vaught},
-           familyi={V\bibinitperiod},
-           given={Travis},
-           giveni={T\bibinitperiod}}}%
-        {{hash=eca9aeefdc8563b0e153fbedf08bc1a1}{%
-           family={Millman},
-           familyi={M\bibinitperiod},
-           given={Jarrod},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Pasadena, CA USA}%
-      }
-      \strng{namehash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{fullhash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{bibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{authorbibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{authornamehash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{authorfullhash}{3a1b2e51fcffd45628935c7b6334f944}
-      \strng{editorbibnamehash}{5c6f569244b62f16c51830f1dac15458}
-      \strng{editornamehash}{5c6f569244b62f16c51830f1dac15458}
-      \strng{editorfullhash}{5c6f569244b62f16c51830f1dac15458}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 7th Python in Science Conference}
-      \field{title}{Exploring Network Structure, Dynamics, and Function using NetworkX}
-      \field{year}{2008}
-      \field{pages}{11\bibrangedash 15}
-      \range{pages}{5}
-    \endentry
     \entry{6560692}{inproceedings}{}
       \name{author}{8}{}{%
         {{hash=1ce6c3efeed1733c34f6e28a1efb6c90}{%
@@ -1999,43 +1885,6 @@
       \verb 10.1109/SERE.2012.10
       \endverb
     \endentry
-    \entry{tel-01119730}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=7b7c6bb300a83368308d1ffa6539cfa8}{%
-           family={Prosvirnova},
-           familyi={P\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Ecole Polytechnique}%
-      }
-      \strng{namehash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \strng{fullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \strng{bibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \strng{authorbibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \strng{authornamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \strng{authorfullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{title}{{AltaRica 3.0: Model-Based approach for Safety Analyses}}
-      \field{type}{Theses}
-      \field{year}{2014}
-      \verb{file}
-      \verb https://pastel.archives-ouvertes.fr/tel-01119730v1/file/main.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://pastel.archives-ouvertes.fr/tel-01119730
-      \endverb
-      \verb{url}
-      \verb https://pastel.archives-ouvertes.fr/tel-01119730
-      \endverb
-      \keyw{Safety ; Reliability ; Model-Based approach ; AltaRica ; approche orient{é}e mod{è}les ; Analyse du risque ; Fiabilit{é} ; S{û}ret{é} de Fonctionnement}
-    \endentry
     \entry{Prosvirnova}{article}{}
       \name{author}{1}{}{%
         {{hash=7b7c6bb300a83368308d1ffa6539cfa8}{%
@@ -2050,7 +1899,6 @@
       \strng{authorbibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
       \strng{authornamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
       \strng{authorfullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
-      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
@@ -2534,83 +2382,6 @@
       \field{title}{Examining ACE analysis reliability estimates using fault-injection}
       \field{volume}{35}
       \field{year}{2007}
-    \endentry
-    \entry{9172762}{inproceedings}{}
-      \name{author}{11}{}{%
-        {{hash=b928dbe5ef69aed5bb9310f77782f5f9}{%
-           family={{Witulski}},
-           familyi={W\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f439aad4f6d7856eff111f4017408c9d}{%
-           family={{Karsai}},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=efbd9ce36e941ee7c7b0886612e98537}{%
-           family={{Mahadevan}},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=5eb31c08683dc76688caa5a3146f7b57}{%
-           family={{Austin}},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=de11f2295a3836e0cfe000f0a8e69be1}{%
-           family={{Schrimpf}},
-           familyi={S\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=06d0a106e01a5ed5d2b8463b38b54a56}{%
-           family={{Sierawski}},
-           familyi={S\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=39b4ef1b9dbf22ca0f081747291a9e1b}{%
-           family={{Reed}},
-           familyi={R\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=39dbef0aea31a3fe58138cc5e8ebfbde}{%
-           family={{Pellish}},
-           familyi={P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=dc8aa8f42f66fb4c789264b43f1838ff}{%
-           family={{Campola}},
-           familyi={C\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0aab1a186e4d45caab2cd3ac22a9957d}{%
-           family={{Evans}},
-           familyi={E\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9b51ae214f3b493338d19b1f5db7af2b}{%
-           family={{Majewicz}},
-           familyi={M\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{05454b81cdc4bf7d1e219885407a476c}
-      \strng{fullhash}{1a39b53323229036f5fb1e9c3d55b9a5}
-      \strng{bibnamehash}{05454b81cdc4bf7d1e219885407a476c}
-      \strng{authorbibnamehash}{05454b81cdc4bf7d1e219885407a476c}
-      \strng{authornamehash}{05454b81cdc4bf7d1e219885407a476c}
-      \strng{authorfullhash}{1a39b53323229036f5fb1e9c3d55b9a5}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 IEEE Aerospace Conference}
-      \field{title}{Development of a Flight-Program-Ready Radiation Model-Based Assurance Platform}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 8}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/AERO47225.2020.9172762
-      \endverb
     \endentry
     \entry{FIDES_fault_tree}{inproceedings}{}
       \name{author}{2}{}{%

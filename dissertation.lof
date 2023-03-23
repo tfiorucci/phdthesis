@@ -1,70 +1,71 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The observed record of yearly averaged sunspot numbers \cite {bib2}\relax }}{3}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Measured values of solar 10.7 cm radio flux \cite {bib2}\relax }}{3}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Abundances of GCR up through Z = 28\relax }}{5}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces GCR energy spectra for protons, helium, oxygen and iron during solar maximum and solar minimum conditions\relax }}{6}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Integral LET spectra for GCR during solar maximum and solar minimum\relax }}{6}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Magnetosphere with respect to Radiation Belts \cite {bib2}\relax }}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Dipolar magnetic field tilted and off-center with respect to Earth. \cite {bib2}\relax }}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Composition of a charged particle's three periodic movements: gyration, bounce and drift. The particle then follows a torus surface called a drift shell. \cite {bib2}\relax }}{10}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Proton radiation belt \cite {bib2}\relax }}{11}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Electron radiation belt. \cite {bib2}\relax }}{12}{figure.caption.20}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Changes in the proton fluxes at low altitudes (bottom), in the cosmic radiation (middle) and atmospheric densities (top) as a function of the solar cycle. \cite {bib2}\relax }}{13}{figure.caption.23}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Electron fluxes at geostationary orbit as a function of the solar cycle. \cite {bib2}\relax }}{14}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{14}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Radiaton-Induced energy\relax }}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Latch-up Diagram\relax }}{21}{figure.caption.37}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Cold Standby scheme \relax }}{22}{figure.caption.39}%
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Hot Standby Schema\relax }}{23}{figure.caption.41}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces DMR scheme\relax }}{24}{figure.caption.43}%
-\contentsline {figure}{\numberline {1.19}{\ignorespaces TMR Schema\relax }}{24}{figure.caption.45}%
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{25}{figure.caption.47}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The observed record of yearly averaged sunspot numbers \cite {bib2}\relax }}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Measured values of solar 10.7 cm radio flux \cite {bib2}\relax }}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Abundances of GCR up through Z = 28\relax }}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces GCR energy spectra for protons, helium, oxygen and iron during solar maximum and solar minimum conditions\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Integral LET spectra for GCR during solar maximum and solar minimum\relax }}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Magnetosphere with respect to Radiation Belts \cite {bib2}\relax }}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Dipolar magnetic field tilted and off-center with respect to Earth. \cite {bib2}\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Composition of a charged particle's three periodic movements: gyration, bounce and drift. The particle then follows a torus surface called a drift shell. \cite {bib2}\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Proton radiation belt \cite {bib2}\relax }}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Electron radiation belt. \cite {bib2}\relax }}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Changes in the proton fluxes at low altitudes (bottom), in the cosmic radiation (middle) and atmospheric densities (top) as a function of the solar cycle. \cite {bib2}\relax }}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Electron fluxes at geostationary orbit as a function of the solar cycle. \cite {bib2}\relax }}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Radiaton-Induced energy\relax }}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Latch-up Diagram\relax }}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Cold Standby scheme \relax }}{23}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Hot Standby Schema\relax }}{24}{figure.caption.41}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces DMR scheme\relax }}{25}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces TMR Schema\relax }}{25}{figure.caption.45}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Example of Proton Scattering \cite {bib1}\relax }}{26}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of FMEA Table\relax }}{35}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Criticality Grid\relax }}{35}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Criticality Grid\relax }}{42}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Criticality Grid\relax }}{43}{figure.caption.51}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Criticality Grid\relax }}{44}{figure.caption.52}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces FMEA Criticality Matrix\relax }}{45}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Altarica Dataflow Model\relax }}{48}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Altarica Dataflow Model\relax }}{50}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \centering RTL Description of SCR1\relax }}{52}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \centering Inputs to the SoC\relax }}{53}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \centering Detailed reconstruction of block model\relax }}{54}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \centering Classic FMEA Worksheet layout\relax }}{54}{figure.caption.59}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \centering Classic FMEA Worksheet of SCR1\relax }}{56}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{60}{figure.caption.61}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \centering Completeness of the Extraction\relax }}{61}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces I2C to AHB System Block Diagram\relax }}{62}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces I2C/AHB System Model\relax }}{63}{figure.caption.64}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces I2C Gold Automaton\relax }}{63}{figure.caption.65}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces I2C Complete Automaton\relax }}{64}{figure.caption.66}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces I2C Complete Automaton Clusterized\relax }}{64}{figure.caption.67}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces AHB Complete Automaton Clusterized\relax }}{65}{figure.caption.68}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Extracted FSM for the I2C Block\relax }}{66}{figure.caption.69}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces I2C to AHB System Model\relax }}{67}{figure.caption.70}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces I2C Block Model\relax }}{68}{figure.caption.71}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces AHB Block Model\relax }}{68}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of FMEA Table\relax }}{37}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Criticality Grid\relax }}{37}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Criticality Grid\relax }}{44}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Criticality Grid\relax }}{45}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Criticality Grid\relax }}{46}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces FMEA Criticality Matrix\relax }}{47}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{79}{figure.caption.73}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{79}{figure.caption.74}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{84}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Altarica Dataflow Model\relax }}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \centering RTL Description of SCR1\relax }}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \centering Inputs to the SoC\relax }}{55}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \centering Detailed reconstruction of block model\relax }}{56}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \centering Classic FMEA Worksheet layout\relax }}{56}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \centering Classic FMEA Worksheet of SCR1\relax }}{58}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \centering Altarica Dysfunctional Model\relax }}{62}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \centering Completeness of the Extraction\relax }}{63}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces I2C to AHB System Block Diagram\relax }}{64}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces I2C/AHB System Model\relax }}{65}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces I2C Gold Automaton\relax }}{65}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces I2C Complete Automaton\relax }}{66}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces I2C Complete Automaton Clusterized\relax }}{66}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces AHB Complete Automaton Clusterized\relax }}{67}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Extracted FSM for the I2C Block\relax }}{68}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces I2C to AHB System Model\relax }}{69}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces I2C Block Model\relax }}{70}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces AHB Block Model\relax }}{70}{figure.caption.71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Shows the complete network of used accelerators at CERN (Courtesy of \cite {Haffner:1621894}).\relax }}{87}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows the layout of the CMS detector \cite {CMSdetector}.\relax }}{89}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Shows the movement of different particles in the CMS detector \cite {Barney:2120661}.\relax }}{90}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Shows expected total ionizing dose in \si {Gy} during a 10-year operation period of the CMS. This is simulated using FLUKA. \cite {cms_tdr}\relax }}{90}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Shows a spatial radiation hardening technique using triple module redundancy.\relax }}{93}{figure.caption.82}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Shows a temporal radiation hardening technique where clock signals are delayed.\relax }}{94}{figure.caption.83}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Shows the complete hierarchy of the UVM structure laid out by Accellera.\relax }}{95}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Shows the UVM components in a UVM agent and its connection to other components.\relax }}{96}{figure.caption.85}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Shows the post-synthesis power and area comparison of an Ibex, Rocket, and PicoRV32 core.\relax }}{102}{figure.caption.86}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{103}{figure.caption.87}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{105}{figure.caption.88}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{105}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{78}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{78}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Block Diagram of the Entire SW Product\relax }}{83}{figure.caption.76}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Shows the complete network of used accelerators at CERN (Courtesy of \cite {Haffner:1621894}).\relax }}{86}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Shows the layout of the CMS detector \cite {CMSdetector}.\relax }}{88}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Shows the movement of different particles in the CMS detector \cite {Barney:2120661}.\relax }}{89}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Shows expected total ionizing dose in \si {Gy} during a 10-year operation period of the CMS. This is simulated using FLUKA. \cite {cms_tdr}\relax }}{89}{figure.caption.80}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Shows a spatial radiation hardening technique using triple module redundancy.\relax }}{92}{figure.caption.81}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Shows a temporal radiation hardening technique where clock signals are delayed.\relax }}{93}{figure.caption.82}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Shows the complete hierarchy of the UVM structure laid out by Accellera.\relax }}{94}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Shows the UVM components in a UVM agent and its connection to other components.\relax }}{95}{figure.caption.84}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Shows the post-synthesis power and area comparison of an Ibex, Rocket, and PicoRV32 core.\relax }}{101}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{102}{figure.caption.86}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{104}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{104}{figure.caption.88}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

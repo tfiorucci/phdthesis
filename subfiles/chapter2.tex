@@ -1,5 +1,7 @@
 \documentclass[./dissertation.tex]{subfiles}
-\chapter{Hardware Contribution}
+
+\part{Scientific Contributions}
+\chapter{Basic Hardware Components}
 \section{Introduction}
 In the context of new applications for autonomous mobility, digital components a required to reach high levels of functional safety performances. This level of assurance is necessary to supply safely the computational power and advanced processing required by those applications. It is therefore necessary for digital SoCs safety engineers to be able to demonstrate thru advanced provable methods the achieved reliability of their system and counter measures.
 %Safety is also included in components requirements. Issues around implemented functionalities require high level of reliability. Applications don’t tolerate any errors. 
@@ -14,15 +16,6 @@ An effective solution consists in submitting the system to faults, by simulation
 In this work, we aim to assess the capability of Model-Based Safety Assessment methods to build the dysfunctional model of a digital SoC from its subsystems and perform the currently hand-made FMEDA of the full system automatically. We expect the methods to be able to quantify globally the system safety metrics more accurately than with hand-made spreadsheets which only basically multiply probabilities. Automatic failure analysis such as fault trees extraction, fault sequences leading to unwanted events are also expected to be of great help during the certification process. The problem to solve is then to extract and build the required dysfunctional models of the different subsystems of the SoC and to properly expose the failure modes  in the constructed models to be able to use existing model composition frameworks.
 
 %. MBSA describes architecture at system level and implement a failure propagation model. Model exploitation algorithms allow deducing combinations of failures leading to feared events and quantifying effects apparition probabilities. 
-
-
-Attempts have already been put in practice on rather simple systems, relying on a human based library of components describing possible malfunction \cite{9153630} \cite{9172762}. However, such models are far from the complete dysfunctional model specifications and  only macroscopic failures are considered, thus not leaving space to unexplored combination values in registers that may lead to unexpected faulty states and behaviours. For example, a 0 to 4 counter, which needs a 3-bit state register, may go out of it functional range in case of a bit flip. The state "$1-0-1$", in Fig.\ref{counter}, is a non-explored and not explicitly declared state. It may occur due to a faulty combination of values in the flip-flops storing the state.
-
-\input{subfiles/ticks/counter.tex}
-
-Exploring non-functional states in a digital system is far from human encompassing capabilities, even for systems with a small number of flip-flops. The approach proposed in this paper aims at filling the gap between digital IP behavioral model and generation of a dysfunctional model for FMEA evaluation, providing a model that can be used in a MBSA framework, thus, targeting safety assessment of the full system from its individual IPs. In this work we target tools based on the Altarica safety modeling language\cite{tel-01119730}.
-
-In the proposed approach, digital fault injection, in the form of bit-flip, stuck-at and transient faults, is used to extract the non-functional behavior of the studied digital block from its functional model. The extraction of those data allows building a failure model that includes the propagation of errors to and from inputs and outputs, thus enabling structural composition. We show that it is possible to extract a failure model in the form of a state machine describing the faulty behavior with scalable level of details and ensuring the fault propagation to (resp. from)  outputs (resp. inputs).
 
 The document is organized as follow: we first present the system used as example and how fault injection is used to expose dysfunctional behaviors and extract a model. The chosen approach is then detailed reminding generic principles before explaining specific mechanisms put in place to model digital system. Finally, the document details fault injection campaign post-processing methods and obtained results. We compare composition results with fault injection performed on the full system used as a reference.
 
@@ -353,7 +346,6 @@ The AltaRica structural model architecture follows the natural hierarchy of the 
     \caption{AHB Block Model}
     \label{fig:ahbaps}
 \end{figure}
-
 The first element is the {\it functional} state machine of the module. In case of internal or external fault, this state machine will dispatch the fault to the impacted outputs. This state machine only model the internal faults propagation and do not generate any random failure on its own. The second element is the {\it internal failure} state machine. This state machine generate internal random failures and provide to the functional state machine the outputs impacted by it. 
 In addition, the AHB module include an additional glue-logic block that converts I2C output signals to AHB bridge input signals. No internal failure are generated by this element. 
 At both end of the I2C and AHB blocks, links module have been added to model the faults coming from outside of the system. To model the behavior of the I2C and AHB system, only standalone block fault injection test results have been used.
@@ -365,84 +357,6 @@ The second metrics is the probability to propagate a failure from an input of th
 SimfiaNeo allows to perform Monte-Carlo simulation. In this type of simulation, a large number of failure scenarios are generated to assess the mean behavior of the system under random failure scenarios. 
 The first possible assessment randomly injected one failure by failure scenario inside the system while the outputs are monitored. If at least one output triggers a faulty state, the error is accounted to have been propagated outside of the system. With this methodology, it’s possible to estimate the probability to have a failure propagation from the I2C+AHB system to the I2C or AHB external signals. 
 The second possible assessment randomly injected one failure by failure scenario in a link module and monitored the other link module. If the opposite link module triggers a faulty state, the error is accounted to have been propagated from one end to another. With this methodology, it is possible to estimate the probability to have a failure propagation from AHB or I2C back to the other link.
-
-
-\section{Application}
-\label{application}
-In this section, we apply the methodology presented in section MISSINGREF to the two blocks of our test case one after the other, constructing a failure model for each one.
-
-\subsection{Identification and Extraction of Faulty States}
-\label{application-identification_faulty_states}
-As stated in section MISSINGREF, all digital systems can be represented as a finite state automaton, where the state is composed by all the flips-flops of the system, whether they maintain a control or data state. In this approach we consider, in a first approach, only control states with the following justification: faults (bit-flip) in datapath may not propagate in control states nor even create a faulty control state. Therefore faults in data states (that is flip-flops) will not lead to faulty behavior unless some data states are transformed directly into control states and encoding is sparse (some data states do not correspond to any control state and will therefore result in faulty state unless handled explicitly handled by a {\it default} case in the design).
-
-On our example, analysis is performed at the RTL level, and the (signals composing the) state have been identified easily considering the small size of the design. As the I2C protocol makes use of a serial line, data states and control states are merged when they can't be completely differentiated. On the AHB interface block, data states are excluded as no path exists from a data signal to a control signal (the reverse being obviously not true). 
-
-
-From a general perspective, analysis should be performed at the gate netlist level to ensure correct extraction of the control and data states with the drawback of slower fault simulation. Also data states can be pruned from the whole state using graph netlist forward (from data input) and backward (from data output) propagation algorithms. However, fault injection tools operating at the RTL level such as FSV \cite{ICM} and ZOIX \cite{zoix} do perform a pre-synthesis step to identify potential injection sites, that is flip-flops.
-
-Once signals composing the state of a block have been identified, using a standalone testbench which can be derived from verification ones, a golden run is performed and golden states and transitions are recorded at each clock cycle. Such states and transitions are referred as \textit{legal} composing the \textit{non-faulty} or \textit{golden} behaviour. Results for I2C and AHB blocks are reported in table MISSINGREF. The golden state automaton for the I2C is represented on figure MISSINGREF.
-
-\subsection{Fault Injection Campaign Setup}
-The next step in the methodology is fault injection. It is performed using Cadence fault injection tool \textit{ FSV} \cite{ICM}. Once fault injection sites are automatically identified from the RTL description, fault injection is performed and 400 faults are injected per identified site using a custom pre-generated fault dictionary, including a random injection time. An in-house tool build on top of the \textit{GSL} \cite{GSL} has been developed for this purpose. Such number is statistically significant enough \cite{5090716} without compromising fault injection campaign running time. Faults are also injected on inputs to take into effect of faults propagated from other blocks during composition. Also, fault probes are set on the outputs to record injected faults that will propagate to other blocks. For each fault injection run, states are recorded to identify new states and transitions that appear as a consequence of the injected faults. The new discovered states and transitions are referred as \textit{illegal} or \textit{faulty}.
-
-In our modeling approach, we are interested only in states and transitions and we omit executions paths that are the ordered list of transitions traversed during a golden or fault run, even though it is available from the extracted data. The reason is that the faulty behaviour modelling strategy targeted, based on the Altarica language, doesn't requires such information. Thus only new faulty discovered states and transitions are extracted from execution runs and faults leading to an illegal execution path (list of traversed transitions) containing only {\it legal} states and transitions will not be reported as a faulty behavior unless an incorrect output is reported during simulation.
-
-%The IP itself has then been modified and made capable to dump the status of all these signals in the standard output, then redirected by the simulator itself into a logfile.
-In order to achieve this status during the nominal execution of the testbench, the IP has been modified, adding dedicated code to write, into a log file, the state vector that includes all the selected control signals. This allows to have a real time, event driven, transition set in between the different combinations of the observed signals. The created log file will be crucial to the rest of the procedure, that will take it as input.
-%\hl{removed: It also detaches the logging procedure from the simulator/fault injection tool of choice, that will only perform its standard routines}. 
-
-
-\subsection{Faulty Behavior Extraction}
-Once the raw data have been dumped by the simulator in the log files (for a total of 12000 files equal to 400 faults $\times$ 30 flip-flops for the I2C and 42000 files equal to 400 faults $\times$ 105 flip-flops for the AHB), it is necessary to extract the values of the signals composing the state, records them and keep trace of all transitions. In order to complete this task, a python script using the {\it NetworkX} library \cite{SciPyProceedings_11} has been written to create a dictionary containing all the different states and their occurrence count, as well as another dictionary with all the transitions, to perform statistics and extract the faulty behavior model.
-
-%% BEGIN JMD
-
-An example of raw log is given on listing MISSINGREF. States and transitions extraction from the logs is straightforward and requires only one pass per log file. An example of extracted fault behavior is represented on figure MISSINGREF for one flip-flop. Extracted automaton characteristics are reported on table MISSINGREF.
-
-
-\begin{table}[]
-\begin{tabular}{@{}lllll@{}}
-\toprule
-                          & I2C Write & \multicolumn{1}{c}{I2C Read} & \multicolumn{1}{c}{AHB} & \multicolumn{1}{c}{I2C + AHB} \\ \midrule
-State width (FF in State) & 19        & 19                           & 38                      & 19+38                         \\
-Fault Site (i.e. FF)      & 30        & 30                           & 105                     & 133                           \\
-\#Faults per FF           & \multicolumn{4}{l}{400}                                                                            \\
-Total Injected Faults     & 12000     & 12000                        & 42000                   & 53200                         \\
-Nominal States            & 36        & 36                           & 10                      & 55 (44+11)                    \\
-Nominal Tranasitions      & 71        & 71                           & 18                      & 108 (90+18)                   \\
-Faulty States             & 20        & 53                           & 15                      & 156 (95+51)                   \\
-Faulty Transitions        & 39        & 144                          & 45                      & 302 (213+89)                  \\
-Faults to Output          & 34        & 147                          & 19934                   & 23496                         \\
-Flow Through Faults       & 3         & 0                            & 11900                   & 14900                         \\
-Simulation Timeouts       & 11967     & 231                          & 0                       & 0                             \\ \bottomrule
-\end{tabular}
-\end{table}
-
-\begin{lstlisting}[]
-\caption{Raw log from I2C FSM extraction}
-\label{lst:rawlog}
-\begin{minted}{bash}
- --- Testing repeated reads ---
-out:0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
-out:0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
-\end{minted}
-\end{lstlisting}
-
-Once the golden and faulty states and transitions have been extracted from the logs, the failure model can be built by collapsing states and transitions into the desired ones for the model. The raw faulty automaton (before node collapsing) for the I2C block is partially represented on figure MISSINGREF where legal states and transitions are represented in green and illegal ones in red. 
-
-
-\subsection{Faulty Behavior Model Construction}
-\label{FBMC}
-Once the faulty behavior has been extracted from faulty runs, the faulty model can be constructed using graph analysis algorithms. The first step in the model construction is collapsing states that are not meaningful for the dysfunctional model. We proceed currently with the following rules:
-\begin{itemize}
-    \item any component (connected subgraph) comprising only legal states and legal transitions are collapsed into one single \textit{functional} state.
-    \item legal states with illegal transitions or incorrect output (output value do differs from reference in these states) are kept and illegal transition probabilities are attached.
-    \item any component comprising only nodes not propagating any fault to output are collapsed into one single {\it faulty} state. Probabilities to enter this state can be extracted from transitions leading to the collapsed states.
-    \item faulty nodes propagating faults to outputs are kept and transition probabilities are attached to allow computing incorrect output probabilities.
-    \item Effect (\textit{E} of \textit{FM\textbf{E}A}) attached to output pins are back propagated in the state graph faulty states where output corruption occurs.
-\end{itemize}
-However additional rules may be added like to remove faulty nodes and transitions from masked faults for example, especially those not leading to any latent faults (execution is correct with no faults propagated to outputs and internal state doesn't differs from reference one at some point, i.e. fault has \textit{vanished}). We ultimately target discrete-time Markov chain \cite{lec3_dtmc_p1} for our dysfunctional behaviour modelling.
-
 
 \section{Results on the $I2C$ to $AHB$ System}
 Result of composition obtained by SimfiaNeo are compared to fault injection performed on the full system with probes set only on external outputs of the system on table \ref{results_ahb_i2c} for the I2C and AHB side signal. Because the system is simple and faults propagate only forward, it came to simple probability multiplication explaining exact matching of model and system fault injection. No back-propagating faults were observed.
