@@ -303,4 +303,262 @@ In other cases where FTA is preferred, it still needs to be enhanced with descri
   \label{fig:criticality_matrix}
 \end{figure}
 
+
+\section{Supplementary Information}
+\subsection{Establishment of Ground Rules}
+\subsubsection{Levels of Analysis}
+
+It is important to determine the level in the system that will be used for the analysis. For example, systems can be broken down into subsystems, replaceable units, or individual components (see figure 2). Basic principles for selecting the system levels for analysis depend on the results desired and the availability of design information. The following guidelines are useful.
+
+\begin{enumerate}
+\item The highest level within the system is selected from the design concept and specified output requirements.
+\item The lowest level within the system at which the analysis is effective is that level for which information is available to establish definition and description of functions. The appropriate system level is influenced by previous experience. Less detailed analysis may be justified for a system based on a mature design, with good reliability, maintainability and safety record. Conversely, greater detail and a correspondingly lower system level is indicated for any newly designed system or a system with unknown reliability history.
+\item The specified or intended maintenance and repair level may be a valuable guide in determining lower system levels.
+\end{enumerate}
+
+
+
+
+
+
+\subsection{Failure Modes}
+Successful operation of a given system is subject to the performance of certain critical system elements. The key to evaluation of system performance is the identification of critical elements. The procedures for identifying failure modes, their causes, and effects can be effectively enhanced by the preparation of a list of failure modes anticipated in the light of the following:
+
+\begin{enumerate}
+\item The usage of the system;
+\item The particular system element involved;
+\item The mode of operation;
+\item The pertinent operational specifications;
+\item The time constraints;
+\item The environment.
+\end{enumerate}
+
+In the FMEA, the definitions of failure modes, failure causes, and failure effects depend on the level of analysis. As the analysis progresses, the failure effects identified at the lower level may become failure modes at the higher level. Similarly, the failure modes at the lower level may become the failure causes at the higher level, and so on. A list of general failure modes is given in Table 1. Virtually every type of failure mode can be classified into one or more of these categories. However, these general failure mode categories are too broad in scope for definitive analysis; consequently, the list needs to be expanded to make the categories more specific as shown in Table 2. Failure modes such as those listed in Table 2 can describe the failure of any system element in sufficiently specific terms. When used in conjunction with performance specifications governing the inputs and outputs on the reliability block diagram, all potential failure modes can be identified and described. It should be noted that a given failure mode may have several causes.
+
+\begin{table}[H]
+\centering
+\caption{Example set of general failure modes}
+\label{tab:failure-modes}
+\begin{tabular}{ll}
+\hline
+\textbf{Mode} & \textbf{Description} \\
+\hline
+1 & Failure during operation \\
+\hline
+2 & Failure to operate at a prescribed time \\
+\hline
+3 & Failure to cease operation at a prescribed time \\
+\hline
+4 & Premature operation \\
+\hline
+\end{tabular}
+\end{table}
+
+It is important that evaluation of all items within the system boundaries at the lowest practicable level is undertaken to identify all potential failure modes. Investigation to determine possible failure causes and also failure effects on subsystem and system function can then be undertaken. Item or equipment suppliers should identify the potential item failure modes within their products. To assist this function, typical failure mode data can be sought from the following areas:
+
+\begin{enumerate}
+\item For new items, reference can be made to other items with similar function and structure and to the results of tests performed on them under appropriate stress levels.
+\item For items in use, in-service records and failure data may be consulted.
+\item Potential failure modes can be deduced from functional and physical parameters typical of the operation of the item.
+\end{enumerate}
+
+It is important that item failure modes are not omitted for lack of data and that initial estimates are improved by test results and design progression. The FMEA should record the status of such estimates.
+
+The identification of failure modes and, where necessary, the determination of remedial design actions, preventative quality assurance actions, or preventative maintenance actions is of prime importance. It is more important to identify and, if possible, design out modes than to know their rate of occurrence. When it is difficult to assign priorities, criticality analysis may be required.
+
+
+
+
+
+
+\subsection{Failure Causes}
+The possible causes associated with each possible failure mode should be identified and described. The causes of each failure mode are identified in order to estimate its probability of occurrence, to uncover secondary effects, and to devise recommended corrective action. Since a failure mode can have more than one cause, all potential independent causes for each failure mode need to be identified and described. The failure causes within the adjacent system levels should also be considered. The list given in Table B illustrates how a more specific definition of failure causes can be developed.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\begin{tabular}{@{}llll@{}}
+\toprule
+\multicolumn{4}{l}{Example of an expanded tist of failure modes}                                                                                      \\ \midrule
+1                          & Cracked/fractured                                 & 21                       & Binding/jamming                           \\
+2                          & Distorted                                         & 22                       & Loose                                     \\
+3                          & Undersize                                         & 23                       & Incorrect Adjusment                       \\
+4                          & Oversize                                          & 24                       & Seized                                    \\
+5                          & Fails to open                                     & 25                       & Worn                                      \\
+6                          & Fails to close                                    & 26                       & Sticking                                  \\
+7                          & Fail open                                         & 27                       & Overheated                                \\
+8                          & Failed closed                                     & 28                       & False response                            \\
+9                          & Internal leakage                                  & 29                       & Displaced                                 \\
+10                         & External Leakage                                  & 30                       & Delayed operation                         \\
+11                         & Fails to stop                                     & 31                       & Burned                                    \\
+12                         & Fails to Start                                    & 32                       & Collapsed                                 \\
+13                         & Corroded                                          & 33                       & Overloaded                                \\
+14                         & Contaminated                                      & 34                       & Omitted                                   \\
+15                         & Intermittent operation                            & 35                       & Incorrect assembly                        \\
+16                         & Open circuit                                      & 36                       & Scored                                    \\
+17                         & Short circuit                                     & 37                       & Noisy                                     \\
+18                         & Out of tolerance (drifted)                        & 38                       & Arcing                                    \\
+19                         & Fails to operate                                  & 39                       & Unstable                                  \\
+20                         & Operates prematurely                              & 40                       & Chafed                                    \\
+\multicolumn{4}{l}{\begin{tabular}[c]{@{}l@{}}NOTE: This list in an example only. The modes contained in the list\\  cannot be applied to all items and the list is not exhaustive\end{tabular}} \\ \bottomrule
+
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[H]
+\centering
+\caption{Possible failure causes}
+\label{tab:failure-causes2}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Type} & \textbf{Examples} \\
+\hline
+Specification & Omitted statements, Erroneous statements, Support system failure \\
+\hline
+Design & Misapplication, Design error, Design omission, Support equipment failure \\
+\hline
+Manufacture & Omitted action, Erroneous action, Procedural error, Manufacturing equipment failure \\
+\hline
+Installation & Omitted action, Erroneous action, Procedural error, Installation equipment failure \\
+\hline
+Operation & Omitted action, Erroneous action, Procedural error, Off-line equipment failure \\
+\hline
+Maintenance & Omitted action, Erroneous action, Procedural error, Maintenance equipment failure \\
+\hline
+Environment & Temperature, Humidity, Vibration, Corrosion, Uncontrollable forces, Fire, Flood, Earthquake, Explosion \\
+\hline
+\end{tabular}
+\end{table}
+
+Note: This table is an example only. Different types and examples of failure causes may be required for different systems.
+
+
+\subsection{Common-Cause (Common Mode) Failures}
+In a reliability analysis, it is not sufficient to consider only random and independent failures. Some 'common-cause' (or 'common mode') failures (CCF) can occur that cause system performance degradation or failure through simultaneous deficiency in several system components, due to a single source such as design error or human error. A CCF is the result of an event that, because of logical dependencies, causes a coincidence of failure states in two or more components (excluding secondary failures caused by the effects of a primary failure).
+
+CCFs can be analyzed qualitatively using FMEA. As FMEA is a procedure to examine successively each failure mode and associated causes and also to identify all periodic tests, preventative maintenance measures, etc., it makes possible a study of all the causes which can induce potential CCF.
+
+A check list developed from Table 3 may be used to identify in a detailed manner all possible causes which may induce CCF. A combination of several methods is useful in dealing with these failures: functional diversity, redundancies of different types, physical separation, tests, etc. Check lists, as above, may be used to examine the relevance and effectiveness of each method. The examination of preventative measures against CCF is usually considered to be outside the scope of FMEA, but this need not be the case.
+
+\subsection{Human Factors}
+Some systems have to be designed to cater for some human error, for example by providing mechanical interlocks on railway signals, and passwords for computer usage or data retrieval. Where such provisions exist in a system, the effect of failure of the provisions will depend on the type of error. Some modes of human error should also be considered for an otherwise fault-free system, to check the effectiveness of the provisions. Although incomplete, even a partial listing of these modes is beneficial for the identification of design and procedural deficiencies; the identification of all possible forms of human error would probably be impossible.
+
+Many CCFs involve human factors. For example, incorrect maintenance of similar items can negate redundancy. To avoid this, material diversity in redundant elements is often introduced.
+
+\subsection{Software Errors}
+Malfunctions due to software errors or inadequacies will have effects whose significance will be determined by both hardware and software design. The postulation of such errors or inadequacies and the analysis of their effects is possible only to a limited extent. The effects upon associated hardware of possible errors in software may be estimated and the provision of fall-back arrangements either in software or hardware is often suggested by such analysis.
+
+\subsection{Failure Detection Methods}
+The methods for detection of the failure mode should be described. Failure modes other than the one being considered which give rise to an identical manifestation should be analyzed and listed. The need for separate detection of failure of redundant elements during operation should be considered.
+
+\subsection{Failure Effects}
+\subsubsection{General}
+A failure effect is the consequence of a failure mode in terms of the operation, function or status of a system (see 1.2.1). A failure effect may be caused by one or more failure modes of one or more items.
+
+The consequences of each failure mode on system element operation, function, or status need to be identified, evaluated and recorded. Maintenance, preventive or corrective action to be taken in each case should be identified.
+
+MISSING TABLE PAG 17
+
+MISSING TABLE PAG 18
+
+\section{1.9 Consequences of System Failure}
+
+A system FMEA can be conducted independently, without referencing a specific application, and later adapted for project use. This is applicable to small assemblies, which can be considered as generic components (e.g., electronic amplifiers, electric motors, mechanical valves). However, it is more common to develop a project-specific FMEA and consider the particular consequences of system failure. It might be necessary to categorize the effects of failure on the system based on the consequences, such as fail-safe, fail-danger, repairable failure, non-repairable failure, mission degraded, mission failed, and effects on individuals, groups, or society in general.
+
+The need to connect an FMEA to the ultimate consequence of system failure depends on the project and the relationship between the FMEA and other forms of analysis, such as fault trees.
+
+\subsection{2.4.2 Information Required}
+
+\subsubsection{2.4.2.1 General}
+
+Company management should be aware that the success of FMEA (and FMECA) relies on the unrestricted availability of all relevant information to analysts and the active cooperation of the designer. Information in categories listed from 2.4.2.2 to 2.4.2.11 needs to be obtained.
+
+\subsubsection{2.4.2.2 System Structure}
+
+Information on system structure should include the following items:
+
+\begin{enumerate}
+\item[(a)] Different system elements with their characteristics, performances, roles, and functions;
+\item[(b)] Logical connections between elements;
+\item[(c)] Redundancy level and nature of the redundancies;
+\item[(d)] Position and importance of the system within the whole facility (if possible);
+\item[(e)] Inputs and outputs of the system;
+\item[(f)] Changes in system structure for varying operational modes.
+\end{enumerate}
+
+Data related to functions, characteristics, and performances are required for all levels considered, up to the highest level.
+
+\subsubsection{2.4.2.3 System Initiation, Operation, Control, and Maintenance}
+
+The status of different operating conditions of the system should be specified, as well as the changes in the configuration or position of the system and its components during different operational phases. The minimum performances demanded of the system should be defined so that success and/or failure criteria can be clearly understood. Specific requirements, such as availability or safety, should be considered in terms of specified minimum levels of performance to be achieved and maximum levels of damage or harm to be accepted.
+
+It is necessary to have accurate knowledge of:
+
+\begin{enumerate}
+\item[(a)] The duration of each task the system may be called upon to fulfill;
+\item[(b)] The time interval between periodic tests;
+\item[(c)] The time available for corrective action before serious consequences occur to the system;
+\item[(d)] The entire facility, the environment, and/or the personnel, including interfaces and interactions with operators;
+\item[(e)] Repair conditions, including corrective actions and the time, equipment, and/or personnel needed to achieve them;
+\item[(f)] Operating procedures during system start-up, shut-down, and other operational transitions;
+\item[(g)] Control during the operational phases;
+\item[(h)] Preventative and/or corrective maintenance (see note);
+\item[(i)] Procedures for routine testing, if employed.
+\end{enumerate}
+
+\textit{Note}: One of the uses of FMEA is to assist in the development of the maintenance strategy. However, if the latter has been pre-determined, information on maintenance facilities, equipment, and spares should be known for both preventative and corrective maintenance.
+
+\subsubsection{2.4.2.4 System Environment}
+
+The environmental conditions of the system should be specified, including ambient conditions and those created by other systems in the vicinity. The system should be delineated with respect to its relationships, dependencies, or interconnections with auxiliary or other systems and human interfaces.
+
+At the design stage, these facts are usually not all known, and therefore approximations and assumptions will be needed. As the project progresses, the data will have to be augmented, and the FMEA modified to allow for new information or changed assumptions or approximations. Often, the FMEA will be helpful in defining the required conditions.
+
+\textit{Note}: The FMEA should be updated for each design review milestone (see BS 5760: Part 1).
+
+\subsubsection{2.4.2.5 Modeling}
+
+FMEA requires some modeling of the system, i.e., a logical representation of the relevant information on the system (reliability block diagram or fault tree, etc.; see 2.4.2.9 and 2.4.2.10). Some assumptions may be made about the nature of failure modes and the seriousness of their consequences. For example, in safety studies, conservative hypotheses may have to be formed concerning the impact of certain failures on the system unless or until better information becomes available.
+
+\subsection{2.4.2.6 Software}
+
+An FMEA conducted on the hardware of a complex system may have repercussions on the software in the system. Thus, decisions about effects, criticality and conditional probabilities resulting from the FMEA may be dependent upon the software elements and their nature, sequence and timing. When this is the case, the interrelationships between hardware and software need to be clearly identified because any subsequent alteration or improvement of the software may modify the FMEA and the assessments derived from it. Approval of software development and change may be conditional upon a revision of the FMEA and the related assessments, e.g. software logic may be altered to improve safety at the expense of operational reliability.
+
+\subsection{2.4.2.7 System boundary}
+
+The definition of the system boundary is more likely to be influenced by design, source of supply, or commercial criteria rather than the optimum requirements of the FMEA. However, where it is possible to define the boundaries to facilitate the system FMEA and its integration with other related studies in the reliability program, such action is preferable. This is especially so if the system is functionally complex with multiple interconnections between items within the boundary and multiple outputs crossing the boundary. In such cases, it could be advantageous to define a study boundary from functional rather than hardware divisions to limit the number of input and output links to other systems. This would tend to reduce the number of system failure effects. Care should be taken to ensure that other systems or components outside the boundaries of the subject system are not forgotten, by explicitly stating that they are excluded from the particular study.
+
+\subsection{2.4.2.8 Definition of the system's functional structure}
+
+The analysis should be initiated by selecting the lowest level of interest (usually the part, circuit, or module level) at which sufficient information is available or at which it is judged that it needs to be obtained (by tests etc.) to ensure a reliable design. Thus new features of the design should be thoroughly investigated but old features under known stress levels can be incorporated into the analysis at a higher level. If the analysis starts at the lowest level, the various failure modes that can occur for each item at that level are tabulated. The corresponding failure effect for each, taken singly and in turn, is interpreted as a failure mode for consideration of the failure effect at the functional level immediately above. Successive iterations result in the identification of the failure effects, in relation to specific failure modes, at all necessary functional levels up to the system or highest level. The choice of breakdown level (which may vary for different areas of the system) requires a dependable and detailed knowledge of the failure modes of the elements. Apart from this requirement, it is neither possible nor desirable to set strict rules about the choice of the breakdown level. When quantitative results are required, the level chosen should be one at which it is possible to obtain adequate (and dependable) failure data on each failure mode or error mode, or to make reasonable identified assumptions of such failure rates. The analyst should investigate all aspects which might be important until satisfied they are not.
+
+\subsection{2.4.2.9 Representation of system structure}
+
+Symbolic representations of the system structure and operation, especially diagrams, can be used. Usually block diagrams are adopted, highlighting all the functions essential to the system. In the diagram, the blocks are linked together by lines which represent the inputs and outputs for each function. Usually, the nature of each function and each input needs to be precisely described. There may also be several diagrams to cover different phases of system operation. Generally, graphical presentations, including those closely related to analytical methods, like fault trees or cause-consequence diagrams, contribute to a better understanding of a system, its structure and its operation.
+
+\subsection{Block Diagrams}
+
+Diagrams showing the functional elements of the
+system are necessary both for technical understanding of the functions and the subsequent analysis. The diagrams should display any series and redundant relationships among the elements and the functional interdependencies between them. This allows the functional failures to be tracked through the system. More than one diagram may be needed to display the alternative modes of system operation. Separate logic diagrams may be required for each operational mode. As a minimum, the block diagram should contain the following:
+
+\begin{enumerate}
+\item Breakdown of the system into major subsystems including functional relationships;
+\item All appropriately labelled inputs and outputs and identification numbers by which each subsystem is consistently referenced;
+\item All redundancies, alternative signal paths and other engineering features which provide 'fail-safe' measures.
+\end{enumerate}
+
+\subsection{Failure Significance and Compensating Provisions}
+
+The relative significance of the failure should be recorded on the worksheet. Also recorded on the worksheet should be the identification and evaluation of any design features at a given system level for other provisions to prevent or reduce the effect of the failure mode. Thus the worksheet should clearly show the true behavior of the equipment in the presence of an internal malfunction. Other provisions against failure which need to be recorded on the worksheet include the following:
+
+\begin{enumerate}
+\item Redundant items that allow continued operation if one or more elements fail;
+\item Alternative means of operation;
+\item Monitoring or alarm devices;
+\item Any other means of permitting effective operation or limiting damage.
+\end{enumerate}
+
+During the design stage, the functional elements (hardware and software) of a piece of equipment may be rearranged or reconfigured to change its capability. Following this, the relevant failure modes should be re-examined before repeating the FMEA.
 \end{document}
