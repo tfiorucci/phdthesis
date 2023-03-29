@@ -76,7 +76,7 @@ Figure \ref{scr1_rtl} shows the complexity of the entire system of choice $SCR1$
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{subfiles/imgs/scr1.png}
+    \includegraphics[angle=90]{subfiles/imgs/scr1.png}
     \caption{\centering RTL Description of SCR1}
     \label{scr1_rtl}
 \end{figure}
@@ -94,7 +94,7 @@ That being the starting point, the work has proceeded with the definition of all
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{subfiles/imgs/pipetop.png}
+    \includegraphics[angle=90, width=\linewidth]{subfiles/imgs/pipetop.png}
     \caption{\centering Detailed reconstruction of block model}
     \label{scr1_blocks}
 \end{figure}
@@ -169,7 +169,7 @@ However additional rules may be added like to remove faulty nodes and transition
 
 
 %\input{subfiles/ticks/thomas.tex}
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{subfiles/imgs/altarica-dysfunctional-model.png}
     \caption{\centering Altarica Dysfunctional Model}
@@ -179,7 +179,7 @@ However additional rules may be added like to remove faulty nodes and transition
 \subsection{Completeness of Extraction}
 The main risk in state identification is to under or overestimate the state which would lead to uncovered faulty states (fault not injected in a flip-flop misidentified as not {\it control}) or over estimate the state leading to classification of what are, in fact, data state as control states. The latter can be easily identified as randomizing data in the golden or faulty state machine extraction step leads to an increasing number of states with the number of runs. On Fig. \ref{fig:completness-extraction}, a correct identification leads to a saturating number of states (green curves) while an incorrect one leads to a diverging number of states as the number of tests grows (red curve).
 
-\begin{figure}[!ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{subfiles/imgs/wrongly_identified_for_paper.png}
     \caption{\centering Completeness of the Extraction}
@@ -234,7 +234,7 @@ The I2C slave, taken from \cite{I2Cminion}, receives {\it read} or {\it write} c
 
 The testbench is composed of a series of read and write random transactions. The coverage evaluation of the design has been carried out, results are presented in Table \ref{tab:cov_I2C}. Having considered the results of the coverage evaluations sufficient for the demonstration, application of the method presented in section \ref{sec:methodology} have been performed. The list of all injection sites, reported by Cadence {\it Xcelium Fault Simulator} (FSV) \cite{CDN} fault injection tool are considered for state including ones containing data as the serial nature of the I2C protocol, which mixes control and data frames on the same signals thought time-multiplexing, doesn't allow differentiation. However, the small size of data considered (8-bit) only induce a low (256) superset of the real control states. All outputs are probed so that any mismatch with the reference run will stop the simulation and report the fault as {\it Detected}. State (flip-flop value, i.e. '0' or '1') is simply extracted at each clock cycle and printed in the simulation logs to be post-processed.
 
-\begin{figure}
+\begin{figure}[H]
 \includegraphics[width=\linewidth]{subfiles/imgs/I2C_gold_automaton_10.png}
 \caption{I2C Gold Automaton}
 \label{fig:I2C_gold}
@@ -242,19 +242,19 @@ The testbench is composed of a series of read and write random transactions. The
 
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \includegraphics[width=\linewidth]{subfiles/imgs/I2C_complete_automaton_10.png}
 \caption{I2C Complete Automaton}
 \label{fig:I2C_goldcomplete}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \includegraphics[width=\linewidth]{subfiles/imgs/i2c_balloon_injec.png}
 \caption{I2C Complete Automaton Clusterized}
 \label{fig:I2C_balloon}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \includegraphics[width=\linewidth]{subfiles/imgs/balloon_ahb.png}
 \caption{AHB Complete Automaton Clusterized}
 \label{fig:AHB_balloon}
@@ -410,7 +410,7 @@ hwrite & 0.00022 & 0.00022 &  &  &  \\ \hline
 
 
 \section{Second Proof of Concept 4BlocksSystem}
-
+\input{subfiles/ticks/second_poc}
 \section{Discussion and Future Work}
 \label{sec:discussion}
 In this work, we have proposed and experimented the use of Model-Based Safety Assessment on digital system for safety analysis. We have addressed the construction of dysfunctional model for digital system using simulation and have been able to build a simple, but functional dysfunctional model in Altarica. Ongoing work include automatic dysfunctional models reduction to more than one state and the application to a small RISCV SoC and software reliability\cite{iolts2022}.

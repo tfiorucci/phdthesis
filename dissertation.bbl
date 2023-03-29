@@ -698,6 +698,30 @@
       \verb 10.1145/2897937.2897996
       \endverb
     \endentry
+    \entry{FPGAprototyping}{book}{}
+      \name{author}{1}{}{%
+        {{hash=db9dfdaedfbc794b5f7f88168fd09904}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Pong\bibnamedelima P.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, INC.}%
+      }
+      \strng{namehash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \strng{fullhash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \strng{bibnamehash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \strng{authorbibnamehash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \strng{authornamehash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \strng{authorfullhash}{db9dfdaedfbc794b5f7f88168fd09904}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FPGA Prototyping by Verilog Examples Xilinx Spartan-3 Version}
+      \field{year}{2008}
+    \endentry
     \entry{collaboration2008cms}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -796,6 +820,37 @@
       \field{month}{10}
       \field{title}{A Mutually-Exclusive Deployment of Formal and Simulation Techniques Using Proof-Core Analysis}
       \field{year}{2017}
+    \endentry
+    \entry{AnalogUART}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7815b752ccbb7c090ede5e1735d80962}{%
+           family={Devices},
+           familyi={D\bibinitperiod},
+           given={Analog},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{fullhash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{bibnamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authorbibnamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authornamehash}{7815b752ccbb7c090ede5e1735d80962}
+      \strng{authorfullhash}{7815b752ccbb7c090ede5e1735d80962}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UART: A Hardware Communication Protocol}
+      \field{urlday}{16}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
+      \endverb
     \endentry
     \entry{EBRAHIMI20141000}{article}{}
       \name{author}{4}{}{%
@@ -1379,6 +1434,30 @@
       \field{note}{Accessed: 2018-12-06}
       \field{title}{Ionizing Radiation Effects in Electronic Devices and Circuits}
       \field{year}{2017}
+    \endentry
+    \entry{cdc_book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1927f1a67e7e616ab06befa2a4a4cdbe}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Weng\bibnamedelima Fook},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \strng{fullhash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \strng{bibnamehash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \strng{authorbibnamehash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \strng{authornamehash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \strng{authorfullhash}{1927f1a67e7e616ab06befa2a4a4cdbe}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning from VLSI Design Experience}
+      \field{year}{2019}
     \endentry
     \entry{5090716}{inproceedings}{}
       \name{author}{4}{}{%
@@ -1968,6 +2047,48 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Low-Energy Proton Test of Safety-Critical Microcontrollers for Space Applications.}
+    \endentry
+    \entry{TimerManualSTM}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c38884ab3cf908c2798725960369391b}{%
+           family={STMicroelectronics},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{bibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorbibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authornamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhash}{c38884ab3cf908c2798725960369391b}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{General-purpose timers (TIM2 to TIM5)}
+      \field{title}{RM0008 Reference Manual}
+      \field{year}{2021}
+    \endentry
+    \entry{SPIManualSTM}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=c38884ab3cf908c2798725960369391b}{%
+           family={STMicroelectronics},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{bibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorbibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authornamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhash}{c38884ab3cf908c2798725960369391b}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Serial Peripheral Interface (SPI)}
+      \field{title}{RM0008 Reference Manual}
+      \field{year}{2021}
     \endentry
     \entry{Certitude}{misc}{}
       \field{sortinit}{S}

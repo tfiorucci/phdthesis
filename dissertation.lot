@@ -7,14 +7,17 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Possible failure causes\relax }}{52}{table.3.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{80}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{84}{table.5.2}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{83}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{87}{table.5.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{95}{table.6.1}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{95}{table.6.2}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Control Flow Driven Errors\relax }}{95}{table.6.3}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{98}{table.6.1}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{98}{table.6.2}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Control Flow Driven Errors\relax }}{98}{table.6.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces NMI signal descriptions\relax }}{116}{table.7.1}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces NMI signal descriptions\relax }}{119}{table.7.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Shows the programmable register layout available to the APB interface for the UART controller. Addresses are given in hexadecimal.\relax }}{143}{table.a.C.1}%
