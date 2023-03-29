@@ -28,8 +28,35 @@ In conclusion, automating the FMEA process is essential for the development of r
 
 
 \section{Manuscript Organization}
+The proposed Manuscript is divided in 3 main Parts, each of those divided in chapters, summarized as follow
+the First Part includes:
+
+\paragraph{Background}
+The need for a safety assessment finds its rationale in the ability of electronics to fail in both temporary or permanent way. This section analyses the most common reason of transient failure in electronics, the effects of harsh environments with a high level of radiation. The different radiations and radiation effects are analysed to understand the core problem.
+\paragraph{ISO26262}
+In this chapter, an all-encompassing overview of the ISO 26262 standard will be provided, a critical regulation governing the functional safety of electrical and electronic systems within road vehicles. As the intricacy of automotive systems perpetually expands, the adoption of this global standard has emerged as indispensable for curbing hazards and guaranteeing vehicles' secure operation. The chapter intends to demystify the various components of ISO 26262, expounding its aims, framework, and approaches, while accentuating its paramount importance in the spheres of automotive engineering, manufacturing, and production. By imparting an exhaustive comprehension of this crucial standard, the chapter aspires to highlight the integral role of ISO 26262 in augmenting automotive security and facilitating the industry in attaining uniform functional safety execution across a diverse range of vehicular contexts.
+\paragraph{Failure Mode and Effect Analysis}
+In this chapter, an in-depth exploration of Failure Modes and Effects Analysis (FMEA) shall be conducted, elucidating the necessity of this robust and systematic methodology in identifying, prioritizing, and mitigating potential failure modes within products, processes, or systems. Comprehending the FMEA process is of paramount importance, as it directly impacts the capacity to innovate it efficaciously. Through a meticulous examination of the FMEA procedure, the chapter shall elucidate each stage, thereby facilitating the harnessing of its potential for perpetual improvement and risk reduction. Moreover, the chapter shall underscore the significance of innovation within the FMEA process itself, enabling organizations to detect and address potential issues with unparalleled expediency and foresight, ultimately resulting in the development of more resilient and dependable products, processes, or systems.
 
 
+\textbf{The Second Part Includes}
+\paragraph{Basic Hardware Components}
+This chapter discusses the challenges of ensuring safety and quality in digital systems, specifically in the context of System-on-a-Chip (SoC) and Intellectual Property (IP) development. The classical approach to safety assurance relies on complex and systematic methods, requiring a complete description of every block in the system, including the set of failure modes and consequences. However, this process is mostly man-driven, making it prone to errors and omissions. Model-Based Safety Assessment (MBSA) provides a more automated approach, but building failure models for each IP in a SoC is still a challenging task. This chapter proposes a new approach to address this challenge, using digital fault injection to extract non-functional behavior and build a failure model that can be used in a MBSA framework. The chapter also presents the methodology for this approach, its application to two examples, and its scalability for more complex systems. Overall, the proposed approach offers a more automated and reliable way to ensure safety and quality in digital systems.
+\paragraph{Complex and microprocessor Based Components}
+Software reliability has become a crucial factor to consider in software design due to the increase in the density of integration in VLSI systems and microprocessor performance. Hardware redundancy and software-implemented error detection and correction mechanisms can manage errors, but the propagation of hardware faults still plays a crucial role in software failures.
+
+This chapter proposes a new methodology to simplify the reliability assessment in software design by applying the same techniques used for hardware design to software reliability assessment. The focus is on the characteristics of basic blocks in software products, and the proposed method aims to extract reliability metrics for each basic block that can be recomposed just knowing the sequence of block required to execute a precise operation.
+\paragraph{Cern Use Case}
+Last, this chapter presents the environment chosen for a first practical use case for the methodology developed. CERN and its laboratories provide a perfect example of what an harsh environment may mean and what it takes to design and develop electronics for such applications.
+
+In particular, the ongoing trend of developing reprogrammable electronics for the detectors on LHC has triggered the need for a more profound reliability assessment and the exploration of new tecniques of evaluation of the systems under development.
+
+At the time being the SoC "Picorvino" is being developed, based on the single pipeline stage RISC-V processor PicoRV. This has been the system of choice for the first use case of the new methodology explored.
+
+Finally the Third Part includes
+\paragraph{Conlusion and Prospectives}
+
+\paragraph{Appendixes}
 
 \section{Contributions and Perspectives}
 

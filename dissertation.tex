@@ -5,10 +5,14 @@
 
 \documentclass[12pt, notitlepage, twoside]{report}
 
+
+
 % Document Metafiles (Do Not Reorder!) ===================================== %
 \input{metafiles/preamble.tex}
 \input{metafiles/booleans.tex}
 \input{metafiles/structure.tex}
+
+
 
 
 % Document Structure Options =============================================== %
@@ -22,11 +26,17 @@
 % If you want sidenotes, we'll load some additional packages. Nothing for you to worry about.
 \input{metafiles/sidenotes.tex}
 
+
+%% COVER PAGE
+
+
 \begin{document}
 
-
-
+\includepdf[pages=-]{couverture_these.pdf}
 % Title and Author Settings ================================================ %
+
+
+
 \newcommand{\doctitle}{Qualification methodology for ISO26262
 certification of automotive SoC systems}
 \newcommand{\docauthor}{Tiziano Fiorucci}
