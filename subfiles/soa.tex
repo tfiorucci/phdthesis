@@ -634,5 +634,67 @@ The ISO 26262 series of standards is concerned with functional safety of E/E sys
 
 
 
+\section {NEWPART}
+The \textbf{180 26262} series of standards is the adaptation of \textbf{EC 61508} series of standards to address the sector specific needs of electrical and/or electronic (\textbf{E/E}) systems within road vehicles. This adaptation applies to all activities during the safety lifecycle of safety-related systems comprised of electrical, electronic and software components. Safety is one of the key issues in the development of road vehicles. Development and integration of automotive functionalities strengthen the need for functional safety and the need to provide evidence that functional safety objectives are satisfied. With the trend of increasing technological complexity, software content and mechatronic implementation, there are increasing risks from systematic failures and random hardware failures, these being considered within the scope of functional safety. \textbf{ISO 26262} series of standards includes guidance to mitigate these risks by providing appropriate requirements and processes.
+
+To achieve functional safety, the \textbf{ISO 26262} series of standards:
+
+\begin{enumerate}
+\item provides a reference for the automotive safety lifecycle and supports the tailoring of the activities to be performed during the lifecycle phases, i.e., development, production, operation, service and decommissioning;
+\item provides an automotive-specific risk-based approach to determine integrity levels (\textbf{Automotive Safety Integrity Levels (ASILs)});
+\item uses \textbf{ASILs} to specify which of the requirements of \textbf{ISO 26262} are applicable to avoid unreasonable residual risk;
+\item provides requirements for functional safety management, design, implementation, verification, validation and confirmation measures; and
+\item provides requirements for relations between customers and suppliers.
+\end{enumerate}
+
+The \textbf{ISO 26262} series of standards is concerned with functional safety of \textbf{E/E} systems that is achieved through safety measures including safety mechanisms. It also provides a framework within which safety-related systems based on other technologies (e.g. mechanical, hydraulic and pneumatic) can be considered. The achievement of functional safety is influenced by the development process (including such activities as requirements specification, design, implementation, integration, verification, validation and configuration), the production and service processes and the management processes. Safety is intertwined with common function-oriented and quality-oriented activities and work products. The \textbf{ISO 26262} series of standards addresses the safety-related aspects of these activities and work products.
+
+Figure MISSINGREF shows the overall structure of the \textbf{ISO 26262} series of standards. The \textbf{ISO 26262} series of standards is based upon a V-model as a reference process model for the different phases of product development. Within the figure: the shaded "V's" represent the interconnection among \textbf{ISO 26262-6} and \textbf{ISO 26262-7}; \textbf{ISO 26262-3}, \textbf{ISO 26262-4}, and \textbf{ISO 26262-5}, for motorcycles: \textbf{ISO 26262-12:2018}, Clause 8 supports \textbf{ISO 26262-3}; \textbf{ISO 26262-12:2018}, Clauses 9 and 16 support \textbf{ISO 26262-4}. The specific clauses are indicated in the following manner: "m-n", where "m" represents the number of the particular part and "n" indicates the number of the clause within that part.
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[scale=0.6]{ISO_26262_structure.png}
+%\caption{Overall structure of the \textbf{ISO 26262} series of standards}
+%\label{fig:ISO_26262_structure}
+%\end{figure}
+
+In addition to the V-model, the \textbf{ISO 26262} series of standards includes a variety of other concepts and processes, such as hazard analysis and risk assessment, functional safety requirements, and software development processes. These concepts and processes are used to ensure that the development of safety-related systems is carried out in a structured, systematic, and consistent manner.
+
+Overall, the \textbf{ISO 26262} series of standards plays a critical role in ensuring the safety and reliability of road vehicles. By providing guidance on the development of functional safety measures, it helps to minimize the risk of accidents and injuries caused by malfunctions in E/E systems.
+
+\section{Scope}
+This standard is intended to be applied to safety critical systems which may include more electrical and/or electronic [E/E] subsystems, usually installed in the vast majority of vehicles that are mass produced. This standard does not only address these E/E systems in special vehicles such could be the ones for disabled drivers. \footnote{ Other dedicated application-specific safety standards exist and can complement ISO26262 series of standards or vice versa.}
+
+It is clear that all the systems and products open for commerce at the time of release of the this issue of the standard are exempted from complying to the standard itself. It does worth to notice that, even those systems are extempted, their modifications are not, and must comply to the latest issue of the standard.
+
+In the exploration of the standard it will be possible to explore the different possible hazard causes by malfunctioning behaviour of safety related E/E systems, including interactions of these systems. It will not address hazards related to electric shock, fire, smoke, heat, radiation, toxicity, flammability, reactivity, corrosion, relead of energy or similar hazards, unless directly caused by malfunctioning behaviour of safety related E/E systems.
+
+in particular this standard specifies the requirements for product development at the hardware level for automotive applications, including the following:
+\begin{itemize}
+\item General topics for the product development at the hardware level;
+\item Specification of hardware safety requirements;
+\item Hardware design;
+\item Evaluation of the hardware architectural metrics;
+\item Evaluation of safety goal violations due to random hardware failures; and
+\item Hardware integration and verification.
+\end{itemize}
+The requirements of this document for hardware elements are applicable to both non-programmable and programmable elements, such as ASIC, FPGA, and PLD, as specified in ISO 26262-10:2018 and ISO 26262-11:2018\footnote{Check annex A of the standard for further information}.
+
+
+\paragraph{Other Section of interest}
+The following section of the same standard are of interest of for this thesis:
+\begin{itemize}
+\item ISO 26262-1, Road vehicles - Functional safety - Part 1: Vocabulary
+\item ISO 26262-2:2018, Road vehicles - Functional safety - Part 2: Management of functional safety
+\item ISO 26262-4:2018, Road vehicles - Functional safety - Part 4: Product development at the system level
+\item ISO 26262-6:2018, Road vehicles - Functional safety - Part 6: Product development at the software level
+\item ISO 26262-7:2018, Road vehicles - Functional safety - Part 7: Production and operation
+\item ISO 26262-8:2018, Road vehicles - Functional safety - Part 8: Supporting processes
+\item ISO 26262-9:2018, Road vehicles - Functional safety - Part 9: Automotive Safety Integrity Level (ASIL)-oriented and safety-oriented analyses
+
+The missing part is the fifth, which it will be pictured in the course of this chapter.
+\end{itemize}
+
+
 
 \end{document}
