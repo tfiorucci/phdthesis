@@ -78,6 +78,73 @@
       \verb https://www.accellera.org/activities/working-groups/uvm/
       \endverb
     \endentry
+    \entry{1322474}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=98144a986e02bf483f1d8bb47d78b357}{%
+           family={{Andraus}},
+           familyi={A\bibinitperiod},
+           given={Z.\bibnamedelimi S.},
+           giveni={Z\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8512e3a4c246223cb2cb5421d31361e0}{%
+           family={{Sakallah}},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{271062cef62ce0b329ad19ca93019acd}
+      \strng{fullhash}{271062cef62ce0b329ad19ca93019acd}
+      \strng{bibnamehash}{271062cef62ce0b329ad19ca93019acd}
+      \strng{authorbibnamehash}{271062cef62ce0b329ad19ca93019acd}
+      \strng{authornamehash}{271062cef62ce0b329ad19ca93019acd}
+      \strng{authorfullhash}{271062cef62ce0b329ad19ca93019acd}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 41st Design Automation Conference, 2004.}
+      \field{title}{Automatic abstraction and verification of verilog models}
+      \field{year}{2004}
+      \field{pages}{218\bibrangedash 223}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/996566.996629
+      \endverb
+    \endentry
+    \entry{Ariss2011Integrating}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ee40c768033053c59f57a442c43e8c80}{%
+           family={Ariss},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=e1e24125fad7f1b6c66d26501937ec52}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=580424c06fb306592747e981ea5baf78}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \strng{fullhash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \strng{bibnamehash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \strng{authorbibnamehash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \strng{authornamehash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \strng{authorfullhash}{9e4dea4f7d1801f2bb22fb1fb149ea61}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans}
+      \field{title}{Integrating Safety Analysis With Functional Modeling}
+      \field{volume}{41}
+      \field{year}{2011}
+      \field{pages}{610\bibrangedash 624}
+      \range{pages}{15}
+    \endentry
     \entry{apbReference}{manual}{}
       \name{author}{1}{}{%
         {{hash=47f45e65244c17ec9fa8771a5c6d60e1}{%
@@ -142,6 +209,63 @@
       \field{volume}{40}
       \field{year}{1999}
     \endentry
+    \entry{9153630}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=f00baf63aae7779903670b68127a50b7}{%
+           family={{Austin}},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=efbd9ce36e941ee7c7b0886612e98537}{%
+           family={{Mahadevan}},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=77cece20c2e4f238b76385b83283eda9}{%
+           family={{Witulski}},
+           familyi={W\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f439aad4f6d7856eff111f4017408c9d}{%
+           family={{Karsai}},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=322d5f006aba0cd71c62ae88363c79ca}{%
+           family={{Sierawski}},
+           familyi={S\bibinitperiod},
+           given={B.\bibnamedelimi D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=92c8bc02e487dde48fc6a7c129099804}{%
+           family={{Schrimpf}},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cc8ef1923596dfbba84ff6e49aef6bd2}{%
+           family={{Reed}},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f16585d81a64a49db92283682e909f29}
+      \strng{fullhash}{74e394be20defe7897e67bc99d7258fc}
+      \strng{bibnamehash}{f16585d81a64a49db92283682e909f29}
+      \strng{authorbibnamehash}{f16585d81a64a49db92283682e909f29}
+      \strng{authornamehash}{f16585d81a64a49db92283682e909f29}
+      \strng{authorfullhash}{74e394be20defe7897e67bc99d7258fc}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 Annual Reliability and Maintainability Symposium (RAMS)}
+      \field{title}{Automatic Fault Tree Generation from Radiation-Induced Fault Models}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/RAMS48030.2020.9153630
+      \endverb
+    \endentry
     \entry{Barney:2120661}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=f0a69598be56df97f8de1d33404c4720}{%
@@ -195,6 +319,34 @@
       \field{year}{2005}
       \field{pages}{305\bibrangedash 316}
       \range{pages}{12}
+    \endentry
+    \entry{bell2006introduction}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a844212b83944c5a30f4a8910326be13}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{a844212b83944c5a30f4a8910326be13}
+      \strng{fullhash}{a844212b83944c5a30f4a8910326be13}
+      \strng{bibnamehash}{a844212b83944c5a30f4a8910326be13}
+      \strng{authorbibnamehash}{a844212b83944c5a30f4a8910326be13}
+      \strng{authornamehash}{a844212b83944c5a30f4a8910326be13}
+      \strng{authorfullhash}{a844212b83944c5a30f4a8910326be13}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Acm international conference proceeding series}
+      \field{title}{Introduction to IEC 61508}
+      \field{volume}{162}
+      \field{year}{2006}
+      \field{pages}{3\bibrangedash 12}
+      \range{pages}{10}
     \endentry
     \entry{1181509}{inproceedings}{}
       \name{author}{5}{}{%
@@ -263,6 +415,53 @@
       \field{labeltitlesource}{title}
       \field{title}{Ionizing Radiation Effects in Nanoscale CMOS Technologies Exposed to Ultra-High Doses}
       \field{year}{2018}
+    \endentry
+    \entry{hal-02063631}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=08690a485de3875f558357e982074227}{%
+           family={Bossoreille},
+           familyi={B\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=8fe1b2270c2eab75f00b27fc73b09961}{%
+           family={Machin},
+           familyi={M\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c656f3945a9fe09c0420750d163d2375}{%
+           family={Sagaspe},
+           familyi={S\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Reims, France}%
+      }
+      \strng{namehash}{862e07f266576b0d129c89d6fb818b72}
+      \strng{fullhash}{862e07f266576b0d129c89d6fb818b72}
+      \strng{bibnamehash}{862e07f266576b0d129c89d6fb818b72}
+      \strng{authorbibnamehash}{862e07f266576b0d129c89d6fb818b72}
+      \strng{authornamehash}{862e07f266576b0d129c89d6fb818b72}
+      \strng{authorfullhash}{862e07f266576b0d129c89d6fb818b72}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{"Ma{î}trise des risques et transformation num{é}rique: opportunit{é}s et menaces}}
+      \field{month}{10}
+      \field{title}{{Un Nouvel Outil de Safety pour Maitriser la Complexité des Systèmes}}
+      \field{year}{2018}
+      \verb{file}
+      \verb https://hal.archives-ouvertes.fr/hal-02063631/file/lm21_com_1C_1_114_De%20Bossoreille.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.archives-ouvertes.fr/hal-02063631
+      \endverb
+      \verb{url}
+      \verb https://hal.archives-ouvertes.fr/hal-02063631
+      \endverb
     \endentry
     \entry{6861096}{inproceedings}{}
       \name{author}{8}{}{%
@@ -406,6 +605,48 @@
       \field{booktitle}{Proceedings of the 10th International Workshop on Automated Verification of Critical Systems}
       \field{title}{Statistical fault injection: Quantified error and confidence}
       \field{year}{2010}
+    \endentry
+    \entry{5558624}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=1876cd4fb89ac483d2c9d4eb9841e239}{%
+           family={{Brady}},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=edb55bed6bf1e4a34a9313178abf0b3f}{%
+           family={{Bryant}},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5161248f7b36b0702c775f73fa8b68dc}{%
+           family={{Seshia}},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=44ff0dfeb23baeccd87ab611d5f1e6e7}{%
+           family={{O'Leary}},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6af270a47c320f070b94e3fdc6db4dd0}
+      \strng{fullhash}{e6f38b1d622eb5313dd10af9b10bb898}
+      \strng{bibnamehash}{6af270a47c320f070b94e3fdc6db4dd0}
+      \strng{authorbibnamehash}{6af270a47c320f070b94e3fdc6db4dd0}
+      \strng{authornamehash}{6af270a47c320f070b94e3fdc6db4dd0}
+      \strng{authorfullhash}{e6f38b1d622eb5313dd10af9b10bb898}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Eighth ACM/IEEE International Conference on Formal Methods and Models for Codesign (MEMOCODE 2010)}
+      \field{title}{ATLAS: Automatic Term-level abstraction of RTL designs}
+      \field{year}{2010}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MEMCOD.2010.5558624
+      \endverb
     \endentry
     \entry{Brayton1996VISAS}{article}{}
       \name{author}{14}{}{%
@@ -784,6 +1025,27 @@
       \endverb
       \keyw{mine}
     \endentry
+    \entry{daniel2017thinking}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9ffc88d07c64c4b2897b8c557ecfceee}{%
+           family={Daniel},
+           familyi={D\bibinitperiod},
+           given={Kahneman},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \strng{fullhash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \strng{bibnamehash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \strng{authorbibnamehash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \strng{authornamehash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \strng{authorfullhash}{9ffc88d07c64c4b2897b8c557ecfceee}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thinking, fast and slow}
+      \field{year}{2017}
+    \endentry
     \entry{jaspergold}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=f3c34008f6184566348e011f4fe1278a}{%
@@ -1092,6 +1354,48 @@
       \field{title}{Software Product Reliability Based on Basic-Block Metrics Recomposition}
       \field{year}{2023, To appear in}
     \endentry
+    \entry{6903180}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=66dc05c6b6a67d0e28178355f95c4a24}{%
+           family={Gallina},
+           familyi={G\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6745f408e2023357cefe3936041af268}{%
+           family={Kashiyarandi},
+           familyi={K\bibinitperiod},
+           given={Shaghayegh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=257edeffc8eaad6aae7850e0c5e9de8f}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d94670f10eb6c3bd5302b1b8f0d7aa95}{%
+           family={Bramberger},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{887cfcd9f5486381f2c765e226e169fa}
+      \strng{fullhash}{b6a308f8e821ab1e608b70dc57be862a}
+      \strng{bibnamehash}{887cfcd9f5486381f2c765e226e169fa}
+      \strng{authorbibnamehash}{887cfcd9f5486381f2c765e226e169fa}
+      \strng{authornamehash}{887cfcd9f5486381f2c765e226e169fa}
+      \strng{authorfullhash}{b6a308f8e821ab1e608b70dc57be862a}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE 38th International Computer Software and Applications Conference Workshops}
+      \field{title}{Modeling a Safety- and Automotive-Oriented Process Line to Enable Reuse and Flexible Process Derivation}
+      \field{year}{2014}
+      \field{pages}{504\bibrangedash 509}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/COMPSACW.2014.84
+      \endverb
+    \endentry
     \entry{9063856}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=d48b67ce35c57790c38045eb8d2b2c2a}{%
@@ -1228,12 +1532,289 @@
       \verb 10.1145/2463209.2488857
       \endverb
     \endentry
+    \entry{8102251}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a9fd18ee2491e5984b60cb2ad16a2cb9}{%
+           family={{Ho}},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=93cb414c216e4f21af47aec3409817c6}{%
+           family={{Mishchenko}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7cba4e3cd45e55311ee7706e7a05383}{%
+           family={{Brayton}},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \strng{fullhash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \strng{bibnamehash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \strng{authorbibnamehash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \strng{authornamehash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \strng{authorfullhash}{5f6c7044e94b9564ed6465ef7fe323c2}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 Formal Methods in Computer Aided Design (FMCAD)}
+      \field{title}{Property directed reachability with word-level abstraction}
+      \field{year}{2017}
+      \field{pages}{132\bibrangedash 139}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.23919/FMCAD.2017.8102251
+      \endverb
+    \endentry
     \entry{I2Cminion}{misc}{}
       \field{sortinit}{I}
       \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://github.com/oetr/FPGA-I2C-Minion}}
       \field{title}{I2c Minion Repository}
+    \endentry
+    \entry{iso26262-1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–1:2011 - Road vehicles - Functional safety - Part 1: Vocabulary.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–2:2011 - Road vehicles - Functional safety - Part 2: Management of functional safety.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-3}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–3:2011 - Road vehicles - Functional safety - Part 3: Concept phase.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-4}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–4:2011 - Road vehicles - Functional safety - Part 4: Product development at the system level.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{5}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–5:2011 - Road vehicles - Functional safety - Part 5: Product development at the hardware level.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-6}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{6}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–6:2011 - Road vehicles - Functional safety - Part 6: Product development at the software level.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{7}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–7:2011 - Road vehicles - Functional safety - Part 7: Production and operation.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-8}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{8}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–8:2011 - Road vehicles - Functional safety - Part 8: Supporting processes.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-9}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{9}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–9:2011 - Road vehicles - Functional safety - Part 9: Automotive Safety Integrity Level (ASIL)-oriented and safety-oriented analyses.}
+      \keyw{26262 iso}
+    \endentry
+    \entry{iso26262-10}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISO, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{10}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{{ISO 26262}}
+      \field{title}{ISO 26262–10:2012 - Road vehicles - Functional safety - Part 10: Guideline on ISO 26262.}
+      \keyw{26262 iso}
     \endentry
     \entry{iso26262}{misc}{}
       \name{author}{1}{}{%
@@ -1286,6 +1867,53 @@
       \verb https://www.arteris.com/blog/top-35-iso-26262-acronyms-and-abbreviations/
       \endverb
     \endentry
+    \entry{7958474}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=0c3bd20b60510045d8711e24bc61c2de}{%
+           family={Johnsen},
+           familyi={J\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=860e8593ead210cb1b8bd5f32f662c30}{%
+           family={Crnkovic},
+           familyi={C\bibinitperiod},
+           given={Gordana\bibnamedelima Dodig},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2b45b4bc26e861d66a8430fc963da557}{%
+           family={Lundqvist},
+           familyi={L\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=38c9503bed1e970259426f44481a4478}{%
+           family={Hänninen},
+           familyi={H\bibinitperiod},
+           given={Kaj},
+           giveni={K\bibinitperiod}}}%
+        {{hash=359c0514242097571ffa9413d17e9bae}{%
+           family={Pettersson},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4d7f1bdc82e418a83130b693ed07c7c}
+      \strng{fullhash}{bd598ccfac627a5b3bd1f1189a1e0ed6}
+      \strng{bibnamehash}{b4d7f1bdc82e418a83130b693ed07c7c}
+      \strng{authorbibnamehash}{b4d7f1bdc82e418a83130b693ed07c7c}
+      \strng{authornamehash}{b4d7f1bdc82e418a83130b693ed07c7c}
+      \strng{authorfullhash}{bd598ccfac627a5b3bd1f1189a1e0ed6}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Software Architecture Workshops (ICSAW)}
+      \field{title}{Risk-Based Decision-Making Fallacies: Why Present Functional Safety Standards are Not Enough}
+      \field{year}{2017}
+      \field{pages}{153\bibrangedash 160}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICSAW.2017.50
+      \endverb
+    \endentry
     \entry{Karnik2004CharacterizationOS}{article}{}
       \name{author}{3}{}{%
         {{hash=2868b07ceb22130481271cf8e2c74979}{%
@@ -1318,6 +1946,45 @@
       \field{title}{Characterization of soft errors caused by single event upsets in CMOS processes}
       \field{volume}{1}
       \field{year}{2004}
+    \endentry
+    \entry{kaukewitsch2020automatic}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c661115643b4de771b322f31b8bbc577}{%
+           family={Kaukewitsch},
+           familyi={K\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod}}}%
+        {{hash=83ea628b3b69bec58f3b00efc58c3661}{%
+           family={Papist},
+           familyi={P\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6c38e92f884897e4945d70e25059298f}{%
+           family={Zeller},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de8b4154429ef22ef8042fe1af3fcf78}{%
+           family={Rothfelder},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{451d819135ba0db2664c631e0d02fa13}
+      \strng{fullhash}{0f00726670c95b0a18a1031f809b59fb}
+      \strng{bibnamehash}{451d819135ba0db2664c631e0d02fa13}
+      \strng{authorbibnamehash}{451d819135ba0db2664c631e0d02fa13}
+      \strng{authornamehash}{451d819135ba0db2664c631e0d02fa13}
+      \strng{authorfullhash}{0f00726670c95b0a18a1031f809b59fb}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 Annual Reliability and Maintainability Symposium (RAMS)}
+      \field{title}{Automatic Generation of RAMS Analyses from Model-based Functional Descriptions using UML State Machines}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
     \endentry
     \entry{6850649}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1500,6 +2167,40 @@
       \verb{doi}
       \verb 10.1109/DATE.2009.5090716
       \endverb
+    \endentry
+    \entry{machinsimfianeo}{}{}
+      \name{author}{3}{}{%
+        {{hash=8fe1b2270c2eab75f00b27fc73b09961}{%
+           family={Machin},
+           familyi={M\bibinitperiod},
+           given={Mathilde},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c656f3945a9fe09c0420750d163d2375}{%
+           family={Sagaspe},
+           familyi={S\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=08690a485de3875f558357e982074227}{%
+           family={Bossoreille},
+           familyi={B\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d84b8660f7fdd2312889041240b4d47}
+      \strng{fullhash}{8d84b8660f7fdd2312889041240b4d47}
+      \strng{bibnamehash}{8d84b8660f7fdd2312889041240b4d47}
+      \strng{authorbibnamehash}{8d84b8660f7fdd2312889041240b4d47}
+      \strng{authornamehash}{8d84b8660f7fdd2312889041240b4d47}
+      \strng{authorfullhash}{8d84b8660f7fdd2312889041240b4d47}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{9th European Congress of Embedded Real Time Software and Systems (ERTS)}
+      \field{title}{SimfiaNeo, Complex Systems, yet Simple Safety}
+      \field{year}{2018}
     \endentry
     \entry{mankar2014review}{article}{}
       \name{author}{5}{}{%
@@ -1964,6 +2665,43 @@
       \verb 10.1109/SERE.2012.10
       \endverb
     \endentry
+    \entry{tel-01119730}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7b7c6bb300a83368308d1ffa6539cfa8}{%
+           family={Prosvirnova},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Ecole Polytechnique}%
+      }
+      \strng{namehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{fullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{bibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authorbibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authornamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \strng{authorfullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{{AltaRica 3.0: Model-Based approach for Safety Analyses}}
+      \field{type}{Theses}
+      \field{year}{2014}
+      \verb{file}
+      \verb https://pastel.archives-ouvertes.fr/tel-01119730v1/file/main.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pastel.archives-ouvertes.fr/tel-01119730
+      \endverb
+      \verb{url}
+      \verb https://pastel.archives-ouvertes.fr/tel-01119730
+      \endverb
+      \keyw{Safety ; Reliability ; Model-Based approach ; AltaRica ; approche orient{é}e mod{è}les ; Analyse du risque ; Fiabilit{é} ; S{û}ret{é} de Fonctionnement}
+    \endentry
     \entry{Prosvirnova}{article}{}
       \name{author}{1}{}{%
         {{hash=7b7c6bb300a83368308d1ffa6539cfa8}{%
@@ -1978,6 +2716,7 @@
       \strng{authorbibnamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
       \strng{authornamehash}{7b7c6bb300a83368308d1ffa6539cfa8}
       \strng{authorfullhash}{7b7c6bb300a83368308d1ffa6539cfa8}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
@@ -2047,6 +2786,92 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Low-Energy Proton Test of Safety-Critical Microcontrollers for Space Applications.}
+    \endentry
+    \entry{6035678}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0e2fd4565d8d8f4ea8c070583607bd64}{%
+           family={Savino},
+           familyi={S\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cad0836526e4d33c4817ea52850f739d}{%
+           family={Di\bibnamedelima Carlo},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f55ccd097060785391c6006cd08a2426}{%
+           family={Politano},
+           familyi={P\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e918d00be5f2abd85c246f8c5068501a}{%
+           family={Benso},
+           familyi={B\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ee6a7689ad4f19d8cbcd507a86d2474a}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{df39f952ee405c9ad0aa4984e85d70d2}
+      \strng{fullhash}{861bbe3c208381d8d9f75b9389588d77}
+      \strng{bibnamehash}{df39f952ee405c9ad0aa4984e85d70d2}
+      \strng{authorbibnamehash}{df39f952ee405c9ad0aa4984e85d70d2}
+      \strng{authornamehash}{df39f952ee405c9ad0aa4984e85d70d2}
+      \strng{authorfullhash}{861bbe3c208381d8d9f75b9389588d77}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{11}
+      \field{title}{Statistical Reliability Estimation of Microprocessor-Based Systems}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{pages}{1521\bibrangedash 1534}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TC.2011.188
+      \endverb
+    \endentry
+    \entry{8556946}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5161248f7b36b0702c775f73fa8b68dc}{%
+           family={{Seshia}},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b2585b9ec1dcac1c0d5be4ec0f9f633e}{%
+           family={{Subramanyan}},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c57668cd69203ba0baa3bc70f99ad095}
+      \strng{fullhash}{c57668cd69203ba0baa3bc70f99ad095}
+      \strng{bibnamehash}{c57668cd69203ba0baa3bc70f99ad095}
+      \strng{authorbibnamehash}{c57668cd69203ba0baa3bc70f99ad095}
+      \strng{authornamehash}{c57668cd69203ba0baa3bc70f99ad095}
+      \strng{authorfullhash}{c57668cd69203ba0baa3bc70f99ad095}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 16th ACM/IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE)}
+      \field{title}{UCLID5: Integrating Modeling, Verification, Synthesis and Learning}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MEMCOD.2018.8556946
+      \endverb
     \endentry
     \entry{TimerManualSTM}{manual}{}
       \name{author}{1}{}{%
@@ -2307,6 +3132,99 @@
       \range{pages}{11}
       \keyw{Statistical models}
     \endentry
+    \entry{7805863}{inproceedings}{}
+      \name{author}{14}{}{%
+        {{hash=70ee41d5b24868dc4b86f3f165e64854}{%
+           family={Vallero},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=461514278b1303d9eaceb215ca57f4a7}{%
+           family={Savino},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a436b8b02ae55f413060baa170c8f6b}{%
+           family={Politano},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=21a9a7facf8efb5798033e5e92d6d6de}{%
+           family={Di\bibnamedelima Carlo},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7762cc8ce61c473c10728fb293f81c20}{%
+           family={Chatzidimitriou},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e177a4a3a5c1cb5eff3167744a2396d}{%
+           family={Tselonis},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8f925bfd06732918da2546ca55cdceab}{%
+           family={Kaliorakis},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa3dca405bc92829473b15c8b58f3692}{%
+           family={Gizopoulos},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8330550938f9a17468ebe70cc5212999}{%
+           family={Riera},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d428ecc3ae7e00199739a493afb32937}{%
+           family={Canal},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1deb2942007bb9fe35e987c2a507055c}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=652ed9239bc408a86476ac755d9b4935}{%
+           family={Kooli},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e4e4462e35b3992424bc652f1badc030}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de3b2fbcd13a3c86a28487fd7fd60808}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{fullhash}{ec0597a4b4aa25d36bfd7a9d804b234a}
+      \strng{bibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorbibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authornamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
+      \strng{authorfullhash}{ec0597a4b4aa25d36bfd7a9d804b234a}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE International Test Conference (ITC)}
+      \field{title}{Cross-layer system reliability assessment framework for hardware faults}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TEST.2016.7805863
+      \endverb
+    \endentry
     \entry{8580414}{article}{}
       \name{author}{14}{}{%
         {{hash=70ee41d5b24868dc4b86f3f165e64854}{%
@@ -2386,7 +3304,7 @@
       \strng{authorbibnamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
       \strng{authornamehash}{0336c96c9e1e80fef0e5abed1c9c3b71}
       \strng{authorfullhash}{9c1df48802f1f818876b92b6642db5d5}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{V}
       \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{labelnamesource}{author}
@@ -2503,6 +3421,112 @@
       \field{title}{Examining ACE analysis reliability estimates using fault-injection}
       \field{volume}{35}
       \field{year}{2007}
+    \endentry
+    \entry{westman2013reference}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d8ae7571fd5b92d6e4e22837f66d3103}{%
+           family={Westman},
+           familyi={W\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40f883b382221f8e15c72f917d592d91}{%
+           family={Nyberg},
+           familyi={N\bibinitperiod},
+           given={Mattias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5004ab0085e2fe599968463f785f693}
+      \strng{fullhash}{b5004ab0085e2fe599968463f785f693}
+      \strng{bibnamehash}{b5004ab0085e2fe599968463f785f693}
+      \strng{authorbibnamehash}{b5004ab0085e2fe599968463f785f693}
+      \strng{authornamehash}{b5004ab0085e2fe599968463f785f693}
+      \strng{authorfullhash}{b5004ab0085e2fe599968463f785f693}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SAFECOMP 2013-Workshop DECS (ERCIM/EWICS Workshop on Dependable Embedded and Cyber-physical Systems) of the 32nd International Conference on Computer Safety, Reliability and Security}
+      \field{title}{A reference example on the specification of safety requirements using ISO 26262}
+      \field{year}{2013}
+      \field{pages}{NA}
+      \range{pages}{-1}
+    \endentry
+    \entry{9172762}{inproceedings}{}
+      \name{author}{11}{}{%
+        {{hash=b928dbe5ef69aed5bb9310f77782f5f9}{%
+           family={{Witulski}},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f439aad4f6d7856eff111f4017408c9d}{%
+           family={{Karsai}},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=efbd9ce36e941ee7c7b0886612e98537}{%
+           family={{Mahadevan}},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5eb31c08683dc76688caa5a3146f7b57}{%
+           family={{Austin}},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=de11f2295a3836e0cfe000f0a8e69be1}{%
+           family={{Schrimpf}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=06d0a106e01a5ed5d2b8463b38b54a56}{%
+           family={{Sierawski}},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=39b4ef1b9dbf22ca0f081747291a9e1b}{%
+           family={{Reed}},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39dbef0aea31a3fe58138cc5e8ebfbde}{%
+           family={{Pellish}},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dc8aa8f42f66fb4c789264b43f1838ff}{%
+           family={{Campola}},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0aab1a186e4d45caab2cd3ac22a9957d}{%
+           family={{Evans}},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b51ae214f3b493338d19b1f5db7af2b}{%
+           family={{Majewicz}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{05454b81cdc4bf7d1e219885407a476c}
+      \strng{fullhash}{1a39b53323229036f5fb1e9c3d55b9a5}
+      \strng{bibnamehash}{05454b81cdc4bf7d1e219885407a476c}
+      \strng{authorbibnamehash}{05454b81cdc4bf7d1e219885407a476c}
+      \strng{authornamehash}{05454b81cdc4bf7d1e219885407a476c}
+      \strng{authorfullhash}{1a39b53323229036f5fb1e9c3d55b9a5}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE Aerospace Conference}
+      \field{title}{Development of a Flight-Program-Ready Radiation Model-Based Assurance Platform}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/AERO47225.2020.9172762
+      \endverb
     \endentry
     \entry{FIDES_fault_tree}{inproceedings}{}
       \name{author}{2}{}{%
