@@ -631,8 +631,11 @@ To achieve functional safety, the ISO 26262 series of standards:
 
 The ISO 26262 series of standards is concerned with functional safety of E/E systems that is achieved through safety measures including safety mechanisms. It also provides a framework within which safety-related systems based on other technologies (e.g. mechanical, hydraulic and pneumatic) can be considered. The achievement of functional safety is influenced by the development process (including such activities as requirements specification, design, implementation
 
+The current ISO 26262 standard consists of 10 parts or phases: Vocabulary (Part 1) \cite{iso26262-1}, Management of Functional Safety (Part 2) \cite{iso26262-2}, Concept Phase (Part 3) \cite{iso26262-3}, Product Development at System Level (Part 4) \cite{iso26262-4}, Hardware Level (Part 5) \cite{iso26262-5} and Software Level (Part 6) \cite{iso26262-6}, Production and Operation (Part 7) \cite{iso26262-7}, Supporting Processes (Part 8) \cite{iso26262-8}, ASIL oriented and safety oriented analyses (Part 9) \cite{iso26262-9} and Guideline on ISO 26262 (Part 10) \cite{iso26262-10}. Based on Part 2, different phases of the product development lifecycle are assigned corresponding safety roles as shown in MISSING REF.
 
+In order to categorize elements into Automotive Safety Integrity Levels (ASILs), it is essential to perform a comprehensive Hazard Analysis and Risk Assessment (HARA). A systematic approach involves the maintenance of a tabular record comprising all conceivable hazardous incidents. These incidents are subsequently categorized according to criteria such as: the likelihood of the event's manifestation, the extent of human intervention required to avert a potential accident upon its occurrence, and the probable gravity of the ensuing damage or harm.
 
+Each ASIL not only establishes a methodology for error detection and management to minimize and accept residual risk, but also outlines validation procedures encompassing scrutiny and evaluation. A practical application of ISO 26262 is exemplified in \cite{westman2013reference} through the implementation of a "Fuel Level Display (FLD) system." The authors of \cite{6903180} present a safety-focused process line-oriented methodological framework, which facilitates the analysis of similarities and disparities among various safety models, thereby enablin  g the repurposing and development of an adaptable model.
 
 \section {NEWPART}
 The \textbf{180 26262} series of standards is the adaptation of \textbf{EC 61508} series of standards to address the sector specific needs of electrical and/or electronic (\textbf{E/E}) systems within road vehicles. This adaptation applies to all activities during the safety lifecycle of safety-related systems comprised of electrical, electronic and software components. Safety is one of the key issues in the development of road vehicles. Development and integration of automotive functionalities strengthen the need for functional safety and the need to provide evidence that functional safety objectives are satisfied. With the trend of increasing technological complexity, software content and mechatronic implementation, there are increasing risks from systematic failures and random hardware failures, these being considered within the scope of functional safety. \textbf{ISO 26262} series of standards includes guidance to mitigate these risks by providing appropriate requirements and processes.
@@ -696,5 +699,34 @@ The missing part is the fifth, which it will be pictured in the course of this c
 \end{itemize}
 
 
+
+\section{Overview of the standard form the Automotive point of view}
+
+According to WHO ”1.2 million people die each year on the world's roads, with millions more sustaining serious injuries and living with long-term adverse health consequences. Globally, road traffic crashes are a leading cause of death among young people, and the main cause of death among those aged 15–29 years \cite{yeung-2018}.” Thus, road safety is a critical issue. IEC 61508 defines Safety as “the freedom from unacceptable risk of physical injury or of damage to the health of people, either directly, or indirectly as a result of damage to property or to the environment \cite{bell2006introduction}”.
+
+
+\section{Main Examples of ASIL-D Chips}
+
+
+
+
+
+
+
+\section{wWhy it may not be enough}
+Standards for functional safety, such as ISO 26262 and IEC 61508, assess a system's safety based on the existence or absence of intolerable and unreasonable risk. Consequently, these standards overlook minimal acceptable risks, resulting in a lack of assurance of absolute safety. The potential for human error in risk assessment judgments, due to the nature of these standards, may have severe consequences. In \cite{7958474}, the authors explore moral concepts and challenges associated with functional safety, as well as prevalent misconceptions regarding risk perception. They utilize Kahneman's book, "Thinking, Fast and Slow" \cite{daniel2017thinking}, as the foundation for examining irrational risk judgment.
+
+Critical ethical issues related to functional safety and risk-based decision-making processes are as follows:
+
+\begin{itemize}
+\item Diverse judgments: Variability exists among individuals' assessments of risk levels.
+\item Vision Zero and Zero Tolerance: These government principles, targeting behaviors that cause harm, are not applied to functional safety.
+\item Wants versus Needs: Activities such as flying and driving are human desires rather than necessities, raising questions about the justification for accommodating such desires in light of associated risks.
+\item Business: The primary objective for creating safe systems should be safety, not profit, yet the pursuit of profit often drives the development of safer systems.
+
+\end{itemize}
+Additional ethical considerations encompass law, regulations, policies, evolution, innovation, and sustainability.
+
+Addressing these issues is of paramount importance, particularly in the context of emerging autonomous systems. Current standards may be insufficient, and future work in this domain should investigate these topics further.
 
 \end{document}
