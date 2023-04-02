@@ -614,6 +614,12 @@ Now comparing the $MTTF_{TMR}$ with the Simplex solution we obtain:
 \label{sec:iniziare}
 
 
+It is worth to underline that even though these methods seem to solve the problem of the harsh environments explained in this chapter, they're not the most efficient way of mitigating risks, as well as they are not enough to cover other types of failures.
+In particular, the assessment of the reliability is a much more complex matter, following precise international standards and procedures, as shown in the following chapters.
+
+Cross layer reliability evaluation is also something that has been taken into account when performing the reliability assessment of certain systems, more information can be found at \cite{dinatale:hal-02986877}
+
+
 \chapter{ISO26262}
 
 \section{introduction}
@@ -631,38 +637,145 @@ To achieve functional safety, the ISO 26262 series of standards:
 
 The ISO 26262 series of standards is concerned with functional safety of E/E systems that is achieved through safety measures including safety mechanisms. It also provides a framework within which safety-related systems based on other technologies (e.g. mechanical, hydraulic and pneumatic) can be considered. The achievement of functional safety is influenced by the development process (including such activities as requirements specification, design, implementation
 
-The current ISO 26262 standard consists of 10 parts or phases: Vocabulary (Part 1) \cite{iso26262-1}, Management of Functional Safety (Part 2) \cite{iso26262-2}, Concept Phase (Part 3) \cite{iso26262-3}, Product Development at System Level (Part 4) \cite{iso26262-4}, Hardware Level (Part 5) \cite{iso26262-5} and Software Level (Part 6) \cite{iso26262-6}, Production and Operation (Part 7) \cite{iso26262-7}, Supporting Processes (Part 8) \cite{iso26262-8}, ASIL oriented and safety oriented analyses (Part 9) \cite{iso26262-9} and Guideline on ISO 26262 (Part 10) \cite{iso26262-10}. Based on Part 2, different phases of the product development lifecycle are assigned corresponding safety roles as shown in MISSING REF.
+The current ISO 26262 standard consists of 10 parts or phases: Vocabulary (Part 1) \cite{iso26262-1}, Management of Functional Safety (Part 2) \cite{iso26262-2}, Concept Phase (Part 3) \cite{iso26262-3}, Product Development at System Level (Part 4) \cite{iso26262-4}, Hardware Level (Part 5) \cite{iso26262-5} and Software Level (Part 6) \cite{iso26262-6}, Production and Operation (Part 7) \cite{iso26262-7}, Supporting Processes (Part 8) \cite{iso26262-8}, ASIL oriented and safety oriented analyses (Part 9) \cite{iso26262-9} and Guideline on ISO 26262 (Part 10) \cite{iso26262-10}. Based on Part 2, different phases of the product development lifecycle are assigned corresponding safety roles.
 
 In order to categorize elements into Automotive Safety Integrity Levels (ASILs), it is essential to perform a comprehensive Hazard Analysis and Risk Assessment (HARA). A systematic approach involves the maintenance of a tabular record comprising all conceivable hazardous incidents. These incidents are subsequently categorized according to criteria such as: the likelihood of the event's manifestation, the extent of human intervention required to avert a potential accident upon its occurrence, and the probable gravity of the ensuing damage or harm.
 
 Each ASIL not only establishes a methodology for error detection and management to minimize and accept residual risk, but also outlines validation procedures encompassing scrutiny and evaluation. A practical application of ISO 26262 is exemplified in \cite{westman2013reference} through the implementation of a "Fuel Level Display (FLD) system." The authors of \cite{6903180} present a safety-focused process line-oriented methodological framework, which facilitates the analysis of similarities and disparities among various safety models, thereby enablin  g the repurposing and development of an adaptable model.
 
-\section {NEWPART}
-The \textbf{180 26262} series of standards is the adaptation of \textbf{EC 61508} series of standards to address the sector specific needs of electrical and/or electronic (\textbf{E/E}) systems within road vehicles. This adaptation applies to all activities during the safety lifecycle of safety-related systems comprised of electrical, electronic and software components. Safety is one of the key issues in the development of road vehicles. Development and integration of automotive functionalities strengthen the need for functional safety and the need to provide evidence that functional safety objectives are satisfied. With the trend of increasing technological complexity, software content and mechatronic implementation, there are increasing risks from systematic failures and random hardware failures, these being considered within the scope of functional safety. \textbf{ISO 26262} series of standards includes guidance to mitigate these risks by providing appropriate requirements and processes.
+\section{Structure of the Standard}
+\subsection{Vocabulary}
 
-To achieve functional safety, the \textbf{ISO 26262} series of standards:
+One of the challenges in acquainting oneself with any new standard is becoming familiar with the specific jargon. ISO 26262 introduces some unique terms not found in IEC 61508. However, many of these terms are at least approximately analogous to familiar IEC 61508 terms. Some of the key vocabulary additions include:
 
-\begin{enumerate}
-\item provides a reference for the automotive safety lifecycle and supports the tailoring of the activities to be performed during the lifecycle phases, i.e., development, production, operation, service and decommissioning;
-\item provides an automotive-specific risk-based approach to determine integrity levels (\textbf{Automotive Safety Integrity Levels (ASILs)});
-\item uses \textbf{ASILs} to specify which of the requirements of \textbf{ISO 26262} are applicable to avoid unreasonable residual risk;
-\item provides requirements for functional safety management, design, implementation, verification, validation and confirmation measures; and
-\item provides requirements for relations between customers and suppliers.
-\end{enumerate}
+\begin{itemize}
+\item \textbf{Automotive Safety Integrity Level (ASIL)} – One of four qualitative levels (A-D), notionally corresponding to an IEC 61508 high demand SIL, but not equivalent. Can be applied to a Safety Goal or an individual element.
+\item Functional safety requirements are specified hierarchically, from most general to most specific:
+\begin{itemize}
+\item \textbf{Safety Goal} – Roughly equivalent to a risk assessment recommendation. Safety Goals are assigned ASILs, but these ASILs may be achieved by multiple systems. Roughly equivalent to the “IPL gap” in a LOPA.
+\item \textbf{Functional Safety Concept} – Identifies the functional safety requirements necessary to achieve the safety goal (i.e., close the gap) and allocates to elements (i.e., functions). Similar to allocating SILs to SIFs to close a risk assessment gap.
+\item \textbf{Functional Safety Requirement} – Specification of implementation-independent safety behavior. Sort of like the definition of the safe state and required actions without specifying hardware.
+\item \textbf{Technical Safety Requirement} – Specifies detailed requirements for detection of faults, self-testing, responses to inputs, response times, etc.
+\item \textbf{Hardware / Software Safety Requirements} – Specifies the detailed performance requirements and architecture requirements. Includes the probabilistic metrics.
+\end{itemize}
+\item There is a hierarchy of equipment comprised of, from top to bottom:
+\begin{itemize}
+\item \textbf{Item} – A system or array of systems that implements a function for the vehicle, e.g., the steering system. Similar to the IEC Equipment Under Control and the Control System. Items have Safety Goals with assigned ASILs.
+\item \textbf{System} – A set of elements that relates at least a sensor, controller, and actuator.
+\item \textbf{Element} – A collection of components that make up a system or part of a system.
+\item \textbf{Component} – Logically and technically separable part made up of hardware parts (or software units).
+\item \textbf{Hardware part} – A piece of hardware which cannot be subdivided.
+\end{itemize}
+\item Faults and failures use a somewhat different nomenclature:
+\begin{itemize}
+\item \textbf{Perceived Fault} – Detected by the driver (we might call this operator surveillance or response to alarm).
+\item \textbf{Permanent Fault} – Fault that stays until repaired (the default in SIS).
+\item \textbf{Residual Fault} – A “portion of a fault” that leads to system failure and is not covered by a safety mechanism. Similar to IEC 61508 Dangerous Undetected (DU) failure where some failures are detected by diagnostics and converted to Dangerous Detected (DD) failures.
+\item \textbf{Single Point Fault} – A “portion of a fault” that leads to system failure and is not covered by a safety mechanism. Similar to an IEC 61508 DU failure where Hardware Fault Tolerance (HFT) = 0.
+\item \textbf{Dual / Multiple Point Fault} – ISO doesnot use the term Hardware Fault Tolerance, but instead talks about single-, dual-, and multiple-point failures. Similar to a DU failure with HFT > 0.
+\item \textbf{Safe Fault} – Equivalent to Safe Undetected (SU) and Safe Detected (SD) failures.
+\item \textbf{Detected Fault} – Fault that is detected by a safety mechanism.
+\end{itemize}
+\item \textbf{Dedicated measure} – There is not really a single term for this in IEC, but includes things to increase confidence in failure rates, like derating, separation, supplier monitoring, etc.
+\item \textbf{Safety Mechanism} – Technical solution to detect faults or control failures. Includes sensors, diagnostics, self-tests, etc.
+\item \textbf{Fault reaction time} – Time from detection of a fault to reaching the safe state. Roughly equivalent to SIF response time.
+\item \textbf{Fault Tolerant Time Interval} – Time from the fault to the hazardous event. Equivalent to Process Safety Time.
+\end{itemize}
 
-The \textbf{ISO 26262} series of standards is concerned with functional safety of \textbf{E/E} systems that is achieved through safety measures including safety mechanisms. It also provides a framework within which safety-related systems based on other technologies (e.g. mechanical, hydraulic and pneumatic) can be considered. The achievement of functional safety is influenced by the development process (including such activities as requirements specification, design, implementation, integration, verification, validation and configuration), the production and service processes and the management processes. Safety is intertwined with common function-oriented and quality-oriented activities and work products. The \textbf{ISO 26262} series of standards addresses the safety-related aspects of these activities and work products.
+The above is not an exhaustive list, but it is sufficient to begin understanding the similarities and differences between the standards without being hopelessly lost in new jargon. (Now I know how the non-SIS folks feel when we start talking about SIFs, SIL, PFD, HFT, DU, DD, etc.)
 
-Figure MISSINGREF shows the overall structure of the \textbf{ISO 26262} series of standards. The \textbf{ISO 26262} series of standards is based upon a V-model as a reference process model for the different phases of product development. Within the figure: the shaded "V's" represent the interconnection among \textbf{ISO 26262-6} and \textbf{ISO 26262-7}; \textbf{ISO 26262-3}, \textbf{ISO 26262-4}, and \textbf{ISO 26262-5}, for motorcycles: \textbf{ISO 26262-12:2018}, Clause 8 supports \textbf{ISO 26262-3}; \textbf{ISO 26262-12:2018}, Clauses 9 and 16 support \textbf{ISO 26262-4}. The specific clauses are indicated in the following manner: "m-n", where "m" represents the number of the particular part and "n" indicates the number of the clause within that part.
+Many familiar IEC 61508 terms are also recognizable in ISO 26262, including common cause failures, systematic failures, diagnostic coverage, proven-in-use, and validation, to name a few. Some important IEC 61508 terms (e.g., hardware fault tolerance, verification) are missing from the definitions list, but we will see later that these concepts are still present in the ISO standard.
 
-%\begin{figure}[ht]
-%\centering
-%\includegraphics[scale=0.6]{ISO_26262_structure.png}
-%\caption{Overall structure of the \textbf{ISO 26262} series of standards}
-%\label{fig:ISO_26262_structure}
-%\end{figure}
 
-In addition to the V-model, the \textbf{ISO 26262} series of standards includes a variety of other concepts and processes, such as hazard analysis and risk assessment, functional safety requirements, and software development processes. These concepts and processes are used to ensure that the development of safety-related systems is carried out in a structured, systematic, and consistent manner.
+\subsection{Management of Functional Safety}
+Part 2 of the ISO standard delineates the process for managing functional safety and introduces the automotive safety lifecycle, as illustrated in the figure below (click to view a larger version).
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{subfiles/imgs/SafetyLifecycleFigure.png}
+\caption{Safety Lifecycle Figure}
+\label{fig:safety_lifecycle}
+\end{figure}
+
+
+A few quick observations on similarities and differences:
+
+\begin{itemize}
+\item Terms such as safety lifecycle, hazard analysis, validation, and functional safety assessment should be reassuringly familiar.
+\item Item definition can be considered similar to the process design. One must have some level of process design definition before performing the risk assessment.
+\item A key difference in the ISO standard is the distinction between production and operation, as it deals with mass-produced products (i.e., cars) rather than unique process plants.
+\item The boxes for Allocation to other technologies, Controllability, and External Measures may appear unusual until it becomes clear that, unlike IEC 61508, the ISO standard mandates a specific risk assessment process within the standard.
+\item Operation and Production planning are analogous to clause 16 in IEC 61511 but make the aforementioned distinction between production and operation.
+\end{itemize}
+
+The remainder of the document discusses other concepts familiar to IEC 61508 and IEC 61511 users, including safety culture, competence management, functional safety planning, and verification.
+
+The terminology for verification processes deviates slightly from IEC, but the underlying concepts remain very similar. Part 2 outlines the following verification activities:
+
+\begin{itemize}
+\item Confirmation reviews are intended to check the compliance of selected work products with the corresponding requirements of ISO 26262.
+\item Functional safety audit evaluates the implementation of the processes required for functional safety activities.
+\item Functional safety assessment evaluates the functional safety achieved by the item.
+\end{itemize}
+
+Further detail on verification is provided in Part 2 Appendix D, which details a list of required verifications.
+
+
+
+
+\subsection{Concept Phase}
+
+Upon completing the development of the Functional Safety Concept in the third segment, the fourth segment outlines the necessary elements for the Technical Safety Requirements Specification (TSRS). This specification addresses various aspects, such as:
+\begin{itemize}
+\item Protective mechanisms, encompassing fault detection and signaling, steps to reach a secure condition, degradation reasoning, and tests to avoid hidden faults
+\item Reasoning for transitioning to a secure state (akin to Cause and Effect) and maintaining that state
+Temporal restrictions, including fault-tolerant time intervals and emergency operation periods
+\end{itemize}
+
+The TSRS clarifies the functional intricacies of the safety systems' responsibilities. As such, this is where ASIL Decomposition is presented, which involves dividing a Safety Goal's ASIL requirement into multiple lower ASILs assigned to distinct components. This process is comparable to using "stacked SIFs," or combining two SIL1 levels to achieve SIL2.
+
+Moreover, this segment details specific strategies to manage both systematic and random hardware failures. This approach is fundamentally similar to the qualitative techniques and guidelines provided by IEC standards for managing systematic failures.
+
+\begin{itemize}
+\item \textbf{Severity classes} : The consequence of an anomaly is classified on a scale of $S0$ – $S3$ (Table 1)
+\item \textbf{Probability of Exposure} : The likelihood is classified on a scale of $E0$ – $E4$ (Table 2)
+\item \textbf{Controllability} : The likelihood that the driver can mitigate the anomaly is classified on a scale of $C0$ – $C3$. Similar to a conditional modifier or operator response to alarm. (Table 3)
+\end{itemize}
+
+It is important to note that ASILs are assigned to safety goals, which are approximately equivalent to HazOp or LOPA recommendations. This can be somewhat confusing since we will later observe that ASILs can be "decomposed" so that multiple elements can be combined to meet the ASIL requirement.
+
+This section outlines the required content of the Functional Safety Concept, which is sometimes referred to as the initial SRS, i.e., the SRS encompassing the basic safety requirements without any design specifics. The section also introduces the Technical Safety Requirements Specification, roughly analogous to a detailed SRS as one might produce in a FEED package.
+
+The hierarchical organization of safety requirements specifications in ISO 26262 is among their most innovative features. It has long been my belief that the SRS definition in IEC 61511 inadequately represented the evolving nature of the SRS as a set of documents that develops throughout the safety lifecycle. The ISO 26262 approach provides much-needed structure to the SRS development, and the process industries should take this approach into consideration.
+
+
+
+
+\subsection{Product development at the system level}
+Upon the development of the Functional Safety Concept in Part 3, Part 4 outlines the requirements for the Technical Safety Requirements Specification (TSRS). This specification addresses various aspects, such as:
+
+\begin{itemize}
+\item Safety mechanisms, encompassing fault detection and signaling, steps to reach a secure condition, degradation reasoning, and tests to avoid hidden faults
+\item Reasoning for transitioning to a secure state (akin to Cause and Effect) and maintaining that state
+\item Temporal restrictions, including fault-tolerant time intervals and emergency operation periods
+\end{itemize}
+
+The TSRS clarifies the functional intricacies of the safety systems' responsibilities. As such, this is where ASIL Decomposition is presented, which involves dividing a Safety Goal's ASIL requirement into multiple lower ASILs assigned to distinct components. This process is comparable to using "stacked SIFs," or combining two SIL1 levels to achieve SIL2.
+
+Moreover, this segment details specific strategies to manage both systematic and random hardware failures. This approach is fundamentally similar to the qualitative techniques and guidelines provided by IEC standards for managing systematic failures.
+
+
+\section {V model and its Parts}
+
+In addition to the V-model, shown in Fig:\ref{fig:ISO_26262_structure}, the \textbf{ISO 26262} series of standards includes a variety of other concepts and processes, such as hazard analysis and risk assessment, functional safety requirements, and software development processes. These concepts and processes are used to ensure that the development of safety-related systems is carried out in a structured, systematic, and consistent manner.
+\newgeometry{left=1cm,bottom=0.1cm} 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{subfiles/imgs/ISO_26262_structure.png}
+\caption{Overall structure of the \textbf{ISO 26262} series of standards}
+\label{fig:ISO_26262_structure}
+\end{figure}
+\restoregeometry
 Overall, the \textbf{ISO 26262} series of standards plays a critical role in ensuring the safety and reliability of road vehicles. By providing guidance on the development of functional safety measures, it helps to minimize the risk of accidents and injuries caused by malfunctions in E/E systems.
 
 \section{Scope}
@@ -687,13 +800,13 @@ The requirements of this document for hardware elements are applicable to both n
 \paragraph{Other Section of interest}
 The following section of the same standard are of interest of for this thesis:
 \begin{itemize}
-\item ISO 26262-1, Road vehicles - Functional safety - Part 1: Vocabulary
-\item ISO 26262-2:2018, Road vehicles - Functional safety - Part 2: Management of functional safety
-\item ISO 26262-4:2018, Road vehicles - Functional safety - Part 4: Product development at the system level
-\item ISO 26262-6:2018, Road vehicles - Functional safety - Part 6: Product development at the software level
-\item ISO 26262-7:2018, Road vehicles - Functional safety - Part 7: Production and operation
-\item ISO 26262-8:2018, Road vehicles - Functional safety - Part 8: Supporting processes
-\item ISO 26262-9:2018, Road vehicles - Functional safety - Part 9: Automotive Safety Integrity Level (ASIL)-oriented and safety-oriented analyses
+\item ISO 26262-1, Road vehicles - Functional safety - Part 1: Vocabulary \cite{iso26262-1}
+\item ISO 26262-2:2018, Road vehicles - Functional safety - Part 2: Management of functional safety \cite{iso26262-2}
+\item ISO 26262-4:2018, Road vehicles - Functional safety - Part 4: Product development at the system level \cite{iso26262-4}
+\item ISO 26262-6:2018, Road vehicles - Functional safety - Part 6: Product development at the software level \cite{iso26262-6}
+\item ISO 26262-7:2018, Road vehicles - Functional safety - Part 7: Production and operation \cite{iso26262-7}
+\item ISO 26262-8:2018, Road vehicles - Functional safety - Part 8: Supporting processes \cite{iso26262-8}
+\item ISO 26262-9:2018, Road vehicles - Functional safety - Part 9: Automotive Safety Integrity Level (ASIL)-oriented and safety-oriented analyses \cite{iso26262-9}
 
 The missing part is the fifth, which it will be pictured in the course of this chapter.
 \end{itemize}
@@ -707,9 +820,182 @@ According to WHO ”1.2 million people die each year on the world's roads, with 
 
 \section{Main Examples of ASIL-D Chips}
 
+In order to understand the difficultied of certifing a device in the ASIL-D level, there is the need to first understand the metrics defined by the standard itself.
+
+Part 5 of the standard is dedicated to the development of the hardware required to achieve safety goals, while the software aspect is covered in the subsequent part. In this section, the technical safety requirements developed in Part 4 are allocated to specific hardware and software designs. This process can be considered analogous to detailed engineering in a typical IEC 61511 project.
+
+Although a comprehensive explanation is beyond the scope of this text, the ISO standard necessitates that the design takes into account several factors, including:
+
+\begin{itemize}
+\item Response to failures, including transient faults
+\item Diagnostic capabilities
+\item Consideration of fault detection times
+\item Expected failure rates of components
+\item Design verification requirements
+\item Consistency with the higher-level safety specifications
+\end{itemize}
+
+The hardware detailed design is documented in three primary deliverables:
+
+\begin{enumerate}
+\item Hardware Safety Requirements Specification
+\item Hardware-software Interface Specification
+\item Hardware Safety Requirements Verification Report
+\end{enumerate}
+
+It is worth noting that the ISO standard does not provide extensive details on the hardware design process, and neither does IEC 61508. Consequently, this text will not delve further into this topic.
+
+The latter sections of Part 5 address the quantitative verification of the hardware via various metrics, which will be the primary focus of this section.
+
+Clause 8 of the ISO 26262 standard addresses the evaluation of hardware architectural metrics. These metrics are specifically designed to assess the effectiveness of the hardware architecture in managing random failures. It is important to distinguish this from the evaluation of random hardware failures (i.e., ASIL), which is covered in Clause 9.
+
+Diagnostic coverage is defined similarly to its definition in the IEC standards. The estimation of diagnostic coverage must be based on failure rates from recognized industry sources, statistics derived from field returns or tests, or expert judgment.
+
+This part of the standard defines two primary metrics:
+
+\begin{enumerate}
+\item Single-point Fault Metric – measures the robustness of the design concerning single-point and residual faults. A higher value is more desirable.
+\item Latent-fault Metric – measures the robustness of the design concerning latent faults. A higher value is more desirable.
+\end{enumerate}
+
+It is important to note that these metrics are only applicable to higher ASIL functions (i.e., B, C, or D).
+
+Before discussing these metrics, it is beneficial to recall the taxonomy of faults/failures (from Part 1) utilized by ISO 26262, which differs from the IEC classification. The total failure rate $\lambda$ can be decomposed into:
+
+\begin{equation}
+\lambda = \lambda_{SPF} + \lambda_{RF} + \lambda_{MPF} + \lambda_{S}
+\end{equation}
+
+where:
+
+\begin{itemize}
+\item $\lambda_{SPF}$: Single Point Faults (i.e., a DU fault where there are no diagnostics)
+\item $\lambda_{RF}$: Residual Faults (i.e., a DU fault not covered by diagnostics)
+\item $\lambda_{MPF}$: Multiple Point Faults (i.e., a combination of independent SPFs)
+\item $\lambda_{S}$: Safe Faults
+\end{itemize}
+
+The single-point fault metric is defined as the sum of the multiple-point faults and the safe faults divided by the total failure rate, that is, the following ratio: $\sum(\lambda_{MPF} + \lambda_{S}) / \sum(\lambda)$
+
+\begin{itemize}
+\item Note: The name "single-point fault metric" may initially be confusing, as the single-point fault rate ($\lambda_{SPF}$) does not appear in the formula! However, the formula can equivalently be written as: $1 - \sum(\lambda_{SPF} + \lambda_{RF}) / \sum(\lambda)$
+\end{itemize}
+
+This ratio bears a striking resemblance to the IEC 61508 concept of Safe Failure Fraction (SFF), with the notable exception that multiple-point faults are also considered "safe." The inclusion of multiple-point faults is a somewhat unusual approach, but it likely explains why the latent-fault metric is also calculated.
+
+A quantitative target for the single-point fault metric is established by the standard based on the ASIL target:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-4.png}
+\caption{Possible Source for the Derivation of the Target "Single Point of Failure" metric}
+\label{fig:asil-t-4}
+\end{figure}
+
+By combining safe faults and multiple-point faults into the same metric, this metric exhibits a similar impact to the SFF-based hardware fault tolerance requirements in IEC 61508. In other words, if the single-point fault metric is too low, additional fault tolerance will convert those faults into multiple-point faults, thereby improving the metric.
+
+\paragraph{Latent Fault metric}
+The latent fault metric is defined as the sum of the multiple-point faults perceived by the driver or detected by diagnostics, in addition to the safe faults, divided by the total multiple-point and safe faults. The formula for this ratio is as follows:
+
+\begin{equation}
+\frac{\sum(\lambda_{MPF}(Per/Det) + \lambda_{S})}{\sum(\lambda_{MPF} + \lambda_{S})}
+\end{equation}
+
+This concept bears a strong resemblance to the IEC 61508 diagnostic coverage notion, with the key difference being the inclusion of driver "perception" of, and response to, faults. This aspect is generally not considered in IEC 61508 (or IEC 61511) as most systems are dormant and activate on demand.
+
+A quantitative target value for the latent-fault metric is established by the standard based on the ASIL target:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-5.png}
+\caption{Possible Source of Derivation for the "Latent Fault" metric}
+\label{fig:asil-t-5}
+\end{figure}
+
+\subsection{Automotive Safety Integrity Level (ASIL)}
+
+Clause 9 introduces the concept of Automotive Safety Integrity Level (ASIL) and outlines the process for its evaluation. Similar to the IEC 61508 Safety Integrity Level (SIL), the objective of the ASIL calculation is to demonstrate that the probability of random failures is sufficiently low to meet the safety goal.
+
+The ISO standard explicitly states that the evaluation is limited to random hardware failures, excluding systematic failures. As regular readers of my other blog already know, I strongly disagree, and believe that systematic failures should be both qualitatively and quantitatively considered wherever possible. However, this digression aside, two options are provided in Part 5 for calculating ASIL:
+
+\begin{enumerate}
+\item Probabilistic Metric for random Hardware Failures (PMHF)
+\item Individual evaluation of faults (i.e., cut set analysis)
+\end{enumerate}
+
+Each approach will be briefly discussed in the following sections.
+
+\paragraph{Probabilistic Metric for random Hardware Failures (PMHF)}
+
+This method is akin to the IEC 61508 approach for a high demand or continuous SIF, where a target probability of failure per hour (PFH) is specified for each SIL level. The ASIL\footnote{} targets are shown below:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-6.png}
+\caption{Possible Source of Derivation for the "Latent Fault" metric}
+\label{fig:asil-t-6}
+\end{figure}
+
+It is important to note that for ASIL:
+
+\begin{itemize}
+\item No quantitative target or calculations are required for ASIL A.
+\item The PFH targets for ASIL B and C are the same (though other requirements differ).
+\item The PFH values for ASIL do not exactly align with the targets for SIL. The ASIL targets are higher; for instance, ASIL B/C is equivalent to the PFH for SIL3, while ASIL D is equivalent to SIL4. (Although ASIL A does not have a quantitative target, it is presumably equivalent to SIL2 if the risk matrix is linear.)
+\end{itemize}
+
+Since most of us do not perform IEC 61508 continuous mode SIL calculations regularly, the continuous mode SIL table from IEC 61508 is provided below for reference:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/random-asil.png}
+\caption{Possible Source of Derivation for the "Latent Fault" metric}
+\label{fig:random-asil}
+\end{figure}
+
+The ISO 26262 probabilistic metric evaluation must be conducted quantitatively, although the standard does not prescribe a specific method. Quantitative fault tree analysis (FTA) is suggested as one possible approach. The standard does stipulate that the analysis must cover certain requirements, including the concept of "exposure duration," which is roughly equivalent to the MTTR considered in SIL calculations.
+
+For higher ASIL C and D targets, the standard mandates that a single-point fault in a hardware part shall only be considered acceptable if "dedicated measures" are taken, where dedicated measures refer to steps that ensure a low failure rate, such as over-design, separation, sampling, etc. This concept bears some similarity to the proven-in-use concepts of IEC 61508.
+
+\paragraph{Individual evaluation of faults (i.e., cut set analysis)}
+
+The second option for evaluating ASIL is based on assessing faults individually. A simple flowchart is provided in the standard to describe the iterative design process. The advantage of this approach appears to be that a complex model (e.g., FTA) of the entire system is not required for the analysis. It is speculated (though not confirmed) that the downside is that this method may be more conservative.
+
+This method introduces the concept of failure rate class for individual hardware parts. The failure rate class ranking for a hardware part failure rate is determined as follows:
+
+\begin{itemize}
+\item Class 1 = $<10^{-10}$/hr
+\item Class 2 = $<10^{-9}$/hr
+\item Class 3 = $<10^{-8}$/hr
+\item etc. (where Class $i$ = Class $i-1 \times 10$)
+\end{itemize}
+
+In this method, each ASIL level has one or more failure rate classes that are permitted to be used, as shown below. There is one table each for (i) single-point faults (i.e., no diagnostics), (ii) residual faults, and (iii) dual-point faults, as shown below:
 
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-7.png}
+\caption{Target of Failure Rate Classes of Hardware Parts Regarding Single Point Faults}
+\label{fig:asil-t-7}
+\end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-8.png}
+\caption{Mazimum Failure Rate Classes for a Given Diagnostic Coverage of the Hardware Part - Residual Fault}
+\label{fig:asil-t-8}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{subfiles/imgs/asil-t-9.png}
+\caption{Target of Failure Rate Classe and Coverage of Hardware Parts Regarding Dual Point Faultsg:asil-t-9}
+\end{figure}
+
+This method of component "classes" bears conceptual resemblance to the "parts counts" methods employed in the past, most notably in MIL-HDBK-217. This fact alone is sufficient to evoke skepticism regarding this approach, considering the military eventually abandoned MIL-HDBK-217 due to its extreme inaccuracy.
+
+One might also question whether the failure class targets specified in ISO 26262 are so conservative as to render this approach impractical. A Class 1 part, as required for ASIL D, must exhibit a failure rate of less than $1\times10^{-10}$/hr. Expressed differently, the MTTF for that part must exceed 1,141,000 years. It would certainly be intriguing to know the source of these exceptional Class 1 devices for safety functions! This stipulation may subtly encourage hardware fault tolerance without explicitly mandating it.
 
 
 

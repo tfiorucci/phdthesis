@@ -1114,6 +1114,62 @@
       \verb https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
       \endverb
     \endentry
+    \entry{dinatale:hal-02986877}{book}{}
+      \name{author}{5}{}{%
+        {{hash=f5a5e78b6591a8e2d61ce18276ed501d}{%
+           family={Di\bibnamedelima Natale},
+           familyi={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9533cc2f61e631f8196025ce00062df3}{%
+           family={Gizopoulos},
+           familyi={G\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cad0836526e4d33c4817ea52850f739d}{%
+           family={Di\bibnamedelima Carlo},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee6a7689ad4f19d8cbcd507a86d2474a}{%
+           family={Bosio},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c1e28b8d40f01b1be71b9bbc2084364b}{%
+           family={Canal},
+           familyi={C\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {iet - the institution of engineering and technology}%
+      }
+      \strng{namehash}{6ed34851ec39c1e38cb9e5865c2a1c1b}
+      \strng{fullhash}{9f4817b3949a0ca2d543718a49752f9c}
+      \strng{bibnamehash}{6ed34851ec39c1e38cb9e5865c2a1c1b}
+      \strng{authorbibnamehash}{6ed34851ec39c1e38cb9e5865c2a1c1b}
+      \strng{authornamehash}{6ed34851ec39c1e38cb9e5865c2a1c1b}
+      \strng{authorfullhash}{9f4817b3949a0ca2d543718a49752f9c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Cross-Layer Reliability of Computing Systems}}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 328}
+      \range{pages}{328}
+      \verb{doi}
+      \verb 10.1049/PBCS057E
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.science/hal-02986877
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-02986877
+      \endverb
+    \endentry
     \entry{EBRAHIMI20141000}{article}{}
       \name{author}{4}{}{%
         {{hash=29a19f7c94a2a9ddbeb12500876ae59f}{%
