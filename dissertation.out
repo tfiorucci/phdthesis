@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter*.3}{Acknowledgments}{}% 1
 \BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 2
 \BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 3
-\BOOKMARK [-1][-]{part.1}{I Introduction}{}% 4
+\BOOKMARK [-1][-]{part.1}{I First Part - Introduction}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Background}{part.1}% 5
 \BOOKMARK [1][-]{section.1.1}{The Space Environment}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{The Earth Environment}{chapter.1}% 7
@@ -24,50 +24,49 @@
 \BOOKMARK [1][-]{section.3.5}{Supplementary Information}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.6}{1.9 Consequences of System Failure}{chapter.3}% 25
 \BOOKMARK [0][-]{chapter.4}{Problem, Proposals and Contributions}{part.1}% 26
-\BOOKMARK [1][-]{section.4.1}{Timeliness and Relevance of the Subject}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.2}{Manuscript Organization}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{Contributions and Perspectives}{chapter.4}% 29
-\BOOKMARK [-1][-]{part.2}{II Scientific Contributions}{}% 30
-\BOOKMARK [0][-]{chapter.5}{Basic Hardware Components}{part.2}% 31
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{State-of-the-Art}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{First Manual Application of FMEA on a SoC}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.4}{Modelling Digital Systems for MBSA}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.5}{Methodology}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.6}{Application: I2C to AHB bridge}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.7}{Application}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.8}{Results on the I2C to AHB System}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.9}{Second Proof of Concept 4BlocksSystem}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.10}{Discussion and Future Work}{chapter.5}% 41
-\BOOKMARK [0][-]{chapter.6}{Complex and -Processor Bsed Systems}{part.2}% 42
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.2}{State of the Art}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.3}{Methodology}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.4}{Test Case and Application}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.5}{Results and Future Work}{chapter.6}% 47
-\BOOKMARK [0][-]{chapter.7}{CERN Use Case}{part.2}% 48
-\BOOKMARK [1][-]{section.7.1}{LHC Detectors at CERN}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.2}{Radiation Effects on CMOS Electronics}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.3}{Radiation-Tolerant Design}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.4}{Universal Verification Methodology}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.5}{Physical Implementation of Digital ICs}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.6}{The PicoRV32: System on Chip}{chapter.7}% 54
-\BOOKMARK [-1][-]{part.3}{III Conclusions and Prospectives}{}% 55
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{part.3}% 56
-\BOOKMARK [0][-]{chapter.9}{Prospectives}{part.3}% 57
-\BOOKMARK [0][-]{section*.121}{Appendices}{part.3}% 58
-\BOOKMARK [0][-]{appendix.a.A}{Timer}{part.3}% 59
-\BOOKMARK [1][-]{section.a.A.1}{Counter and Prescaler}{appendix.a.A}% 60
-\BOOKMARK [1][-]{section.a.A.2}{Capture/Compare Register}{appendix.a.A}% 61
-\BOOKMARK [1][-]{section.a.A.3}{UVM Verification}{appendix.a.A}% 62
-\BOOKMARK [0][-]{appendix.a.B}{SPI Master}{part.3}% 63
-\BOOKMARK [1][-]{section.a.B.1}{Development}{appendix.a.B}% 64
-\BOOKMARK [1][-]{section.a.B.2}{UVM Verification}{appendix.a.B}% 65
-\BOOKMARK [0][-]{appendix.a.C}{UART Controller}{part.3}% 66
-\BOOKMARK [1][-]{section.a.C.1}{Baud Rate Generator}{appendix.a.C}% 67
-\BOOKMARK [1][-]{section.a.C.2}{First In First Out buffer}{appendix.a.C}% 68
-\BOOKMARK [1][-]{section.a.C.3}{Tx/Rx Controller}{appendix.a.C}% 69
-\BOOKMARK [1][-]{section.a.C.4}{Verification of UART Controller Design}{appendix.a.C}% 70
-\BOOKMARK [1][-]{section.a.C.5}{Triplication}{appendix.a.C}% 71
-\BOOKMARK [1][-]{section.a.C.6}{Physical Implementation}{appendix.a.C}% 72
-\BOOKMARK [0][-]{figure.caption.142}{Bibliography}{part.3}% 73
+\BOOKMARK [1][-]{section.4.1}{Manuscript Organization}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{Publications}{chapter.4}% 28
+\BOOKMARK [-1][-]{part.2}{II Second Part - Scientific Contributions}{}% 29
+\BOOKMARK [0][-]{chapter.5}{Basic Hardware Components}{part.2}% 30
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.2}{State-of-the-Art}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.3}{First Manual Application of FMEA on a SoC}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.4}{Modelling Digital Systems for MBSA}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.5}{Methodology}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.6}{Application: I2C to AHB bridge}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.7}{Application}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.8}{Results on the I2C to AHB System}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.9}{Second Proof of Concept 4BlocksSystem}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.10}{Discussion and Future Work}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Complex and -Processor Based Systems}{part.2}% 41
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{State of the Art}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{Methodology}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.4}{Test Case and Application}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.5}{Results and Future Work}{chapter.6}% 46
+\BOOKMARK [0][-]{chapter.7}{CERN Use Case}{part.2}% 47
+\BOOKMARK [1][-]{section.7.1}{LHC Detectors at CERN}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.2}{Radiation Effects on CMOS Electronics}{chapter.7}% 49
+\BOOKMARK [1][-]{section.7.3}{Radiation-Tolerant Design}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.4}{Universal Verification Methodology}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.5}{Physical Implementation of Digital ICs}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.6}{The PicoRV32: System on Chip}{chapter.7}% 53
+\BOOKMARK [-1][-]{part.3}{III Conclusions and Prospectives}{}% 54
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{part.3}% 55
+\BOOKMARK [0][-]{chapter.9}{Prospectives}{part.3}% 56
+\BOOKMARK [0][-]{section*.121}{Appendices}{part.3}% 57
+\BOOKMARK [0][-]{appendix.a.A}{Timer}{part.3}% 58
+\BOOKMARK [1][-]{section.a.A.1}{Counter and Prescaler}{appendix.a.A}% 59
+\BOOKMARK [1][-]{section.a.A.2}{Capture/Compare Register}{appendix.a.A}% 60
+\BOOKMARK [1][-]{section.a.A.3}{UVM Verification}{appendix.a.A}% 61
+\BOOKMARK [0][-]{appendix.a.B}{SPI Master}{part.3}% 62
+\BOOKMARK [1][-]{section.a.B.1}{Development}{appendix.a.B}% 63
+\BOOKMARK [1][-]{section.a.B.2}{UVM Verification}{appendix.a.B}% 64
+\BOOKMARK [0][-]{appendix.a.C}{UART Controller}{part.3}% 65
+\BOOKMARK [1][-]{section.a.C.1}{Baud Rate Generator}{appendix.a.C}% 66
+\BOOKMARK [1][-]{section.a.C.2}{First In First Out buffer}{appendix.a.C}% 67
+\BOOKMARK [1][-]{section.a.C.3}{Tx/Rx Controller}{appendix.a.C}% 68
+\BOOKMARK [1][-]{section.a.C.4}{Verification of UART Controller Design}{appendix.a.C}% 69
+\BOOKMARK [1][-]{section.a.C.5}{Triplication}{appendix.a.C}% 70
+\BOOKMARK [1][-]{section.a.C.6}{Physical Implementation}{appendix.a.C}% 71
+\BOOKMARK [0][-]{figure.caption.142}{Bibliography}{part.3}% 72

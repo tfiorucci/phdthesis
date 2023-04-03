@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.29)  3 APR 2023 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.29)  3 APR 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1814,7 +1814,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<couverture_these.pdf, id=324, 597.23125pt x 845.1575pt>
+<couverture_these.pdf, id=320, 597.23125pt x 845.1575pt>
 File: couverture_these.pdf Graphic file (type pdf)
 <use couverture_these.pdf>
 Package pdftex.def Info: couverture_these.pdf  used on input line 35.
@@ -1823,7 +1823,7 @@ File: couverture_these.pdf Graphic file (type pdf)
 <use couverture_these.pdf>
 Package pdftex.def Info: couverture_these.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<couverture_these.pdf, id=327, page=1, 597.23125pt x 845.1575pt>
+<couverture_these.pdf, id=323, page=1, 597.23125pt x 845.1575pt>
 File: couverture_these.pdf Graphic file (type pdf)
 <use couverture_these.pdf, page 1>
 Package pdftex.def Info: couverture_these.pdf , page1 used on input line 35.
@@ -1924,9 +1924,9 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <12> not availa
 ble
 (Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on 
-input line 129.
+input line 128.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 12.0pt on input line 128.
  [8])
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
@@ -1949,129 +1949,130 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
 (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \part{Introduction}
-                        [1
+l.3 \newpage\null\thispagestyle{empty}\newpage
+                                               [1
 
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \part{First Part - Introduction}
+                                     [2
 
 ]
 Chapter 1.
-<subfiles/Figures/radiation.png, id=765, 585.18625pt x 615.29875pt>
+<subfiles/Figures/radiation.png, id=763, 585.18625pt x 615.29875pt>
 File: subfiles/Figures/radiation.png Graphic file (type png)
 <use subfiles/Figures/radiation.png>
-Package pdftex.def Info: subfiles/Figures/radiation.png  used on input line 13.
+Package pdftex.def Info: subfiles/Figures/radiation.png  used on input line 15.
 
 (pdftex.def)             Requested size: 234.07034pt x 246.11513pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \newpage
-              [2
+l.18 \newpage
+              [3
 
  <./subfiles/Figures/radiation.png>]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 18.
+nput line 20.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 18.
+(Font)              scaled to size 17.28pt on input line 20.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <17.28> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on inpu
-t line 18.
+t line 20.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 18.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 
-      [3]
-<subfiles/imgs/sunspot.PNG, id=780, 601.24625pt x 261.47687pt>
-File: subfiles/imgs/sunspot.PNG Graphic file (type png)
-<use subfiles/imgs/sunspot.PNG>
-Package pdftex.def Info: subfiles/imgs/sunspot.PNG  used on input line 50.
-(pdftex.def)             Requested size: 300.62238pt x 130.73811pt.
-<subfiles/imgs/F10sun.PNG, id=783, 585.18625pt x 340.77313pt>
-File: subfiles/imgs/F10sun.PNG Graphic file (type png)
-<use subfiles/imgs/F10sun.PNG>
-Package pdftex.def Info: subfiles/imgs/F10sun.PNG  used on input line 56.
-(pdftex.def)             Requested size: 292.5924pt x 170.38614pt.
+(Font)              scaled to size 17.28pt on input line 20.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 
-      [4 <./subfiles/imgs/sunspot.PNG> <./subfiles/imgs/F10sun.PNG>] [5]
-Overfull \hbox (75.6032pt too wide) in paragraph at lines 70--75
+l.40 
+      [4]
+<subfiles/imgs/sunspot.PNG, id=778, 601.24625pt x 261.47687pt>
+File: subfiles/imgs/sunspot.PNG Graphic file (type png)
+<use subfiles/imgs/sunspot.PNG>
+Package pdftex.def Info: subfiles/imgs/sunspot.PNG  used on input line 52.
+(pdftex.def)             Requested size: 300.62238pt x 130.73811pt.
+<subfiles/imgs/F10sun.PNG, id=781, 585.18625pt x 340.77313pt>
+File: subfiles/imgs/F10sun.PNG Graphic file (type png)
+<use subfiles/imgs/F10sun.PNG>
+Package pdftex.def Info: subfiles/imgs/F10sun.PNG  used on input line 58.
+(pdftex.def)             Requested size: 292.5924pt x 170.38614pt.
+ [5 <./subfiles/imgs/sunspot.PNG> <./subfiles/imgs/F10sun.PNG>]
+[6]
+Overfull \hbox (75.6032pt too wide) in paragraph at lines 72--77
 [][] 
  []
 
-<subfiles/imgs/Abundances.png, id=799, 417.56pt x 550.055pt>
+<subfiles/imgs/Abundances.png, id=798, 417.56pt x 550.055pt>
 File: subfiles/imgs/Abundances.png Graphic file (type png)
 <use subfiles/imgs/Abundances.png>
-Package pdftex.def Info: subfiles/imgs/Abundances.png  used on input line 81.
+Package pdftex.def Info: subfiles/imgs/Abundances.png  used on input line 83.
 (pdftex.def)             Requested size: 208.77948pt x 275.02682pt.
-<subfiles/imgs/GCR_energy_p.png, id=801, 591.20876pt x 459.7175pt>
+<subfiles/imgs/GCR_energy_p.png, id=800, 591.20876pt x 459.7175pt>
 File: subfiles/imgs/GCR_energy_p.png Graphic file (type png)
 <use subfiles/imgs/GCR_energy_p.png>
-Package pdftex.def Info: subfiles/imgs/GCR_energy_p.png  used on input line 91.
+Package pdftex.def Info: subfiles/imgs/GCR_energy_p.png  used on input line 93.
 
 (pdftex.def)             Requested size: 295.60365pt x 229.85818pt.
-<subfiles/imgs/LET_sun.png, id=802, 560.0925pt x 410.53375pt>
+<subfiles/imgs/LET_sun.png, id=801, 560.0925pt x 410.53375pt>
 File: subfiles/imgs/LET_sun.png Graphic file (type png)
 <use subfiles/imgs/LET_sun.png>
-Package pdftex.def Info: subfiles/imgs/LET_sun.png  used on input line 98.
+Package pdftex.def Info: subfiles/imgs/LET_sun.png  used on input line 100.
 (pdftex.def)             Requested size: 280.04556pt x 205.26637pt.
-[6 <./subfiles/imgs/Abundances.png>] [7 <./subfiles/imgs/GCR_energy_p.png> <./s
+[7 <./subfiles/imgs/Abundances.png>] [8 <./subfiles/imgs/GCR_energy_p.png> <./s
 ubfiles/imgs/LET_sun.png>]
-<subfiles/Figures/magnetosphere.png, id=820, 900.36375pt x 734.745pt>
+<subfiles/Figures/magnetosphere.png, id=819, 900.36375pt x 734.745pt>
 File: subfiles/Figures/magnetosphere.png Graphic file (type png)
 <use subfiles/Figures/magnetosphere.png>
 Package pdftex.def Info: subfiles/Figures/magnetosphere.png  used on input line
- 112.
+ 114.
 (pdftex.def)             Requested size: 270.1112pt x 220.42519pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-<subfiles/imgs/radbelt1.png, id=833, 597.23125pt x 321.2pt>
+[9]
+<subfiles/imgs/radbelt1.png, id=832, 597.23125pt x 321.2pt>
 File: subfiles/imgs/radbelt1.png Graphic file (type png)
 <use subfiles/imgs/radbelt1.png>
-Package pdftex.def Info: subfiles/imgs/radbelt1.png  used on input line 135.
+Package pdftex.def Info: subfiles/imgs/radbelt1.png  used on input line 137.
 (pdftex.def)             Requested size: 298.61488pt x 160.59961pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./subfiles/Figures/magnetosphere.png>] [10 <./subfiles/imgs/radbelt1.png>]
-<subfiles/imgs/radbelt2.png, id=857, 577.15625pt x 446.66875pt>
+[10 <./subfiles/Figures/magnetosphere.png>] [11 <./subfiles/imgs/radbelt1.png>]
+<subfiles/imgs/radbelt2.png, id=856, 577.15625pt x 446.66875pt>
 File: subfiles/imgs/radbelt2.png Graphic file (type png)
 <use subfiles/imgs/radbelt2.png>
-Package pdftex.def Info: subfiles/imgs/radbelt2.png  used on input line 175.
+Package pdftex.def Info: subfiles/imgs/radbelt2.png  used on input line 177.
 (pdftex.def)             Requested size: 288.57741pt x 223.33382pt.
-
-[11 <./subfiles/imgs/radbelt2.png>]
-<subfiles/imgs/radbelt3.png, id=869, 485.815pt x 493.845pt>
+[12 <./subfiles/imgs/radbelt2.png>]
+<subfiles/imgs/radbelt3.png, id=868, 485.815pt x 493.845pt>
 File: subfiles/imgs/radbelt3.png Graphic file (type png)
 <use subfiles/imgs/radbelt3.png>
-Package pdftex.def Info: subfiles/imgs/radbelt3.png  used on input line 206.
+Package pdftex.def Info: subfiles/imgs/radbelt3.png  used on input line 208.
 (pdftex.def)             Requested size: 242.9069pt x 246.92189pt.
-<subfiles/imgs/radbelt4.png, id=872, 490.83376pt x 517.935pt>
+<subfiles/imgs/radbelt4.png, id=871, 490.83376pt x 517.935pt>
 File: subfiles/imgs/radbelt4.png Graphic file (type png)
 <use subfiles/imgs/radbelt4.png>
-Package pdftex.def Info: subfiles/imgs/radbelt4.png  used on input line 213.
+Package pdftex.def Info: subfiles/imgs/radbelt4.png  used on input line 215.
 (pdftex.def)             Requested size: 245.41628pt x 258.96686pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12 <./subfiles/imgs/radbelt3.png>]
+[13 <./subfiles/imgs/radbelt3.png>]
 <subfiles/imgs/radbelt5.png, id=883, 580.1675pt x 687.56876pt>
 File: subfiles/imgs/radbelt5.png Graphic file (type png)
 <use subfiles/imgs/radbelt5.png>
-Package pdftex.def Info: subfiles/imgs/radbelt5.png  used on input line 234.
+Package pdftex.def Info: subfiles/imgs/radbelt5.png  used on input line 236.
 (pdftex.def)             Requested size: 290.08302pt x 343.78354pt.
 
 
@@ -2080,119 +2081,119 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <subfiles/imgs/radbelt6.png, id=887, 628.3475pt x 377.41pt>
 File: subfiles/imgs/radbelt6.png Graphic file (type png)
 <use subfiles/imgs/radbelt6.png>
-Package pdftex.def Info: subfiles/imgs/radbelt6.png  used on input line 245.
+Package pdftex.def Info: subfiles/imgs/radbelt6.png  used on input line 247.
 (pdftex.def)             Requested size: 314.17297pt x 188.70453pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./subfiles/imgs/radbelt4.png>]
-<subfiles/imgs/neutrons.png, id=900, 791.95876pt x 440.64626pt>
+[14 <./subfiles/imgs/radbelt4.png>]
+<subfiles/imgs/neutrons.png, id=899, 791.95876pt x 440.64626pt>
 File: subfiles/imgs/neutrons.png Graphic file (type png)
 <use subfiles/imgs/neutrons.png>
-Package pdftex.def Info: subfiles/imgs/neutrons.png  used on input line 288.
+Package pdftex.def Info: subfiles/imgs/neutrons.png  used on input line 290.
 (pdftex.def)             Requested size: 395.97841pt x 220.32259pt.
 
-Overfull \hbox (43.66212pt too wide) in paragraph at lines 288--289
+Overfull \hbox (43.66212pt too wide) in paragraph at lines 290--291
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./subfiles/imgs/radbelt5.png>] [15 <./subfiles/imgs/radbelt6.png> <./subfi
+[15 <./subfiles/imgs/radbelt5.png>] [16 <./subfiles/imgs/radbelt6.png> <./subfi
 les/imgs/neutrons.png>]
-Overfull \hbox (4.22754pt too wide) in paragraph at lines 308--309
+Overfull \hbox (4.22754pt too wide) in paragraph at lines 310--311
 []\T1/EBGaramond-OsF/bold/n/12 Initial nu-clear ra-di-a-tion (INR) \T1/EBGaramo
 nd-OsF/regular/n/12 (-10) is that re-leased within less than a minute
  []
 
-[16] [17]
+[17] [18]
 
-LaTeX Warning: Citation 'bib10' on page 18 undefined on input line 395.
+LaTeX Warning: Citation 'bib10' on page 19 undefined on input line 397.
 
-[18]
+[19]
 <subfiles/imgs/displ.png, id=939, 393.47pt x 255.95625pt>
 File: subfiles/imgs/displ.png Graphic file (type png)
 <use subfiles/imgs/displ.png>
-Package pdftex.def Info: subfiles/imgs/displ.png  used on input line 399.
+Package pdftex.def Info: subfiles/imgs/displ.png  used on input line 401.
 (pdftex.def)             Requested size: 196.73451pt x 127.9778pt.
- [19 <./subfiles/imgs/displ.png>] [20] [21]
-<subfiles/Latchup.png, id=965, 557.83406pt x 255.20343pt>
+ [20 <./subfiles/imgs/displ.png>] [21] [22]
+<subfiles/Latchup.png, id=964, 557.83406pt x 255.20343pt>
 File: subfiles/Latchup.png Graphic file (type png)
 <use subfiles/Latchup.png>
-Package pdftex.def Info: subfiles/Latchup.png  used on input line 458.
+Package pdftex.def Info: subfiles/Latchup.png  used on input line 460.
 (pdftex.def)             Requested size: 278.91634pt x 127.6014pt.
- [22 <./subfiles/Latchup.png>]
-<subfiles/imgs/coldred.png, id=972, 346.29375pt x 106.3975pt>
+ [23 <./subfiles/Latchup.png>]
+<subfiles/imgs/coldred.png, id=971, 346.29375pt x 106.3975pt>
 File: subfiles/imgs/coldred.png Graphic file (type png)
 <use subfiles/imgs/coldred.png>
-Package pdftex.def Info: subfiles/imgs/coldred.png  used on input line 476.
+Package pdftex.def Info: subfiles/imgs/coldred.png  used on input line 478.
 (pdftex.def)             Requested size: 173.14644pt x 53.19861pt.
-<subfiles/imgs/hotred.png, id=973, 284.06125pt x 106.3975pt>
+<subfiles/imgs/hotred.png, id=972, 284.06125pt x 106.3975pt>
 File: subfiles/imgs/hotred.png Graphic file (type png)
 <use subfiles/imgs/hotred.png>
-Package pdftex.def Info: subfiles/imgs/hotred.png  used on input line 485.
+Package pdftex.def Info: subfiles/imgs/hotred.png  used on input line 487.
 (pdftex.def)             Requested size: 142.03026pt x 53.19861pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./subfiles/imgs/coldred.png>]
-<subfiles/imgs/dred.png, id=982, 264.99pt x 96.36pt>
+[24 <./subfiles/imgs/coldred.png>]
+<subfiles/imgs/dred.png, id=981, 264.99pt x 96.36pt>
 File: subfiles/imgs/dred.png Graphic file (type png)
 <use subfiles/imgs/dred.png>
-Package pdftex.def Info: subfiles/imgs/dred.png  used on input line 503.
+Package pdftex.def Info: subfiles/imgs/dred.png  used on input line 505.
 (pdftex.def)             Requested size: 132.49467pt x 48.17987pt.
- [24 <./subfiles/imgs/hotred.png>]
+ [25 <./subfiles/imgs/hotred.png>]
 <subfiles/imgs/tred.png, id=990, 289.08pt x 133.49875pt>
 File: subfiles/imgs/tred.png Graphic file (type png)
 <use subfiles/imgs/tred.png>
-Package pdftex.def Info: subfiles/imgs/tred.png  used on input line 515.
+Package pdftex.def Info: subfiles/imgs/tred.png  used on input line 517.
 (pdftex.def)             Requested size: 144.53964pt x 66.74919pt.
 <subfiles/imgs/1nred.png, id=991, 472.76625pt x 209.78375pt>
 File: subfiles/imgs/1nred.png Graphic file (type png)
 <use subfiles/imgs/1nred.png>
-Package pdftex.def Info: subfiles/imgs/1nred.png  used on input line 535.
+Package pdftex.def Info: subfiles/imgs/1nred.png  used on input line 537.
 (pdftex.def)             Requested size: 236.38254pt x 104.8916pt.
- [25 <./subfiles/imgs/dred.png> <./subfiles/imgs/tred.png>] [26 <./subfiles/img
-s/1nred.png>] [27] [28]
+ [26 <./subfiles/imgs/dred.png> <./subfiles/imgs/tred.png>] [27 <./subfiles/img
+s/1nred.png>] [28] [29] [30]
 Chapter 2.
-[29
+[31
 
-] [30]
-Overfull \hbox (12.96217pt too wide) in paragraph at lines 657--658
+] [32]
+Overfull \hbox (12.96217pt too wide) in paragraph at lines 659--660
 []\T1/EBGaramond-OsF/bold/n/12 Functional Safety Re-quire-ment \T1/EBGaramond-O
 sF/regular/n/12 (-10) ^^U Spec-i-fi-ca-tion of implementation-
  []
 
-[31] [32]
-<subfiles/imgs/SafetyLifecycleFigure.png, id=1083, 906.38625pt x 858.20625pt>
+[33] [34]
+<subfiles/imgs/SafetyLifecycleFigure.png, id=1086, 906.38625pt x 858.20625pt>
 File: subfiles/imgs/SafetyLifecycleFigure.png Graphic file (type png)
 <use subfiles/imgs/SafetyLifecycleFigure.png>
 Package pdftex.def Info: subfiles/imgs/SafetyLifecycleFigure.png  used on input
- line 695.
+ line 697.
 (pdftex.def)             Requested size: 453.19202pt x 429.10208pt.
 
-Overfull \hbox (100.87573pt too wide) in paragraph at lines 695--696
+Overfull \hbox (100.87573pt too wide) in paragraph at lines 697--698
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33]
-Overfull \hbox (1.21967pt too wide) in paragraph at lines 730--731
+[35]
+Overfull \hbox (1.21967pt too wide) in paragraph at lines 732--733
 []\T1/EBGaramond-OsF/regular/n/12 (-10) Protective mech-a-nisms, en-com-pass-in
 g fault de-tec-tion and sig-nal-ing, steps
  []
 
 
-Overfull \hbox (1.5954pt too wide) in paragraph at lines 742--743
+Overfull \hbox (1.5954pt too wide) in paragraph at lines 744--745
 []\T1/EBGaramond-OsF/bold/n/12 Controllability \T1/EBGaramond-OsF/regular/n/12 
 (-10) : The like-li-hood that the driver can mit-i-gate the anomaly
  []
 
-[34] [35] [36] [37 <./subfiles/imgs/SafetyLifecycleFigure.png>]
+[36] [37] [38] [39 <./subfiles/imgs/SafetyLifecycleFigure.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -2225,94 +2226,94 @@ Overfull \hbox (1.5954pt too wide) in paragraph at lines 742--743
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<subfiles/imgs/ISO_26262_structure.png, id=1111, 847.165pt x 678.535pt>
+<subfiles/imgs/ISO_26262_structure.png, id=1114, 847.165pt x 678.535pt>
 File: subfiles/imgs/ISO_26262_structure.png Graphic file (type png)
 <use subfiles/imgs/ISO_26262_structure.png>
 Package pdftex.def Info: subfiles/imgs/ISO_26262_structure.png  used on input l
-ine 774.
+ine 776.
 (pdftex.def)             Requested size: 508.30292pt x 407.12415pt.
- [38
+ [40
 
  <./subfiles/imgs/ISO_26262_structure.png>]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <8> not availabl
 e
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 782.
+nput line 784.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 782.
+(Font)              scaled to size 8.0pt on input line 784.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10> not availab
 le
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
-nput line 782.
+nput line 784.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 782.
- [39
+(Font)              scaled to size 10.0pt on input line 784.
+ [41
 
-] [40] [41]
-<subfiles/imgs/asil-t-4.png, id=1146, 792.9625pt x 66.2475pt>
+] [42] [43]
+<subfiles/imgs/asil-t-4.png, id=1150, 792.9625pt x 66.2475pt>
 File: subfiles/imgs/asil-t-4.png Graphic file (type png)
 <use subfiles/imgs/asil-t-4.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-4.png  used on input line 890.
+Package pdftex.def Info: subfiles/imgs/asil-t-4.png  used on input line 892.
 (pdftex.def)             Requested size: 352.31628pt x 29.43404pt.
- [42]
-<subfiles/imgs/asil-t-5.png, id=1154, 785.93625pt x 65.24374pt>
+ [44]
+<subfiles/imgs/asil-t-5.png, id=1158, 785.93625pt x 65.24374pt>
 File: subfiles/imgs/asil-t-5.png Graphic file (type png)
 <use subfiles/imgs/asil-t-5.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-5.png  used on input line 910.
+Package pdftex.def Info: subfiles/imgs/asil-t-5.png  used on input line 912.
 (pdftex.def)             Requested size: 352.31628pt x 29.24791pt.
- [43 <./subfiles/imgs/asil-t-4.png> <./subfiles/imgs/asil-t-5.png>]
-Overfull \hbox (11.49857pt too wide) in paragraph at lines 930--931
+ [45 <./subfiles/imgs/asil-t-4.png> <./subfiles/imgs/asil-t-5.png>]
+Overfull \hbox (11.49857pt too wide) in paragraph at lines 932--933
 [] []\T1/EBGaramond-OsF/bold/n/12 Prob-a-bilis-tic Met-ric for ran-dom Hard-war
 e Fail-ures (PMHF)[] \T1/EBGaramond-OsF/regular/n/12 (-10) This method
  []
 
-<subfiles/imgs/asil-t-6.png, id=1165, 1077.02374pt x 201.75375pt>
+<subfiles/imgs/asil-t-6.png, id=1168, 1077.02374pt x 201.75375pt>
 File: subfiles/imgs/asil-t-6.png Graphic file (type png)
 <use subfiles/imgs/asil-t-6.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-6.png  used on input line 934.
+Package pdftex.def Info: subfiles/imgs/asil-t-6.png  used on input line 936.
 (pdftex.def)             Requested size: 352.31628pt x 65.9971pt.
-<subfiles/imgs/random-asil.png, id=1166, 1072.005pt x 260.975pt>
+<subfiles/imgs/random-asil.png, id=1169, 1072.005pt x 260.975pt>
 File: subfiles/imgs/random-asil.png Graphic file (type png)
 <use subfiles/imgs/random-asil.png>
-Package pdftex.def Info: subfiles/imgs/random-asil.png  used on input line 951.
+Package pdftex.def Info: subfiles/imgs/random-asil.png  used on input line 953.
 
 (pdftex.def)             Requested size: 352.31628pt x 85.7676pt.
-[44 <./subfiles/imgs/asil-t-6.png> <./subfiles/imgs/random-asil.png>]
-<subfiles/imgs/asil-t-7.png, id=1177, 1072.005pt x 286.06876pt>
+[46 <./subfiles/imgs/asil-t-6.png> <./subfiles/imgs/random-asil.png>]
+<subfiles/imgs/asil-t-7.png, id=1180, 1072.005pt x 286.06876pt>
 File: subfiles/imgs/asil-t-7.png Graphic file (type png)
 <use subfiles/imgs/asil-t-7.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-7.png  used on input line 978.
+Package pdftex.def Info: subfiles/imgs/asil-t-7.png  used on input line 980.
 (pdftex.def)             Requested size: 352.31628pt x 94.01448pt.
- [45]
-<subfiles/imgs/asil-t-8.png, id=1183, 1078.0275pt x 285.065pt>
+ [47]
+<subfiles/imgs/asil-t-8.png, id=1186, 1078.0275pt x 285.065pt>
 File: subfiles/imgs/asil-t-8.png Graphic file (type png)
 <use subfiles/imgs/asil-t-8.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-8.png  used on input line 985.
+Package pdftex.def Info: subfiles/imgs/asil-t-8.png  used on input line 987.
 (pdftex.def)             Requested size: 352.31628pt x 93.16264pt.
-<subfiles/imgs/asil-t-9.png, id=1184, 1073.00874pt x 145.54375pt>
+<subfiles/imgs/asil-t-9.png, id=1187, 1073.00874pt x 145.54375pt>
 File: subfiles/imgs/asil-t-9.png Graphic file (type png)
 <use subfiles/imgs/asil-t-9.png>
-Package pdftex.def Info: subfiles/imgs/asil-t-9.png  used on input line 992.
+Package pdftex.def Info: subfiles/imgs/asil-t-9.png  used on input line 994.
 (pdftex.def)             Requested size: 352.31628pt x 47.7875pt.
 
-[46 <./subfiles/imgs/asil-t-7.png> <./subfiles/imgs/asil-t-8.png> <./subfiles/i
-mgs/asil-t-9.png>]) (./subfiles/chapter1.tex [47]
+[48 <./subfiles/imgs/asil-t-7.png> <./subfiles/imgs/asil-t-8.png> <./subfiles/i
+mgs/asil-t-9.png>]) (./subfiles/chapter1.tex [49] [50]
 Chapter 3.
-[48
+[51
 
-] [49]
+] [52]
 Overfull \hbox (0.20517pt too wide) in paragraph at lines 52--53
 \T1/EBGaramond-OsF/regular/n/12 (-10) the FMECA) and other qual-i-ta-tive (and 
 quan-ti-ta-tive) an-a-lyt-i-cal meth-ods within
  []
 
-[50] [51] [52] [53]
-<subfiles/imgs/FMEA_table.png, id=1277, 1196.47pt x 285.065pt>
+[53] [54] [55] [56]
+<subfiles/imgs/FMEA_table.png, id=1285, 1196.47pt x 285.065pt>
 File: subfiles/imgs/FMEA_table.png Graphic file (type png)
 <use subfiles/imgs/FMEA_table.png>
 Package pdftex.def Info: subfiles/imgs/FMEA_table.png  used on input line 161.
 (pdftex.def)             Requested size: 352.31628pt x 83.9412pt.
-<subfiles/imgs/fmea_relationship_failure_mode_effects.png, id=1278, 587.19376pt
+<subfiles/imgs/fmea_relationship_failure_mode_effects.png, id=1286, 587.19376pt
  x 740.7675pt>
 File: subfiles/imgs/fmea_relationship_failure_mode_effects.png Graphic file (ty
 pe png)
@@ -2320,15 +2321,15 @@ pe png)
 Package pdftex.def Info: subfiles/imgs/fmea_relationship_failure_mode_effects.p
 ng  used on input line 168.
 (pdftex.def)             Requested size: 352.31628pt x 444.46393pt.
- [54] [55 <./subfiles/imgs/FMEA_table.png> <./subfiles/imgs/fmea_relationship_f
-ailure_mode_effects.png>] [56] [57]
+ [57] [58 <./subfiles/imgs/FMEA_table.png> <./subfiles/imgs/fmea_relationship_f
+ailure_mode_effects.png>] [59] [60]
 Overfull \hbox (10.15018pt too wide) in paragraph at lines 227--228
 []\T1/EBGaramond-OsF/regular/n/12 (-10) provision of in-for-ma-tion for de-vel-
 op-ment of trouble-shooting guides; 
  []
 
-[58] [59] [60]
-<subfiles/imgs/fmea_criticality_grid.png, id=1325, 607.26875pt x 627.34375pt>
+[61] [62] [63]
+<subfiles/imgs/fmea_criticality_grid.png, id=1333, 607.26875pt x 627.34375pt>
 File: subfiles/imgs/fmea_criticality_grid.png Graphic file (type png)
 <use subfiles/imgs/fmea_criticality_grid.png>
 Package pdftex.def Info: subfiles/imgs/fmea_criticality_grid.png  used on input
@@ -2344,7 +2345,7 @@ File: subfiles/imgs/fmea_criticality_grid.png Graphic file (type png)
 Package pdftex.def Info: subfiles/imgs/fmea_criticality_grid.png  used on input
  line 294.
 (pdftex.def)             Requested size: 352.31628pt x 363.96492pt.
-<subfiles/imgs/fmea_criticality_matrix_with_bands.png, id=1326, 612.2875pt x 62
+<subfiles/imgs/fmea_criticality_matrix_with_bands.png, id=1334, 612.2875pt x 62
 8.3475pt>
 File: subfiles/imgs/fmea_criticality_matrix_with_bands.png Graphic file (type p
 ng)
@@ -2352,9 +2353,9 @@ ng)
 Package pdftex.def Info: subfiles/imgs/fmea_criticality_matrix_with_bands.png  
 used on input line 301.
 (pdftex.def)             Requested size: 352.31628pt x 361.55588pt.
- [61] [62 <./subfiles/imgs/fmea_criticality_grid.png>] [63]
-[64] [65 <./subfiles/imgs/fmea_criticality_matrix_with_bands.png>] [66]
-[67]
+ [64] [65 <./subfiles/imgs/fmea_criticality_grid.png>] [66]
+[67] [68 <./subfiles/imgs/fmea_criticality_matrix_with_bands.png>] [69]
+[70]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 379.
@@ -2364,36 +2365,37 @@ Overfull \hbox (214.9469pt too wide) in paragraph at lines 414--433
  [][] 
  []
 
-[68] [69] [70]
+[71] [72] [73]
 Overfull \hbox (5.40579pt too wide) in paragraph at lines 476--477
 \T1/EBGaramond-OsF/regular/n/12 (-10) Company man-age-ment should be aware that
  the suc-cess of FMEA (and FMECA)
  []
 
-[71] [72] [73] [74]) (./subfiles/problem_and_contribution.tex [75] [76]
+[74] [75] [76] [77]) (./subfiles/problem_and_contribution.tex [78] [79]
+[80]
 Chapter 4.
-[77
+[81
 
-] [78] [79]
-Overfull \hbox (0.10324pt too wide) in paragraph at lines 46--47
+] [82] [83]
+Overfull \hbox (0.10324pt too wide) in paragraph at lines 45--46
 [] []\T1/EBGaramond-OsF/bold/n/12 Com-plex and mi-cro-pro-ces-sor Based Com-po-
 nents[] \T1/EBGaramond-OsF/regular/n/12 (-10) Soft-ware re-li-a-bil-ity has
  []
 
-[80]
-Overfull \hbox (8.06131pt too wide) in paragraph at lines 61--62
+[84]
+Overfull \hbox (8.06131pt too wide) in paragraph at lines 60--61
 [] []\T1/EBGaramond-OsF/bold/n/12 Ap-pendixes[] \T1/EBGaramond-OsF/regular/n/12
  (-10) The ap-pendixed re-port the de-tails of the pe-riph-er-als of Pi-coRVino
 
  []
 
-[81]) (./subfiles/chapter2.tex [82
+[85]) (./subfiles/chapter2.tex [86
 
 ]
 Chapter 5.
-[83
+[87
 
-] [84] (./subfiles/ticks/fig_counter.tex
+] [88] (./subfiles/ticks/fig_counter.tex
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 64
 .
 
@@ -2404,44 +2406,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [85] [86] [87]
+) [89] [90] [91]
 
-LaTeX Warning: Reference `altarica-dataflow' on page 88 undefined on input line
+LaTeX Warning: Reference `altarica-dataflow' on page 92 undefined on input line
  73.
 
-[88]
-<subfiles/imgs/scr1.png, id=1594, 564.582pt x 259.953pt>
+[92]
+<subfiles/imgs/scr1.png, id=1607, 564.582pt x 259.953pt>
 File: subfiles/imgs/scr1.png Graphic file (type png)
 <use subfiles/imgs/scr1.png>
 Package pdftex.def Info: subfiles/imgs/scr1.png  used on input line 104.
 (pdftex.def)             Requested size: 564.58061pt x 259.95236pt.
- [89] [90 <./subfiles/imgs/scr1.png>]
-<subfiles/imgs/pppp.png, id=1606, 285.56688pt x 346.79562pt>
+ [93] [94 <./subfiles/imgs/scr1.png>]
+<subfiles/imgs/pppp.png, id=1618, 285.56688pt x 346.79562pt>
 File: subfiles/imgs/pppp.png Graphic file (type png)
 <use subfiles/imgs/pppp.png>
 Package pdftex.def Info: subfiles/imgs/pppp.png  used on input line 113.
 (pdftex.def)             Requested size: 352.31628pt x 427.85783pt.
-<subfiles/imgs/pipetop.png, id=1608, 1325.95375pt x 810.02625pt>
+<subfiles/imgs/pipetop.png, id=1620, 1325.95375pt x 810.02625pt>
 File: subfiles/imgs/pipetop.png Graphic file (type png)
 <use subfiles/imgs/pipetop.png>
 Package pdftex.def Info: subfiles/imgs/pipetop.png  used on input line 122.
 (pdftex.def)             Requested size: 1325.95053pt x 810.02426pt.
- [91 <./subfiles/imgs/pppp.PNG>]
-[92] [93 <./subfiles/imgs/pipetop.PNG>]
-<subfiles/imgs/old_fmea1.jpg.png, id=1625, 656.4525pt x 289.83281pt>
+ [95 <./subfiles/imgs/pppp.PNG>]
+[96] [97 <./subfiles/imgs/pipetop.PNG>]
+<subfiles/imgs/old_fmea1.jpg.png, id=1637, 656.4525pt x 289.83281pt>
 File: subfiles/imgs/old_fmea1.jpg.png Graphic file (type png)
 <use subfiles/imgs/old_fmea1.jpg.png>
 Package pdftex.def Info: subfiles/imgs/old_fmea1.jpg.png  used on input line 13
 1.
 (pdftex.def)             Requested size: 352.31628pt x 155.55212pt.
-<subfiles/imgs/old_fmea.jpg, id=1628, 912.40875pt x 298.11375pt>
+<subfiles/imgs/old_fmea.jpg, id=1640, 912.40875pt x 298.11375pt>
 File: subfiles/imgs/old_fmea.jpg Graphic file (type jpg)
 <use subfiles/imgs/old_fmea.jpg>
 Package pdftex.def Info: subfiles/imgs/old_fmea.jpg  used on input line 138.
 (pdftex.def)             Requested size: 912.40652pt x 298.11302pt.
- [94 <./subfiles/imgs/old_fmea1.jpg.png>] [95 <./subfiles/imgs/old_fmea.jpg>] [
-96] (./subfiles/ticks/probe_place.tex)
-[97] [98]
+ [98 <./subfiles/imgs/old_fmea1.jpg.png>] [99 <./subfiles/imgs/old_fmea.jpg>] [
+100] (./subfiles/ticks/probe_place.tex)
+[101] [102]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -2487,27 +2489,27 @@ e
 nput line 140.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 140.
-) [99]
-<subfiles/imgs/altarica-dysfunctional-model.png, id=1723, 479.391pt x 219.219pt
+) [103]
+<subfiles/imgs/altarica-dysfunctional-model.png, id=1735, 479.391pt x 219.219pt
 >
 File: subfiles/imgs/altarica-dysfunctional-model.png Graphic file (type png)
 <use subfiles/imgs/altarica-dysfunctional-model.png>
 Package pdftex.def Info: subfiles/imgs/altarica-dysfunctional-model.png  used o
 n input line 207.
 (pdftex.def)             Requested size: 352.31628pt x 161.1123pt.
- [100
+ [104
 
 
 ]
-<subfiles/imgs/wrongly_identified_for_paper.png, id=1731, 462.528pt x 289.08pt>
+<subfiles/imgs/wrongly_identified_for_paper.png, id=1743, 462.528pt x 289.08pt>
 
 File: subfiles/imgs/wrongly_identified_for_paper.png Graphic file (type png)
 <use subfiles/imgs/wrongly_identified_for_paper.png>
 Package pdftex.def Info: subfiles/imgs/wrongly_identified_for_paper.png  used o
 n input line 217.
 (pdftex.def)             Requested size: 352.31628pt x 220.21034pt.
- [101 <./subfiles/imgs/altarica-dysfunctional-model.png>]
-<subfiles/imgs/trend_1000_randomfaults.png, id=1740, 462.528pt x 346.896pt>
+ [105 <./subfiles/imgs/altarica-dysfunctional-model.png>]
+<subfiles/imgs/trend_1000_randomfaults.png, id=1752, 462.528pt x 346.896pt>
 File: subfiles/imgs/trend_1000_randomfaults.png Graphic file (type png)
 <use subfiles/imgs/trend_1000_randomfaults.png>
 Package pdftex.def Info: subfiles/imgs/trend_1000_randomfaults.png  used on inp
@@ -2518,7 +2520,7 @@ Overfull \hbox (110.21057pt too wide) in paragraph at lines 228--230
  [][] 
  []
 
-<subfiles/imgs/trend_1000_i2c_for_paper.png, id=1742, 462.528pt x 289.08pt>
+<subfiles/imgs/trend_1000_i2c_for_paper.png, id=1754, 462.528pt x 289.08pt>
 File: subfiles/imgs/trend_1000_i2c_for_paper.png Graphic file (type png)
 <use subfiles/imgs/trend_1000_i2c_for_paper.png>
 Package pdftex.def Info: subfiles/imgs/trend_1000_i2c_for_paper.png  used on in
@@ -2529,8 +2531,8 @@ Overfull \hbox (110.21057pt too wide) in paragraph at lines 238--239
  [][] 
  []
 
-[102 <./subfiles/imgs/wrongly_identified_for_paper.png>] [103 <./subfiles/imgs/
-trend_1000_randomfaults.png>] [104 <./subfiles/imgs/trend_1000_i2c_for_paper.pn
+[106 <./subfiles/imgs/wrongly_identified_for_paper.png>] [107 <./subfiles/imgs/
+trend_1000_randomfaults.png>] [108 <./subfiles/imgs/trend_1000_i2c_for_paper.pn
 g>]
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <17.28> not ava
 ilable
@@ -2539,39 +2541,39 @@ input line 268.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
 (Font)              scaled to size 17.28pt on input line 268.
  (./subfiles/ticks/complete_system.tex)
-<subfiles/imgs/chrono_write.png, id=1774, 1164.35pt x 331.2375pt>
+<subfiles/imgs/chrono_write.png, id=1785, 1164.35pt x 331.2375pt>
 File: subfiles/imgs/chrono_write.png Graphic file (type png)
 <use subfiles/imgs/chrono_write.png>
 Package pdftex.def Info: subfiles/imgs/chrono_write.png  used on input line 276
 .
 (pdftex.def)             Requested size: 352.31628pt x 100.22618pt.
- [105 <./subfiles/imgs/chrono_write.png>]
-<subfiles/imgs/I2C_gold_automaton_10.png, id=1786, 1351.449pt x 627.3036pt>
+ [109 <./subfiles/imgs/chrono_write.png>]
+<subfiles/imgs/I2C_gold_automaton_10.png, id=1798, 1351.449pt x 627.3036pt>
 File: subfiles/imgs/I2C_gold_automaton_10.png Graphic file (type png)
 <use subfiles/imgs/I2C_gold_automaton_10.png>
 Package pdftex.def Info: subfiles/imgs/I2C_gold_automaton_10.png  used on input
  line 298.
 (pdftex.def)             Requested size: 352.31628pt x 163.53539pt.
-<subfiles/imgs/I2C_complete_automaton_10.png, id=1787, 1351.449pt x 624.734pt>
+<subfiles/imgs/I2C_complete_automaton_10.png, id=1799, 1351.449pt x 624.734pt>
 File: subfiles/imgs/I2C_complete_automaton_10.png Graphic file (type png)
 <use subfiles/imgs/I2C_complete_automaton_10.png>
 Package pdftex.def Info: subfiles/imgs/I2C_complete_automaton_10.png  used on i
 nput line 306.
 (pdftex.def)             Requested size: 352.31628pt x 162.86551pt.
- [106 <./subfiles/imgs/I2C_gold_automaton_10.png>]
-<subfiles/imgs/i2c_balloon_injec.png, id=1794, 329.67259pt x 301.125pt>
+ [110 <./subfiles/imgs/I2C_gold_automaton_10.png>]
+<subfiles/imgs/i2c_balloon_injec.png, id=1806, 329.67259pt x 301.125pt>
 File: subfiles/imgs/i2c_balloon_injec.png Graphic file (type png)
 <use subfiles/imgs/i2c_balloon_injec.png>
 Package pdftex.def Info: subfiles/imgs/i2c_balloon_injec.png  used on input lin
 e 312.
 (pdftex.def)             Requested size: 352.31628pt x 321.81918pt.
-<subfiles/imgs/balloon_ahb.png, id=1795, 169.2939pt x 186.55524pt>
+<subfiles/imgs/balloon_ahb.png, id=1807, 169.2939pt x 186.55524pt>
 File: subfiles/imgs/balloon_ahb.png Graphic file (type png)
 <use subfiles/imgs/balloon_ahb.png>
 Package pdftex.def Info: subfiles/imgs/balloon_ahb.png  used on input line 318.
 
 (pdftex.def)             Requested size: 352.31628pt x 388.26482pt.
- [107 <./subfiles/imgs/I2C_complete_automaton_10.png> <./subfiles/imgs/i2c_ball
+ [111 <./subfiles/imgs/I2C_complete_automaton_10.png> <./subfiles/imgs/i2c_ball
 oon_injec.png>]
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2604,7 +2606,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [108 <./subfiles/imgs/balloon_ahb.png>] (./subfiles/ticks/simplified_automaton
+ [112 <./subfiles/imgs/balloon_ahb.png>] (./subfiles/ticks/simplified_automaton
 .tex
 Overfull \hbox (4.99664pt too wide) in paragraph at lines 73--73
  \T1/pcr/m/n/10 nominal 
@@ -2637,13 +2639,13 @@ Overfull \hbox (0.4807pt too wide) in paragraph at lines 361--362
 r-ate HRESP trans-ac-tion re-sponse
  []
 
-[109]
-<subfiles/imgs/I2C_AHB.png, id=1824, 1053.9375pt x 245.91875pt>
+[113]
+<subfiles/imgs/I2C_AHB.png, id=1835, 1053.9375pt x 245.91875pt>
 File: subfiles/imgs/I2C_AHB.png Graphic file (type png)
 <use subfiles/imgs/I2C_AHB.png>
 Package pdftex.def Info: subfiles/imgs/I2C_AHB.png  used on input line 393.
 (pdftex.def)             Requested size: 352.31628pt x 82.20786pt.
-<subfiles/imgs/I2C_module.png, id=1825, 741.77126pt x 414.54875pt>
+<subfiles/imgs/I2C_module.png, id=1836, 741.77126pt x 414.54875pt>
 File: subfiles/imgs/I2C_module.png Graphic file (type png)
 <use subfiles/imgs/I2C_module.png>
 Package pdftex.def Info: subfiles/imgs/I2C_module.png  used on input line 399.
@@ -2652,7 +2654,7 @@ Package pdftex.def Info: subfiles/imgs/I2C_module.png  used on input line 399.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<subfiles/imgs/AHB_module.png, id=1826, 906.38625pt x 388.45125pt>
+<subfiles/imgs/AHB_module.png, id=1837, 906.38625pt x 388.45125pt>
 File: subfiles/imgs/AHB_module.png Graphic file (type png)
 <use subfiles/imgs/AHB_module.png>
 Package pdftex.def Info: subfiles/imgs/AHB_module.png  used on input line 405.
@@ -2660,28 +2662,28 @@ Package pdftex.def Info: subfiles/imgs/AHB_module.png  used on input line 405.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[110 <./subfiles/imgs/I2C_AHB.png>] [111 <./subfiles/imgs/I2C_module.png> <./su
-bfiles/imgs/AHB_module.png>] [112]
+[114 <./subfiles/imgs/I2C_AHB.png>] [115 <./subfiles/imgs/I2C_module.png> <./su
+bfiles/imgs/AHB_module.png>] [116]
 
-LaTeX Warning: Reference `tab:automatons' on page 113 undefined on input line 4
+LaTeX Warning: Reference `tab:automatons' on page 117 undefined on input line 4
 39.
 
 
-LaTeX Warning: Reference `fig:key' on page 113 undefined on input line 439.
+LaTeX Warning: Reference `fig:key' on page 117 undefined on input line 439.
 
-[113]
+[117]
 
-LaTeX Warning: Reference `lst:rawlog' on page 114 undefined on input line 457.
-
-
-LaTeX Warning: Reference `fig:key' on page 114 undefined on input line 457.
+LaTeX Warning: Reference `lst:rawlog' on page 118 undefined on input line 457.
 
 
-LaTeX Warning: Reference `tab:automatons' on page 114 undefined on input line 4
+LaTeX Warning: Reference `fig:key' on page 118 undefined on input line 457.
+
+
+LaTeX Warning: Reference `tab:automatons' on page 118 undefined on input line 4
 57.
 
 
-LaTeX Warning: Reference `fig:key' on page 114 undefined on input line 470.
+LaTeX Warning: Reference `fig:key' on page 118 undefined on input line 470.
 
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <17.28> not ava
 ilable
@@ -2705,13 +2707,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 492.
 
-[114]
+[118]
 Overfull \hbox (33.55304pt too wide) in paragraph at lines 549--564
  [][] 
  []
 
-(./subfiles/ticks/second_poc.tex) [115] [116]) (./subfiles/chapter3.tex
-[117]
+(./subfiles/ticks/second_poc.tex) [119] [120]) (./subfiles/chapter3.tex
+[121]
 Chapter 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2737,9 +2739,9 @@ ilable
 input line 3.
 LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
 (Font)              scaled to size 20.74pt on input line 3.
-[118
+[122
 
-] [119] [120] [121] (./subfiles/ticks/standalone_bb.tex
+] [123] [124] [125] (./subfiles/ticks/standalone_bb.tex
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10.95> not avai
 lable
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on i
@@ -2756,12 +2758,12 @@ LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [122] (./subfiles/ticks/entire_sw.tex) [123] [124] [125]
+) [126] (./subfiles/ticks/entire_sw.tex) [127] [128] [129]
 Overfull \hbox (38.0369pt too wide) in paragraph at lines 172--184
  [] 
  []
 
-[126]
+[130]
 Overfull \hbox (28.40088pt too wide) in paragraph at lines 189--195
  [] 
  []
@@ -2771,20 +2773,20 @@ Overfull \hbox (13.42494pt too wide) in paragraph at lines 200--205
  [] 
  []
 
-(./subfiles/ticks/diagram.tex [127]) [128]) (./subfiles/Analysis/Intro.tex
-[129]
+(./subfiles/ticks/diagram.tex [131]) [132]) (./subfiles/Analysis/Intro.tex
+[133]
 Chapter 7.
 (./subfiles/Analysis/detector_desc.tex
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/acceleratorNetworkCERN.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/acceleratorNetworkCERN.pdf, id=2008, 846.0878pt x 598.1371pt>
+<subfiles/imgs/acceleratorNetworkCERN.pdf, id=2020, 846.0878pt x 598.1371pt>
 File: subfiles/imgs/acceleratorNetworkCERN.pdf Graphic file (type pdf)
 <use subfiles/imgs/acceleratorNetworkCERN.pdf>
 Package pdftex.def Info: subfiles/imgs/acceleratorNetworkCERN.pdf  used on inpu
 t line 7.
 (pdftex.def)             Requested size: 352.31628pt x 249.07106pt.
-[130
+[134
 
 ]
 Overfull \hbox (3.9093pt too wide) in paragraph at lines 12--13
@@ -2792,56 +2794,56 @@ Overfull \hbox (3.9093pt too wide) in paragraph at lines 12--13
 t Muon Solenoid (CMS), Large Hadron
  []
 
-[131 <./subfiles/imgs/acceleratorNetworkCERN.pdf>]
-<subfiles/imgs/cms_layout.png, id=2027, 9741.39375pt x 6829.515pt>
+[135 <./subfiles/imgs/acceleratorNetworkCERN.pdf>]
+<subfiles/imgs/cms_layout.png, id=2039, 9741.39375pt x 6829.515pt>
 File: subfiles/imgs/cms_layout.png Graphic file (type png)
 <use subfiles/imgs/cms_layout.png>
 Package pdftex.def Info: subfiles/imgs/cms_layout.png  used on input line 22.
 (pdftex.def)             Requested size: 352.31628pt x 246.9774pt.
- [132]
-<subfiles/imgs/CMSslice_whiteBackground.png, id=2036, 6022.5pt x 3982.88pt>
+ [136]
+<subfiles/imgs/CMSslice_whiteBackground.png, id=2048, 6022.5pt x 3982.88pt>
 File: subfiles/imgs/CMSslice_whiteBackground.png Graphic file (type png)
 <use subfiles/imgs/CMSslice_whiteBackground.png>
 Package pdftex.def Info: subfiles/imgs/CMSslice_whiteBackground.png  used on in
 put line 31.
 (pdftex.def)             Requested size: 352.31628pt x 232.94589pt.
- [133 <./subfiles/imgs/cms_layout.png>]
-<subfiles/imgs/CMS_RadiationLevels_2.png, id=2046, 1075.76906pt x 447.17062pt>
+ [137 <./subfiles/imgs/cms_layout.png>]
+<subfiles/imgs/CMS_RadiationLevels_2.png, id=2057, 1075.76906pt x 447.17062pt>
 File: subfiles/imgs/CMS_RadiationLevels_2.png Graphic file (type png)
 <use subfiles/imgs/CMS_RadiationLevels_2.png>
 Package pdftex.def Info: subfiles/imgs/CMS_RadiationLevels_2.png  used on input
  line 40.
 (pdftex.def)             Requested size: 352.31628pt x 146.44774pt.
-) (./subfiles/Analysis/rad_dmg.tex [134 <./subfiles/imgs/CMSslice_whiteBackgrou
-nd.png> <./subfiles/imgs/CMS_RadiationLevels_2.png>] [135])
-(./subfiles/Analysis/rt_design.tex [136]
+) (./subfiles/Analysis/rad_dmg.tex [138 <./subfiles/imgs/CMSslice_whiteBackgrou
+nd.png> <./subfiles/imgs/CMS_RadiationLevels_2.png>] [139])
+(./subfiles/Analysis/rt_design.tex [140]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/spacialTriplication.drawio (1).p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/spacialTriplication.drawio (1).pdf, id=2076, 349.305pt x 210.787
+<subfiles/imgs/spacialTriplication.drawio (1).pdf, id=2088, 349.305pt x 210.787
 5pt>
 File: subfiles/imgs/spacialTriplication.drawio (1).pdf Graphic file (type pdf)
 <use subfiles/imgs/spacialTriplication.drawio (1).pdf>
 Package pdftex.def Info: subfiles/imgs/spacialTriplication.drawio (1).pdf  used
  on input line 9.
 (pdftex.def)             Requested size: 246.62032pt x 148.82391pt.
-[137 <./subfiles/imgs/spacialTriplication.drawio (1).pdf>]
+[141 <./subfiles/imgs/spacialTriplication.drawio (1).pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/temporalTriplication.drawio.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/temporalTriplication.drawio.pdf, id=2092, 334.3692pt x 210.7875p
+<subfiles/imgs/temporalTriplication.drawio.pdf, id=2104, 334.3692pt x 210.7875p
 t>
 File: subfiles/imgs/temporalTriplication.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/temporalTriplication.drawio.pdf>
 Package pdftex.def Info: subfiles/imgs/temporalTriplication.drawio.pdf  used on
  input line 22.
 (pdftex.def)             Requested size: 246.62032pt x 155.47212pt.
-) (./subfiles/Analysis/uvm_desc.tex [138 <./subfiles/imgs/temporalTriplication.
+) (./subfiles/Analysis/uvm_desc.tex [142 <./subfiles/imgs/temporalTriplication.
 drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/uvmHierarchy.drawio.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/uvmHierarchy.drawio.pdf, id=2110, 291.00719pt x 264.02641pt>
+<subfiles/imgs/uvmHierarchy.drawio.pdf, id=2122, 291.00719pt x 264.02641pt>
 File: subfiles/imgs/uvmHierarchy.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/uvmHierarchy.drawio.pdf>
 Package pdftex.def Info: subfiles/imgs/uvmHierarchy.drawio.pdf  used on input l
@@ -2851,28 +2853,28 @@ ine 9.
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/uvmAgentHierarchy.drawio.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/uvmAgentHierarchy.drawio.pdf, id=2111, 298.23419pt x 97.3236pt>
+<subfiles/imgs/uvmAgentHierarchy.drawio.pdf, id=2123, 298.23419pt x 97.3236pt>
 File: subfiles/imgs/uvmAgentHierarchy.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/uvmAgentHierarchy.drawio.pdf>
 Package pdftex.def Info: subfiles/imgs/uvmAgentHierarchy.drawio.pdf  used on in
 put line 16.
 (pdftex.def)             Requested size: 211.3919pt x 68.98735pt.
-[139 <./subfiles/imgs/uvmHierarchy.drawio.pdf>]
+[143 <./subfiles/imgs/uvmHierarchy.drawio.pdf>]
 Overfull \hbox (1.1844pt too wide) in paragraph at lines 28--29
 []\T1/EBGaramond-OsF/bold/n/12 Environment: \T1/EBGaramond-OsF/regular/n/12 (-1
 0) is a UVM com-po-nent that in-stan-ti-ates and con-tains other
  []
 
-[140 <./subfiles/imgs/uvmAgentHierarchy.drawio.pdf>])
-(./subfiles/Analysis/physical_impl.tex [141] [142] [143] [144])
-(./subfiles/Analysis/picorv32.tex [145]
-<subfiles/imgs/cpuComparePower.png, id=2166, 974.89218pt x 630.10406pt>
+[144 <./subfiles/imgs/uvmAgentHierarchy.drawio.pdf>])
+(./subfiles/Analysis/physical_impl.tex [145] [146] [147] [148])
+(./subfiles/Analysis/picorv32.tex [149]
+<subfiles/imgs/cpuComparePower.png, id=2177, 974.89218pt x 630.10406pt>
 File: subfiles/imgs/cpuComparePower.png Graphic file (type png)
 <use subfiles/imgs/cpuComparePower.png>
 Package pdftex.def Info: subfiles/imgs/cpuComparePower.png  used on input line 
 9.
 (pdftex.def)             Requested size: 172.6369pt x 111.57744pt.
-<subfiles/imgs/cpuCompareArea.png, id=2167, 999.735pt x 620.3175pt>
+<subfiles/imgs/cpuCompareArea.png, id=2178, 999.735pt x 620.3175pt>
 File: subfiles/imgs/cpuCompareArea.png Graphic file (type png)
 <use subfiles/imgs/cpuCompareArea.png>
 Package pdftex.def Info: subfiles/imgs/cpuCompareArea.png  used on input line 1
@@ -2884,12 +2886,12 @@ Overfull \hbox (0.3888pt too wide) in paragraph at lines 25--26
 C-V open-source CPU: Pi-coRV32.
  []
 
-[146 <./subfiles/imgs/cpuComparePower.PNG> <./subfiles/imgs/cpuCompareArea.PNG>
+[150 <./subfiles/imgs/cpuComparePower.PNG> <./subfiles/imgs/cpuCompareArea.PNG>
 ]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/picorvSOCbeginning.drawio.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/picorvSOCbeginning.drawio.pdf, id=2177, 202.8378pt x 170.5572pt>
+<subfiles/imgs/picorvSOCbeginning.drawio.pdf, id=2188, 202.8378pt x 170.5572pt>
 
 File: subfiles/imgs/picorvSOCbeginning.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/picorvSOCbeginning.drawio.pdf>
@@ -2901,23 +2903,23 @@ Overfull \hbox (76.2711pt too wide) in paragraph at lines 49--61
  [][] 
  []
 
-[147 <./subfiles/imgs/picorvSOCbeginning.drawio.pdf>]
+[151 <./subfiles/imgs/picorvSOCbeginning.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf, id=2196, 615.0478pt x 593.21625p
+<subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf, id=2208, 615.0478pt x 593.21625p
 t>
 File: subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf Graphic file (type pdf)
 <use subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf  used on 
 input line 72.
 (pdftex.def)             Requested size: 352.31628pt x 339.81134pt.
-[148]
+[152]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/apb_write_no_wait
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<subfiles/imgs/IP_Blocks_Pics/apb_write_no_wait.pdf, id=2205, 730.98094pt x 434
+<subfiles/imgs/IP_Blocks_Pics/apb_write_no_wait.pdf, id=2217, 730.98094pt x 434
 .37282pt>
 File: subfiles/imgs/IP_Blocks_Pics/apb_write_no_wait.pdf Graphic file (type pdf
 )
@@ -2930,7 +2932,7 @@ ed on input line 83.
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.pdf, id=2206, 848.44983pt x 528.
+<subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.pdf, id=2218, 848.44983pt x 528.
 2937pt>
 File: subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.pdf Graphic file (type pdf)
 
@@ -2938,17 +2940,17 @@ File: subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.pdf Graphic file (type pdf)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.pdf  use
 d on input line 90.
 (pdftex.def)             Requested size: 172.6369pt x 107.4948pt.
-[149 <./subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf> <./subfiles/imgs/IP_Block
+[153 <./subfiles/imgs/IP_Blocks_Pics/apb_signals.pdf> <./subfiles/imgs/IP_Block
 s_Pics/apb_write_no_wait.pdf> <./subfiles/imgs/IP_Blocks_Pics/apb_read_no_wait.
-pdf>])) (./subfiles/chapter5.tex [150] [151
+pdf>])) (./subfiles/chapter5.tex [154] [155
 
 ]
 Chapter 8.
-) (./subfiles/conclusion.tex [152
+) (./subfiles/conclusion.tex [156
 
 ]
 Chapter 9.
-) [153
+) [157
 
 ] (./subfiles/appendices.tex
 Appendix A.
@@ -2958,7 +2960,7 @@ Overfull \hbox (1.56676pt too wide) in paragraph at lines 28--29
 uto-reload value, the prescaler value,
  []
 
-[154
+[158
 
 
 ]
@@ -2966,7 +2968,7 @@ uto-reload value, the prescaler value,
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/timer_block_dia.d
 rawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pdf, id=2247, 319.1925pt x
+<subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pdf, id=2259, 319.1925pt x
  176.5797pt>
 File: subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pdf Graphic file (typ
 e pdf)
@@ -2974,13 +2976,13 @@ e pdf)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pd
 f  used on input line 39.
 (pdftex.def)             Requested size: 281.8541pt x 155.92407pt.
-[155 <./subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pdf>] [156]
-[157]
+[159 <./subfiles/imgs/IP_Blocks_Pics/timer_block_dia.drawio.pdf>] [160]
+[161]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/edgedetector.draw
 io.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf, id=2272, 196.8153pt x 68
+<subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf, id=2283, 196.8153pt x 68
 .1747pt>
 File: subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf Graphic file (type p
 df)
@@ -2988,30 +2990,30 @@ df)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf  
 used on input line 62.
 (pdftex.def)             Requested size: 211.3919pt x 73.22394pt.
-[158 <./subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf>]
+[162 <./subfiles/imgs/IP_Blocks_Pics/edgedetector.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf, id=2289, 399.41219pt x 162.60
+<subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf, id=2300, 399.41219pt x 162.60
 75pt>
 File: subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf  used 
 on input line 73.
 (pdftex.def)             Requested size: 352.31628pt x 143.43495pt.
-[159 <./subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf>]
+[163 <./subfiles/imgs/IP_Blocks_Pics/2ffsync.drawio.pdf>]
 
-LaTeX Warning: Reference `timer_cov_rep' on page 160 undefined on input line 87
+LaTeX Warning: Reference `timer_cov_rep' on page 164 undefined on input line 87
 .
 
-[160]
+[164]
 Appendix B.
 
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/spi_signal_diagra
 m.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf, id=2309, 411.84593pt x 47
+<subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf, id=2321, 411.84593pt x 47
 9.60849pt>
 File: subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf Graphic file (type pd
 f)
@@ -3019,14 +3021,14 @@ f)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf  u
 sed on input line 100.
 (pdftex.def)             Requested size: 352.31628pt x 410.28174pt.
-[161
+[165
 
 ]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/spi_min_comp.draw
 io.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf, id=2317, 413.62529pt x 1
+<subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf, id=2329, 413.62529pt x 1
 83.8067pt>
 File: subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf Graphic file (type p
 df)
@@ -3034,12 +3036,12 @@ df)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf  
 used on input line 109.
 (pdftex.def)             Requested size: 352.31628pt x 156.57298pt.
-[162 <./subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf>]
+[166 <./subfiles/imgs/IP_Blocks_Pics/spi_signal_diagram.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/spi_block_dia.dra
 wio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<subfiles/imgs/IP_Blocks_Pics/spi_block_dia.drawio.pdf, id=2326, 319.1925pt x 2
+<subfiles/imgs/IP_Blocks_Pics/spi_block_dia.drawio.pdf, id=2338, 319.1925pt x 2
 77.9986pt>
 File: subfiles/imgs/IP_Blocks_Pics/spi_block_dia.drawio.pdf Graphic file (type 
 pdf)
@@ -3047,13 +3049,13 @@ pdf)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/spi_block_dia.drawio.pdf 
  used on input line 118.
 (pdftex.def)             Requested size: 264.23721pt x 230.13641pt.
-[163 <./subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf>] [164 <./subfiles
+[167 <./subfiles/imgs/IP_Blocks_Pics/spi_min_comp.drawio.pdf>] [168 <./subfiles
 /imgs/IP_Blocks_Pics/spi_block_dia.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf, id=2364, 301.125pt x 411.4
+<subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf, id=2375, 301.125pt x 411.4
 5718pt>
 File: subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf Graphic file (type pdf
 )
@@ -3061,29 +3063,29 @@ File: subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf Graphic file (type pdf
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf  us
 ed on input line 139.
 (pdftex.def)             Requested size: 176.15814pt x 240.71089pt.
-[165] [166 <./subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf>]
+[169] [170 <./subfiles/imgs/IP_Blocks_Pics/spi_txctrl.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf, id=2387, 497.94029pt x 665.60669pt>
+<subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf, id=2399, 497.94029pt x 665.60669pt>
 File: subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf Graphic file (type pdf)
 <use subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf  used on inpu
 t line 155.
 (pdftex.def)             Requested size: 352.31628pt x 470.94888pt.
-[167] [168 <./subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf>]
+[171] [172 <./subfiles/imgs/IP_Blocks_Pics/spi_brg.pdf>]
 
-LaTeX Warning: Reference `spi_cov_rep' on page 169 undefined on input line 172.
+LaTeX Warning: Reference `spi_cov_rep' on page 173 undefined on input line 172.
 
 
-[169] [170]
+[173] [174]
 Appendix C.
 
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/uart_signals.draw
 io.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<subfiles/imgs/IP_Blocks_Pics/uart_signals.drawio.pdf, id=2421, 334.3692pt x 33
+<subfiles/imgs/IP_Blocks_Pics/uart_signals.drawio.pdf, id=2432, 334.3692pt x 33
 .2442pt>
 File: subfiles/imgs/IP_Blocks_Pics/uart_signals.drawio.pdf Graphic file (type p
 df)
@@ -3095,26 +3097,26 @@ used on input line 189.
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf, id=2425, 319.1925pt x 169.593
+<subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf, id=2436, 319.1925pt x 169.593
 6pt>
 File: subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf  used 
 on input line 198.
 (pdftex.def)             Requested size: 246.62032pt x 131.03514pt.
-[171
+[175
 
  <./subfiles/imgs/IP_Blocks_Pics/uart_signals.drawio.pdf>]
 Overfull \hbox (44.5793pt too wide) in paragraph at lines 209--216
  [][] 
  []
 
-[172 <./subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf>]
+[176 <./subfiles/imgs/IP_Blocks_Pics/uart_bd.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/uart_func_dia.dra
 wio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf, id=2456, 325.215pt x 22
+<subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf, id=2469, 325.215pt x 22
 9.81859pt>
 File: subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf Graphic file (type 
 pdf)
@@ -3122,11 +3124,11 @@ pdf)
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf 
  used on input line 244.
 (pdftex.def)             Requested size: 317.0825pt x 224.088pt.
-[173] [174 <./subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf>]
+[177] [178 <./subfiles/imgs/IP_Blocks_Pics/uart_func_dia.drawio.pdf>]
 
 pdfTeX warning: pdflatex (file ./subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf, id=2478, 395.55779pt x 644.40
+<subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf, id=2490, 395.55779pt x 644.40
 75pt>
 File: subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf Graphic file (type pdf)
 <use subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf>
@@ -3138,7 +3140,7 @@ Overfull \hbox (3.68242pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-[175] [176 <./subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf>]
+[179] [180 <./subfiles/imgs/IP_Blocks_Pics/UART_tx.drawio.pdf>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
@@ -3147,7 +3149,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) [177]
+) [181]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
@@ -3156,32 +3158,32 @@ File: lstlang2.sty 2019/09/10 1.8c listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/09/10 1.8c listings language file
-) [178] [179]
-[180] [181]
+) [182] [183]
+[184] [185]
 
-LaTeX Warning: Reference `uart_cov_rep' on page 182 undefined on input line 360
+LaTeX Warning: Reference `uart_cov_rep' on page 186 undefined on input line 360
 .
 
-[182]
+[186]
 
-LaTeX Warning: Reference `uart_cov_rep' on page 183 undefined on input line 367
+LaTeX Warning: Reference `uart_cov_rep' on page 187 undefined on input line 367
 .
 
-<subfiles/imgs/IP_Blocks_Pics/irdrop.PNG, id=2588, 773.13844pt x 641.39626pt>
+<subfiles/imgs/IP_Blocks_Pics/irdrop.PNG, id=2599, 773.13844pt x 641.39626pt>
 File: subfiles/imgs/IP_Blocks_Pics/irdrop.PNG Graphic file (type png)
 <use subfiles/imgs/IP_Blocks_Pics/irdrop.PNG>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/irdrop.PNG  used on input
  line 374.
 (pdftex.def)             Requested size: 299.47098pt x 248.44061pt.
-[183]
-<subfiles/imgs/IP_Blocks_Pics/impl_data.PNG, id=2593, 1394.96156pt x 342.5297pt
+[187]
+<subfiles/imgs/IP_Blocks_Pics/impl_data.PNG, id=2605, 1394.96156pt x 342.5297pt
 >
 File: subfiles/imgs/IP_Blocks_Pics/impl_data.PNG Graphic file (type png)
 <use subfiles/imgs/IP_Blocks_Pics/impl_data.PNG>
 Package pdftex.def Info: subfiles/imgs/IP_Blocks_Pics/impl_data.PNG  used on in
 put line 381.
 (pdftex.def)             Requested size: 557.97475pt x 137.00945pt.
- [184 <./subfiles/imgs/IP_Blocks_Pics/irdrop.PNG>]) [185 <./subfiles/imgs/IP_Bl
+ [188 <./subfiles/imgs/IP_Blocks_Pics/irdrop.PNG>]) [189 <./subfiles/imgs/IP_Bl
 ocks_Pics/impl_data.PNG>]
 Overfull \hbox (6.56508pt too wide) in paragraph at lines 156--156
 []\T1/EBGaramond-OsF/regular/n/12 (-10) accellera. \T1/EBGaramond-OsF/regular/i
@@ -3196,7 +3198,7 @@ Overfull \hbox (21.1975pt too wide) in paragraph at lines 156--156
 ion /
  []
 
-[186
+[190
 
 ]
 Overfull \hbox (15.66087pt too wide) in paragraph at lines 156--156
@@ -3204,7 +3206,7 @@ Overfull \hbox (15.66087pt too wide) in paragraph at lines 156--156
  ^^P  ABC: An Aca-demic Industrial-
  []
 
-[187]
+[191]
 Overfull \hbox (7.78076pt too wide) in paragraph at lines 156--156
 []\T1/EBGaramond-OsF/regular/n/12 (-10) CMS tracker col-lab-o-ra-tion et al. \T
 1/EBGaramond-OsF/regular/it/12 The Phase-2 Up-grade of the CMS Tracker\T1/EBGar
@@ -3217,14 +3219,14 @@ Overfull \hbox (23.16406pt too wide) in paragraph at lines 156--156
 67$[]\T1/EBGaramond-OsF/regular/n/12 (-10) . 
  []
 
-[188]
+[192]
 Overfull \hbox (20.81657pt too wide) in paragraph at lines 156--156
 \T1/EBGaramond-OsF/regular/it/12 neer-ing (ICATIECE)\T1/EBGaramond-OsF/regular/
 n/12 (-10) . 2019, pp. 310^^U315. \T1/EBGaramond-OsF/m/sc/12/100ls doi\T1/EBGar
 amond-OsF/regular/n/12 (-10) : []$\T1/cmtt/m/n/12 10 . 1109 / ICATIECE45860 .
  []
 
-[189]
+[193]
 Overfull \hbox (1.33258pt too wide) in paragraph at lines 156--156
 []\T1/EBGaramond-OsF/regular/n/12 (-10) ISO. \T1/EBGaramond-OsF/regular/it/12 I
 SO 26262^^U10:2012 - Road ve-hi-cles - Func-tional safety - Part 10: Guide-
@@ -3250,7 +3252,7 @@ Overfull \hbox (1.94316pt too wide) in paragraph at lines 156--156
 chi-tec-ture Work-shops (IC-SAW)\T1/EBGaramond-OsF/regular/n/12 (-10) .
  []
 
-[190]
+[194]
 Overfull \hbox (9.16957pt too wide) in paragraph at lines 156--156
 \T1/EBGaramond-OsF/regular/it/12 tional Con-fer-ence on De-sign Tech-nol-ogy of
  In-te-grated Sys-tems in Nanoscale
@@ -3260,14 +3262,14 @@ Overfull \hbox (9.16957pt too wide) in paragraph at lines 156--156
 Package biblatex Warning: No driver for entry type ''.
 (biblatex)                Using fallback driver on input line 156.
 
-[191]
+[195]
 Overfull \hbox (20.47841pt too wide) in paragraph at lines 156--156
 \T1/EBGaramond-OsF/regular/n/12 (-10) CA, USA: Mor-gan Kauf-mann Pub-lish-ers I
 nc., 2008. \T1/EBGaramond-OsF/m/sc/12/100ls isbn\T1/EBGaramond-OsF/regular/n/12
  (-10) : 9780080558325. 
  []
 
-[192]
+[196]
 Overfull \hbox (0.34036pt too wide) in paragraph at lines 156--156
 []\T1/EBGaramond-OsF/regular/n/12 (-10) S. di Mas-cio. \T1/EBGaramond-OsF/regul
 ar/it/12 Low-Energy Pro-ton Test of Safety-Critical Mi-cro-con-trollers
@@ -3293,7 +3295,7 @@ ar/n/12 (-10) . []$\T1/cmtt/m/n/12 https : / / www . synopsys . com / verificat
 ion /
  []
 
-[193]
+[197]
 Overfull \hbox (15.31834pt too wide) in paragraph at lines 156--156
 \T1/EBGaramond-OsF/regular/it/12 IEEE In-ter-na-tional Sym-po-sium on Soft-ware
  Re-li-a-bil-ity En-gi-neer-ing Work-
@@ -3313,14 +3315,14 @@ Overfull \hbox (11.70868pt too wide) in paragraph at lines 156--156
 nterface$[]
  []
 
-[194] [195]
+[198] [199]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (./dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3E0586F9B4614405A9262B4D412E18B8;4953.
+(rerunfilecheck)             Checksum: 105F220FA44F9CA6CDB0E8F5BCDF4D27;4877.
 
 
 LaTeX Warning: There were undefined references.
@@ -3338,10 +3340,10 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42466 strings out of 481239
- 828885 string characters out of 5920377
- 1986856 words of memory out of 5000000
- 55792 multiletter control sequences out of 15000+600000
+ 42468 strings out of 481239
+ 828893 string characters out of 5920377
+ 1986859 words of memory out of 5000000
+ 55791 multiletter control sequences out of 15000+600000
  671859 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,18n,109p,2942b,2834s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3367,10 +3369,10 @@ type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on dissertation.pdf (213 pages, 15327900 bytes).
+Output written on dissertation.pdf (217 pages, 15328467 bytes).
 PDF statistics:
- 2988 PDF objects out of 3580 (max. 8388607)
- 2511 compressed objects within 26 object streams
- 863 named destinations out of 1000 (max. 500000)
- 43092 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 3006 PDF objects out of 3580 (max. 8388607)
+ 2525 compressed objects within 26 object streams
+ 866 named destinations out of 1000 (max. 500000)
+ 43084 words of extra memory for PDF output out of 51595 (max. 10000000)
 
