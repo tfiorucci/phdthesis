@@ -7,17 +7,18 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Possible failure causes\relax }}{69}{table.3.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{106}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{110}{table.5.2}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces IMC Coverage Figures (\%)\relax }}{108}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces RTL Fault Injection Vs Altarica Model Failures\relax }}{115}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Block and Full System Fault Injection Results\relax }}{115}{table.5.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{122}{table.6.1}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{122}{table.6.2}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Control Flow Driven Errors\relax }}{122}{table.6.3}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Result of Fault Injection on basic blocks\relax }}{127}{table.6.1}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Comparison of Fault Injection data vs Recomposed data on Entire Software\relax }}{127}{table.6.2}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Control Flow Driven Errors\relax }}{127}{table.6.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces NMI signal descriptions\relax }}{143}{table.7.1}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces NMI signal descriptions\relax }}{148}{table.7.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Shows the programmable register layout available to the APB interface for the UART controller. Addresses are given in hexadecimal.\relax }}{167}{table.a.C.1}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Shows the programmable register layout available to the APB interface for the UART controller. Addresses are given in hexadecimal.\relax }}{172}{table.a.C.1}%

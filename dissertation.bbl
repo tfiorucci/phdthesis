@@ -1526,6 +1526,63 @@
       \verb https://cds.cern.ch/record/1621894
       \endverb
     \endentry
+    \entry{SciPyProceedings_11}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=94707ad079516150870c2f9a2932df46}{%
+           family={Hagberg},
+           familyi={H\bibinitperiod},
+           given={Aric\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=12f80aa3aca50b90f024775e52dde170}{%
+           family={Schult},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=58fb3a96810da0d56606677a3ce7e677}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={Pieter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cfa3239dded54488f9a82a5718d5b927}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5d98f8482048dcc3052b092b91de894c}{%
+           family={Vaught},
+           familyi={V\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+        {{hash=eca9aeefdc8563b0e153fbedf08bc1a1}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={Jarrod},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pasadena, CA USA}%
+      }
+      \strng{namehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{fullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{bibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorbibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authornamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorfullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{editorbibnamehash}{5c6f569244b62f16c51830f1dac15458}
+      \strng{editornamehash}{5c6f569244b62f16c51830f1dac15458}
+      \strng{editorfullhash}{5c6f569244b62f16c51830f1dac15458}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th Python in Science Conference}
+      \field{title}{Exploring Network Structure, Dynamics, and Function using NetworkX}
+      \field{year}{2008}
+      \field{pages}{11\bibrangedash 15}
+      \range{pages}{5}
+    \endentry
     \entry{6560692}{inproceedings}{}
       \name{author}{8}{}{%
         {{hash=1ce6c3efeed1733c34f6e28a1efb6c90}{%
