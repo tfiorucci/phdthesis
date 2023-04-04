@@ -100,3 +100,7 @@ Wait cycles can be introduced if the slave does not assert the PREADY signal. Ho
 
 The APB bus will not be triplicated as this will connect all peripherals to the core and the length can therefore be quite significant, which will result in a larger area used and more complex routing. Instead, an encoding approach is used. Every byte of the bus is encoded using Hamming codes, which are capable of single error correction and double error detection. This approach uses the same logic developed later for radiation-tolerant memories. 
 
+\subsection{Design of the Peripherals}
+
+
+

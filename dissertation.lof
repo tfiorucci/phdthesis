@@ -78,22 +78,18 @@
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Shows the state of the PicoRV32 SoC at the beginning of this project.\relax }}{151}{figure.caption.118}%
 \contentsline {figure}{\numberline {7.11}{\ignorespaces Table of signals in the APB protocol (Courtesy of ARM \cite {apbReference}).\relax }}{153}{figure.caption.119}%
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Shows the basic transfers of the APB protocol with no wait cycles (Courtesy of ARM \cite {apbReference}).\relax }}{153}{figure.caption.120}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Shows the functional blocks of the timer. The CCR register is repeated 3 times, for a total of 4 CCR registers.\relax }}{156}{figure.caption.121}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Shows a positive edge detector circuit. The output will go high when the previous state was 0 and current state is 1, thereby detecting a positive edge.\relax }}{158}{figure.caption.122}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Shows the input capture stage with a 2 flip-flop synchronizer and a input filter.\relax }}{159}{figure.caption.123}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Table of signal timings in the SPI protocol for different values of CPHA and CPOL (Courtesy of STMicroelectronics \cite {SPIManualSTM}).\relax }}{162}{figure.caption.124}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Shows the ring connection established by connecting MOSI and MISO to shift registers.\relax }}{163}{figure.caption.125}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Shows functional block diagram of the SPI master that is to be developed. The hollow arrows symbolize a bus connection which is 32 bits wide.\relax }}{164}{figure.caption.126}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Shows the ASM chart for tx controller for the SPI master.\relax }}{166}{figure.caption.128}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Shows the ASM chart for the baud rate generator in the SPI master.\relax }}{168}{figure.caption.130}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Shows the common ranges for the length of different sections of the UART protocol \cite {AnalogUART}.\relax }}{170}{figure.caption.131}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Block diagram of the UART components and their connections.\relax }}{171}{figure.caption.132}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Shows a functional diagram for the baud rate generator. This is used to highlight the purposed functionality in an easy-to-understand way and therefore might not be the optimal solution.\relax }}{173}{figure.caption.133}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces ASM chart for a UART transmitter without parity bit.\relax }}{175}{figure.caption.134}%
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Shows the IR drop for the physical implementation of the UART controller. Even though some areas are red, the percentage drop is minimal.\relax }}{182}{figure.caption.142}%
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Shows the table of results relevant to the physical implementation.\relax }}{183}{figure.caption.143}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Shows the functional blocks of the timer. The CCR register is repeated 3 times, for a total of 4 CCR registers.\relax }}{159}{figure.caption.122}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Shows a positive edge detector circuit. The output will go high when the previous state was 0 and current state is 1, thereby detecting a positive edge.\relax }}{162}{figure.caption.123}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Shows the input capture stage with a 2 flip-flop synchronizer and a input filter.\relax }}{163}{figure.caption.124}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Table of signal timings in the SPI protocol for different values of CPHA and CPOL (Courtesy of STMicroelectronics \cite {SPIManualSTM}).\relax }}{166}{figure.caption.125}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Shows the ring connection established by connecting MOSI and MISO to shift registers.\relax }}{167}{figure.caption.126}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Shows functional block diagram of the SPI master that is to be developed. The hollow arrows symbolize a bus connection which is 32 bits wide.\relax }}{168}{figure.caption.127}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Shows the ASM chart for tx controller for the SPI master.\relax }}{170}{figure.caption.128}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Shows the ASM chart for the baud rate generator in the SPI master.\relax }}{172}{figure.caption.129}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Shows the common ranges for the length of different sections of the UART protocol \cite {AnalogUART}.\relax }}{175}{figure.caption.130}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Block diagram of the UART components and their connections.\relax }}{176}{figure.caption.131}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Shows a functional diagram for the baud rate generator. This is used to highlight the purposed functionality in an easy-to-understand way and therefore might not be the optimal solution.\relax }}{178}{figure.caption.132}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces ASM chart for a UART transmitter without parity bit.\relax }}{180}{figure.caption.133}%
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Shows the IR drop for the physical implementation of the UART controller. Even though some areas are red, the percentage drop is minimal.\relax }}{188}{figure.caption.141}%
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Shows the table of results relevant to the physical implementation.\relax }}{189}{figure.caption.142}%

@@ -164,32 +164,30 @@
 \contentsline {section}{\numberline {7.6}The PicoRV32: System on Chip}{149}{section.7.6}%
 \contentsline {subsection}{\numberline {7.6.1}Native Memory Interface}{151}{subsection.7.6.1}%
 \contentsline {subsection}{\numberline {7.6.2}AMBA APB Interface}{152}{subsection.7.6.2}%
-\contentsline {part}{III\hspace {1em}Conclusions and Prospectives}{155}{part.3}%
-\contentsline {chapter}{\numberline {8}Conclusions}{156}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Prospectives}{157}{chapter.9}%
-\contentsline {chapter}{Appendices}{158}{section*.121}%
-\contentsline {chapter}{\numberline {A}Timer}{158}{appendix.a.A}%
-\contentsline {section}{\numberline {A.1}Counter and Prescaler}{160}{section.a.A.1}%
-\contentsline {section}{\numberline {A.2}Capture/Compare Register}{161}{section.a.A.2}%
-\contentsline {section}{\numberline {A.3}UVM Verification}{163}{section.a.A.3}%
-\contentsline {chapter}{\numberline {B}SPI Master}{165}{appendix.a.B}%
-\contentsline {section}{\numberline {B.1}Development}{169}{section.a.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}TX \& RX Controller}{169}{subsection.a.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Baud Rate Generator}{170}{subsection.a.B.1.2}%
-\contentsline {section}{\numberline {B.2}UVM Verification}{172}{section.a.B.2}%
-\contentsline {chapter}{\numberline {C}UART Controller}{175}{appendix.a.C}%
-\contentsline {section}{\numberline {C.1}Baud Rate Generator}{176}{section.a.C.1}%
-\contentsline {section}{\numberline {C.2}First In First Out buffer}{178}{section.a.C.2}%
-\contentsline {section}{\numberline {C.3}Tx/Rx Controller}{179}{section.a.C.3}%
-\contentsline {section}{\numberline {C.4}Verification of UART Controller Design}{181}{section.a.C.4}%
-\contentsline {subsubsection}{UART Interface}{183}{subsubsection*.134}%
-\contentsline {subsubsection}{UART Item}{183}{subsubsection*.135}%
-\contentsline {subsubsection}{UART Sequencer}{183}{subsubsection*.136}%
-\contentsline {subsubsection}{UART Driver}{184}{subsubsection*.137}%
-\contentsline {subsubsection}{UART Monitor}{184}{subsubsection*.138}%
-\contentsline {subsubsection}{UART Agent}{184}{subsubsection*.139}%
-\contentsline {subsubsection}{Scoreboard and Reference Module}{185}{subsubsection*.140}%
-\contentsline {subsection}{\numberline {C.4.1}Test sequences}{186}{subsection.a.C.4.1}%
-\contentsline {section}{\numberline {C.5}Triplication}{186}{section.a.C.5}%
-\contentsline {section}{\numberline {C.6}Physical Implementation}{187}{section.a.C.6}%
-\contentsline {chapter}{Bibliography}{190}{figure.caption.142}%
+\contentsline {subsection}{\numberline {7.6.3}Design of the Peripherals}{154}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}Timer}{154}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Counter and Prescaler}{156}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Capture/Compare Register}{157}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}UVM Verification}{159}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}SPI Master}{161}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Development}{165}{subsection.7.8.1}%
+\contentsline {subsubsection}{TX \& RX Controller}{165}{subsubsection*.127}%
+\contentsline {subsubsection}{Baud Rate Generator}{166}{subsubsection*.129}%
+\contentsline {subsection}{\numberline {7.8.2}UVM Verification}{168}{subsection.7.8.2}%
+\contentsline {section}{\numberline {7.9}UART Controller}{170}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Baud Rate Generator}{171}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}First In First Out buffer}{173}{subsection.7.9.2}%
+\contentsline {subsection}{\numberline {7.9.3}Tx/Rx Controller}{174}{subsection.7.9.3}%
+\contentsline {subsection}{\numberline {7.9.4}Verification of UART Controller Design}{176}{subsection.7.9.4}%
+\contentsline {subsubsection}{UART Interface}{178}{subsubsection*.135}%
+\contentsline {subsubsection}{UART Item}{178}{subsubsection*.136}%
+\contentsline {subsubsection}{UART Sequencer}{178}{subsubsection*.137}%
+\contentsline {subsubsection}{UART Driver}{179}{subsubsection*.138}%
+\contentsline {subsubsection}{UART Monitor}{179}{subsubsection*.139}%
+\contentsline {subsubsection}{UART Agent}{179}{subsubsection*.140}%
+\contentsline {subsubsection}{Scoreboard and Reference Module}{180}{subsubsection*.141}%
+\contentsline {subsection}{\numberline {7.9.5}Test sequences}{181}{subsection.7.9.5}%
+\contentsline {section}{\numberline {7.10}Triplication}{181}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Physical Implementation}{182}{section.7.11}%
+\contentsline {chapter}{\numberline {8}Conclusion}{184}{chapter.8}%
+\contentsline {chapter}{Bibliography}{187}{chapter.8}%

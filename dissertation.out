@@ -51,22 +51,10 @@
 \BOOKMARK [1][-]{section.7.4}{Universal Verification Methodology}{chapter.7}% 51
 \BOOKMARK [1][-]{section.7.5}{Physical Implementation of Digital ICs}{chapter.7}% 52
 \BOOKMARK [1][-]{section.7.6}{The PicoRV32: System on Chip}{chapter.7}% 53
-\BOOKMARK [-1][-]{part.3}{III Conclusions and Prospectives}{}% 54
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{part.3}% 55
-\BOOKMARK [0][-]{chapter.9}{Prospectives}{part.3}% 56
-\BOOKMARK [0][-]{section*.121}{Appendices}{part.3}% 57
-\BOOKMARK [0][-]{appendix.a.A}{Timer}{part.3}% 58
-\BOOKMARK [1][-]{section.a.A.1}{Counter and Prescaler}{appendix.a.A}% 59
-\BOOKMARK [1][-]{section.a.A.2}{Capture/Compare Register}{appendix.a.A}% 60
-\BOOKMARK [1][-]{section.a.A.3}{UVM Verification}{appendix.a.A}% 61
-\BOOKMARK [0][-]{appendix.a.B}{SPI Master}{part.3}% 62
-\BOOKMARK [1][-]{section.a.B.1}{Development}{appendix.a.B}% 63
-\BOOKMARK [1][-]{section.a.B.2}{UVM Verification}{appendix.a.B}% 64
-\BOOKMARK [0][-]{appendix.a.C}{UART Controller}{part.3}% 65
-\BOOKMARK [1][-]{section.a.C.1}{Baud Rate Generator}{appendix.a.C}% 66
-\BOOKMARK [1][-]{section.a.C.2}{First In First Out buffer}{appendix.a.C}% 67
-\BOOKMARK [1][-]{section.a.C.3}{Tx/Rx Controller}{appendix.a.C}% 68
-\BOOKMARK [1][-]{section.a.C.4}{Verification of UART Controller Design}{appendix.a.C}% 69
-\BOOKMARK [1][-]{section.a.C.5}{Triplication}{appendix.a.C}% 70
-\BOOKMARK [1][-]{section.a.C.6}{Physical Implementation}{appendix.a.C}% 71
-\BOOKMARK [0][-]{figure.caption.142}{Bibliography}{part.3}% 72
+\BOOKMARK [1][-]{section.7.7}{Timer}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.8}{SPI Master}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.9}{UART Controller}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.10}{Triplication}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.11}{Physical Implementation}{chapter.7}% 58
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{part.2}% 59
+\BOOKMARK [0][-]{chapter.8}{Bibliography}{part.2}% 60
