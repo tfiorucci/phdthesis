@@ -3,7 +3,7 @@
 
 \newpage\null\thispagestyle{empty}\newpage
 \chapter{Problem, Proposals and Contributions}
-The Failure Mode and Effects Analysis (FMEA) process is an essential tool for ensuring the safety and reliability of complex systems. It involves a systematic approach to identifying potential failure modes and their potential effects, as well as developing appropriate measures to prevent or mitigate these failures. However, despite its importance, the FMEA process is not without its challenges and limitations, especially in the context of certifying systems according to ISO26262.
+The Failure Mode and Effects Analysis (FMEA) process is an essential tool for ensuring the safety and reliability of complex systems. It involves a systematic approach to identifying potential failure modes and their potential effects, and it enables the developing appropriate measures to prevent or mitigate these failures. However, despite its importance, the FMEA process has several challenges and limitations, especially in the context of certifying systems according to ISO26262.
 
 One of the main challenges with the FMEA process is that it relies heavily on human expertise and experience. This means that the quality of the analysis can be highly dependent on the skills and knowledge of the individuals involved, which can lead to inconsistencies and errors. Additionally, the FMEA process can be time-consuming and resource-intensive, which can be problematic for organizations with limited budgets and schedules.
 
@@ -15,11 +15,11 @@ In addition to the challenges associated with the FMEA process, certifying a sys
 
 One of the main challenges with certifying a system according to ISO26262 is that it requires a significant amount of documentation and evidence to be produced to demonstrate compliance with the standard. This can be time-consuming and resource-intensive, and it requires a high level of expertise and knowledge.
 
-Furthermore, ISO26262 requires a high level of integration and coordination between different teams and departments involved in the system development process. This can be challenging in large organizations with complex development processes, and it can require significant investment in training and development.
+%Furthermore, ISO26262 requires a high level of integration and coordination between different teams and departments involved in the system development process. This can be challenging in large organizations with complex development processes, and it can require significant investment in training and development.
 
 In conclusion, the FMEA process and certifying a system according to ISO26262 both pose significant challenges and require a high level of expertise, knowledge, and resources. However, these challenges can be overcome through careful planning, coordination, and a commitment to quality and safety. By addressing these challenges, organizations can ensure that their systems are safe, reliable, and compliant with industry standards and regulations.
 
-The automation of the Failure Modes and Effects Analysis (FMEA) process is crucial due to the increasing complexity of systems, the need for enhanced efficiency, and the demand for more reliable products in today's fast-paced, technologically-driven world. This becomes even more relevant with the introduction of the ISO 26262 standard, which establishes stringent guidelines for the functional safety of electrical and electronic systems in the automotive industry. As systems become more intricate, the possibility of failure modes and their subsequent effects multiply, making manual FMEA methods laborious, time-consuming, and prone to human error. By leveraging artificial intelligence and advanced algorithms, automating the FMEA process allows for the swift identification of potential failure modes and their effects, ensuring a thorough and accurate analysis that complies with the rigorous requirements set forth by the ISO 26262 standard.
+The automation of the Failure Modes and Effects Analysis (FMEA) process is therefore crucial due to the increasing complexity of systems, the need for enhanced efficiency, and the demand for more reliable products in today's fast-paced, technologically-driven world. This becomes even more relevant with the introduction of the ISO 26262 standard, which establishes stringent guidelines for the functional safety of electrical and electronic systems in the automotive industry. As systems become more intricate, the possibility of failure modes and their subsequent effects multiply, making manual FMEA methods laborious, time-consuming, and prone to human error. By leveraging artificial intelligence and advanced algorithms, automating the FMEA process allows for the swift identification of potential failure modes and their effects, ensuring a thorough and accurate analysis that complies with the rigorous requirements set forth by the ISO 26262 standard.
 
 Furthermore, the automated FMEA process can reduce the workload on engineers and other experts by allowing them to focus on higher-level tasks and decision-making, while the system handles the minutiae of the analysis. This translates to substantial time and cost savings for organizations, which is essential for meeting the ISO 26262's requirement of achieving functional safety at an acceptable cost. Additionally, as the world becomes increasingly reliant on technology, the importance of product reliability and safety cannot be overstated. Automated FMEA not only improves the overall quality of products but also reduces the risk of catastrophic failures that can have severe consequences, both financially and in terms of human safety. This is particularly significant in the context of ISO 26262, as it aims to minimize the risk of systematic and random hardware failures in automotive systems.
 
@@ -27,18 +27,23 @@ In conclusion, automating the FMEA process is essential for the development of r
 
 
 \section{Manuscript Organization}
-The proposed Manuscript is divided in 3 main Parts, each of those divided in chapters, summarized as follow
-the First Part includes:
+The proposed Manuscript is divided in 3 main Parts, each of those divided in chapters, summarized as follow:
 
-\paragraph{Background}
+
+\noindent\textbf{The First Part Includes}
+
+
+\paragraph{Chapter 1: Background}
 The need for a safety assessment finds its rationale in the ability of electronics to fail in both temporary or permanent way. This section analyses the most common reason of transient failure in electronics, the effects of harsh environments with a high level of radiation. The different radiations and radiation effects are analysed to understand the core problem.
-\paragraph{ISO26262}
+\paragraph{Chapter 2: ISO26262}
 In this chapter, an all-encompassing overview of the ISO 26262 standard will be provided, a critical regulation governing the functional safety of electrical and electronic systems within road vehicles. As the intricacy of automotive systems perpetually expands, the adoption of this global standard has emerged as indispensable for curbing hazards and guaranteeing vehicles' secure operation. The chapter intends to demystify the various components of ISO 26262, expounding its aims, framework, and approaches, while accentuating its paramount importance in the spheres of automotive engineering, manufacturing, and production. By imparting an exhaustive comprehension of this crucial standard, the chapter aspires to highlight the integral role of ISO 26262 in augmenting automotive security and facilitating the industry in attaining uniform functional safety execution across a diverse range of vehicular contexts.
-\paragraph{Failure Mode and Effect Analysis}
+\paragraph{Chapter 3: Failure Mode and Effect Analysis}
 In this chapter, an in-depth exploration of Failure Modes and Effects Analysis (FMEA) shall be conducted, elucidating the necessity of this robust and systematic methodology in identifying, prioritizing, and mitigating potential failure modes within products, processes, or systems. Comprehending the FMEA process is of paramount importance, as it directly impacts the capacity to innovate it efficaciously. Through a meticulous examination of the FMEA procedure, the chapter shall elucidate each stage, thereby facilitating the harnessing of its potential for perpetual improvement and risk reduction. Moreover, the chapter shall underscore the significance of innovation within the FMEA process itself, enabling organizations to detect and address potential issues with unparalleled expediency and foresight, ultimately resulting in the development of more resilient and dependable products, processes, or systems.
 
 
-\textbf{The Second Part Includes}
+\noindent\textbf{The Second Part Includes}
+
+
 \paragraph{Basic Hardware Components}
 This chapter discusses the challenges of ensuring safety and quality in digital systems, specifically in the context of System-on-a-Chip (SoC) and Intellectual Property (IP) development. The classical approach to safety assurance relies on complex and systematic methods, requiring a complete description of every block in the system, including the set of failure modes and consequences. However, this process is mostly man-driven, making it prone to errors and omissions. Model-Based Safety Assessment (MBSA) provides a more automated approach, but building failure models for each IP in a SoC is still a challenging task. This chapter proposes a new approach to address this challenge, using digital fault injection to extract non-functional behavior and build a failure model that can be used in a MBSA framework. The chapter also presents the methodology for this approach, its application to two examples, and its scalability for more complex systems. Overall, the proposed approach offers a more automated and reliable way to ensure safety and quality in digital systems.
 \paragraph{Complex and microprocessor Based Components}
@@ -52,16 +57,27 @@ In particular, the ongoing trend of developing reprogrammable electronics for th
 
 At the time being the SoC "Picorvino" is being developed, based on the single pipeline stage RISC-V processor PicoRV. This has been the system of choice for the first use case of the new methodology explored.
 
-Finally the Third Part includes
-\paragraph{Conlusion and Prospectives}
-In the conclusion chapter, we will provide a comprehensive analysis of the results obtained throughout the study and discuss any contradictions that may have emerged. This chapter aims to synthesize the key findings and insights, drawing connections between different aspects of the research. Furthermore, we will highlight the implications of the results, reflecting on their significance in the broader context of the field. By examining the outcomes and addressing potential contradictions, this chapter will offer a thorough understanding of the study's overall impact and contributions to the knowledge base.
+\noindent \paragraph{Third Part includes}
 
+
+\paragraph{Conlusion and Prospectives}
+In conclusion, this comprehensive manuscript offers a deep dive into the intricacies of safety assessment and reliability in electronics, particularly within the context of automotive and harsh environments. By dissecting the ISO 26262 standard and FMEA methodology, the manuscript highlights their pivotal roles in ensuring functional safety and fostering innovation in the automotive industry. Furthermore, the manuscript explores the challenges and proposes novel approaches to safety assurance in digital systems and software design, emphasizing the importance of automation and adaptability. The real-world application of these methodologies is exemplified through the CERN use case, showcasing the need for robust reliability assessment in extreme environments.
+
+Overall, this manuscript contributes significantly to the understanding of safety assessment and reliability in electronics, providing invaluable knowledge and insights for engineers, manufacturers, and researchers alike. By adopting and refining the methodologies and approaches discussed herein, the industry can continue to advance, ensuring the development of safer, more reliable, and efficient electronic systems for a wide range of applications.
 \paragraph{Appendixes}
 The appendixed report the details of the peripherals of PicoRVino SoC that have been designed at CERN.
 
 
 \section{Publications}
 
-\newpage
+\begin{enumerate}
+    \item Tiziano Fiorucci, Jean-Marc Daveau, Emmanuel Arbaretier, Giorgio Di Natale, Philippe Roche, et al.. MBSA Approaches Applied to Next Decade Digital Components. Lambda Mu23, Oct. 2022, Paris, France. 
+    \item Tiziano Fiorucci, Giorgio Di Natale, Jean-Marc Daveau, Philippe Roche. Software Product Reliability Based on Basic Block Metrics Recomposition. IEEE 28th International Symposium on On-Line Testing and Robust System Design (IOLTS 2022), Sep 2022, Turin, Italy. ⟨hal-03768055⟩ 
+    \item Tiziano Fiorucci, Jean-Marc Daveau, Giorgio Di Natale, Philippe Roche, et al.. Qualification methodology for ISO26262 certification of automotive SoC systems. IEEE European Test Symposium (ETS 2022), May 2022, Barcelona, Spain.
+    \item T. Fiorucci, J. -M. Daveau, G. di Natale and P. Roche, "Automated Dysfunctional Model Extraction for Model Based
+Safety Assessment of Digital Systems," 2021 IEEE 27th International Symposium on On-Line Testing and Robust
+System Design (IOLTS), 2021, pp. 1-6, doi: 10.1109/IOLTS52814.2021.9486705.
+    \item Reliability Assessment via Basic Block Decomposition - Design and Test - Pending publication
+\end{enumerate}
 \newpage	
 \end{document}

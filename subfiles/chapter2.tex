@@ -1,6 +1,7 @@
 \documentclass[./dissertation.tex]{subfiles}
-
+\newpage\null\thispagestyle{empty}\newpage
 \part{Second Part - Scientific Contributions}
+\newpage\null\thispagestyle{empty}\newpage
 \chapter{Basic Hardware Components}
 \section{Introduction}
 In the context of new applications for autonomous mobility, digital components a required to reach high levels of functional safety performances. This level of assurance is necessary to supply safely the computational power and advanced processing required by those applications. It is therefore necessary for digital SoCs safety engineers to be able to demonstrate thru advanced provable methods the achieved reliability of their system and counter measures.
@@ -293,33 +294,47 @@ The I2C slave, taken from \cite{I2Cminion}, receives {\it read} or {\it write} c
 \subsection{I2C Block Modelling} \label{i2ctestcase}
 
 The testbench is composed of a series of read and write random transactions. The coverage evaluation of the design has been carried out, results are presented in Table \ref{tab:cov_I2C}. Having considered the results of the coverage evaluations sufficient for the demonstration, application of the method presented in section \ref{sec:methodology} have been performed. The list of all injection sites, reported by Cadence {\it Xcelium Fault Simulator} (FSV) \cite{CDN} fault injection tool are considered for state including ones containing data as the serial nature of the I2C protocol, which mixes control and data frames on the same signals thought time-multiplexing, doesn't allow differentiation. However, the small size of data considered (8-bit) only induce a low (256) superset of the real control states. All outputs are probed so that any mismatch with the reference run will stop the simulation and report the fault as {\it Detected}. State (flip-flop value, i.e. '0' or '1') is simply extracted at each clock cycle and printed in the simulation logs to be post-processed.
+\newgeometry{left=1cm, right =1cm ,bottom=0.1cm}
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{subfiles/imgs/I2C_gold_automaton_10.png}
+\centering
+\includegraphics[width=\linewidth, angle = 90]{subfiles/imgs/I2C_gold_automaton_10.png}
 \caption{I2C Gold Automaton}
 \label{fig:I2C_gold}
-
-
 \end{figure}
+\restoregeometry
+
+
+\newgeometry{left=1cm, right =1cm ,bottom=0.1cm}
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{subfiles/imgs/I2C_complete_automaton_10.png}
+\centering
+\includegraphics[scale = 0.45, angle = 90]{subfiles/imgs/I2C_complete_automaton_10.png}
 \caption{I2C Complete Automaton}
 \label{fig:I2C_goldcomplete}
 \end{figure}
+\restoregeometry
+
+
+\newgeometry{left=1cm, right =1cm ,bottom=0.1cm} 
 
 \begin{figure}[H]
+\centering
 \includegraphics[width=\linewidth]{subfiles/imgs/i2c_balloon_injec.png}
 \caption{I2C Complete Automaton Clusterized}
 \label{fig:I2C_balloon}
 \end{figure}
+\restoregeometry
 
+
+\newgeometry{left=1cm, right =1cm, bottom=0.1cm} 
 \begin{figure}[H]
+\centering
 \includegraphics[width=\linewidth]{subfiles/imgs/balloon_ahb.png}
 \caption{AHB Complete Automaton Clusterized}
 \label{fig:AHB_balloon}
 \end{figure}
-
+\restoregeometry
 
 \begin{table}[]
 \centering
@@ -574,10 +589,123 @@ A closer examination of the system reveals that not only has the number of compo
 
 The methodology adhered to in this advanced system remains consistent with the one meticulously delineated in the previous section. This methodology emphasizes a systematic and comprehensive approach to the design, development, and evaluation of the system, ensuring that each component and connection is thoroughly assessed and optimized for maximum efficiency and reliability. By maintaining this rigorous methodology, the proof of concept effectively demonstrates the scalability and adaptability of the approach, even when faced with systems characterized by higher levels of complexity and interconnectivity.
 
+
+
 Additionally, the enhanced complexity of this system offers valuable insights into the challenges and potential obstacles that may arise when implementing the methodology in real-world scenarios, where systems often exhibit a wide range of intricacies and nuances. Through the successful application of the methodology to this more complex proof of concept, the viability and efficacy of the approach are further reinforced, highlighting its potential for widespread adoption in the design and development of advanced digital systems.
+
+\section{Application of the Methodology}
+
+\subsection{Fault Injection Campaign}
+In an effort to apply the proposed methodology to a more complex and intricate system, we have carefully designed and developed a system as depicted in the subsequent figure. This system consists of communicator Intellectual Properties (IPs) created by Gaisler, ensuring the components have undergone thorough verification and testing, thus establishing a high level of reliability and performance. In particular, the system is formed by 2 SPI-VIP, an SPI-to-AHB bridge, an AHB-bus-Controller, and a pair of AHB-SRAMs.
+
+The next step in the methodology, fault injection, is performed on this advanced system using the Cadence fault injection tool {\it FSV} \cite{ICM}. The fault injection sites are automatically identified from the RTL description, and 400 faults are injected per identified site using a custom pre-generated fault dictionary, including a random injection time. This process employs an in-house tool built on top of the {\it GSL} \cite{GSL}. The chosen number of faults is statistically significant enough \cite{5090716} without compromising fault injection campaign running time.
+
+Faults are injected on inputs to consider the effects of faults propagated from other blocks during composition. Additionally, fault probes are set on the outputs to record injected faults that will propagate to other blocks. For each fault injection run, states are recorded to identify new states and transitions that appear as a consequence of the injected faults. These new discovered states and transitions are referred to as {\it illegal} or {\it faulty}.
+
+In our modeling approach, we are interested only in states and transitions and omit execution paths – the ordered list of transitions traversed during a golden or fault run, even though this information is available from the extracted data. The reason is that the targeted faulty behavior modeling strategy, based on the Altarica language, does not require such information. Thus, only new faulty discovered states and transitions are extracted from execution runs, and faults leading to an illegal execution path containing only {\it legal} states and transitions will not be reported as a faulty behavior unless an incorrect output is reported during simulation.
+
+To achieve this status during the nominal execution of the testbench, the IP has been modified, adding dedicated code to write, into a log file, the state vector that includes all the selected control signals. This allows for a real-time, event-driven transition set between the different combinations of the observed signals. The created log file is crucial for the rest of the procedure, serving as input for subsequent analysis.
+
+
+The first phase of the fault injection process has been conducted on the individual blocks of the design, which comprise 2 SPI-VIP, an SPI-to-AHB bridge, an AHB-bus-Controller, and a pair of AHB-SRAMs. This initial fault injection on the single blocks serves to extract the necessary metrics, which are then provided to AIRBUS for the creation of their Altarica-based model.
+
+Following the generation of the Altarica-based model, a comprehensive fault injection campaign is carried out on the whole system. This step is crucial in obtaining the data required to compare the two sets of simulations, as it enables the validation of the model by assessing its accuracy in predicting faulty behaviors and identifying potential discrepancies.
+
+The comparison of the results from the fault injection on the single blocks with the results from the fault injection on the whole system provides valuable insights into the effectiveness of the proposed methodology. By analyzing the similarities and differences between the two datasets, we can assess the accuracy of the Altarica-based model, identify areas for improvement, and verify its applicability to more complex systems.
+
+In conclusion, the two-step fault injection process, consisting of the fault injection on individual blocks followed by the fault injection on the entire system, enables the validation of the Altarica-based model developed by AIRBUS. This validation is essential in ensuring the proposed methodology's effectiveness and applicability to more complex systems, ultimately contributing to the development of more reliable and secure digital systems.
+
+
+Here the logs of the fault injection on the entire system, wich will be compared, as in the previous sections, with the data extracted by AIRBUS using the Altarica model based simulations:
+\begin{lstlisting}
+Fault Injection Summary:
+Total number of faults: 941/941 (total/prime)
+Number of fault runs: 18809
+Number of faults injected: 18809
+SA0(0), SA1(0), SEU(18809), SET(0)
+Expected finish time: 32055ns
+ON_TIME(15357), DELAYED(0), PREMATURE(0), TIMEOUT(0), STOPPED(3452), UNKNOWN(0)
+
+
+
+SEU Fault Table
+                         Total #         Prime #
+Detected                   3452            3452
+Potentially_detected         23              23
+Undetected                15262           15262
+Unobserved_detected           0               0
+Unobserved_undetected         0               0
+Dangerous_detected            0               0
+Dangerous_undetected          0               0
+Injection_failed             72              72
+Total                     18809           18809
+
+SEU Fault Summary Table
+
+Untestable                    0               0
+Injected_faults             941             941
+Not_injected                  0               0
+Total                       941             941
+\end{lstlisting}
+
+which gave the following results:
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Signal} & \textbf{Activation} & \textbf{Percentage} \\
+\hline
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:haddr\_si) & 1328 & 7.06\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hburst\_si) & 60 & 0.32\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hrdata\_so(1)) & 1 & 0.01\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hready\_si) & 38 & 0.20\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hready\_so) & 20 & 0.11\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hsel\_si) & 730 & 3.88\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hsize\_si) & 116 & 0.62\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:htrans\_si) & 190 & 1.01\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hwdata\_si) & 882 & 4.69\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_0:hwrite\_si) & 24 & 0.13\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:haddr\_si) & 1328 & 7.06\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hburst\_si) & 60 & 0.32\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hready\_si) & 38 & 0.20\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hready\_so) & 20 & 0.11\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hsel\_si): & 730 & 3.88\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hsize\_si): & 116 & 0.62\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:htrans\_si): & 190 & 1.01\% \\
+\hline
+(tb\_top.U\_AHB\_SRAM\_1:hwdata\_si): & 882 & 4.69\% \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
 
 \section{Discussion and Future Work}
 \label{sec:discussion}
-In this work, we have proposed and experimented the use of Model-Based Safety Assessment on digital system for safety analysis. We have addressed the construction of dysfunctional model for digital system using simulation and have been able to build a simple, but functional dysfunctional model in Altarica. Ongoing work include automatic dysfunctional models reduction to more than one state and the application to a small RISCV SoC and software reliability\cite{iolts2022}.
+In this work, we have proposed and experimented with the use of Model-Based Safety Assessment on digital systems for safety analysis. We have addressed the construction of dysfunctional models for digital systems using simulation and have successfully built a simple yet functional dysfunctional model in Altarica. The data obtained and presented in this research are promising for the full validation of the methodology on more complex systems.
+
+As part of the future direction of this research, we have outlined a roadmap, which includes the development of a RISC-V System-on-a-Chip (SoC) at CERN. This SoC will be discussed in detail in its own dedicated chapter, showcasing its significance in advancing the application of the proposed methodology.
+\input{subfiles/ticks/roadmap.tex}
+Ongoing work includes the automatic dysfunctional model reduction to more than one state, as well as the application of our methodology to a small RISC-V SoC and software reliability \cite{iolts2022}. The continuous improvement and adaptation of this research are expected to contribute significantly to the field, paving the way for more reliable and secure digital systems.
 
 
