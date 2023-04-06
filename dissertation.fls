@@ -525,14 +525,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regula
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-ts1--base.tfm
 INPUT subfiles/quote.tex
 INPUT subfiles/quote.tex
-INPUT subfiles/dedication.tex
-INPUT subfiles/dedication.tex
+INPUT subfiles/acknowledgements.tex
+INPUT subfiles/acknowledgements.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Bold-osf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.tfm
-INPUT subfiles/acknowledgements.tex
-INPUT subfiles/acknowledgements.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/ebgaramond/EBGaramond-Regular-osf-sc-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/ebgaramond/EBGaramond-Regular-osf-sc-t1--base.tfm
 INPUT dissertation.toc
