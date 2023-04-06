@@ -23,7 +23,17 @@ The automation of the Failure Modes and Effects Analysis (FMEA) process is there
 
 Furthermore, the automated FMEA process can reduce the workload on engineers and other experts by allowing them to focus on higher-level tasks and decision-making, while the system handles the minutiae of the analysis. This translates to substantial time and cost savings for organizations, which is essential for meeting the ISO 26262's requirement of achieving functional safety at an acceptable cost. Additionally, as the world becomes increasingly reliant on technology, the importance of product reliability and safety cannot be overstated. Automated FMEA not only improves the overall quality of products but also reduces the risk of catastrophic failures that can have severe consequences, both financially and in terms of human safety. This is particularly significant in the context of ISO 26262, as it aims to minimize the risk of systematic and random hardware failures in automotive systems.
 
-In conclusion, automating the FMEA process is essential for the development of reliable, efficient, and safe products in an increasingly complex and competitive world. By adhering to the ISO 26262 standard, organizations can ensure that they are meeting the functional safety requirements for electrical and electronic systems in the automotive industry, and automated FMEA plays a crucial role in achieving this objective.
+In conclusion, the work presented in this thesis is well-justified by the previous paragraph and has led to the development of new FMEA methods, enhancing two distinct aspects:
+
+\begin{enumerate}
+\item \textbf{Analysis of basic Hardware IPs and components}: Our approach enables the study of the reliability of individual IPs by extracting metrics to define a model for each IP. This allows for the evaluation of the entire system's reliability without the need for extensive fault injection campaigns on the entire system.
+\item \textbf{Analysis of complex microprocessor-based systems from both hardware and software perspectives}: By studying the behavior of individual software building blocks under hardware fault conditions, we can investigate the inter-layer propagation of faults. This method allows for the prediction of the entire software product's behavior in case of hardware faults.
+\end{enumerate}
+
+Despite the challenges, both aspects have demonstrated desired results and confirmed the proof of concept. Furthermore, CERN's interest in applying these methods to an ongoing project highlights their practical potential. This real-life application, along with the required design, has yielded promising results and continues to be an ongoing collaboration.
+
+Overall, this manuscript contributes significantly to the understanding of safety assessment and reliability in electronics, providing invaluable knowledge and insights for engineers, manufacturers, and researchers alike. By adopting and refining the methodologies and approaches discussed herein, the industry can continue to advance, ensuring the development of safer, more reliable, and efficient electronic systems for a wide range of applications.
+
 
 
 \section{Manuscript Organization}
@@ -63,17 +73,7 @@ In this Chapter all the peripherals that have been developed at CERN in order to
 
 
 \paragraph{Conlusion and Prospectives}
-In conclusion, the work presented in this thesis is well-justified and has led to the development of new FMEA methods, enhancing two distinct aspects:
-
-\begin{enumerate}
-\item \textbf{Analysis of basic Hardware IPs and components}: Our approach enables the study of the reliability of individual IPs by extracting metrics to define a model for each IP. This allows for the evaluation of the entire system's reliability without the need for extensive fault injection campaigns on the entire system.
-\item \textbf{Analysis of complex microprocessor-based systems from both hardware and software perspectives}: By studying the behavior of individual software building blocks under hardware fault conditions, we can investigate the inter-layer propagation of faults. This method allows for the prediction of the entire software product's behavior in case of hardware faults.
-\end{enumerate}
-
-Despite the challenges, both aspects have demonstrated desired results and confirmed the proof of concept. Furthermore, CERN's interest in applying these methods to an ongoing project highlights their practical potential. This real-life application, along with the required design, has yielded promising results and continues to be an ongoing collaboration.
-
-Overall, this manuscript contributes significantly to the understanding of safety assessment and reliability in electronics, providing invaluable knowledge and insights for engineers, manufacturers, and researchers alike. By adopting and refining the methodologies and approaches discussed herein, the industry can continue to advance, ensuring the development of safer, more reliable, and efficient electronic systems for a wide range of applications.
-
+This chapter serves as the conclusive section of the thesis, summarizing the key findings and highlighting the practical implications of the developed FMEA methods. It emphasizes the impact of these novel approaches and acknowledges the ongoing collaboration with CERN proof to their real-world applicability. By providing a succinct overview of the major contributions and their significance, this chapter brings closure to the thesis while also setting the stage for potential future research and applications in the field.
 
 
 \section{Publications}

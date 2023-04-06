@@ -116,10 +116,10 @@
 \contentsline {chapter}{\numberline {4}Problem, Proposals and Contributions}{86}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Manuscript Organization}{88}{section.4.1}%
 \contentsline {paragraph}{Chapter 1: Background}{88}{paragraph*.80}%
-\contentsline {paragraph}{Chapter 2: ISO26262}{88}{paragraph*.81}%
-\contentsline {paragraph}{Chapter 3: Failure Mode and Effect Analysis}{88}{paragraph*.82}%
+\contentsline {paragraph}{Chapter 2: ISO26262}{89}{paragraph*.81}%
+\contentsline {paragraph}{Chapter 3: Failure Mode and Effect Analysis}{89}{paragraph*.82}%
 \contentsline {paragraph}{Basic Hardware Components}{89}{paragraph*.83}%
-\contentsline {paragraph}{Complex and microprocessor Based Components}{89}{paragraph*.84}%
+\contentsline {paragraph}{Complex and microprocessor Based Components}{90}{paragraph*.84}%
 \contentsline {paragraph}{Cern Use Case}{90}{paragraph*.85}%
 \contentsline {paragraph}{Third Part includes}{90}{paragraph*.86}%
 \contentsline {paragraph}{Conlusion and Prospectives}{90}{paragraph*.87}%
