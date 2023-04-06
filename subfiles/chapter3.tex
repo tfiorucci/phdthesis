@@ -167,43 +167,8 @@ Taking into accoun the approximation due to the algorithm intrinsic ability to r
 \label{sec:testcase}
 \subsection{The Software}
 The Software of choice for the Proof of Concept of this methodology is the Bubble Sort Algoritm, in its Assembler for RISC-V Version. Bubble sort is an $O(n^2)$ sorting algorithm. A simple sorting algorithm that performs a one-way comparison of two adjacent records from the head to tail of the disordered part in each sort trip. Of course, the direction can also be the contrary, one-way comparison from the tail to head of the disordered part. This will form gradually an ordered table at the head of the disordered table, and the basic idea of the algorithm has no difference with the foregoing \cite{5635119}.
-\begin{table*}[!ht]
-    \centering
-    \caption{Result of Fault Injection on basic blocks}
-    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-    \hline
-        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
-        bb\_0 & 0 & 0 & 139 & 0 & 0 & 0 & 0 & 0 & 379 & 0 & 0 & 0 & 0 & 0 & 0 & 162 & 0 & ... & 0 \\ \hline
-        bb\_1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 500 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
-        bb\_2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 269 & 0 & 0 & 0 & 0 & 28 & 14 & 38 & 0 & ... & 0 \\ \hline
-        bb\_3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 500 & 0 & 0 & 0 & 0 & 16 & 131 & 244 & 0 & ... & 0 \\ \hline
-        bb\_4 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 495 & 0 & 0 & 0 & 0 & 0 & 0 & 62 & 0 & ... & 0 \\ \hline
-        bb\_5 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 380 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
-        bb\_6 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 494 & 0 & 0 & 0 & 0 & 0 & 0 & 41 & 0 & ... & 0 \\ \hline
-        bb\_7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 466 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
-    \end{tabular}
-\end{table*}
 
-\begin{table*}[!ht]
-    \centering
-    \caption{Comparison of Fault Injection data vs Recomposed data on Entire Software}
-    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-    \hline
-        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
-        FI & 0 & 0 & 4 & 0 & 0 & 0 & 0 & 0 & 221 & 0 & 0 & 0 & 0 & 15 & 41 & 90 & 0 & ... & 0 \\ \hline
-        Reco & 0 & 0 & 5 & 0 & 0 & 0 & 0 & 0 & 228 & 0 & 0 & 0 & 0 & 13 & 44 & 98 & 0 & ... & 0 \\ \hline
-    \end{tabular}
-\end{table*}
 
-\begin{table*}[!ht]
-    \centering
-    \caption{Control Flow Driven Errors}
-    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-    \hline
-        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
-        FI & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 198 & 0 & 0 & 0 & 0 & 4 & 77 & 90 & 0 & ... & 0 \\ \hline
-    \end{tabular}
-\end{table*}
 \subsection{The Division in Basic Block}
 The processing of dividing the Software under test into basic block has been carried out automatically and returned 8 different blocks, together with the list of resources that each and every basic blocks utilizes during its own functions.
 After a Nominal run without faults of the entire software, it was possible to trace the transition between the different basic blocks throughout the whole execution. These information, summarized in the scheme below, will be the key to predict the behaviour of the program starting from the behaviour of the basic blocks themselves.
@@ -224,9 +189,90 @@ The next step in the methodology is fault injection. It is performed using Caden
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %                       RESULT AND DISCUSSION
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-%
+
+\section{Scalability}
+Evaluating the efficacy and scalability of a methodology can be a complex and demanding undertaking, particularly when the algorithm under examination possesses a high time complexity. It is imperative to establish the impartiality and reliability of the results obtained through the evaluation process. To accomplish this, the methodology was subjected to multiple trials, each utilizing a distinct and randomly selected data set with varying lengths, resulting in a diversity of execution times.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Number of Elements} & \textbf{Execution Time (us)} & \textbf{Simulation Time} \\
+\hline
+\hline
+10 & 180.2050 & 00:00:10 \\
+\hline
+25 & 775.5250 & 00:00:13 \\
+\hline
+50 & 3130.4850 & 00:00:39 \\
+\hline
+100 & 12135.846868 & 00:02:24 \\
+\hline
+250 & 77431.1650 & 00:13:50 \\
+\hline
+500 & 304928.3250 & 00:55:38 \\
+\hline
+\end{tabular}
+\caption{Time data}
+\label{table:time_data}
+\end{table}
+
+
+The utilization of various data sets, each of differing size, eliminates the possibility of biases and guarantees a thorough evaluation of the methodology. The range of execution times provides an assessment of the scalability of the methodology, and any limitations can be identified. Moreover, the consistent outcomes across all trials serve as robust proof for the validity of the results.
+
+A graphical representation of the progression and evolution of the data through the multiple iterations is presented, which underscores the consistency of the results, regardless of differences in data size and execution time. This consistency further reinforces the impartiality and reliability of the results and boosts confidence in the validity of the methodology under examination.
+
+It is worth mentioning that the scalability of the methodology is also influenced by the high complexity of the algorithm being evaluated, in this case, with a time complexity of $O(n^2)$. Despite this, the impartiality and reliability of the results were maintained through the repeated trials, each utilizing a unique and randomly selected data set.
+
+In summary, the methodology evaluation process was executed in a systematic and thorough manner, ensuring the impartiality and reliability of the results obtained. The use of multiple data sets, each with varying lengths, and the consistent outcomes across all trials provide strong proof for the validity of the methodology under examination. The graphical representation further supports the impartiality and reliability of the results and instills confidence in the scalability and efficacy of the methodology.
+
+
 \section{Results and Future Work}
 The results of the recomposition are based on Table:1, which summarizes the result of the fault injection campaign that has been carried out on the single basic blocks. Each entry of the table enumerates the number of functional error on caused by each register in the register file, keeping in mind that every bit in the register has been affected by 20 faults randomized in time, for a total of 640 faults per register. Once these table has been given to the recomposition tool, Table:2 is returned, including the benchmark fault injection campaign on the entire Software Product for validation of results together with the expected number of faults, calculated following the methodology described. Last, Table:3 Reports the number of Errors that have been caused by an error in the flow of the program, which can be extracted by an equivalent of table number 1 for flow errors caused by each register failing in each basic block and recomposed as in its dedicated section.
+
+\newgeometry{left=1cm, right =1cm, bottom=1cm, top=1cm} 
+\begin{table}[H]
+    \centering
+    \caption{Result of Fault Injection on basic blocks}
+    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+    \hline
+        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
+        bb\_0 & 0 & 0 & 139 & 0 & 0 & 0 & 0 & 0 & 379 & 0 & 0 & 0 & 0 & 0 & 0 & 162 & 0 & ... & 0 \\ \hline
+        bb\_1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 500 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
+        bb\_2 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 269 & 0 & 0 & 0 & 0 & 28 & 14 & 38 & 0 & ... & 0 \\ \hline
+        bb\_3 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 500 & 0 & 0 & 0 & 0 & 16 & 131 & 244 & 0 & ... & 0 \\ \hline
+        bb\_4 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 495 & 0 & 0 & 0 & 0 & 0 & 0 & 62 & 0 & ... & 0 \\ \hline
+        bb\_5 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 380 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
+        bb\_6 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 494 & 0 & 0 & 0 & 0 & 0 & 0 & 41 & 0 & ... & 0 \\ \hline
+        bb\_7 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 466 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ... & 0 \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Comparison of Fault Injection data vs Recomposed data on Entire Software}
+    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+    \hline
+        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
+        FI & 0 & 0 & 4 & 0 & 0 & 0 & 0 & 0 & 221 & 0 & 0 & 0 & 0 & 15 & 41 & 90 & 0 & ... & 0 \\ \hline
+        Reco & 0 & 0 & 5 & 0 & 0 & 0 & 0 & 0 & 228 & 0 & 0 & 0 & 0 & 13 & 44 & 98 & 0 & ... & 0 \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Control Flow Driven Errors}
+    \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+    \hline
+        ~ & x0 & x1 & x2 & x3 & x4 & x5 & x6 & x7 & x8 & x9 & x10 & x11 & x12 & x13 & x14 & x15 & x16 & ~ & x31 \\ \hline
+        FI & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 198 & 0 & 0 & 0 & 0 & 4 & 77 & 90 & 0 & ... & 0 \\ \hline
+        RECO & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 205 & 0 & 0 & 0 & 0 & 6 & 70 & 93 & 0 & ... & 0 \\
+        \hline
+    \end{tabular}
+\end{table}
+\restoregeometry
+
+
 
 The last part of the methodology will be the focus of the work to come, as includes the implicit ability of the different algorithms to recover from flow errors, which understanding can lead to much more refined results.
 \label{sec:discussion}

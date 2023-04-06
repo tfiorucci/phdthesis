@@ -13,16 +13,16 @@
 \BOOKMARK [1][-]{section.2.2}{Structure of the Standard}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.3}{V model and its Parts}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.4}{Scope}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.5}{Overview of the standard form the Automotive point of view}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.6}{Main Examples of ASIL-D Chips}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.7}{Why it may not be enough}{chapter.2}% 18
-\BOOKMARK [0][-]{chapter.3}{Failure Mode and Effect Analysis FMEA}{part.1}% 19
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{Procedure}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.3}{Analysis}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.4}{Application}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.5}{Supplementary Information}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.6}{1.9 Consequences of System Failure}{chapter.3}% 25
+\BOOKMARK [1][-]{section.2.5}{Challenges of the standard form the Automotive point of view}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.6}{Why it may not be enough}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Failure Mode and Effect Analysis FMEA}{part.1}% 18
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Procedure}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Analysis}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Application}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.5}{Supplementary Information}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.6}{Consequences of System Failure}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.7}{Criticality Analysis}{chapter.3}% 25
 \BOOKMARK [0][-]{chapter.4}{Problem, Proposals and Contributions}{part.1}% 26
 \BOOKMARK [1][-]{section.4.1}{Manuscript Organization}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.2}{Publications}{chapter.4}% 28
@@ -44,18 +44,19 @@
 \BOOKMARK [1][-]{section.6.2}{State of the Art}{chapter.6}% 44
 \BOOKMARK [1][-]{section.6.3}{Methodology}{chapter.6}% 45
 \BOOKMARK [1][-]{section.6.4}{Test Case and Application}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.5}{Results and Future Work}{chapter.6}% 47
-\BOOKMARK [0][-]{chapter.7}{CERN Use Case}{part.2}% 48
-\BOOKMARK [1][-]{section.7.1}{LHC Detectors at CERN}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.2}{Radiation Effects on CMOS Electronics}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.3}{Radiation-Tolerant Design}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.4}{Universal Verification Methodology}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.5}{Physical Implementation of Digital ICs}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.6}{The PicoRV32: System on Chip}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.7}{Timer}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.8}{SPI Master}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.9}{UART Controller}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.10}{Triplication}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.11}{Physical Implementation}{chapter.7}% 59
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{part.2}% 60
-\BOOKMARK [0][-]{chapter.8}{Bibliography}{part.2}% 61
+\BOOKMARK [1][-]{section.6.5}{Scalability}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.6}{Results and Future Work}{chapter.6}% 48
+\BOOKMARK [0][-]{chapter.7}{CERN Use Case}{part.2}% 49
+\BOOKMARK [1][-]{section.7.1}{LHC Detectors at CERN}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.2}{Radiation Effects on CMOS Electronics}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.3}{Radiation-Tolerant Design}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.4}{Universal Verification Methodology}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.5}{Physical Implementation of Digital ICs}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.6}{The PicoRV32: System on Chip}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.7}{Timer}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.8}{SPI Master}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.9}{UART Controller}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.10}{Triplication}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.11}{Physical Implementation}{chapter.7}% 60
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{part.2}% 61
+\BOOKMARK [0][-]{chapter.8}{Bibliography}{part.2}% 62

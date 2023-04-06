@@ -43,21 +43,20 @@
 \contentsline {subsection}{\numberline {1.5.4}Redundancy Improves Reliability}{27}{subsection.1.5.4}%
 \contentsline {chapter}{\numberline {2}ISO26262}{31}{chapter.2}%
 \contentsline {section}{\numberline {2.1}introduction}{31}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Structure of the Standard}{32}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Vocabulary}{32}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Structure of the Standard}{33}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Vocabulary}{33}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Management of Functional Safety}{35}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Concept Phase}{36}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Product development at the system level}{37}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}V model and its Parts}{38}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Scope}{41}{section.2.4}%
 \contentsline {paragraph}{Other Section of interest}{42}{paragraph*.50}%
-\contentsline {section}{\numberline {2.5}Overview of the standard form the Automotive point of view}{42}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Main Examples of ASIL-D Chips}{42}{section.2.6}%
+\contentsline {section}{\numberline {2.5}Challenges of the standard form the Automotive point of view}{42}{section.2.5}%
 \contentsline {paragraph}{Latent Fault metric}{45}{paragraph*.52}%
-\contentsline {subsection}{\numberline {2.6.1}Automotive Safety Integrity Level (ASIL)}{45}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.5.1}Automotive Safety Integrity Level (ASIL)}{45}{subsection.2.5.1}%
 \contentsline {paragraph}{Probabilistic Metric for random Hardware Failures (PMHF)}{46}{paragraph*.54}%
 \contentsline {paragraph}{Individual evaluation of faults (i.e., cut set analysis)}{47}{paragraph*.57}%
-\contentsline {section}{\numberline {2.7}Why it may not be enough}{49}{section.2.7}%
+\contentsline {section}{\numberline {2.6}Why it may not be enough}{48}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Failure Mode and Effect Analysis FMEA}{51}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{51}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}General}{51}{subsection.3.1.1}%
@@ -79,118 +78,131 @@
 \contentsline {subsection}{\numberline {3.4.5}Relationships with Other Methods}{63}{subsection.3.4.5}%
 \contentsline {section}{\numberline {3.5}Supplementary Information}{64}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Establishment of Ground Rules}{64}{subsection.3.5.1}%
-\contentsline {subsubsection}{Levels of Analysis}{64}{subsubsection*.67}%
-\contentsline {subsection}{\numberline {3.5.2}Failure Modes}{69}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Failure Causes}{71}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Common-Cause (Common Mode) Failures}{72}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Human Factors}{72}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Software Errors}{73}{subsection.3.5.6}%
-\contentsline {subsection}{\numberline {3.5.7}Failure Detection Methods}{73}{subsection.3.5.7}%
-\contentsline {subsection}{\numberline {3.5.8}Failure Effects}{73}{subsection.3.5.8}%
-\contentsline {subsubsection}{General}{73}{subsubsection*.68}%
-\contentsline {section}{\numberline {3.6}1.9 Consequences of System Failure}{74}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}2.4.2 Information Required}{74}{subsection.3.6.1}%
-\contentsline {subsubsection}{2.4.2.1 General}{74}{subsubsection*.69}%
-\contentsline {subsubsection}{2.4.2.2 System Structure}{74}{subsubsection*.70}%
-\contentsline {subsubsection}{2.4.2.3 System Initiation, Operation, Control, and Maintenance}{75}{subsubsection*.71}%
-\contentsline {subsubsection}{2.4.2.4 System Environment}{75}{subsubsection*.72}%
-\contentsline {subsubsection}{2.4.2.5 Modelling}{76}{subsubsection*.73}%
-\contentsline {subsection}{\numberline {3.6.2}2.4.2.6 Software}{76}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}2.4.2.7 System boundary}{76}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}2.4.2.8 Definition of the system's functional structure}{77}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}2.4.2.9 Representation of system structure}{77}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Block Diagrams}{78}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}Failure Significance and Compensating Provisions}{78}{subsection.3.6.7}%
-\contentsline {chapter}{\numberline {4}Problem, Proposals and Contributions}{81}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Manuscript Organization}{83}{section.4.1}%
-\contentsline {paragraph}{Chapter 1: Background}{83}{paragraph*.74}%
-\contentsline {paragraph}{Chapter 2: ISO26262}{83}{paragraph*.75}%
-\contentsline {paragraph}{Chapter 3: Failure Mode and Effect Analysis}{83}{paragraph*.76}%
-\contentsline {paragraph}{Basic Hardware Components}{84}{paragraph*.77}%
-\contentsline {paragraph}{Complex and microprocessor Based Components}{84}{paragraph*.78}%
-\contentsline {paragraph}{Cern Use Case}{85}{paragraph*.79}%
-\contentsline {paragraph}{Third Part includes}{85}{paragraph*.80}%
-\contentsline {paragraph}{Conlusion and Prospectives}{85}{paragraph*.81}%
-\contentsline {paragraph}{Appendixes}{85}{paragraph*.82}%
-\contentsline {section}{\numberline {4.2}Publications}{86}{section.4.2}%
-\contentsline {part}{II\hspace {1em}Second Part - Scientific Contributions}{88}{part.2}%
-\contentsline {chapter}{\numberline {5}Basic Hardware Components}{90}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{90}{section.5.1}%
-\contentsline {section}{\numberline {5.2}State-of-the-Art}{93}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Probabilistic Methods in Digital Systems Safety}{94}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Formal Methods in Digital Systems Safety}{94}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Altarica}{95}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}First Manual Application of FMEA on a SoC}{96}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelling Digital Systems for MBSA}{103}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Methodology}{104}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Faulty Behaviour Model Construction}{107}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Completeness of Extraction}{108}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Altarica Modelling}{110}{subsection.5.5.3}%
-\contentsline {section}{\numberline {5.6}Application: {\it I2C} to {\it AHB} bridge}{112}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}I2C Block Modelling}{113}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}AHB Block Modeling}{119}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Complete System Test Case}{119}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5.7}Application}{122}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Identification and Extraction of Faulty States}{122}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Fault Injection Campaign Setup}{123}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Faulty Behavior Extraction}{123}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}Results on the $I2C$ to $AHB$ System}{124}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Second Proof of Concept 4BlocksSystem}{125}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Application of the Methodology}{126}{section.5.10}%
-\contentsline {subsection}{\numberline {5.10.1}Fault Injection Campaign}{126}{subsection.5.10.1}%
-\contentsline {section}{\numberline {5.11}Discussion and Future Work}{129}{section.5.11}%
-\contentsline {chapter}{\numberline {6}Complex and $\mu $-Processor Based Systems}{132}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{132}{section.6.1}%
-\contentsline {section}{\numberline {6.2}State of the Art}{134}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Methodology}{135}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Setup}{136}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Fault Injection on Randomly Initialized Resources}{137}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Re-Composition of the basic blocks}{138}{subsection.6.3.3}%
-\contentsline {subsubsection}{Not modified Program Flow}{139}{subsubsection*.107}%
-\contentsline {subsubsection}{Modified Program Flow}{140}{subsubsection*.108}%
-\contentsline {section}{\numberline {6.4}Test Case and Application}{141}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}The Software}{141}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}The Division in Basic Block}{141}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}The Platform}{142}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}The Fault Injection Campaign}{142}{subsection.6.4.4}%
-\contentsline {section}{\numberline {6.5}Results and Future Work}{143}{section.6.5}%
-\contentsline {chapter}{\numberline {7}CERN Use Case}{144}{chapter.7}%
-\contentsline {section}{\numberline {7.1}LHC Detectors at CERN}{144}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Radiation Effects on CMOS Electronics}{149}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Cumulative Damages}{149}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Single-Event Effects}{150}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Radiation-Tolerant Design}{151}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Universal Verification Methodology}{153}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Physical Implementation of Digital ICs}{155}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Synthesis}{156}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Implementation}{157}{subsection.7.5.2}%
-\contentsline {section}{\numberline {7.6}The PicoRV32: System on Chip}{159}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Native Memory Interface}{161}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}AMBA APB Interface}{162}{subsection.7.6.2}%
-\contentsline {subsection}{\numberline {7.6.3}Design of the Peripherals}{164}{subsection.7.6.3}%
-\contentsline {section}{\numberline {7.7}Timer}{164}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Counter and Prescaler}{166}{subsection.7.7.1}%
-\contentsline {subsection}{\numberline {7.7.2}Capture/Compare Register}{167}{subsection.7.7.2}%
-\contentsline {subsection}{\numberline {7.7.3}UVM Verification}{169}{subsection.7.7.3}%
-\contentsline {section}{\numberline {7.8}SPI Master}{171}{section.7.8}%
-\contentsline {subsection}{\numberline {7.8.1}Development}{175}{subsection.7.8.1}%
-\contentsline {subsubsection}{TX \& RX Controller}{175}{subsubsection*.128}%
-\contentsline {subsubsection}{Baud Rate Generator}{176}{subsubsection*.130}%
-\contentsline {subsection}{\numberline {7.8.2}UVM Verification}{178}{subsection.7.8.2}%
-\contentsline {section}{\numberline {7.9}UART Controller}{180}{section.7.9}%
-\contentsline {subsection}{\numberline {7.9.1}Baud Rate Generator}{181}{subsection.7.9.1}%
-\contentsline {subsection}{\numberline {7.9.2}First In First Out buffer}{183}{subsection.7.9.2}%
-\contentsline {subsection}{\numberline {7.9.3}Tx/Rx Controller}{184}{subsection.7.9.3}%
-\contentsline {subsection}{\numberline {7.9.4}Verification of UART Controller Design}{186}{subsection.7.9.4}%
-\contentsline {subsubsection}{UART Interface}{188}{subsubsection*.136}%
-\contentsline {subsubsection}{UART Item}{188}{subsubsection*.137}%
-\contentsline {subsubsection}{UART Sequencer}{188}{subsubsection*.138}%
-\contentsline {subsubsection}{UART Driver}{189}{subsubsection*.139}%
-\contentsline {subsubsection}{UART Monitor}{189}{subsubsection*.140}%
-\contentsline {subsubsection}{UART Agent}{189}{subsubsection*.141}%
-\contentsline {subsubsection}{Scoreboard and Reference Module}{190}{subsubsection*.142}%
-\contentsline {subsection}{\numberline {7.9.5}Test sequences}{191}{subsection.7.9.5}%
-\contentsline {section}{\numberline {7.10}Triplication}{191}{section.7.10}%
-\contentsline {section}{\numberline {7.11}Physical Implementation}{192}{section.7.11}%
-\contentsline {chapter}{\numberline {8}Conclusion}{194}{chapter.8}%
-\contentsline {chapter}{Bibliography}{197}{chapter.8}%
+\contentsline {subsubsection}{Levels of Analysis}{64}{subsubsection*.65}%
+\contentsline {subsection}{\numberline {3.5.2}Failure Modes}{67}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Failure Causes}{68}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Common-Cause (Common Mode) Failures}{71}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Human Factors}{71}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Software Errors}{72}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Failure Detection Methods}{72}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}Failure Effects}{72}{subsection.3.5.8}%
+\contentsline {subsubsection}{General}{72}{subsubsection*.66}%
+\contentsline {section}{\numberline {3.6}Consequences of System Failure}{72}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Information Required}{73}{subsection.3.6.1}%
+\contentsline {subsubsection}{General}{73}{subsubsection*.67}%
+\contentsline {subsubsection}{System Structure}{73}{subsubsection*.68}%
+\contentsline {subsubsection}{System Initiation, Operation, Control, and Maintenance}{73}{subsubsection*.69}%
+\contentsline {subsubsection}{System Environment}{74}{subsubsection*.70}%
+\contentsline {subsubsection}{Modelling}{75}{subsubsection*.71}%
+\contentsline {subsection}{\numberline {3.6.2}Software}{75}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}System boundary}{75}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Definition of the system's functional structure}{76}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Representation of system structure}{76}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Block Diagrams}{76}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Failure Significance and Compensating Provisions}{77}{subsection.3.6.7}%
+\contentsline {section}{\numberline {3.7}Criticality Analysis}{78}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Procedure}{78}{subsection.3.7.1}%
+\contentsline {subsubsection}{General}{78}{subsubsection*.72}%
+\contentsline {subsubsection}{Effect Severity}{79}{subsubsection*.73}%
+\contentsline {subsubsection}{Event Frequency}{79}{subsubsection*.74}%
+\contentsline {subsubsection}{Criticality Matrix}{80}{subsubsection*.75}%
+\contentsline {subsubsection}{Ranked Contributions - System Basis}{80}{subsubsection*.76}%
+\contentsline {subsection}{\numberline {3.7.2}Ranked Contributions - Severity Basis}{81}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Supplementary Information}{82}{subsection.3.7.3}%
+\contentsline {subsubsection}{General}{82}{subsubsection*.77}%
+\contentsline {subsubsection}{Evaluation of Failure Effect Frequency or Probability}{83}{subsubsection*.78}%
+\contentsline {subsubsection}{Assessment of Criticality}{83}{subsubsection*.79}%
+\contentsline {subsubsection}{Criticality Bands}{83}{subsubsection*.80}%
+\contentsline {chapter}{\numberline {4}Problem, Proposals and Contributions}{86}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Manuscript Organization}{88}{section.4.1}%
+\contentsline {paragraph}{Chapter 1: Background}{88}{paragraph*.81}%
+\contentsline {paragraph}{Chapter 2: ISO26262}{88}{paragraph*.82}%
+\contentsline {paragraph}{Chapter 3: Failure Mode and Effect Analysis}{88}{paragraph*.83}%
+\contentsline {paragraph}{Basic Hardware Components}{89}{paragraph*.84}%
+\contentsline {paragraph}{Complex and microprocessor Based Components}{89}{paragraph*.85}%
+\contentsline {paragraph}{Cern Use Case}{90}{paragraph*.86}%
+\contentsline {paragraph}{Third Part includes}{90}{paragraph*.87}%
+\contentsline {paragraph}{Conlusion and Prospectives}{90}{paragraph*.88}%
+\contentsline {section}{\numberline {4.2}Publications}{90}{section.4.2}%
+\contentsline {part}{II\hspace {1em}Second Part - Scientific Contributions}{93}{part.2}%
+\contentsline {chapter}{\numberline {5}Basic Hardware Components}{95}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{95}{section.5.1}%
+\contentsline {section}{\numberline {5.2}State-of-the-Art}{98}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Probabilistic Methods in Digital Systems Safety}{99}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Formal Methods in Digital Systems Safety}{99}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Altarica}{100}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}First Manual Application of FMEA on a SoC}{101}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelling Digital Systems for MBSA}{108}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Methodology}{109}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Faulty Behaviour Model Construction}{112}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Completeness of Extraction}{113}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Altarica Modelling}{115}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Application: {\it I2C} to {\it AHB} bridge}{116}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}I2C Block Modelling}{117}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}AHB Block Modeling}{124}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Complete System Test Case}{124}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Application}{127}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Identification and Extraction of Faulty States}{127}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Fault Injection Campaign Setup}{128}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Faulty Behavior Extraction}{128}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Results on the $I2C$ to $AHB$ System}{129}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Second Proof of Concept 4BlocksSystem}{130}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Application of the Methodology}{131}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Fault Injection Campaign}{131}{subsection.5.10.1}%
+\contentsline {section}{\numberline {5.11}Discussion and Future Work}{134}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Complex and $\mu $-Processor Based Systems}{137}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{137}{section.6.1}%
+\contentsline {section}{\numberline {6.2}State of the Art}{139}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Methodology}{140}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Setup}{141}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Fault Injection on Randomly Initialized Resources}{142}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Re-Composition of the basic blocks}{143}{subsection.6.3.3}%
+\contentsline {subsubsection}{Not modified Program Flow}{144}{subsubsection*.113}%
+\contentsline {subsubsection}{Modified Program Flow}{145}{subsubsection*.114}%
+\contentsline {section}{\numberline {6.4}Test Case and Application}{146}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}The Software}{146}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}The Division in Basic Block}{146}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}The Platform}{146}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}The Fault Injection Campaign}{147}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Scalability}{147}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Results and Future Work}{148}{section.6.6}%
+\contentsline {chapter}{\numberline {7}CERN Use Case}{152}{chapter.7}%
+\contentsline {section}{\numberline {7.1}LHC Detectors at CERN}{152}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Radiation Effects on CMOS Electronics}{157}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Cumulative Damages}{157}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Single-Event Effects}{158}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Radiation-Tolerant Design}{159}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Universal Verification Methodology}{161}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Physical Implementation of Digital ICs}{163}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Synthesis}{164}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Implementation}{165}{subsection.7.5.2}%
+\contentsline {section}{\numberline {7.6}The PicoRV32: System on Chip}{167}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Native Memory Interface}{169}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}AMBA APB Interface}{170}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Design of the Peripherals}{172}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}Timer}{172}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Counter and Prescaler}{174}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Capture/Compare Register}{175}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}UVM Verification}{177}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}SPI Master}{179}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Development}{183}{subsection.7.8.1}%
+\contentsline {subsubsection}{TX \& RX Controller}{183}{subsubsection*.134}%
+\contentsline {subsubsection}{Baud Rate Generator}{184}{subsubsection*.136}%
+\contentsline {subsection}{\numberline {7.8.2}UVM Verification}{186}{subsection.7.8.2}%
+\contentsline {section}{\numberline {7.9}UART Controller}{188}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Baud Rate Generator}{189}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}First In First Out buffer}{191}{subsection.7.9.2}%
+\contentsline {subsection}{\numberline {7.9.3}Tx/Rx Controller}{192}{subsection.7.9.3}%
+\contentsline {subsection}{\numberline {7.9.4}Verification of UART Controller Design}{194}{subsection.7.9.4}%
+\contentsline {subsubsection}{UART Interface}{196}{subsubsection*.142}%
+\contentsline {subsubsection}{UART Item}{196}{subsubsection*.143}%
+\contentsline {subsubsection}{UART Sequencer}{196}{subsubsection*.144}%
+\contentsline {subsubsection}{UART Driver}{197}{subsubsection*.145}%
+\contentsline {subsubsection}{UART Monitor}{197}{subsubsection*.146}%
+\contentsline {subsubsection}{UART Agent}{197}{subsubsection*.147}%
+\contentsline {subsubsection}{Scoreboard and Reference Module}{198}{subsubsection*.148}%
+\contentsline {subsection}{\numberline {7.9.5}Test sequences}{199}{subsection.7.9.5}%
+\contentsline {section}{\numberline {7.10}Triplication}{199}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Physical Implementation}{200}{section.7.11}%
+\contentsline {chapter}{\numberline {8}Conclusion}{202}{chapter.8}%
+\contentsline {chapter}{Bibliography}{205}{chapter.8}%

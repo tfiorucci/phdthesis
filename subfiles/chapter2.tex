@@ -179,7 +179,7 @@ In order to build a failure model from a nominal behavioural {\it Register Trans
     \item {\it Extraction of Faulty Behaviour}: Once the faulty runs have completed, non-functional (i.e. {\it faulty}) states and behaviour are extracted by subtracting functional ({\it golden}) states taken from the golden run state dictionary to the faulty run states, leaving only newly discovered faulty states and transitions.
 
 
-\newgeometry{left=1cm,bottom=0.1cm} 
+\newgeometry{left=1cm, right =1cm, bottom=1cm, top=1cm} 
     \centering
     \lstinputlisting[float=htpb, language=Python,linerange={140-187}]{subfiles/complete_analisys.py}
 \restoregeometry
@@ -226,8 +226,7 @@ This prove has raised question on the importance of the proper definition of the
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[scale =1
-    ]{subfiles/imgs/trend_1000_randomfaults.png}
+    \includegraphics[scale =0.85]{subfiles/imgs/trend_1000_randomfaults.png}
     \caption{Data Contaminated Definition of the State}
     \label{fig:datacontaminated}
 \end{figure}
@@ -236,7 +235,7 @@ This prove has raised question on the importance of the proper definition of the
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[scale =1]{subfiles/imgs/trend_1000_i2c_for_paper.png}
+    \includegraphics[scale =0.85]{subfiles/imgs/trend_1000_i2c_for_paper.png}
     \caption{Pure Control Defined State}
     \label{fig:controlstates}
 \end{figure}

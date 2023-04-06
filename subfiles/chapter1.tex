@@ -56,7 +56,7 @@ Further, it is essential to specify the existing links between the FMEA (and the
 \section{Procedure}
 
 \subsection{General}
-The wide variation in complexity of system designs and applications may require the development of highly individualised FMEA procedures consistent with the information available. Traditionally, there have been wide variations in the manner in which FMEA is conducted and presented. However, the analysis is usually done in a standard manner and presented on a worksheet that contains a core of essential information which can be developed and extended to suit the particular system or project to which it is applied. A typical example of a worksheet is shown in Figure 1.
+The wide variation in complexity of system designs and applications may require the development of highly individualised FMEA procedures consistent with the information available. Traditionally, there have been wide variations in the manner in which FMEA is conducted and presented. However, the analysis is usually done in a standard manner and presented on a worksheet that contains a core of essential information which can be developed and extended to suit the particular system or project to which it is applied. A typical example of a worksheet is shown in Fig:\ref{fig:fmea_table}.
 
 The procedure consists of the following four main stages:
 
@@ -72,16 +72,16 @@ A more detailed consideration of the information needed is given in the followin
 \subsection{Preparation}
 At the commencement of an analysis, the following preparations should be made:
 \begin{enumerate}
-\item The analyst should have available the information listed in Section 2.4.2.2 to 2.4.2.7 that clearly defines the system to be analysed.
-\item It will usually be necessary for the analyst to translate the information into some form of functional, hierarchical, or reliability block diagrams. An example of a functional diagram is shown in Figure 2. This diagram shows how the failure effects at the part level form the failure modes at the module level, the failure effects at the module level form the failure modes at the subsystem level, and so on. Such a representation of the system should explicitly identify the system's functional structure, the system boundary, and the inputs and outputs crossing that boundary. Further information is given in Section 2.4.2.8 to 2.4.2.10.
+\item The analyst should have available the information that clearly defines the system to be analysed.
+\item It will usually be necessary for the analyst to translate the information into some form of functional, hierarchical, or reliability block diagrams. An example of a functional diagram is shown in Fig:\ref{fig:fmea_relations}. This diagram shows how the failure effects at the part level form the failure modes at the module level, the failure effects at the module level form the failure modes at the subsystem level, and so on. Such a representation of the system should explicitly identify the system's functional structure, the system boundary, and the inputs and outputs crossing that boundary. 
 \end{enumerate}
 
 \subsection{FMEA principles}
 The following principles should be applied:
 \begin{enumerate}
-\item Define clearly the purposes and uses of the FMEA as indicated in Section 2.1.2.
-\item Establish and define the relationships with other forms of reliability analysis with which the FMEA may subsequently be integrated. (See Section 2.3.5.)
-\item Define the scope of the FMEA in relation to the functional structure and hierarchical structure of the system as described by the block diagrams referred to in Section 2.4.2.10. It is essential to define the lowest level in the system's hierarchical structure at which the analysis will start. The guidance given in Sections 2.3.4, 2.4.1, and 2.4.2.8 is especially important for this task.
+\item Define clearly the purposes and uses of the FMEA
+\item Establish and define the relationships with other forms of reliability analysis with which the FMEA may subsequently be integrated.
+\item Define the scope of the FMEA in relation to the functional structure and hierarchical structure of the system as described by the block diagrams. It is essential to define the lowest level in the system's hierarchical structure at which the analysis will start.
 \item Define the format of the FMEA worksheet to suit the project requirements. The core information considered essential is as follows:
 \end{enumerate}
 
@@ -123,7 +123,7 @@ The usual requirement and purpose of an FMEA is to identify the effect of oJl fa
 If the FMEA is to be done in stages that each relate to separate Levels in the system's hierarchical structure, the failure effects from the lower level become the failure modes at the next level up. The analysis should then proceed as follows.
 
 \begin{enumerate}
-	\item Identify the lower level FMEAs that are appropriate for the next stage in the system FMEA according to the system's hierarchical structure defined by the block or functional diagrams (see 2.2,2(b)). Where appropriate also include items defined as being at the lowest level in that part of the system structure
+	\item Identify the lower level FMEAs that are appropriate for the next stage in the system FMEA according to the system's hierarchical structure. Where appropriate also include items defined as being at the lowest level in that part of the system structure
 	\item Perform the FMEA for each failure of each item at this higher level in the system structures given in the previous section.
 	\item repeat the two above steps for any further higher levels in the system structure.
 \end{enumerate}
@@ -167,7 +167,7 @@ The summary should contain a brief description of the method of analysis and the
 \begin{figure}
         \includegraphics[width=\linewidth]{subfiles/imgs/fmea_relationship_failure_mode_effects.png}
   \caption{Criticality Grid}
-        \label{fig:criticality_grid}
+        \label{fig:fmea_relations}
 \end{figure}
 
 
@@ -175,7 +175,7 @@ The summary should contain a brief description of the method of analysis and the
 
 The report on Failure Modes and Effects Analysis (FMEA) or Failure Modes, Effects and Criticality Analysis (FMECA) can be either a standalone document or a part of a broader study. In either case, the report should contain a summary and a detailed record of the analysis along with block or functional diagrams that define the structure of the system. Furthermore, the report should include a list of drawings (with issue status) on which the FMEA is based.
 
-The summary section of the report should provide a brief explanation of the analysis method, the level to which it was carried out, the assumptions made, and the ground rules followed (see section 2.4.L). The summary should also include lists of the following:
+The summary section of the report should provide a brief explanation of the analysis method, the level to which it was carried out, the assumptions made, and the ground rules followed. The summary should also include lists of the following:
 
 \begin{enumerate}
 \item Recommendations for designers, maintenance staff, planners, and users;
@@ -283,21 +283,6 @@ In other cases where FTA is preferred, it still needs to be enhanced with descri
 
 
 \begin{figure}
-        \includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_grid.png}
-  \caption{Criticality Grid}
-        \label{fig:criticality_grid}
-\end{figure}
-
-
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_grid.png}
-  \caption{Criticality Grid}
-	\label{fig:criticality_grid}
-\end{figure}
-
-
-\begin{figure}
 	\includegraphics[width=\linewidth]{subfiles/imgs/fmea_criticality_matrix_with_bands.png}
   \caption{FMEA Criticality Matrix}
   \label{fig:criticality_matrix}
@@ -308,7 +293,7 @@ In other cases where FTA is preferred, it still needs to be enhanced with descri
 \subsection{Establishment of Ground Rules}
 \subsubsection{Levels of Analysis}
 
-It is important to determine the level in the system that will be used for the analysis. For example, systems can be broken down into subsystems, replaceable units, or individual components (see figure 2). Basic principles for selecting the system levels for analysis depend on the results desired and the availability of design information. The following guidelines are useful.
+It is important to determine the level in the system that will be used for the analysis. For example, systems can be broken down into subsystems, replaceable units, or individual components (see Fig\ref{fig:fmea_relations}). Basic principles for selecting the system levels for analysis depend on the results desired and the availability of design information. The following guidelines are useful.
 
 \begin{enumerate}
 \item The highest level within the system is selected from the design concept and specified output requirements.
@@ -333,7 +318,7 @@ Successful operation of a given system is subject to the performance of certain 
 \item The environment.
 \end{enumerate}
 
-In the FMEA, the definitions of failure modes, failure causes, and failure effects depend on the level of analysis. As the analysis progresses, the failure effects identified at the lower level may become failure modes at the higher level. Similarly, the failure modes at the lower level may become the failure causes at the higher level, and so on. A list of general failure modes is given in Table 1. Virtually every type of failure mode can be classified into one or more of these categories. However, these general failure mode categories are too broad in scope for definitive analysis; consequently, the list needs to be expanded to make the categories more specific as shown in Table 2. Failure modes such as those listed in Table 2 can describe the failure of any system element in sufficiently specific terms. When used in conjunction with performance specifications governing the inputs and outputs on the reliability block diagram, all potential failure modes can be identified and described. It should be noted that a given failure mode may have several causes.
+In the FMEA, the definitions of failure modes, failure causes, and failure effects depend on the level of analysis. As the analysis progresses, the failure effects identified at the lower level may become failure modes at the higher level. Similarly, the failure modes at the lower level may become the failure causes at the higher level, and so on. A list of general failure modes is given in Table 1. Virtually every type of failure mode can be classified into one or more of these categories. However, these general failure mode categories are too broad in scope for definitive analysis; consequently, the list needs to be expanded to make the categories more specific. Failure modes such as those listed in Table 2 can describe the failure of any system element in sufficiently specific terms. When used in conjunction with performance specifications governing the inputs and outputs on the reliability block diagram, all potential failure modes can be identified and described. It should be noted that a given failure mode may have several causes.
 
 \begin{table}[H]
 \centering
@@ -406,7 +391,7 @@ The possible causes associated with each possible failure mode should be identif
 \end{table}
 
 
-
+\newgeometry{left=1cm, right =1cm, bottom=1cm, top=1cm} 
 \begin{table}[H]
 \centering
 \caption{Possible failure causes}
@@ -431,6 +416,8 @@ Environment & Temperature, Humidity, Vibration, Corrosion, Uncontrollable forces
 \hline
 \end{tabular}
 \end{table}
+\restoregeometry
+
 
 Note: This table is an example only. Different types and examples of failure causes may be required for different systems.
 
@@ -440,7 +427,7 @@ In a reliability analysis, it is not sufficient to consider only random and inde
 
 CCFs can be analysed qualitatively using FMEA. As FMEA is a procedure to examine successively each failure mode and associated causes and also to identify all periodic tests, preventative maintenance measures, etc., it makes possible a study of all the causes which can induce potential CCF.
 
-A check list developed from Table 3 may be used to identify in a detailed manner all possible causes which may induce CCF. A combination of several methods is useful in dealing with these failures: functional diversity, redundancies of different types, physical separation, tests, etc. Check lists, as above, may be used to examine the relevance and effectiveness of each method. The examination of preventative measures against CCF is usually considered to be outside the scope of FMEA, but this need not be the case.
+A check list may be used to identify in a detailed manner all possible causes which may induce CCF. A combination of several methods is useful in dealing with these failures: functional diversity, redundancies of different types, physical separation, tests, etc. Check lists, as above, may be used to examine the relevance and effectiveness of each method. The examination of preventative measures against CCF is usually considered to be outside the scope of FMEA, but this need not be the case.
 
 \subsection{Human Factors}
 Some systems have to be designed to cater for some human error, for example by providing mechanical interlocks on railway signals, and passwords for computer usage or data retrieval. Where such provisions exist in a system, the effect of failure of the provisions will depend on the type of error. Some modes of human error should also be considered for an otherwise fault-free system, to check the effectiveness of the provisions. Although incomplete, even a partial listing of these modes is beneficial for the identification of design and procedural deficiencies; the identification of all possible forms of human error would probably be impossible.
@@ -455,27 +442,23 @@ The methods for detection of the failure mode should be described. Failure modes
 
 \subsection{Failure Effects}
 \subsubsection{General}
-A failure effect is the consequence of a failure mode in terms of the operation, function or status of a system (see 1.2.1). A failure effect may be caused by one or more failure modes of one or more items.
+A failure effect is the consequence of a failure mode in terms of the operation, function or status of a system. A failure effect may be caused by one or more failure modes of one or more items.
 
 The consequences of each failure mode on system element operation, function, or status need to be identified, evaluated and recorded. Maintenance, preventive or corrective action to be taken in each case should be identified.
 
-MISSING TABLE PAG 17
-
-MISSING TABLE PAG 18
-
-\section{1.9 Consequences of System Failure}
+\section{Consequences of System Failure}
 
 A system FMEA can be conducted independently, without referencing a specific application, and later adapted for project use. This is applicable to small assemblies, which can be considered as generic components (e.g., electronic amplifiers, electric motors, mechanical valves). However, it is more common to develop a project-specific FMEA and consider the particular consequences of system failure. It might be necessary to categorise the effects of failure on the system based on the consequences, such as fail-safe, fail-danger, repairable failure, non-repairable failure, mission degraded, mission failed, and effects on individuals, groups, or society in general.
 
 The need to connect an FMEA to the ultimate consequence of system failure depends on the project and the relationship between the FMEA and other forms of analysis, such as fault trees.
 
-\subsection{2.4.2 Information Required}
+\subsection{Information Required}
 
-\subsubsection{2.4.2.1 General}
+\subsubsection{General}
 
-Company management should be aware that the success of FMEA (and FMECA) relies on the unrestricted availability of all relevant information to analysts and the active cooperation of the designer. Information in categories listed from 2.4.2.2 to 2.4.2.11 needs to be obtained.
+Company management should be aware that the success of FMEA (and FMECA) relies on the unrestricted availability of all relevant information to analysts and the active cooperation of the designer. Information in categories listed needs to be obtained.
 
-\subsubsection{2.4.2.2 System Structure}
+\subsubsection{System Structure}
 
 Information on system structure should include the following items:
 
@@ -490,7 +473,7 @@ Information on system structure should include the following items:
 
 Data related to functions, characteristics, and performances are required for all levels considered, up to the highest level.
 
-\subsubsection{2.4.2.3 System Initiation, Operation, Control, and Maintenance}
+\subsubsection{System Initiation, Operation, Control, and Maintenance}
 
 The status of different operating conditions of the system should be specified, as well as the changes in the configuration or position of the system and its components during different operational phases. The minimum performances demanded of the system should be defined so that success and/or failure criteria can be clearly understood. Specific requirements, such as availability or safety, should be considered in terms of specified minimum levels of performance to be achieved and maximum levels of damage or harm to be accepted.
 
@@ -510,7 +493,7 @@ It is necessary to have accurate knowledge of:
 
 \textit{Note}: One of the uses of FMEA is to assist in the development of the maintenance strategy. However, if the latter has been pre-determined, information on maintenance facilities, equipment, and spares should be known for both preventative and corrective maintenance.
 
-\subsubsection{2.4.2.4 System Environment}
+\subsubsection{System Environment}
 
 The environmental conditions of the system should be specified, including ambient conditions and those created by other systems in the vicinity. The system should be delineated with respect to its relationships, dependencies, or interconnections with auxiliary or other systems and human interfaces.
 
@@ -518,23 +501,23 @@ At the design stage, these facts are usually not all known, and therefore approx
 
 \textit{Note}: The FMEA should be updated for each design review milestone (see BS 5760: Part 1).
 
-\subsubsection{2.4.2.5 Modelling}
+\subsubsection{Modelling}
 
 FMEA requires some modelling of the system, i.e., a logical representation of the relevant information on the system (reliability block diagram or fault tree, etc.; see 2.4.2.9 and 2.4.2.10). Some assumptions may be made about the nature of failure modes and the seriousness of their consequences. For example, in safety studies, conservative hypotheses may have to be formed concerning the impact of certain failures on the system unless or until better information becomes available.
 
-\subsection{2.4.2.6 Software}
+\subsection{Software}
 
 An FMEA conducted on the hardware of a complex system may have repercussions on the software in the system. Thus, decisions about effects, criticality and conditional probabilities resulting from the FMEA may be dependent upon the software elements and their nature, sequence and timing. When this is the case, the interrelationships between hardware and software need to be clearly identified because any subsequent alteration or improvement of the software may modify the FMEA and the assessments derived from it. Approval of software development and change may be conditional upon a revision of the FMEA and the related assessments, e.g. software logic may be altered to improve safety at the expense of operational reliability.
 
-\subsection{2.4.2.7 System boundary}
+\subsection{System boundary}
 
 The definition of the system boundary is more likely to be influenced by design, source of supply, or commercial criteria rather than the optimum requirements of the FMEA. However, where it is possible to define the boundaries to facilitate the system FMEA and its integration with other related studies in the reliability program, such action is preferable. This is especially so if the system is functionally complex with multiple interconnections between items within the boundary and multiple outputs crossing the boundary. In such cases, it could be advantageous to define a study boundary from functional rather than hardware divisions to limit the number of input and output links to other systems. This would tend to reduce the number of system failure effects. Care should be taken to ensure that other systems or components outside the boundaries of the subject system are not forgotten, by explicitly stating that they are excluded from the particular study.
 
-\subsection{2.4.2.8 Definition of the system's functional structure}
+\subsection{Definition of the system's functional structure}
 
 The analysis should be initiated by selecting the lowest level of interest (usually the part, circuit, or module level) at which sufficient information is available or at which it is judged that it needs to be obtained (by tests etc.) to ensure a reliable design. Thus new features of the design should be thoroughly investigated but old features under known stress levels can be incorporated into the analysis at a higher level. If the analysis starts at the lowest level, the various failure modes that can occur for each item at that level are tabulated. The corresponding failure effect for each, taken singly and in turn, is interpreted as a failure mode for consideration of the failure effect at the functional level immediately above. Successive iterations result in the identification of the failure effects, in relation to specific failure modes, at all necessary functional levels up to the system or highest level. The choice of breakdown level (which may vary for different areas of the system) requires a dependable and detailed knowledge of the failure modes of the elements. Apart from this requirement, it is neither possible nor desirable to set strict rules about the choice of the breakdown level. When quantitative results are required, the level chosen should be one at which it is possible to obtain adequate (and dependable) failure data on each failure mode or error mode, or to make reasonable identified assumptions of such failure rates. The analyst should investigate all aspects which might be important until satisfied they are not.
 
-\subsection{2.4.2.9 Representation of system structure}
+\subsection{Representation of system structure}
 
 Symbolic representations of the system structure and operation, especially diagrams, can be used. Usually block diagrams are adopted, highlighting all the functions essential to the system. In the diagram, the blocks are linked together by lines which represent the inputs and outputs for each function. Usually, the nature of each function and each input needs to be precisely described. There may also be several diagrams to cover different phases of system operation. Generally, graphical presentations, including those closely related to analytical methods, like fault trees or cause-consequence diagrams, contribute to a better understanding of a system, its structure and its operation.
 
@@ -562,3 +545,125 @@ The relative significance of the failure should be recorded on the worksheet. Al
 
 During the design stage, the functional elements (hardware and software) of a piece of equipment may be rearranged or reconfigured to change its capability. Following this, the relevant failure modes should be re-examined before repeating the FMEA.
 \end{document}
+
+\section{Criticality Analysis}
+
+Criticality is a concept that combines the severity of an effect with the probability or expected frequency of its occurrence. In the context of failure modes, criticality refers to the degree of significance of the effect associated with a particular failure mode. Quantifying criticality can be a useful tool in decision-making regarding the necessary corrective actions and their priorities.
+
+The objective of a criticality analysis is to assess the relative importance of each failure effect to establish priorities for addressing and managing failures. Criticality is determined by a subjective evaluation of the severity of the effect and an estimate of the probability or expected frequency of its occurrence. When reliable data is available for the probability or frequency estimate, the analysis can be utilized to determine whether a specific effect is acceptably low in likelihood.
+
+The principles of criticality analysis involve the application of a Failure Modes and Effects Analysis (FMEA) as a foundation for the Failure Modes, Effects, and Criticality Analysis (FMECA). The first step is to establish a set of severity classes, ranging from catastrophic to trivial, with consideration of the potential damage to people, equipment, and finances resulting from the failure of the item under scrutiny. The failure effects identified by the FMEA are then assigned to the appropriate severity class. A probability or frequency of the event is determined using failure data for the part in question, along with modifying factors such as the environment, the likelihood of the system failing as a result of the failure mode, and the proportion of time during which the part is at risk. The severity class and frequency or probability of each effect form the criticality grade, which can be presented in criticality bands or as a ranked contribution to the total frequency of each severity class, as depicted in Fig:\ref{fig:criticality_grid}.
+
+\subsection{Procedure}
+\subsubsection{General}
+The fundamental steps in the procedure for a Failure Modes, Effects and Criticality Analysis (FMECA) are the same as those summarized for a Failure Modes and Effects Analysis (FMEA). However, the criticality analysis incorporated in the FMECA requires two additional steps to be performed, as follows:
+\begin{enumerate}
+\item Determination of failure effect severity.
+\item Evaluation of event frequency.
+\end{enumerate}
+
+
+\subsubsection{Effect Severity}
+Effect severities should be determined as follows:
+\begin{enumerate}
+\item Define the severity classes.
+\item Allocate a severity class to the effect from each failure mode. This is most readily done on the FMEA sheet.
+\end{enumerate}
+
+\subsubsection{Event Frequency}
+The easiest approach to the evaluation of event frequency will be determined by the data available. If failure rates for the failure modes of like items are available, under environmental and operational conditions similar to those envisaged for the system being analyzed, the event frequencies for the effects can be added directly to the FMEA. If, as is more often the case, failure rates are available for items, rather than for failure modes, and for different environmental or operating conditions, the effect frequencies need to be calculated. Environmental, loading and maintenance conditions different from those relating to the failure rate data are accounted for by a single modifying factor, z. Guidance on appropriate values for this factor can be found in publications dealing with reliability data. These include MIL HBK 217, British Telecommunications Handbook of reliability data for electronic components and "Non-electronic parts reliability data" (issued by the Reliability Analysis Center).
+
+Items can fail in a number of ways, and how they fail will determine the effect of the failure on the system. A value, o, the failure mode factor is applied to the item failure rate to describe the proportion of that rate due to the particular failure mode. If all failure mode factors are listed, their sum is equal to one. Given that a particular failure mode occurs, a value, b, the conditional probability of the loss of system function given the occurrence of the failure mode, needs to be assigned based on judgment. The value of 'b' used should be within the following ranges:
+\begin{itemize}
+\item Actual loss: $b = 1.0$
+\item Probable loss: $0.1 < b < 1.0$
+\item Possible loss: $0 < b < 0.1$
+\item No effect: $b = 0$
+\end{itemize}
+
+When the system includes redundant items, the latter may be at risk for only part of the operating time. This is expressed by the time-at-risk proportion, i.e., the proportion of the required operating time for which an item is at risk. The event frequency, $f_{y}$, is given by:
+\begin{equation*}
+f_{y} = A_{x}f_{x}m_{x}a_{x}b_{x}r_{x}
+\end{equation*}
+where
+\begin{itemize}
+\item $A_{x}$: base failure rate of the item
+\item $f_{x}$: modifying factor
+\item $m_{x}$: failure mode factor
+\item $a_{x}$: conditional probability of system failure
+\item $b_{x}$: time-at-risk proportion
+\item $r_{x}$: item redundancy factor
+\end{itemize}
+
+The calculation is most easily carried out in tabular form.
+
+\subsubsection{Criticality Matrix}
+When the required end product of the analysis is a criticality matrix, this can be plotted from the allocated severities and the event frequencies reached by either of the routes described.
+
+\subsubsection{Ranked Contributions - System Basis}
+When ranked contributions are required, further steps are necessary. When contributions to failure frequency of the system are required regardless of severity (system basis), these steps are as follows:
+\begin{enumerate}
+\item Calculation of event frequencies for different influence levels. Assuming inventory levels of failure mode, item, subsystem, and system, the item event frequency is given by the sum of the frequencies of the modes associated with the item, the subsystem event frequency by the sum of the frequencies of the items making up the subsystem, and so on.
+\item Calculation of contributions to system frequency from each inventory level. These are given by:
+\begin{itemize}
+\item Subsystem contribution: $\dfrac{\text{Subsystem frequency}}{\text{System frequency}}$
+\item Item contribution: $\dfrac{\text{Item frequency}}{\text{System frequency}}$
+\end{itemize}
+\item Ranking of contributions calls for the following steps:
+\begin{enumerate}
+\item Subsystems should be ranked in order of their contributions to system frequency.
+\item Items should be ranked by contribution within the subsystems to which they contribute.
+\item Modes should be ranked within the items to which they contribute.
+\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Ranked Contributions - Severity Basis}
+When contributions are to be ranked on the basis of severity, the necessary steps are as follows:
+Where contributions are to be ranked on the basis of severity, the necessary steps are as follows:
+\begin{enumerate}
+\item Calculation of event frequencies within severities for different inventory levels of failure mode, item, subsystem, and system. Assuming inventory levels of failure mode, item, subsystem, and system, the item event frequency is given by the sum of the frequencies of the modes associated with the item which have a given severity. Subsystem event frequency is given by the sum of the frequencies of the items associated with the subsystem which have the appropriate severity, and so on.
+\item Calculation of contributions to system frequency from different inventory levels. These are given by:
+\begin{itemize}
+\item Subsystem contribution:
+\begin{equation*}
+\frac{\text{subsystem frequency for severity } x}{\text{system frequency for severity } x}
+\end{equation*}
+\item Item contribution:
+\begin{equation*}
+\frac{\text{item frequency for severity } x}{\text{system frequency for severity } x}
+\end{equation*}
+and so on.
+\end{itemize}
+\item Ranking of contributors. This calls for subsystems to be ranked in order of their contributions to system frequency within each severity, then for items to be ranked by contribution within the subsystems to which they contribute within each severity, and finally for modes to be ranked within the items to which they contribute within each severity.
+\end{enumerate}
+
+
+\subsection{Supplementary Information}
+\subsubsection{General}
+Criticality is a measure of risk (see BS 4778). It differs from the usually accepted measures of risk only in the less rigorous, and hence less costly, approach to its evaluation. The difference shows primarily in the manner of prediction of the severity of a failure effect. In probabilistic risk analysis (PRA), the consequences of that effect are evaluated in detail; in criticality analysis, the severity of an effect is judged to lie in one of a small number of severity classes defined in general terms. When at the outset of an analysis, the real possibility of very severe effects is recognized, a probabilistic risk analysis should be used in preference to a criticality analysis and the greater costs accepted. Similarly, if a criticality analysis reveals very critical effects, their more detailed evaluation by PRA should be considered.
+
+In conducting a criticality analysis, each failure effect is classified by the severity of its effect on the overall system performance and safety in the light of the system requirements, objectives, and constraints. A list of possible failures and their severity should be drawn up for each item of equipment. There are generally accepted categories that can apply to most equipment, based on the consequences listed in (a) to (e), which are classified qualitatively according to their severity:
+\begin{enumerate}
+\item Death or injury to operation personnel or to the public.
+\item Damage to the environment.
+\item Damage to external equipment or the equipment itself.
+\item Economic loss due to lack of output or function.
+\item Failure to complete a task due to inability of equipment to perform its major function.
+\end{enumerate}
+The choice of severity categories requires careful and judicious decisions. Clearly, it is essential that all relevant factors are considered because of their impact on system evaluation with respect to such factors as performance, cost, time, safety, and risk. The examples of severity scales shown in table 6 are based on degradation of equipment, system function or mission, injury, and damage to the enterprise. Two or more such factors may be combined in defining severity classes.
+
+
+
+\subsubsection{Evaluation of Failure Effect Frequency or Probability}
+The evaluation of a failure effect occurrence in a given period can be done either in the form of effect frequency or the probability of effect occurrence, depending on the lowest level of the item involved. If it is a part, the failure data available will be in the form of failure rates, and it is easier to use frequency as the output quantity. However, if the lowest level items are assemblies whose reliabilities have been established analytically, and which are expressed as probabilities, it is easiest to work with probabilities. In both cases, the units of criticality would be events per unit time or the probability of an event occurring per demand or in unit time. Predictions are performed as part of the FMECA using failure rate data directly from cited sources, taking into account the time required for the system function, the item failure rate, the environment in which the item will be employed, the expected item loading and reference loading difference, the proportion of the item failure rate attributable to the relevant failure mode, the probability that the occurrence of the failure mode will cause the failure of the system function, the proportion of the required time for which the item will be in use, and the extent to which the maintenance procedures will affect the failure rate.
+
+\subsubsection{Assessment of Criticality}
+Quantitative evaluation of criticality requires a quantitative prediction of the consequence of each failure event and thus lies in the realms of probability risk analysis. Two approaches to quantitative evaluation are possible, which yield outputs helpful in making decisions about required actions. The first approach involves constructing a criticality matrix, where the severity classes are displayed as abscissae and the failure frequency classes as ordinates. The second approach involves ranking failure events by their contribution to the total failure frequency of each severity, predicting the frequency of failures at mode, item, subsystem, and system levels within each severity class, and calculating the contribution of each mode, item, and subsystem to its associated severity class. Ranking each of the predicted events within its material category within the associated severity identifies the dominant contributors in each category and each severity. Judgements have to be made about the relative importance of contributions near the boundaries between severity classes.
+
+\subsubsection{Criticality Bands}
+If the severity ($S$) and frequency ($F$) scales are chosen so that the top left square represents the highest tolerable frequency for the most trivial event and the bottom right square the highest tolerable frequency for the most severe event, then a rational relative scale is created for a criticality index ($CI$), i.e. the product of severity and frequency class numbers. These may be used to define criticality bands which give meaning to squares on the plot which do not lie on the diagonal. The example in Figure \ref{fig:criticality-matrix} shows a criticality matrix with letters indicating the criticality band to which each square belongs. Band A is acceptable while B, C and D have increasing degrees of unacceptability.
+
+When this approach is used, the number of classes on the severity or frequency scale can be chosen to suit the system under examination, but the number of classes on each scale should be the same.
+
+Upon completion of the analysis in which individual failure modes and their contributions have been considered, it is essential to consider next the frequency of failure effects to which more than one failure mode contributes.
